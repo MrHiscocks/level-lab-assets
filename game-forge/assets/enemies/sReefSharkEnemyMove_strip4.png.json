@@ -1,0 +1,55 @@
+{
+  "id": "EN110",
+  "title": "Reef shark",
+  "category": "enemies",
+  "variant": "movement",
+  "batch": 32,
+  "tags": [
+    "animal",
+    "animals",
+    "coast",
+    "enemies",
+    "enemy",
+    "movement",
+    "obstacle",
+    "ocean",
+    "patrol",
+    "reef",
+    "swim",
+    "swimming",
+    "water"
+  ],
+  "form": "swim",
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 14,
+    "right": 49,
+    "top": 24,
+    "bottom": 63
+  },
+  "fps": 6,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "aad8687cd1f816aaf49ab1e5a2b39fe5c57aea95be30419e60ff9dc8875da2cb",
+  "sourceFile": "EN110.png",
+  "sourceBatch": "Water and technology",
+  "suggestedBehaviour": "patrol",
+  "description": "Reef shark. Movement animation for a patrol. Choose its role in your story; behaviour is added in GameMaker.",
+  "placement": "64 x 64 frames. Origin (32, 64). Use a fixed manual rectangular body mask for all frames. Mask bottom 63 provides a virtual platform contact. Choose a body-only mask for a free-flying or swimming enemy. PNG does not store origin, mask, playback settings or behaviour.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "d30e0e6914fde653962cf822e3421e7be00594a9548ebaa9cd13a97b8aba5f74",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

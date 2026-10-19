@@ -1,0 +1,54 @@
+{
+  "id": "EN107",
+  "title": "Hungry caterpillar",
+  "category": "enemies",
+  "variant": "movement",
+  "batch": 31,
+  "tags": [
+    "allotment",
+    "animal",
+    "animals",
+    "biodiversity",
+    "crawl",
+    "enemies",
+    "enemy",
+    "food",
+    "garden",
+    "movement",
+    "obstacle",
+    "patrol"
+  ],
+  "form": "crawl",
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 14,
+    "right": 49,
+    "top": 40,
+    "bottom": 63
+  },
+  "fps": 6,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "76c88876cff787357d97f8c748102c08db3ae46ede6d6397c36c61112297d1ae",
+  "sourceFile": "EN107.png",
+  "sourceBatch": "Wildlife and gardens",
+  "suggestedBehaviour": "patrol",
+  "description": "Hungry caterpillar. Movement animation for a patrol. Choose its role in your story; behaviour is added in GameMaker.",
+  "placement": "64 x 64 frames. Origin (32, 64). Use a fixed manual rectangular body mask for all frames. Ground contact at bottom of cell. PNG does not store origin, mask, playback settings or behaviour.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "cf47e78daf749d2a42daf93908e2b7fde770b137380f6eac6e57fe2fed984a62",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

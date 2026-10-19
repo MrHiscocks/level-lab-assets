@@ -1,0 +1,54 @@
+{
+  "id": "EN112",
+  "title": "Snapping turtle",
+  "category": "enemies",
+  "variant": "movement",
+  "batch": 32,
+  "tags": [
+    "animal",
+    "animals",
+    "enemies",
+    "enemy",
+    "lake",
+    "movement",
+    "obstacle",
+    "patrol",
+    "quadruped",
+    "river",
+    "water",
+    "wetland"
+  ],
+  "form": "quadruped",
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 14,
+    "right": 49,
+    "top": 41,
+    "bottom": 63
+  },
+  "fps": 6,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "7be82e1d34af7917ef22204de45077d20ecbf745ff1d6d6f19982390ae5babc8",
+  "sourceFile": "EN112.png",
+  "sourceBatch": "Water and technology",
+  "suggestedBehaviour": "patrol",
+  "description": "Snapping turtle. Movement animation for a patrol. Choose its role in your story; behaviour is added in GameMaker.",
+  "placement": "64 x 64 frames. Origin (32, 64). Use a fixed manual rectangular body mask for all frames. Ground contact at bottom of cell. PNG does not store origin, mask, playback settings or behaviour.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "f0f56d1e4d7d8bf0a94f3d6712cde8ea835f6bfd7749f0a64be43b8c60e99554",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "EN126",
+  "title": "Oil blob",
+  "category": "enemies",
+  "variant": "movement",
+  "batch": 34,
+  "tags": [
+    "coast",
+    "enemies",
+    "enemy",
+    "environment",
+    "movement",
+    "moving obstacle",
+    "obstacle",
+    "pollution",
+    "river",
+    "slither",
+    "water"
+  ],
+  "form": "slither",
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 14,
+    "right": 49,
+    "top": 55,
+    "bottom": 63
+  },
+  "fps": 6,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "ce4b51e53f1da6341411a0249e446261bee8d94ec3e77800a2afe5daaa1cbac1",
+  "sourceFile": "EN126.png",
+  "sourceBatch": "Environment and climate",
+  "suggestedBehaviour": "moving obstacle",
+  "description": "Oil blob. Movement animation for a moving obstacle. Choose its role in your story; behaviour is added in GameMaker.",
+  "placement": "64 x 64 frames. Origin (32, 64). Use a fixed manual rectangular body mask for all frames. Ground contact at bottom of cell. PNG does not store origin, mask, playback settings or behaviour.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "30e2540e06cbf26c52731d9c970c7a66f1f9fc69d5c3a65699db1e9545cd2fe5",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

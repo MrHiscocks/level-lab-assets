@@ -1,0 +1,52 @@
+{
+  "id": "EN129",
+  "title": "Thorn-vine walker",
+  "category": "enemies",
+  "variant": "movement",
+  "batch": 34,
+  "tags": [
+    "enemies",
+    "enemy",
+    "environment",
+    "fantasy",
+    "garden",
+    "movement",
+    "obstacle",
+    "patrol",
+    "walk",
+    "woodland"
+  ],
+  "form": "walk",
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 20,
+    "right": 43,
+    "top": 16,
+    "bottom": 63
+  },
+  "fps": 8,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "6cc5d51ce0ac6a875391cbedef88ead6df007252f075f6638c45dba36f724f8f",
+  "sourceFile": "EN129.png",
+  "sourceBatch": "Environment and climate",
+  "suggestedBehaviour": "patrol",
+  "description": "Thorn-vine walker. Movement animation for a patrol. Choose its role in your story; behaviour is added in GameMaker.",
+  "placement": "64 x 64 frames. Origin (32, 64). Use a fixed manual rectangular body mask for all frames. Ground contact at bottom of cell. PNG does not store origin, mask, playback settings or behaviour.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "ab548e962fde61a3acc3518dc94ae8a93c7f707d98c59eb6c309860aced19e05",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "EN122",
+  "title": "Skeleton guard",
+  "category": "enemies",
+  "variant": "movement",
+  "batch": 33,
+  "tags": [
+    "castle",
+    "enemies",
+    "enemy",
+    "horror",
+    "medieval",
+    "movement",
+    "obstacle",
+    "patrol",
+    "spooky",
+    "walk"
+  ],
+  "form": "walk",
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 20,
+    "right": 43,
+    "top": 10,
+    "bottom": 63
+  },
+  "fps": 8,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "56d1b642b446dac084167372a3e52a5bea64d895e882e6f83c89d854303b4d2a",
+  "sourceFile": "EN122.png",
+  "sourceBatch": "Castle and spooky stories",
+  "suggestedBehaviour": "patrol",
+  "description": "Skeleton guard. Movement animation for a patrol. Choose its role in your story; behaviour is added in GameMaker.",
+  "placement": "64 x 64 frames. Origin (32, 64). Use a fixed manual rectangular body mask for all frames. Ground contact at bottom of cell. PNG does not store origin, mask, playback settings or behaviour.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "20f324e2c4534fb3bbbe566c1d4e50151494a9a22a6077291c0aac272d6e305a",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

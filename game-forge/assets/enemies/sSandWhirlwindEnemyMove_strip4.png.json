@@ -1,0 +1,53 @@
+{
+  "id": "EN132",
+  "title": "Sand whirlwind",
+  "category": "enemies",
+  "variant": "movement",
+  "batch": 34,
+  "tags": [
+    "arid",
+    "climate",
+    "desert",
+    "enemies",
+    "enemy",
+    "float",
+    "movement",
+    "moving obstacle",
+    "obstacle",
+    "weather",
+    "wind"
+  ],
+  "form": "float",
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 20,
+    "right": 43,
+    "top": 13,
+    "bottom": 63
+  },
+  "fps": 6,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "8de229dcfe81310a7bf24e945842b5589f82a6d678463a4075f43d09c4ed4609",
+  "sourceFile": "EN132.png",
+  "sourceBatch": "Environment and climate",
+  "suggestedBehaviour": "moving obstacle",
+  "description": "Sand whirlwind. Movement animation for a moving obstacle. Choose its role in your story; behaviour is added in GameMaker.",
+  "placement": "64 x 64 frames. Origin (32, 64). Use a fixed manual rectangular body mask for all frames. Mask bottom 63 provides a virtual platform contact. Choose a body-only mask for a free-flying or swimming enemy. PNG does not store origin, mask, playback settings or behaviour.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "f0b1752ac25b849b837278e35880e5528845f0141ae890b20914bf2d76f48199",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

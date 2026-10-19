@@ -1,0 +1,55 @@
+{
+  "id": "EN128",
+  "title": "Leaking maintenance robot",
+  "category": "enemies",
+  "variant": "movement",
+  "batch": 34,
+  "tags": [
+    "bots",
+    "enemies",
+    "enemy",
+    "environment",
+    "industrial",
+    "movement",
+    "obstacle",
+    "patrol",
+    "repair",
+    "robot",
+    "roll",
+    "saving",
+    "water"
+  ],
+  "form": "roll",
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 14,
+    "right": 49,
+    "top": 22,
+    "bottom": 63
+  },
+  "fps": 8,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "78557605d63fb0aa99560e4a958b9c6f7e4901afcf42a7d0eb5294f08a75d5ba",
+  "sourceFile": "EN128.png",
+  "sourceBatch": "Environment and climate",
+  "suggestedBehaviour": "patrol",
+  "description": "Leaking maintenance robot. Movement animation for a patrol. Choose its role in your story; behaviour is added in GameMaker.",
+  "placement": "64 x 64 frames. Origin (32, 64). Use a fixed manual rectangular body mask for all frames. Ground contact at bottom of cell. PNG does not store origin, mask, playback settings or behaviour.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "03f4d449b5cbd2c30c460f6c09e7b831838fa37e0eb76c533fc8e3ab7bf42e36",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

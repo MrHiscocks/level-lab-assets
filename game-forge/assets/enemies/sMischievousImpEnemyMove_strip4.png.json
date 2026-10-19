@@ -1,0 +1,51 @@
+{
+  "id": "EN120",
+  "title": "Mischievous imp",
+  "category": "enemies",
+  "variant": "movement",
+  "batch": 33,
+  "tags": [
+    "castle",
+    "enemies",
+    "enemy",
+    "fantasy",
+    "fly",
+    "magic",
+    "movement",
+    "moving obstacle",
+    "obstacle"
+  ],
+  "form": "fly",
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 20,
+    "right": 43,
+    "top": 13,
+    "bottom": 63
+  },
+  "fps": 8,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "e1f1305e4a95c23e6b9a626c7934e21277ed5408e13d9e12dc2d114d25642bca",
+  "sourceFile": "EN120.png",
+  "sourceBatch": "Castle and spooky stories",
+  "suggestedBehaviour": "moving obstacle",
+  "description": "Mischievous imp. Movement animation for a moving obstacle. Choose its role in your story; behaviour is added in GameMaker.",
+  "placement": "64 x 64 frames. Origin (32, 64). Use a fixed manual rectangular body mask for all frames. Mask bottom 63 provides a virtual platform contact. Choose a body-only mask for a free-flying or swimming enemy. PNG does not store origin, mask, playback settings or behaviour.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "ac708451ff3b1116b004a913190bb44a2a7af1b135d12d1c0c31958e117a21d7",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

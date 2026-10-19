@@ -1,0 +1,53 @@
+{
+  "id": "EN103",
+  "title": "Grass snake",
+  "category": "enemies",
+  "variant": "movement",
+  "batch": 31,
+  "tags": [
+    "animal",
+    "animals",
+    "enemies",
+    "enemy",
+    "garden",
+    "grassland",
+    "movement",
+    "obstacle",
+    "patrol",
+    "slither",
+    "woodland"
+  ],
+  "form": "slither",
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 14,
+    "right": 49,
+    "top": 47,
+    "bottom": 63
+  },
+  "fps": 6,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "d962281c5d01ec3b70d65c1a04a23a37659543dd173570aefc508e54af424aaf",
+  "sourceFile": "EN103.png",
+  "sourceBatch": "Wildlife and gardens",
+  "suggestedBehaviour": "patrol",
+  "description": "Grass snake. Movement animation for a patrol. Choose its role in your story; behaviour is added in GameMaker.",
+  "placement": "64 x 64 frames. Origin (32, 64). Use a fixed manual rectangular body mask for all frames. Ground contact at bottom of cell. PNG does not store origin, mask, playback settings or behaviour.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "30393783f1b0ab128fc34c67dbc6e76ac800d6fd16e1216233df30c93338a859",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

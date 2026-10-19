@@ -1,0 +1,52 @@
+{
+  "id": "EN119",
+  "title": "Mimic chest",
+  "category": "enemies",
+  "variant": "movement",
+  "batch": 33,
+  "tags": [
+    "castle",
+    "dungeon",
+    "enemies",
+    "enemy",
+    "fantasy",
+    "hop",
+    "movement",
+    "moving obstacle",
+    "obstacle",
+    "treasure"
+  ],
+  "form": "hop",
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 20,
+    "right": 43,
+    "top": 28,
+    "bottom": 63
+  },
+  "fps": 6,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "b70270978d97585720c8afe52b18a47ffc991c773234b7b231b96f4b7c603d11",
+  "sourceFile": "EN119.png",
+  "sourceBatch": "Castle and spooky stories",
+  "suggestedBehaviour": "moving obstacle",
+  "description": "Mimic chest. Movement animation for a moving obstacle. Choose its role in your story; behaviour is added in GameMaker.",
+  "placement": "64 x 64 frames. Origin (32, 64). Use a fixed manual rectangular body mask for all frames. Ground contact at bottom of cell. PNG does not store origin, mask, playback settings or behaviour.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "e9b4f1482aab7d9abcb75237d4ed8bbeb2f65d5a158dcfaa6c92a270e8153d16",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

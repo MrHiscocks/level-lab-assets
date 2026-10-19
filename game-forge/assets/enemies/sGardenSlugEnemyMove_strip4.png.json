@@ -1,0 +1,54 @@
+{
+  "id": "EN108",
+  "title": "Garden slug",
+  "category": "enemies",
+  "variant": "movement",
+  "batch": 31,
+  "tags": [
+    "allotment",
+    "animal",
+    "animals",
+    "biodiversity",
+    "enemies",
+    "enemy",
+    "food",
+    "garden",
+    "movement",
+    "obstacle",
+    "patrol",
+    "slither"
+  ],
+  "form": "slither",
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 14,
+    "right": 49,
+    "top": 46,
+    "bottom": 63
+  },
+  "fps": 6,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "08eeaca5421e0ba04fb2d54f66a147d3dc0c2e5f33e06e89862ec8f81bda259b",
+  "sourceFile": "EN108.png",
+  "sourceBatch": "Wildlife and gardens",
+  "suggestedBehaviour": "patrol",
+  "description": "Garden slug. Movement animation for a patrol. Choose its role in your story; behaviour is added in GameMaker.",
+  "placement": "64 x 64 frames. Origin (32, 64). Use a fixed manual rectangular body mask for all frames. Ground contact at bottom of cell. PNG does not store origin, mask, playback settings or behaviour.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "da386d45cc215c225fdef2fe7dbe50614d50396c01084cd9f9f27100f50f9fda",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

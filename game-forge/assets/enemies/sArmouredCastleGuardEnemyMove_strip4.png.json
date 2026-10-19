@@ -1,0 +1,52 @@
+{
+  "id": "EN118",
+  "title": "Armoured castle guard",
+  "category": "enemies",
+  "variant": "movement",
+  "batch": 33,
+  "tags": [
+    "castle",
+    "enemies",
+    "enemy",
+    "fantasy",
+    "heritage",
+    "medieval",
+    "movement",
+    "obstacle",
+    "patrol",
+    "walk"
+  ],
+  "form": "walk",
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 20,
+    "right": 43,
+    "top": 10,
+    "bottom": 63
+  },
+  "fps": 8,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "6c82443952b67e02f73f91121047242a176c6307124da83c28e2eee3a9afb3c7",
+  "sourceFile": "EN118.png",
+  "sourceBatch": "Castle and spooky stories",
+  "suggestedBehaviour": "patrol",
+  "description": "Armoured castle guard. Movement animation for a patrol. Choose its role in your story; behaviour is added in GameMaker.",
+  "placement": "64 x 64 frames. Origin (32, 64). Use a fixed manual rectangular body mask for all frames. Ground contact at bottom of cell. PNG does not store origin, mask, playback settings or behaviour.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "150e87cd8c9ed359ddb1cab96240d332cb0e475aa415d8101f820416f4949a23",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

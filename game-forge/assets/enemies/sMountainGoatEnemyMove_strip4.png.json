@@ -1,0 +1,54 @@
+{
+  "id": "EN105",
+  "title": "Mountain goat",
+  "category": "enemies",
+  "variant": "movement",
+  "batch": 31,
+  "tags": [
+    "Wales",
+    "alpine",
+    "animal",
+    "animals",
+    "enemies",
+    "enemy",
+    "mountain",
+    "movement",
+    "obstacle",
+    "patrol",
+    "quadruped",
+    "welsh"
+  ],
+  "form": "quadruped",
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 14,
+    "right": 49,
+    "top": 27,
+    "bottom": 63
+  },
+  "fps": 6,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "08ab037a1a13baa005ebcf9713b85dc409aab892529d5b4d770b8679dde6611e",
+  "sourceFile": "EN105.png",
+  "sourceBatch": "Wildlife and gardens",
+  "suggestedBehaviour": "patrol",
+  "description": "Mountain goat. Movement animation for a patrol. Choose its role in your story; behaviour is added in GameMaker.",
+  "placement": "64 x 64 frames. Origin (32, 64). Use a fixed manual rectangular body mask for all frames. Ground contact at bottom of cell. PNG does not store origin, mask, playback settings or behaviour.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "ed3a9d343bba3a3860ea1e89675c823f258b1eb054a2c0dad6fb53235836e983",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

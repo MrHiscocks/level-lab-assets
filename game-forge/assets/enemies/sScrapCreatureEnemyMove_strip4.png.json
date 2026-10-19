@@ -1,0 +1,53 @@
+{
+  "id": "EN127",
+  "title": "Scrap creature",
+  "category": "enemies",
+  "variant": "movement",
+  "batch": 34,
+  "tags": [
+    "enemies",
+    "enemy",
+    "environment",
+    "industrial",
+    "movement",
+    "obstacle",
+    "patrol",
+    "recycling",
+    "repair",
+    "reuse",
+    "walk"
+  ],
+  "form": "walk",
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 20,
+    "right": 43,
+    "top": 23,
+    "bottom": 63
+  },
+  "fps": 8,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "e8c3232b58a415526282a8ede431f7dcee67ec3c3a1af8625d3131869d8b2c9b",
+  "sourceFile": "EN127.png",
+  "sourceBatch": "Environment and climate",
+  "suggestedBehaviour": "patrol",
+  "description": "Scrap creature. Movement animation for a patrol. Choose its role in your story; behaviour is added in GameMaker.",
+  "placement": "64 x 64 frames. Origin (32, 64). Use a fixed manual rectangular body mask for all frames. Ground contact at bottom of cell. PNG does not store origin, mask, playback settings or behaviour.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "895b7db0e131918200b6ab10ce7835025d0a3931dd7ba51633fbad5c31452c7c",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

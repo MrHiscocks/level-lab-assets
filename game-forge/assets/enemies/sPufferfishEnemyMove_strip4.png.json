@@ -1,0 +1,55 @@
+{
+  "id": "EN109",
+  "title": "Pufferfish",
+  "category": "enemies",
+  "variant": "movement",
+  "batch": 32,
+  "tags": [
+    "animal",
+    "animals",
+    "coast",
+    "enemies",
+    "enemy",
+    "movement",
+    "moving obstacle",
+    "obstacle",
+    "ocean",
+    "reef",
+    "swim",
+    "swimming",
+    "water"
+  ],
+  "form": "swim",
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 14,
+    "right": 49,
+    "top": 16,
+    "bottom": 63
+  },
+  "fps": 6,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "96ef5f50c2641902ce8373ee1a19a5ed97066a704b1c70fe069a2347504c1858",
+  "sourceFile": "EN109.png",
+  "sourceBatch": "Water and technology",
+  "suggestedBehaviour": "moving obstacle",
+  "description": "Pufferfish. Movement animation for a moving obstacle. Choose its role in your story; behaviour is added in GameMaker.",
+  "placement": "64 x 64 frames. Origin (32, 64). Use a fixed manual rectangular body mask for all frames. Mask bottom 63 provides a virtual platform contact. Choose a body-only mask for a free-flying or swimming enemy. PNG does not store origin, mask, playback settings or behaviour.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "64de98973a55d189ad483c839d29b34f338bb7db5e30408a526a155cfb2e8898",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

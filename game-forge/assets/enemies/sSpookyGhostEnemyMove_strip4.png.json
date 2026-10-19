@@ -1,0 +1,52 @@
+{
+  "id": "EN121",
+  "title": "Spooky ghost",
+  "category": "enemies",
+  "variant": "movement",
+  "batch": 33,
+  "tags": [
+    "castle",
+    "enemies",
+    "enemy",
+    "float",
+    "horror",
+    "magic",
+    "movement",
+    "moving obstacle",
+    "obstacle",
+    "spooky"
+  ],
+  "form": "float",
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 20,
+    "right": 43,
+    "top": 14,
+    "bottom": 63
+  },
+  "fps": 6,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "7e0bd7b7c940db78aebbfb9dec5adc727e9526a6db1e078ec9625850aa478c84",
+  "sourceFile": "EN121.png",
+  "sourceBatch": "Castle and spooky stories",
+  "suggestedBehaviour": "moving obstacle",
+  "description": "Spooky ghost. Movement animation for a moving obstacle. Choose its role in your story; behaviour is added in GameMaker.",
+  "placement": "64 x 64 frames. Origin (32, 64). Use a fixed manual rectangular body mask for all frames. Mask bottom 63 provides a virtual platform contact. Choose a body-only mask for a free-flying or swimming enemy. PNG does not store origin, mask, playback settings or behaviour.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "c3aad21f23c15cf47d92f607584334d36f60b40ee04cf4c0b1b4333089241375",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

@@ -10,9 +10,9 @@
     64
   ],
   "mask": {
-    "left": 14,
-    "top": 21,
-    "right": 49,
+    "left": 20,
+    "right": 43,
+    "top": 22,
     "bottom": 63
   },
   "fps": 6,
@@ -22,10 +22,23 @@
   "loop": false,
   "duration": null,
   "description": "",
-  "sourceFile": "Game_Forge_Batch_20/assets/enemies/sStoneSentinelStatic.png",
-  "sourceBatch": "Game_Forge_Batch_20.zip",
-  "sourceSha256": "8222cc03f3e5636a299d3d3d0043c114fca9d314b6c6d1a91126a4fc37b53d89",
+  "sourceFile": "EN015.png",
+  "sourceBatch": "October 2026 enemy consistency repair",
+  "sourceSha256": "88f00b3804217425790da576dc5d16ec57d019efa071fecb927827e81f50c500",
   "frameWidth": 64,
   "frameHeight": 64,
-  "frames": 1
+  "frames": 1,
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "1def9aeb9025a3ca19fcb0a16d10ceb55bc306a48abef514aee1ca949db87b25",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "single frame",
+    "movementOnly": true,
+    "derivedFrom": "sStoneSentinelMove_strip4.png, frame 1"
+  }
 }

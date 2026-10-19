@@ -1,0 +1,53 @@
+{
+  "id": "EN102",
+  "title": "Garden spider",
+  "category": "enemies",
+  "variant": "movement",
+  "batch": 31,
+  "tags": [
+    "animal",
+    "animals",
+    "crawl",
+    "enemies",
+    "enemy",
+    "garden",
+    "movement",
+    "obstacle",
+    "patrol",
+    "spooky",
+    "woodland"
+  ],
+  "form": "crawl",
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 14,
+    "right": 49,
+    "top": 35,
+    "bottom": 63
+  },
+  "fps": 6,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "fa5eddc0a778312873b6b175150351b57cd1da0122fbd07d28b31a8284ae334a",
+  "sourceFile": "EN102.png",
+  "sourceBatch": "Wildlife and gardens",
+  "suggestedBehaviour": "patrol",
+  "description": "Garden spider. Movement animation for a patrol. Choose its role in your story; behaviour is added in GameMaker.",
+  "placement": "64 x 64 frames. Origin (32, 64). Use a fixed manual rectangular body mask for all frames. Ground contact at bottom of cell. PNG does not store origin, mask, playback settings or behaviour.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "0faa5a7661bfca582fb8d368f9b8749a957a6f81b6f06506c2029c1435692103",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

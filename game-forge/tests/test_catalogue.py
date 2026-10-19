@@ -18,6 +18,12 @@ class CatalogueTests(unittest.TestCase):
  def test_wrong_static_player_dimensions_block_build(self):
   self.image('players/sTallStatic.png',(64,96))
   with self.assertRaisesRegex(ValueError,'players must use 64 x 64 frames'):module.build()
+ def test_wrong_enemy_dimensions_block_build(self):
+  for name,size in [('sTallMove_strip4.png',(256,96)),('sWideMove_strip4.png',(384,64)),('sTallStatic.png',(64,96))]:
+   with self.subTest(name=name):
+    p=self.image('enemies/'+name,size)
+    with self.assertRaisesRegex(ValueError,'enemies must use 64 x 64 frames'):module.build()
+    p.unlink()
  def test_invalid_strip_blocks_build(self):
   self.image('players/sBroken_strip4.png',(255,96))
   with self.assertRaisesRegex(ValueError,'not divisible'):module.build()

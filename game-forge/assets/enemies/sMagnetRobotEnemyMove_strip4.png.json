@@ -1,0 +1,53 @@
+{
+  "id": "EN114",
+  "title": "Magnet robot",
+  "category": "enemies",
+  "variant": "movement",
+  "batch": 32,
+  "tags": [
+    "bots",
+    "enemies",
+    "enemy",
+    "engineering",
+    "factory",
+    "float",
+    "movement",
+    "moving obstacle",
+    "obstacle",
+    "robot",
+    "science"
+  ],
+  "form": "float",
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 20,
+    "right": 43,
+    "top": 17,
+    "bottom": 63
+  },
+  "fps": 6,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "201e72577172a6151c47a00c613f3a8155d5d983e9425ac74b27885ea71ed13b",
+  "sourceFile": "EN114.png",
+  "sourceBatch": "Water and technology",
+  "suggestedBehaviour": "moving obstacle",
+  "description": "Magnet robot. Movement animation for a moving obstacle. Choose its role in your story; behaviour is added in GameMaker.",
+  "placement": "64 x 64 frames. Origin (32, 64). Use a fixed manual rectangular body mask for all frames. Mask bottom 63 provides a virtual platform contact. Choose a body-only mask for a free-flying or swimming enemy. PNG does not store origin, mask, playback settings or behaviour.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "aa0c42be7bc932ed599dd07c2d35f19d18f61927333f6c7067a1e4c25bbcd5cc",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

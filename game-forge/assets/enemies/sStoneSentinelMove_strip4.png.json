@@ -1,31 +1,52 @@
 {
   "id": "EN015",
   "title": "Stone sentinel",
-  "tags": "walking, technology, fantasy",
   "category": "enemies",
   "variant": "movement",
   "batch": 20,
+  "tags": [
+    "castle",
+    "enemies",
+    "enemy",
+    "fantasy",
+    "movement",
+    "obstacle",
+    "patrol",
+    "ruins",
+    "stone",
+    "walk"
+  ],
+  "form": "walk",
   "origin": [
     32,
     64
   ],
   "mask": {
-    "left": 14,
-    "top": 21,
-    "right": 49,
+    "left": 20,
+    "right": 43,
+    "top": 22,
     "bottom": 63
   },
-  "fps": 6,
-  "placement": "Use one fixed rectangular mask for every animation frame. PNG does not store origin, playback speed or mask metadata.",
-  "repeatHorizontal": false,
-  "form": "walk",
-  "loop": false,
-  "duration": null,
-  "description": "",
-  "sourceFile": "Game_Forge_Batch_20/assets/enemies/sStoneSentinelMove_strip4.png",
-  "sourceBatch": "Game_Forge_Batch_20.zip",
-  "sourceSha256": "324abffff3c58d8cb625b15edd29cbebddcc9c457fd42f580f8e7ebdca209658",
+  "fps": 8,
   "frameWidth": 64,
   "frameHeight": 64,
-  "frames": 4
+  "frames": 4,
+  "sourceSha256": "d614861c1351b1e7cd872d1d35001e5f9b0ee39aff9b2cf3e80c39fd58a554d2",
+  "sourceFile": "EN015.png",
+  "sourceBatch": "Existing enemy repair",
+  "suggestedBehaviour": "patrol",
+  "description": "Stone sentinel. Movement animation for a patrol. Choose its role in your story; behaviour is added in GameMaker.",
+  "placement": "64 x 64 frames. Origin (32, 64). Use a fixed manual rectangular body mask for all frames. Ground contact at bottom of cell. PNG does not store origin, mask, playback settings or behaviour.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "1def9aeb9025a3ca19fcb0a16d10ceb55bc306a48abef514aee1ca949db87b25",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
 }

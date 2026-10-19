@@ -30,3 +30,6 @@
 @media(max-width:760px){.app{--card-min:145px!important}.view-controls{justify-content:flex-start;margin:0 0 14px;gap:8px}.app .asset-grid{gap:12px}.view-hint{font-size:10px}}
 
 .breadcrumb>a{color:inherit;text-decoration:none;font-weight:700}.breadcrumb>a:hover{text-decoration:underline}.breadcrumb>a:focus-visible{outline:3px solid #ffcf38;outline-offset:5px}
+
+/* Longer category names must remain readable on narrow screens. */
+.results-title{flex-wrap:wrap;gap:8px 16px}.results-title h2{white-space:normal}

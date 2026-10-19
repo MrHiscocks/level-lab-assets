@@ -1,0 +1,53 @@
+{
+  "id": "EN130",
+  "title": "Lava imp",
+  "category": "enemies",
+  "variant": "movement",
+  "batch": 34,
+  "tags": [
+    "bounce",
+    "climate",
+    "enemies",
+    "enemy",
+    "fantasy",
+    "lava",
+    "magma",
+    "movement",
+    "moving obstacle",
+    "obstacle",
+    "volcano"
+  ],
+  "form": "bounce",
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 20,
+    "right": 43,
+    "top": 36,
+    "bottom": 63
+  },
+  "fps": 6,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "8d08e129ced021fea0089b01abda6bd7e12ed5a8af4fa3cee596262b35356e3c",
+  "sourceFile": "EN130.png",
+  "sourceBatch": "Environment and climate",
+  "suggestedBehaviour": "moving obstacle",
+  "description": "Lava imp. Movement animation for a moving obstacle. Choose its role in your story; behaviour is added in GameMaker.",
+  "placement": "64 x 64 frames. Origin (32, 64). Use a fixed manual rectangular body mask for all frames. Ground contact at bottom of cell. PNG does not store origin, mask, playback settings or behaviour.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "a1d2a66751549c21ef1a9787beb2670b2ea0d18673a5ace49fe072c922272e16",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

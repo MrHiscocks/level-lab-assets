@@ -1,0 +1,51 @@
+{
+  "id": "EN117",
+  "title": "Goblin scout",
+  "category": "enemies",
+  "variant": "movement",
+  "batch": 33,
+  "tags": [
+    "castle",
+    "enemies",
+    "enemy",
+    "fantasy",
+    "medieval",
+    "movement",
+    "obstacle",
+    "patrol",
+    "walk"
+  ],
+  "form": "walk",
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 20,
+    "right": 43,
+    "top": 11,
+    "bottom": 63
+  },
+  "fps": 8,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "80833f4537f4fe78584bd7a6e5d9156824db9da3554a030fe3c74da404563bef",
+  "sourceFile": "EN117.png",
+  "sourceBatch": "Castle and spooky stories",
+  "suggestedBehaviour": "patrol",
+  "description": "Goblin scout. Movement animation for a patrol. Choose its role in your story; behaviour is added in GameMaker.",
+  "placement": "64 x 64 frames. Origin (32, 64). Use a fixed manual rectangular body mask for all frames. Ground contact at bottom of cell. PNG does not store origin, mask, playback settings or behaviour.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "e8aae6b88d4f24c6bfa177b154077288f16da2f82908eec7e0225c4c008fe6a2",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

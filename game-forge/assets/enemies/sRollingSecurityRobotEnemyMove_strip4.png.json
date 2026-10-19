@@ -1,0 +1,55 @@
+{
+  "id": "EN113",
+  "title": "Rolling security robot",
+  "category": "enemies",
+  "variant": "movement",
+  "batch": 32,
+  "tags": [
+    "bots",
+    "digital",
+    "enemies",
+    "enemy",
+    "factory",
+    "movement",
+    "obstacle",
+    "online",
+    "patrol",
+    "robot",
+    "roll",
+    "safety",
+    "science"
+  ],
+  "form": "roll",
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 14,
+    "right": 49,
+    "top": 18,
+    "bottom": 63
+  },
+  "fps": 8,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "0f70e2b3035a32b6ebebab6fda5243abbec689000e901007f65f8e0861cdcf5b",
+  "sourceFile": "EN113.png",
+  "sourceBatch": "Water and technology",
+  "suggestedBehaviour": "patrol",
+  "description": "Rolling security robot. Movement animation for a patrol. Choose its role in your story; behaviour is added in GameMaker.",
+  "placement": "64 x 64 frames. Origin (32, 64). Use a fixed manual rectangular body mask for all frames. Ground contact at bottom of cell. PNG does not store origin, mask, playback settings or behaviour.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "ec61a8516a503dcd38e32cbe88c7699f16fd39e090aae870cb5380f37eed83d9",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

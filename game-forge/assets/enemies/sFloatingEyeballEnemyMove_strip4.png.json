@@ -1,0 +1,52 @@
+{
+  "id": "EN124",
+  "title": "Floating eyeball",
+  "category": "enemies",
+  "variant": "movement",
+  "batch": 33,
+  "tags": [
+    "enemies",
+    "enemy",
+    "fantasy",
+    "float",
+    "horror",
+    "magic",
+    "movement",
+    "moving obstacle",
+    "obstacle",
+    "spooky"
+  ],
+  "form": "float",
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 20,
+    "right": 43,
+    "top": 17,
+    "bottom": 63
+  },
+  "fps": 6,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "6869b67470e59f2d2ec103d3e73f6e0b4ab9e11d94c27f97a90c76c27b40fd99",
+  "sourceFile": "EN124.png",
+  "sourceBatch": "Castle and spooky stories",
+  "suggestedBehaviour": "moving obstacle",
+  "description": "Floating eyeball. Movement animation for a moving obstacle. Choose its role in your story; behaviour is added in GameMaker.",
+  "placement": "64 x 64 frames. Origin (32, 64). Use a fixed manual rectangular body mask for all frames. Mask bottom 63 provides a virtual platform contact. Choose a body-only mask for a free-flying or swimming enemy. PNG does not store origin, mask, playback settings or behaviour.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "6199f69de89cb6bdbfe57c5db0d6e837098f208173902caeecc41f2ebe5d2279",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

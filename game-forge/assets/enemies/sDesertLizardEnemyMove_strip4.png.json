@@ -1,0 +1,53 @@
+{
+  "id": "EN106",
+  "title": "Desert lizard",
+  "category": "enemies",
+  "variant": "movement",
+  "batch": 31,
+  "tags": [
+    "animal",
+    "animals",
+    "arid",
+    "climate",
+    "crawl",
+    "desert",
+    "enemies",
+    "enemy",
+    "movement",
+    "obstacle",
+    "patrol"
+  ],
+  "form": "crawl",
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 14,
+    "right": 49,
+    "top": 44,
+    "bottom": 63
+  },
+  "fps": 6,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "1277b2c69e882923e433f9047c9d883a721fd1a54a1d12073d0066a2c3d21e35",
+  "sourceFile": "EN106.png",
+  "sourceBatch": "Wildlife and gardens",
+  "suggestedBehaviour": "patrol",
+  "description": "Desert lizard. Movement animation for a patrol. Choose its role in your story; behaviour is added in GameMaker.",
+  "placement": "64 x 64 frames. Origin (32, 64). Use a fixed manual rectangular body mask for all frames. Ground contact at bottom of cell. PNG does not store origin, mask, playback settings or behaviour.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "6872d201ad1a0857c31f916b0d18a863f06a165cfbb4eb825185be6a865fdfcf",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

@@ -4,7 +4,7 @@ from pathlib import Path
 from urllib.parse import quote
 from PIL import Image
 ROOT=Path(__file__).resolve().parents[1]
-CATEGORIES={'players':'Players','enemies':'Enemies','ground':'Ground & platforms','hazards':'Hazards','collectables':'Collectables','endpoints':'Keys & exits','powerups':'Power-ups','projectiles':'Projectiles','decorations':'Decorations','backgrounds':'Backgrounds','interface':'Interface','audio':'Audio'}
+CATEGORIES={'players':'Players','enemies':'Enemies & obstacles','ground':'Ground & platforms','hazards':'Hazards','collectables':'Collectables','endpoints':'Keys & exits','powerups':'Power-ups','projectiles':'Projectiles','decorations':'Decorations','backgrounds':'Backgrounds','interface':'Interface','audio':'Audio'}
 THEMES={
  'Nature & wildlife':'nature woodland wildlife forest animal bee butterfly conservation habitat garden flower plant seed',
  'History & heritage':'castle medieval knight historical heritage museum roman viking mine mining bard',
@@ -54,6 +54,7 @@ def inspect_file(path,meta,base_url):
   if '_strip' in path.stem and not match:raise ValueError(f'{rel}: malformed strip suffix; use _stripN with a positive frame count')
   if n<1 or w%n:raise ValueError(f'{rel}: strip width {w} is not divisible by {n} frames')
   if rel.split('/')[0]=='players' and (w//n,h)!=(64,64):raise ValueError(f'{rel}: players must use 64 x 64 frames; found {w//n} x {h}')
+  if rel.split('/')[0]=='enemies' and (w//n,h)!=(64,64):raise ValueError(f'{rel}: enemies must use 64 x 64 frames; found {w//n} x {h}')
   if meta.get('frames') and int(meta['frames'])!=n:raise ValueError(f'{rel}: metadata frame count disagrees with filename')
   if meta.get('frameWidth') and int(meta['frameWidth'])!=w//n:raise ValueError(f'{rel}: incorrect frame width')
   if meta.get('frameHeight') and int(meta['frameHeight'])!=h:raise ValueError(f'{rel}: incorrect frame height')

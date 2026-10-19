@@ -1,0 +1,55 @@
+{
+  "id": "EN116",
+  "title": "Kitchen helper robot",
+  "category": "enemies",
+  "variant": "movement",
+  "batch": 32,
+  "tags": [
+    "bots",
+    "community",
+    "eating",
+    "enemies",
+    "enemy",
+    "food",
+    "healthy",
+    "kitchen",
+    "movement",
+    "obstacle",
+    "patrol",
+    "robot",
+    "roll"
+  ],
+  "form": "roll",
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 14,
+    "right": 49,
+    "top": 29,
+    "bottom": 63
+  },
+  "fps": 8,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "0fb9121226871a8496417ddbea62b9aeeaed5cbe1a81c17afe31edc685646132",
+  "sourceFile": "EN116.png",
+  "sourceBatch": "Water and technology",
+  "suggestedBehaviour": "patrol",
+  "description": "Kitchen helper robot. Movement animation for a patrol. Choose its role in your story; behaviour is added in GameMaker.",
+  "placement": "64 x 64 frames. Origin (32, 64). Use a fixed manual rectangular body mask for all frames. Ground contact at bottom of cell. PNG does not store origin, mask, playback settings or behaviour.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "196dc838b9236ad5334895506e7c485878697c1e4434d0f3253a66a92b2d26da",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

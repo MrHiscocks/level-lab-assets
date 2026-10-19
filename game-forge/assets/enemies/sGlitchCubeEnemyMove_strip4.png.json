@@ -1,0 +1,53 @@
+{
+  "id": "EN115",
+  "title": "Glitch cube",
+  "category": "enemies",
+  "variant": "movement",
+  "batch": 32,
+  "tags": [
+    "computer",
+    "digital",
+    "enemies",
+    "enemy",
+    "float",
+    "movement",
+    "moving obstacle",
+    "obstacle",
+    "online",
+    "safety",
+    "technology"
+  ],
+  "form": "float",
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 20,
+    "right": 43,
+    "top": 13,
+    "bottom": 63
+  },
+  "fps": 6,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "5dac25893bc7321828ddf68ffcd37d1d585e0916404a2fa9200d5b7c7ce903ab",
+  "sourceFile": "EN115.png",
+  "sourceBatch": "Water and technology",
+  "suggestedBehaviour": "moving obstacle",
+  "description": "Glitch cube. Movement animation for a moving obstacle. Choose its role in your story; behaviour is added in GameMaker.",
+  "placement": "64 x 64 frames. Origin (32, 64). Use a fixed manual rectangular body mask for all frames. Mask bottom 63 provides a virtual platform contact. Choose a body-only mask for a free-flying or swimming enemy. PNG does not store origin, mask, playback settings or behaviour.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "951793bd238cccecf4de572cd2f888318fba970b595a061045630c1d2b870b4a",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

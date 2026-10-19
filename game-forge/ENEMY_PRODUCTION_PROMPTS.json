@@ -1,0 +1,632 @@
+[
+  {
+    "id": "EN101",
+    "title": "Brown rat",
+    "form": "quadruped",
+    "brief": "ordinary grey-brown rat, long pink tail curled inside the frame, small ears and alert eyes",
+    "tags": [
+      "woodland",
+      "garden",
+      "urban",
+      "animal",
+      "animals"
+    ],
+    "suggestedBehaviour": "patrol",
+    "batch": 31,
+    "batchTitle": "Wildlife and gardens",
+    "filename": "sBrownRatEnemyMove_strip4.png",
+    "status": "planned",
+    "prompt": "SUBJECT: ordinary grey-brown rat, long pink tail curled inside the frame, small ears and alert eyes. MOVEMENT: Four distinct quadruped walking phases: near foreleg forward with opposite hind leg; gathered passing; opposite contact; opposite passing. Four legs only. Use case: stylized-concept. Production Game Forge enemy sprite sheet. Attached image is STYLE REFERENCE ONLY: match its chunky dark outlines, clean cel shading, slightly pixel-textured cartoon finish and simple readable forms. Do not copy the reference characters, labels or layout. Make ONE character, shown in FOUR movement frames in a strict 2x2 grid on a square transparent canvas. Each quarter contains a full complete character facing RIGHT. Same character, palette, body size and body-root position across frames. Generous transparent gutters and at least 10% transparent margins on ALL four sides of EVERY cell. Each character occupies at most 70% cell width and 75% cell height. Keep tails, wings, feet, antennae and all appendages entirely inside each cell. Grounded poses share a floor baseline; flying/swimming body centres share the same height. Frame order top-left, top-right, bottom-left, bottom-right. No separate attacks, no idle sequence, no weapons, no gore, no text, no labels, no boxes, no ground, no cast shadows, no scenery. Entire background truly transparent. Designed to reduce to four crisp 64x64 frames, so bold silhouettes and simple details."
+  },
+  {
+    "id": "EN102",
+    "title": "Garden spider",
+    "form": "crawl",
+    "brief": "compact charcoal spider with eight clearly separated short legs, purple abdomen marking and amber eyes; no web",
+    "tags": [
+      "garden",
+      "woodland",
+      "animal",
+      "animals",
+      "spooky"
+    ],
+    "suggestedBehaviour": "patrol",
+    "batch": 31,
+    "batchTitle": "Wildlife and gardens",
+    "filename": "sGardenSpiderEnemyMove_strip4.png",
+    "status": "planned",
+    "prompt": "SUBJECT: compact charcoal spider with eight clearly separated short legs, purple abdomen marking and amber eyes; no web. MOVEMENT: Four distinct crawling phases with alternating leg positions and gentle body movement. Preserve exact number of limbs. Use case: stylized-concept. Production Game Forge enemy sprite sheet. Attached image is STYLE REFERENCE ONLY: match its chunky dark outlines, clean cel shading, slightly pixel-textured cartoon finish and simple readable forms. Do not copy the reference characters, labels or layout. Make ONE character, shown in FOUR movement frames in a strict 2x2 grid on a square transparent canvas. Each quarter contains a full complete character facing RIGHT. Same character, palette, body size and body-root position across frames. Generous transparent gutters and at least 10% transparent margins on ALL four sides of EVERY cell. Each character occupies at most 70% cell width and 75% cell height. Keep tails, wings, feet, antennae and all appendages entirely inside each cell. Grounded poses share a floor baseline; flying/swimming body centres share the same height. Frame order top-left, top-right, bottom-left, bottom-right. No separate attacks, no idle sequence, no weapons, no gore, no text, no labels, no boxes, no ground, no cast shadows, no scenery. Entire background truly transparent. Designed to reduce to four crisp 64x64 frames, so bold silhouettes and simple details."
+  },
+  {
+    "id": "EN103",
+    "title": "Grass snake",
+    "form": "slither",
+    "brief": "olive-green snake with yellow neck collar, low S-shaped body, no limbs",
+    "tags": [
+      "woodland",
+      "garden",
+      "grassland",
+      "animal",
+      "animals"
+    ],
+    "suggestedBehaviour": "patrol",
+    "batch": 31,
+    "batchTitle": "Wildlife and gardens",
+    "filename": "sGrassSnakeEnemyMove_strip4.png",
+    "status": "planned",
+    "prompt": "SUBJECT: olive-green snake with yellow neck collar, low S-shaped body, no limbs. MOVEMENT: Four sequential low undulating sliding poses, subtle wave travelling along body. Keep head and overall volume stable. Use case: stylized-concept. Production Game Forge enemy sprite sheet. Attached image is STYLE REFERENCE ONLY: match its chunky dark outlines, clean cel shading, slightly pixel-textured cartoon finish and simple readable forms. Do not copy the reference characters, labels or layout. Make ONE character, shown in FOUR movement frames in a strict 2x2 grid on a square transparent canvas. Each quarter contains a full complete character facing RIGHT. Same character, palette, body size and body-root position across frames. Generous transparent gutters and at least 10% transparent margins on ALL four sides of EVERY cell. Each character occupies at most 70% cell width and 75% cell height. Keep tails, wings, feet, antennae and all appendages entirely inside each cell. Grounded poses share a floor baseline; flying/swimming body centres share the same height. Frame order top-left, top-right, bottom-left, bottom-right. No separate attacks, no idle sequence, no weapons, no gore, no text, no labels, no boxes, no ground, no cast shadows, no scenery. Entire background truly transparent. Designed to reduce to four crisp 64x64 frames, so bold silhouettes and simple details."
+  },
+  {
+    "id": "EN104",
+    "title": "Wild boar",
+    "form": "quadruped",
+    "brief": "small stocky brown wild boar, bristly back, short tusks and lowered snout",
+    "tags": [
+      "woodland",
+      "forest",
+      "animal",
+      "animals"
+    ],
+    "suggestedBehaviour": "chase",
+    "batch": 31,
+    "batchTitle": "Wildlife and gardens",
+    "filename": "sWildBoarEnemyMove_strip4.png",
+    "status": "planned",
+    "prompt": "SUBJECT: small stocky brown wild boar, bristly back, short tusks and lowered snout. MOVEMENT: Four distinct quadruped walking phases: near foreleg forward with opposite hind leg; gathered passing; opposite contact; opposite passing. Four legs only. Use case: stylized-concept. Production Game Forge enemy sprite sheet. Attached image is STYLE REFERENCE ONLY: match its chunky dark outlines, clean cel shading, slightly pixel-textured cartoon finish and simple readable forms. Do not copy the reference characters, labels or layout. Make ONE character, shown in FOUR movement frames in a strict 2x2 grid on a square transparent canvas. Each quarter contains a full complete character facing RIGHT. Same character, palette, body size and body-root position across frames. Generous transparent gutters and at least 10% transparent margins on ALL four sides of EVERY cell. Each character occupies at most 70% cell width and 75% cell height. Keep tails, wings, feet, antennae and all appendages entirely inside each cell. Grounded poses share a floor baseline; flying/swimming body centres share the same height. Frame order top-left, top-right, bottom-left, bottom-right. No separate attacks, no idle sequence, no weapons, no gore, no text, no labels, no boxes, no ground, no cast shadows, no scenery. Entire background truly transparent. Designed to reduce to four crisp 64x64 frames, so bold silhouettes and simple details."
+  },
+  {
+    "id": "EN105",
+    "title": "Mountain goat",
+    "form": "quadruped",
+    "brief": "stocky cream and grey mountain goat with short backward-curving horns, dark hooves, determined expression",
+    "tags": [
+      "mountain",
+      "alpine",
+      "Wales",
+      "welsh",
+      "animal",
+      "animals"
+    ],
+    "suggestedBehaviour": "patrol",
+    "batch": 31,
+    "batchTitle": "Wildlife and gardens",
+    "filename": "sMountainGoatEnemyMove_strip4.png",
+    "status": "planned",
+    "prompt": "SUBJECT: stocky cream and grey mountain goat with short backward-curving horns, dark hooves, determined expression. MOVEMENT: Four distinct quadruped walking phases: near foreleg forward with opposite hind leg; gathered passing; opposite contact; opposite passing. Four legs only. Use case: stylized-concept. Production Game Forge enemy sprite sheet. Attached image is STYLE REFERENCE ONLY: match its chunky dark outlines, clean cel shading, slightly pixel-textured cartoon finish and simple readable forms. Do not copy the reference characters, labels or layout. Make ONE character, shown in FOUR movement frames in a strict 2x2 grid on a square transparent canvas. Each quarter contains a full complete character facing RIGHT. Same character, palette, body size and body-root position across frames. Generous transparent gutters and at least 10% transparent margins on ALL four sides of EVERY cell. Each character occupies at most 70% cell width and 75% cell height. Keep tails, wings, feet, antennae and all appendages entirely inside each cell. Grounded poses share a floor baseline; flying/swimming body centres share the same height. Frame order top-left, top-right, bottom-left, bottom-right. No separate attacks, no idle sequence, no weapons, no gore, no text, no labels, no boxes, no ground, no cast shadows, no scenery. Entire background truly transparent. Designed to reduce to four crisp 64x64 frames, so bold silhouettes and simple details."
+  },
+  {
+    "id": "EN106",
+    "title": "Desert lizard",
+    "form": "crawl",
+    "brief": "sandy orange lizard with darker dorsal spots, four short legs and compact curled tail",
+    "tags": [
+      "desert",
+      "arid",
+      "climate",
+      "animal",
+      "animals"
+    ],
+    "suggestedBehaviour": "patrol",
+    "batch": 31,
+    "batchTitle": "Wildlife and gardens",
+    "filename": "sDesertLizardEnemyMove_strip4.png",
+    "status": "planned",
+    "prompt": "SUBJECT: sandy orange lizard with darker dorsal spots, four short legs and compact curled tail. MOVEMENT: Four distinct crawling phases with alternating leg positions and gentle body movement. Preserve exact number of limbs. Use case: stylized-concept. Production Game Forge enemy sprite sheet. Attached image is STYLE REFERENCE ONLY: match its chunky dark outlines, clean cel shading, slightly pixel-textured cartoon finish and simple readable forms. Do not copy the reference characters, labels or layout. Make ONE character, shown in FOUR movement frames in a strict 2x2 grid on a square transparent canvas. Each quarter contains a full complete character facing RIGHT. Same character, palette, body size and body-root position across frames. Generous transparent gutters and at least 10% transparent margins on ALL four sides of EVERY cell. Each character occupies at most 70% cell width and 75% cell height. Keep tails, wings, feet, antennae and all appendages entirely inside each cell. Grounded poses share a floor baseline; flying/swimming body centres share the same height. Frame order top-left, top-right, bottom-left, bottom-right. No separate attacks, no idle sequence, no weapons, no gore, no text, no labels, no boxes, no ground, no cast shadows, no scenery. Entire background truly transparent. Designed to reduce to four crisp 64x64 frames, so bold silhouettes and simple details."
+  },
+  {
+    "id": "EN107",
+    "title": "Hungry caterpillar",
+    "form": "crawl",
+    "brief": "green caterpillar with six chunky body segments, tiny feet and orange head, interested expression",
+    "tags": [
+      "garden",
+      "allotment",
+      "food",
+      "biodiversity",
+      "animal",
+      "animals"
+    ],
+    "suggestedBehaviour": "patrol",
+    "batch": 31,
+    "batchTitle": "Wildlife and gardens",
+    "filename": "sHungryCaterpillarEnemyMove_strip4.png",
+    "status": "planned",
+    "prompt": "SUBJECT: green caterpillar with six chunky body segments, tiny feet and orange head, interested expression. MOVEMENT: Four distinct crawling phases with alternating leg positions and gentle body movement. Preserve exact number of limbs. Use case: stylized-concept. Production Game Forge enemy sprite sheet. Attached image is STYLE REFERENCE ONLY: match its chunky dark outlines, clean cel shading, slightly pixel-textured cartoon finish and simple readable forms. Do not copy the reference characters, labels or layout. Make ONE character, shown in FOUR movement frames in a strict 2x2 grid on a square transparent canvas. Each quarter contains a full complete character facing RIGHT. Same character, palette, body size and body-root position across frames. Generous transparent gutters and at least 10% transparent margins on ALL four sides of EVERY cell. Each character occupies at most 70% cell width and 75% cell height. Keep tails, wings, feet, antennae and all appendages entirely inside each cell. Grounded poses share a floor baseline; flying/swimming body centres share the same height. Frame order top-left, top-right, bottom-left, bottom-right. No separate attacks, no idle sequence, no weapons, no gore, no text, no labels, no boxes, no ground, no cast shadows, no scenery. Entire background truly transparent. Designed to reduce to four crisp 64x64 frames, so bold silhouettes and simple details."
+  },
+  {
+    "id": "EN108",
+    "title": "Garden slug",
+    "form": "slither",
+    "brief": "ochre-brown garden slug with two eye stalks and darker mottled back, no shell",
+    "tags": [
+      "garden",
+      "allotment",
+      "food",
+      "biodiversity",
+      "animal",
+      "animals"
+    ],
+    "suggestedBehaviour": "patrol",
+    "batch": 31,
+    "batchTitle": "Wildlife and gardens",
+    "filename": "sGardenSlugEnemyMove_strip4.png",
+    "status": "planned",
+    "prompt": "SUBJECT: ochre-brown garden slug with two eye stalks and darker mottled back, no shell. MOVEMENT: Four sequential low undulating sliding poses, subtle wave travelling along body. Keep head and overall volume stable. Use case: stylized-concept. Production Game Forge enemy sprite sheet. Attached image is STYLE REFERENCE ONLY: match its chunky dark outlines, clean cel shading, slightly pixel-textured cartoon finish and simple readable forms. Do not copy the reference characters, labels or layout. Make ONE character, shown in FOUR movement frames in a strict 2x2 grid on a square transparent canvas. Each quarter contains a full complete character facing RIGHT. Same character, palette, body size and body-root position across frames. Generous transparent gutters and at least 10% transparent margins on ALL four sides of EVERY cell. Each character occupies at most 70% cell width and 75% cell height. Keep tails, wings, feet, antennae and all appendages entirely inside each cell. Grounded poses share a floor baseline; flying/swimming body centres share the same height. Frame order top-left, top-right, bottom-left, bottom-right. No separate attacks, no idle sequence, no weapons, no gore, no text, no labels, no boxes, no ground, no cast shadows, no scenery. Entire background truly transparent. Designed to reduce to four crisp 64x64 frames, so bold silhouettes and simple details."
+  },
+  {
+    "id": "EN109",
+    "title": "Pufferfish",
+    "form": "swim",
+    "brief": "round ochre pufferfish with cream belly and short blunt spines, small fins, annoyed expression; constant inflated body size",
+    "tags": [
+      "water",
+      "swimming",
+      "reef",
+      "coast",
+      "ocean",
+      "animal",
+      "animals"
+    ],
+    "suggestedBehaviour": "moving obstacle",
+    "batch": 32,
+    "batchTitle": "Water and technology",
+    "filename": "sPufferfishEnemyMove_strip4.png",
+    "status": "planned",
+    "prompt": "SUBJECT: round ochre pufferfish with cream belly and short blunt spines, small fins, annoyed expression; constant inflated body size. MOVEMENT: Four sequential swimming poses: tail left, centred, right, centred opposite fin stroke. Keep the body and head at the SAME height and size; no upward staircase between bottom and top rows. Use case: stylized-concept. Production Game Forge enemy sprite sheet. Attached image is STYLE REFERENCE ONLY: match its chunky dark outlines, clean cel shading, slightly pixel-textured cartoon finish and simple readable forms. Do not copy the reference characters, labels or layout. Make ONE character, shown in FOUR movement frames in a strict 2x2 grid on a square transparent canvas. Each quarter contains a full complete character facing RIGHT. Same character, palette, body size and body-root position across frames. Generous transparent gutters and at least 10% transparent margins on ALL four sides of EVERY cell. Each character occupies at most 70% cell width and 75% cell height. Keep tails, wings, feet, antennae and all appendages entirely inside each cell. Grounded poses share a floor baseline; flying/swimming body centres share the same height. Frame order top-left, top-right, bottom-left, bottom-right. No separate attacks, no idle sequence, no weapons, no gore, no text, no labels, no boxes, no ground, no cast shadows, no scenery. Entire background truly transparent. Designed to reduce to four crisp 64x64 frames, so bold silhouettes and simple details."
+  },
+  {
+    "id": "EN110",
+    "title": "Reef shark",
+    "form": "swim",
+    "brief": "small streamlined slate-blue reef shark with cream belly, dorsal fin and compact tail, slightly mischievous expression",
+    "tags": [
+      "water",
+      "swimming",
+      "reef",
+      "coast",
+      "ocean",
+      "animal",
+      "animals"
+    ],
+    "suggestedBehaviour": "patrol",
+    "batch": 32,
+    "batchTitle": "Water and technology",
+    "filename": "sReefSharkEnemyMove_strip4.png",
+    "status": "planned",
+    "prompt": "SUBJECT: small streamlined slate-blue reef shark with cream belly, dorsal fin and compact tail, slightly mischievous expression. MOVEMENT: Four sequential swimming poses: tail left, centred, right, centred opposite fin stroke. Keep the body and head at the SAME height and size; no upward staircase between bottom and top rows. Use case: stylized-concept. Production Game Forge enemy sprite sheet. Attached image is STYLE REFERENCE ONLY: match its chunky dark outlines, clean cel shading, slightly pixel-textured cartoon finish and simple readable forms. Do not copy the reference characters, labels or layout. Make ONE character, shown in FOUR movement frames in a strict 2x2 grid on a square transparent canvas. Each quarter contains a full complete character facing RIGHT. Same character, palette, body size and body-root position across frames. Generous transparent gutters and at least 10% transparent margins on ALL four sides of EVERY cell. Each character occupies at most 70% cell width and 75% cell height. Keep tails, wings, feet, antennae and all appendages entirely inside each cell. Grounded poses share a floor baseline; flying/swimming body centres share the same height. Frame order top-left, top-right, bottom-left, bottom-right. No separate attacks, no idle sequence, no weapons, no gore, no text, no labels, no boxes, no ground, no cast shadows, no scenery. Entire background truly transparent. Designed to reduce to four crisp 64x64 frames, so bold silhouettes and simple details."
+  },
+  {
+    "id": "EN111",
+    "title": "Snapping river fish",
+    "form": "swim",
+    "brief": "red-bellied silver freshwater fish with small visible cartoon teeth and compact fins; jaws stay mostly closed, no attack sequence",
+    "tags": [
+      "water",
+      "river",
+      "lake",
+      "freshwater",
+      "animal",
+      "animals"
+    ],
+    "suggestedBehaviour": "chase",
+    "batch": 32,
+    "batchTitle": "Water and technology",
+    "filename": "sSnappingRiverFishEnemyMove_strip4.png",
+    "status": "planned",
+    "prompt": "SUBJECT: red-bellied silver freshwater fish with small visible cartoon teeth and compact fins; jaws stay mostly closed, no attack sequence. MOVEMENT: Four sequential swimming poses: tail left, centred, right, centred opposite fin stroke. Keep the body and head at the SAME height and size; no upward staircase between bottom and top rows. Use case: stylized-concept. Production Game Forge enemy sprite sheet. Attached image is STYLE REFERENCE ONLY: match its chunky dark outlines, clean cel shading, slightly pixel-textured cartoon finish and simple readable forms. Do not copy the reference characters, labels or layout. Make ONE character, shown in FOUR movement frames in a strict 2x2 grid on a square transparent canvas. Each quarter contains a full complete character facing RIGHT. Same character, palette, body size and body-root position across frames. Generous transparent gutters and at least 10% transparent margins on ALL four sides of EVERY cell. Each character occupies at most 70% cell width and 75% cell height. Keep tails, wings, feet, antennae and all appendages entirely inside each cell. Grounded poses share a floor baseline; flying/swimming body centres share the same height. Frame order top-left, top-right, bottom-left, bottom-right. No separate attacks, no idle sequence, no weapons, no gore, no text, no labels, no boxes, no ground, no cast shadows, no scenery. Entire background truly transparent. Designed to reduce to four crisp 64x64 frames, so bold silhouettes and simple details."
+  },
+  {
+    "id": "EN112",
+    "title": "Snapping turtle",
+    "form": "quadruped",
+    "brief": "dark olive snapping turtle with rugged brown shell, stout legs and hooked beak, side view",
+    "tags": [
+      "water",
+      "river",
+      "lake",
+      "wetland",
+      "animal",
+      "animals"
+    ],
+    "suggestedBehaviour": "patrol",
+    "batch": 32,
+    "batchTitle": "Water and technology",
+    "filename": "sSnappingTurtleEnemyMove_strip4.png",
+    "status": "planned",
+    "prompt": "SUBJECT: dark olive snapping turtle with rugged brown shell, stout legs and hooked beak, side view. MOVEMENT: Four distinct quadruped walking phases: near foreleg forward with opposite hind leg; gathered passing; opposite contact; opposite passing. Four legs only. Use case: stylized-concept. Production Game Forge enemy sprite sheet. Attached image is STYLE REFERENCE ONLY: match its chunky dark outlines, clean cel shading, slightly pixel-textured cartoon finish and simple readable forms. Do not copy the reference characters, labels or layout. Make ONE character, shown in FOUR movement frames in a strict 2x2 grid on a square transparent canvas. Each quarter contains a full complete character facing RIGHT. Same character, palette, body size and body-root position across frames. Generous transparent gutters and at least 10% transparent margins on ALL four sides of EVERY cell. Each character occupies at most 70% cell width and 75% cell height. Keep tails, wings, feet, antennae and all appendages entirely inside each cell. Grounded poses share a floor baseline; flying/swimming body centres share the same height. Frame order top-left, top-right, bottom-left, bottom-right. No separate attacks, no idle sequence, no weapons, no gore, no text, no labels, no boxes, no ground, no cast shadows, no scenery. Entire background truly transparent. Designed to reduce to four crisp 64x64 frames, so bold silhouettes and simple details."
+  },
+  {
+    "id": "EN113",
+    "title": "Rolling security robot",
+    "form": "roll",
+    "brief": "compact charcoal spherical security robot on one large rubber wheel, orange warning stripes, narrow red sensor visor",
+    "tags": [
+      "robot",
+      "bots",
+      "digital",
+      "factory",
+      "online",
+      "safety",
+      "science"
+    ],
+    "suggestedBehaviour": "patrol",
+    "batch": 32,
+    "batchTitle": "Water and technology",
+    "filename": "sRollingSecurityRobotEnemyMove_strip4.png",
+    "status": "planned",
+    "prompt": "SUBJECT: compact charcoal spherical security robot on one large rubber wheel, orange warning stripes, narrow red sensor visor. MOVEMENT: Four sequential rolling poses with wheel hub/spoke rotation and small arm movement. Torso and head remain registered and unchanged. Use case: stylized-concept. Production Game Forge enemy sprite sheet. Attached image is STYLE REFERENCE ONLY: match its chunky dark outlines, clean cel shading, slightly pixel-textured cartoon finish and simple readable forms. Do not copy the reference characters, labels or layout. Make ONE character, shown in FOUR movement frames in a strict 2x2 grid on a square transparent canvas. Each quarter contains a full complete character facing RIGHT. Same character, palette, body size and body-root position across frames. Generous transparent gutters and at least 10% transparent margins on ALL four sides of EVERY cell. Each character occupies at most 70% cell width and 75% cell height. Keep tails, wings, feet, antennae and all appendages entirely inside each cell. Grounded poses share a floor baseline; flying/swimming body centres share the same height. Frame order top-left, top-right, bottom-left, bottom-right. No separate attacks, no idle sequence, no weapons, no gore, no text, no labels, no boxes, no ground, no cast shadows, no scenery. Entire background truly transparent. Designed to reduce to four crisp 64x64 frames, so bold silhouettes and simple details."
+  },
+  {
+    "id": "EN114",
+    "title": "Magnet robot",
+    "form": "float",
+    "brief": "small hovering horseshoe-magnet robot with red and blue pole tips, dark metal face and amber sensor eyes; no legs",
+    "tags": [
+      "robot",
+      "bots",
+      "factory",
+      "science",
+      "engineering"
+    ],
+    "suggestedBehaviour": "moving obstacle",
+    "batch": 32,
+    "batchTitle": "Water and technology",
+    "filename": "sMagnetRobotEnemyMove_strip4.png",
+    "status": "planned",
+    "prompt": "SUBJECT: small hovering horseshoe-magnet robot with red and blue pole tips, dark metal face and amber sensor eyes; no legs. MOVEMENT: Four sequential subtle hovering poses, centre, 2 pixels higher in final sprite, centre, 2 pixels lower; small appendage motion. Consistent body dimensions and horizontal position. Use case: stylized-concept. Production Game Forge enemy sprite sheet. Attached image is STYLE REFERENCE ONLY: match its chunky dark outlines, clean cel shading, slightly pixel-textured cartoon finish and simple readable forms. Do not copy the reference characters, labels or layout. Make ONE character, shown in FOUR movement frames in a strict 2x2 grid on a square transparent canvas. Each quarter contains a full complete character facing RIGHT. Same character, palette, body size and body-root position across frames. Generous transparent gutters and at least 10% transparent margins on ALL four sides of EVERY cell. Each character occupies at most 70% cell width and 75% cell height. Keep tails, wings, feet, antennae and all appendages entirely inside each cell. Grounded poses share a floor baseline; flying/swimming body centres share the same height. Frame order top-left, top-right, bottom-left, bottom-right. No separate attacks, no idle sequence, no weapons, no gore, no text, no labels, no boxes, no ground, no cast shadows, no scenery. Entire background truly transparent. Designed to reduce to four crisp 64x64 frames, so bold silhouettes and simple details."
+  },
+  {
+    "id": "EN115",
+    "title": "Glitch cube",
+    "form": "float",
+    "brief": "angular violet cube creature with cyan pixel-like cracks and small red rectangular eyes; solid readable cube, no surrounding detached debris",
+    "tags": [
+      "digital",
+      "online",
+      "safety",
+      "computer",
+      "technology"
+    ],
+    "suggestedBehaviour": "moving obstacle",
+    "batch": 32,
+    "batchTitle": "Water and technology",
+    "filename": "sGlitchCubeEnemyMove_strip4.png",
+    "status": "planned",
+    "prompt": "SUBJECT: angular violet cube creature with cyan pixel-like cracks and small red rectangular eyes; solid readable cube, no surrounding detached debris. MOVEMENT: Four sequential subtle hovering poses, centre, 2 pixels higher in final sprite, centre, 2 pixels lower; small appendage motion. Consistent body dimensions and horizontal position. Use case: stylized-concept. Production Game Forge enemy sprite sheet. Attached image is STYLE REFERENCE ONLY: match its chunky dark outlines, clean cel shading, slightly pixel-textured cartoon finish and simple readable forms. Do not copy the reference characters, labels or layout. Make ONE character, shown in FOUR movement frames in a strict 2x2 grid on a square transparent canvas. Each quarter contains a full complete character facing RIGHT. Same character, palette, body size and body-root position across frames. Generous transparent gutters and at least 10% transparent margins on ALL four sides of EVERY cell. Each character occupies at most 70% cell width and 75% cell height. Keep tails, wings, feet, antennae and all appendages entirely inside each cell. Grounded poses share a floor baseline; flying/swimming body centres share the same height. Frame order top-left, top-right, bottom-left, bottom-right. No separate attacks, no idle sequence, no weapons, no gore, no text, no labels, no boxes, no ground, no cast shadows, no scenery. Entire background truly transparent. Designed to reduce to four crisp 64x64 frames, so bold silhouettes and simple details."
+  },
+  {
+    "id": "EN116",
+    "title": "Kitchen helper robot",
+    "form": "roll",
+    "brief": "small cream and red kitchen robot on two wheels, mixing-bowl shaped torso, short spatula and whisk arms tucked close; no chef hat",
+    "tags": [
+      "robot",
+      "bots",
+      "kitchen",
+      "food",
+      "healthy",
+      "eating",
+      "community"
+    ],
+    "suggestedBehaviour": "patrol",
+    "batch": 32,
+    "batchTitle": "Water and technology",
+    "filename": "sKitchenHelperRobotEnemyMove_strip4.png",
+    "status": "planned",
+    "prompt": "SUBJECT: small cream and red kitchen robot on two wheels, mixing-bowl shaped torso, short spatula and whisk arms tucked close; no chef hat. MOVEMENT: Four sequential rolling poses with wheel hub/spoke rotation and small arm movement. Torso and head remain registered and unchanged. Use case: stylized-concept. Production Game Forge enemy sprite sheet. Attached image is STYLE REFERENCE ONLY: match its chunky dark outlines, clean cel shading, slightly pixel-textured cartoon finish and simple readable forms. Do not copy the reference characters, labels or layout. Make ONE character, shown in FOUR movement frames in a strict 2x2 grid on a square transparent canvas. Each quarter contains a full complete character facing RIGHT. Same character, palette, body size and body-root position across frames. Generous transparent gutters and at least 10% transparent margins on ALL four sides of EVERY cell. Each character occupies at most 70% cell width and 75% cell height. Keep tails, wings, feet, antennae and all appendages entirely inside each cell. Grounded poses share a floor baseline; flying/swimming body centres share the same height. Frame order top-left, top-right, bottom-left, bottom-right. No separate attacks, no idle sequence, no weapons, no gore, no text, no labels, no boxes, no ground, no cast shadows, no scenery. Entire background truly transparent. Designed to reduce to four crisp 64x64 frames, so bold silhouettes and simple details."
+  },
+  {
+    "id": "EN117",
+    "title": "Goblin scout",
+    "form": "walk",
+    "brief": "short green goblin with large pointed ears, plum tunic, brown boots, suspicious eyebrows; no weapons, no backpack",
+    "tags": [
+      "fantasy",
+      "castle",
+      "medieval"
+    ],
+    "suggestedBehaviour": "patrol",
+    "batch": 33,
+    "batchTitle": "Castle and spooky stories",
+    "filename": "sGoblinScoutEnemyMove_strip4.png",
+    "status": "planned",
+    "prompt": "SUBJECT: short green goblin with large pointed ears, plum tunic, brown boots, suspicious eyebrows; no weapons, no backpack. MOVEMENT: Four distinct walking phases: left foot forward, passing, right foot forward, opposite passing. Same head and torso proportions. Use case: stylized-concept. Production Game Forge enemy sprite sheet. Attached image is STYLE REFERENCE ONLY: match its chunky dark outlines, clean cel shading, slightly pixel-textured cartoon finish and simple readable forms. Do not copy the reference characters, labels or layout. Make ONE character, shown in FOUR movement frames in a strict 2x2 grid on a square transparent canvas. Each quarter contains a full complete character facing RIGHT. Same character, palette, body size and body-root position across frames. Generous transparent gutters and at least 10% transparent margins on ALL four sides of EVERY cell. Each character occupies at most 70% cell width and 75% cell height. Keep tails, wings, feet, antennae and all appendages entirely inside each cell. Grounded poses share a floor baseline; flying/swimming body centres share the same height. Frame order top-left, top-right, bottom-left, bottom-right. No separate attacks, no idle sequence, no weapons, no gore, no text, no labels, no boxes, no ground, no cast shadows, no scenery. Entire background truly transparent. Designed to reduce to four crisp 64x64 frames, so bold silhouettes and simple details."
+  },
+  {
+    "id": "EN118",
+    "title": "Armoured castle guard",
+    "form": "walk",
+    "brief": "compact steel-blue animated suit of armour with burgundy tabard, closed helmet and narrow amber eye slit, no weapon",
+    "tags": [
+      "fantasy",
+      "castle",
+      "medieval",
+      "heritage"
+    ],
+    "suggestedBehaviour": "patrol",
+    "batch": 33,
+    "batchTitle": "Castle and spooky stories",
+    "filename": "sArmouredCastleGuardEnemyMove_strip4.png",
+    "status": "planned",
+    "prompt": "SUBJECT: compact steel-blue animated suit of armour with burgundy tabard, closed helmet and narrow amber eye slit, no weapon. MOVEMENT: Four distinct walking phases: left foot forward, passing, right foot forward, opposite passing. Same head and torso proportions. Use case: stylized-concept. Production Game Forge enemy sprite sheet. Attached image is STYLE REFERENCE ONLY: match its chunky dark outlines, clean cel shading, slightly pixel-textured cartoon finish and simple readable forms. Do not copy the reference characters, labels or layout. Make ONE character, shown in FOUR movement frames in a strict 2x2 grid on a square transparent canvas. Each quarter contains a full complete character facing RIGHT. Same character, palette, body size and body-root position across frames. Generous transparent gutters and at least 10% transparent margins on ALL four sides of EVERY cell. Each character occupies at most 70% cell width and 75% cell height. Keep tails, wings, feet, antennae and all appendages entirely inside each cell. Grounded poses share a floor baseline; flying/swimming body centres share the same height. Frame order top-left, top-right, bottom-left, bottom-right. No separate attacks, no idle sequence, no weapons, no gore, no text, no labels, no boxes, no ground, no cast shadows, no scenery. Entire background truly transparent. Designed to reduce to four crisp 64x64 frames, so bold silhouettes and simple details."
+  },
+  {
+    "id": "EN119",
+    "title": "Mimic chest",
+    "form": "hop",
+    "brief": "small oak treasure chest creature with iron bands, tiny feet and golden eyes on the front, lid only slightly ajar with small blunt teeth; no attack frames",
+    "tags": [
+      "fantasy",
+      "castle",
+      "dungeon",
+      "treasure"
+    ],
+    "suggestedBehaviour": "moving obstacle",
+    "batch": 33,
+    "batchTitle": "Castle and spooky stories",
+    "filename": "sMimicChestEnemyMove_strip4.png",
+    "status": "planned",
+    "prompt": "SUBJECT: small oak treasure chest creature with iron bands, tiny feet and golden eyes on the front, lid only slightly ajar with small blunt teeth; no attack frames. MOVEMENT: Four sequential small hopping poses: crouch, rise, airborne, settle. Consistent body, small controlled height variation. Use case: stylized-concept. Production Game Forge enemy sprite sheet. Attached image is STYLE REFERENCE ONLY: match its chunky dark outlines, clean cel shading, slightly pixel-textured cartoon finish and simple readable forms. Do not copy the reference characters, labels or layout. Make ONE character, shown in FOUR movement frames in a strict 2x2 grid on a square transparent canvas. Each quarter contains a full complete character facing RIGHT. Same character, palette, body size and body-root position across frames. Generous transparent gutters and at least 10% transparent margins on ALL four sides of EVERY cell. Each character occupies at most 70% cell width and 75% cell height. Keep tails, wings, feet, antennae and all appendages entirely inside each cell. Grounded poses share a floor baseline; flying/swimming body centres share the same height. Frame order top-left, top-right, bottom-left, bottom-right. No separate attacks, no idle sequence, no weapons, no gore, no text, no labels, no boxes, no ground, no cast shadows, no scenery. Entire background truly transparent. Designed to reduce to four crisp 64x64 frames, so bold silhouettes and simple details."
+  },
+  {
+    "id": "EN120",
+    "title": "Mischievous imp",
+    "form": "fly",
+    "brief": "small plum-purple imp with short horns, small bat wings and pointed tail curled close, mischievous amber eyes, no props",
+    "tags": [
+      "fantasy",
+      "castle",
+      "magic"
+    ],
+    "suggestedBehaviour": "moving obstacle",
+    "batch": 33,
+    "batchTitle": "Castle and spooky stories",
+    "filename": "sMischievousImpEnemyMove_strip4.png",
+    "status": "planned",
+    "prompt": "SUBJECT: small plum-purple imp with short horns, small bat wings and pointed tail curled close, mischievous amber eyes, no props. MOVEMENT: Four sequential wingbeat poses: wings high, middle, down, middle. Keep head and torso fixed in place; only wings and appendages move. Use case: stylized-concept. Production Game Forge enemy sprite sheet. Attached image is STYLE REFERENCE ONLY: match its chunky dark outlines, clean cel shading, slightly pixel-textured cartoon finish and simple readable forms. Do not copy the reference characters, labels or layout. Make ONE character, shown in FOUR movement frames in a strict 2x2 grid on a square transparent canvas. Each quarter contains a full complete character facing RIGHT. Same character, palette, body size and body-root position across frames. Generous transparent gutters and at least 10% transparent margins on ALL four sides of EVERY cell. Each character occupies at most 70% cell width and 75% cell height. Keep tails, wings, feet, antennae and all appendages entirely inside each cell. Grounded poses share a floor baseline; flying/swimming body centres share the same height. Frame order top-left, top-right, bottom-left, bottom-right. No separate attacks, no idle sequence, no weapons, no gore, no text, no labels, no boxes, no ground, no cast shadows, no scenery. Entire background truly transparent. Designed to reduce to four crisp 64x64 frames, so bold silhouettes and simple details."
+  },
+  {
+    "id": "EN121",
+    "title": "Spooky ghost",
+    "form": "float",
+    "brief": "pale mint ghost with pointed wispy tail, angular charcoal eyes and small frowning mouth; no clothing, bag or props",
+    "tags": [
+      "horror",
+      "spooky",
+      "castle",
+      "magic"
+    ],
+    "suggestedBehaviour": "moving obstacle",
+    "batch": 33,
+    "batchTitle": "Castle and spooky stories",
+    "filename": "sSpookyGhostEnemyMove_strip4.png",
+    "status": "planned",
+    "prompt": "SUBJECT: pale mint ghost with pointed wispy tail, angular charcoal eyes and small frowning mouth; no clothing, bag or props. MOVEMENT: Four sequential subtle hovering poses, centre, 2 pixels higher in final sprite, centre, 2 pixels lower; small appendage motion. Consistent body dimensions and horizontal position. Use case: stylized-concept. Production Game Forge enemy sprite sheet. Attached image is STYLE REFERENCE ONLY: match its chunky dark outlines, clean cel shading, slightly pixel-textured cartoon finish and simple readable forms. Do not copy the reference characters, labels or layout. Make ONE character, shown in FOUR movement frames in a strict 2x2 grid on a square transparent canvas. Each quarter contains a full complete character facing RIGHT. Same character, palette, body size and body-root position across frames. Generous transparent gutters and at least 10% transparent margins on ALL four sides of EVERY cell. Each character occupies at most 70% cell width and 75% cell height. Keep tails, wings, feet, antennae and all appendages entirely inside each cell. Grounded poses share a floor baseline; flying/swimming body centres share the same height. Frame order top-left, top-right, bottom-left, bottom-right. No separate attacks, no idle sequence, no weapons, no gore, no text, no labels, no boxes, no ground, no cast shadows, no scenery. Entire background truly transparent. Designed to reduce to four crisp 64x64 frames, so bold silhouettes and simple details."
+  },
+  {
+    "id": "EN122",
+    "title": "Skeleton guard",
+    "form": "walk",
+    "brief": "compact ivory skeleton with charcoal eye sockets, battered dark-grey helmet, burgundy belt and dark boots; no weapons",
+    "tags": [
+      "horror",
+      "spooky",
+      "castle",
+      "medieval"
+    ],
+    "suggestedBehaviour": "patrol",
+    "batch": 33,
+    "batchTitle": "Castle and spooky stories",
+    "filename": "sSkeletonGuardEnemyMove_strip4.png",
+    "status": "planned",
+    "prompt": "SUBJECT: compact ivory skeleton with charcoal eye sockets, battered dark-grey helmet, burgundy belt and dark boots; no weapons. MOVEMENT: Four distinct walking phases: left foot forward, passing, right foot forward, opposite passing. Same head and torso proportions. Use case: stylized-concept. Production Game Forge enemy sprite sheet. Attached image is STYLE REFERENCE ONLY: match its chunky dark outlines, clean cel shading, slightly pixel-textured cartoon finish and simple readable forms. Do not copy the reference characters, labels or layout. Make ONE character, shown in FOUR movement frames in a strict 2x2 grid on a square transparent canvas. Each quarter contains a full complete character facing RIGHT. Same character, palette, body size and body-root position across frames. Generous transparent gutters and at least 10% transparent margins on ALL four sides of EVERY cell. Each character occupies at most 70% cell width and 75% cell height. Keep tails, wings, feet, antennae and all appendages entirely inside each cell. Grounded poses share a floor baseline; flying/swimming body centres share the same height. Frame order top-left, top-right, bottom-left, bottom-right. No separate attacks, no idle sequence, no weapons, no gore, no text, no labels, no boxes, no ground, no cast shadows, no scenery. Entire background truly transparent. Designed to reduce to four crisp 64x64 frames, so bold silhouettes and simple details."
+  },
+  {
+    "id": "EN123",
+    "title": "Animated pumpkin",
+    "form": "walk",
+    "brief": "orange jack-o-lantern creature with short twisting vine legs, dark triangular eyes and crooked small grin; pumpkin body stays same size",
+    "tags": [
+      "horror",
+      "spooky",
+      "garden",
+      "autumn"
+    ],
+    "suggestedBehaviour": "patrol",
+    "batch": 33,
+    "batchTitle": "Castle and spooky stories",
+    "filename": "sAnimatedPumpkinEnemyMove_strip4.png",
+    "status": "planned",
+    "prompt": "SUBJECT: orange jack-o-lantern creature with short twisting vine legs, dark triangular eyes and crooked small grin; pumpkin body stays same size. MOVEMENT: Four distinct walking phases: left foot forward, passing, right foot forward, opposite passing. Same head and torso proportions. Use case: stylized-concept. Production Game Forge enemy sprite sheet. Attached image is STYLE REFERENCE ONLY: match its chunky dark outlines, clean cel shading, slightly pixel-textured cartoon finish and simple readable forms. Do not copy the reference characters, labels or layout. Make ONE character, shown in FOUR movement frames in a strict 2x2 grid on a square transparent canvas. Each quarter contains a full complete character facing RIGHT. Same character, palette, body size and body-root position across frames. Generous transparent gutters and at least 10% transparent margins on ALL four sides of EVERY cell. Each character occupies at most 70% cell width and 75% cell height. Keep tails, wings, feet, antennae and all appendages entirely inside each cell. Grounded poses share a floor baseline; flying/swimming body centres share the same height. Frame order top-left, top-right, bottom-left, bottom-right. No separate attacks, no idle sequence, no weapons, no gore, no text, no labels, no boxes, no ground, no cast shadows, no scenery. Entire background truly transparent. Designed to reduce to four crisp 64x64 frames, so bold silhouettes and simple details."
+  },
+  {
+    "id": "EN124",
+    "title": "Floating eyeball",
+    "form": "float",
+    "brief": "single ivory eyeball creature with large violet iris and dark pupil, tiny curled purple tendrils below; clean cartoon, no veins, no gore",
+    "tags": [
+      "horror",
+      "spooky",
+      "fantasy",
+      "magic"
+    ],
+    "suggestedBehaviour": "moving obstacle",
+    "batch": 33,
+    "batchTitle": "Castle and spooky stories",
+    "filename": "sFloatingEyeballEnemyMove_strip4.png",
+    "status": "planned",
+    "prompt": "SUBJECT: single ivory eyeball creature with large violet iris and dark pupil, tiny curled purple tendrils below; clean cartoon, no veins, no gore. MOVEMENT: Four sequential subtle hovering poses, centre, 2 pixels higher in final sprite, centre, 2 pixels lower; small appendage motion. Consistent body dimensions and horizontal position. Use case: stylized-concept. Production Game Forge enemy sprite sheet. Attached image is STYLE REFERENCE ONLY: match its chunky dark outlines, clean cel shading, slightly pixel-textured cartoon finish and simple readable forms. Do not copy the reference characters, labels or layout. Make ONE character, shown in FOUR movement frames in a strict 2x2 grid on a square transparent canvas. Each quarter contains a full complete character facing RIGHT. Same character, palette, body size and body-root position across frames. Generous transparent gutters and at least 10% transparent margins on ALL four sides of EVERY cell. Each character occupies at most 70% cell width and 75% cell height. Keep tails, wings, feet, antennae and all appendages entirely inside each cell. Grounded poses share a floor baseline; flying/swimming body centres share the same height. Frame order top-left, top-right, bottom-left, bottom-right. No separate attacks, no idle sequence, no weapons, no gore, no text, no labels, no boxes, no ground, no cast shadows, no scenery. Entire background truly transparent. Designed to reduce to four crisp 64x64 frames, so bold silhouettes and simple details."
+  },
+  {
+    "id": "EN125",
+    "title": "Litter creature",
+    "form": "walk",
+    "brief": "compact creature assembled from a dented blue bin, cardboard scraps and empty cans, orange eyes, two stubby scrap legs; clean dry rubbish only",
+    "tags": [
+      "environment",
+      "recycling",
+      "litter",
+      "waste",
+      "community"
+    ],
+    "suggestedBehaviour": "patrol",
+    "batch": 34,
+    "batchTitle": "Environment and climate",
+    "filename": "sLitterCreatureEnemyMove_strip4.png",
+    "status": "planned",
+    "prompt": "SUBJECT: compact creature assembled from a dented blue bin, cardboard scraps and empty cans, orange eyes, two stubby scrap legs; clean dry rubbish only. MOVEMENT: Four distinct walking phases: left foot forward, passing, right foot forward, opposite passing. Same head and torso proportions. Use case: stylized-concept. Production Game Forge enemy sprite sheet. Attached image is STYLE REFERENCE ONLY: match its chunky dark outlines, clean cel shading, slightly pixel-textured cartoon finish and simple readable forms. Do not copy the reference characters, labels or layout. Make ONE character, shown in FOUR movement frames in a strict 2x2 grid on a square transparent canvas. Each quarter contains a full complete character facing RIGHT. Same character, palette, body size and body-root position across frames. Generous transparent gutters and at least 10% transparent margins on ALL four sides of EVERY cell. Each character occupies at most 70% cell width and 75% cell height. Keep tails, wings, feet, antennae and all appendages entirely inside each cell. Grounded poses share a floor baseline; flying/swimming body centres share the same height. Frame order top-left, top-right, bottom-left, bottom-right. No separate attacks, no idle sequence, no weapons, no gore, no text, no labels, no boxes, no ground, no cast shadows, no scenery. Entire background truly transparent. Designed to reduce to four crisp 64x64 frames, so bold silhouettes and simple details."
+  },
+  {
+    "id": "EN126",
+    "title": "Oil blob",
+    "form": "slither",
+    "brief": "Low wide black oil puddle with small amber eyes and blue-green petrol highlights; rippling base, no neck, arms, tail or detached droplets.",
+    "tags": [
+      "environment",
+      "pollution",
+      "coast",
+      "river",
+      "water"
+    ],
+    "suggestedBehaviour": "moving obstacle",
+    "batch": 34,
+    "batchTitle": "Environment and climate",
+    "filename": "sOilBlobEnemyMove_strip4.png",
+    "status": "planned",
+    "prompt": "Final revision: Low wide black oil puddle with small amber eyes and blue-green petrol highlights; rippling base, no neck, arms, tail or detached droplets. Four oozing phases in a transparent 2x2 sheet; bold dark outline and clean cel shading. Equal scale, shared baseline and generous gutters."
+  },
+  {
+    "id": "EN127",
+    "title": "Scrap creature",
+    "form": "walk",
+    "brief": "stocky rust-orange and grey creature made from mismatched bolts, gears and scrap panels, square head, amber eyes, two short legs",
+    "tags": [
+      "environment",
+      "recycling",
+      "repair",
+      "reuse",
+      "industrial"
+    ],
+    "suggestedBehaviour": "patrol",
+    "batch": 34,
+    "batchTitle": "Environment and climate",
+    "filename": "sScrapCreatureEnemyMove_strip4.png",
+    "status": "planned",
+    "prompt": "SUBJECT: stocky rust-orange and grey creature made from mismatched bolts, gears and scrap panels, square head, amber eyes, two short legs. MOVEMENT: Four distinct walking phases: left foot forward, passing, right foot forward, opposite passing. Same head and torso proportions. Use case: stylized-concept. Production Game Forge enemy sprite sheet. Attached image is STYLE REFERENCE ONLY: match its chunky dark outlines, clean cel shading, slightly pixel-textured cartoon finish and simple readable forms. Do not copy the reference characters, labels or layout. Make ONE character, shown in FOUR movement frames in a strict 2x2 grid on a square transparent canvas. Each quarter contains a full complete character facing RIGHT. Same character, palette, body size and body-root position across frames. Generous transparent gutters and at least 10% transparent margins on ALL four sides of EVERY cell. Each character occupies at most 70% cell width and 75% cell height. Keep tails, wings, feet, antennae and all appendages entirely inside each cell. Grounded poses share a floor baseline; flying/swimming body centres share the same height. Frame order top-left, top-right, bottom-left, bottom-right. No separate attacks, no idle sequence, no weapons, no gore, no text, no labels, no boxes, no ground, no cast shadows, no scenery. Entire background truly transparent. Designed to reduce to four crisp 64x64 frames, so bold silhouettes and simple details."
+  },
+  {
+    "id": "EN128",
+    "title": "Leaking maintenance robot",
+    "form": "roll",
+    "brief": "small turquoise maintenance robot on chunky wheels, brass pipe loop attached to back and a blue droplet emblem, one tiny droplet close to body",
+    "tags": [
+      "environment",
+      "water",
+      "saving",
+      "repair",
+      "robot",
+      "bots",
+      "industrial"
+    ],
+    "suggestedBehaviour": "patrol",
+    "batch": 34,
+    "batchTitle": "Environment and climate",
+    "filename": "sLeakingMaintenanceRobotEnemyMove_strip4.png",
+    "status": "planned",
+    "prompt": "SUBJECT: small turquoise maintenance robot on chunky wheels, brass pipe loop attached to back and a blue droplet emblem, one tiny droplet close to body. MOVEMENT: Four sequential rolling poses with wheel hub/spoke rotation and small arm movement. Torso and head remain registered and unchanged. Use case: stylized-concept. Production Game Forge enemy sprite sheet. Attached image is STYLE REFERENCE ONLY: match its chunky dark outlines, clean cel shading, slightly pixel-textured cartoon finish and simple readable forms. Do not copy the reference characters, labels or layout. Make ONE character, shown in FOUR movement frames in a strict 2x2 grid on a square transparent canvas. Each quarter contains a full complete character facing RIGHT. Same character, palette, body size and body-root position across frames. Generous transparent gutters and at least 10% transparent margins on ALL four sides of EVERY cell. Each character occupies at most 70% cell width and 75% cell height. Keep tails, wings, feet, antennae and all appendages entirely inside each cell. Grounded poses share a floor baseline; flying/swimming body centres share the same height. Frame order top-left, top-right, bottom-left, bottom-right. No separate attacks, no idle sequence, no weapons, no gore, no text, no labels, no boxes, no ground, no cast shadows, no scenery. Entire background truly transparent. Designed to reduce to four crisp 64x64 frames, so bold silhouettes and simple details."
+  },
+  {
+    "id": "EN129",
+    "title": "Thorn-vine walker",
+    "form": "walk",
+    "brief": "compact twisted green vine creature with two root legs, thorny shoulders, small amber eyes and one purple bud, no pot",
+    "tags": [
+      "garden",
+      "woodland",
+      "fantasy",
+      "environment"
+    ],
+    "suggestedBehaviour": "patrol",
+    "batch": 34,
+    "batchTitle": "Environment and climate",
+    "filename": "sThornVineWalkerEnemyMove_strip4.png",
+    "status": "planned",
+    "prompt": "SUBJECT: compact twisted green vine creature with two root legs, thorny shoulders, small amber eyes and one purple bud, no pot. MOVEMENT: Four distinct walking phases: left foot forward, passing, right foot forward, opposite passing. Same head and torso proportions. Use case: stylized-concept. Production Game Forge enemy sprite sheet. Attached image is STYLE REFERENCE ONLY: match its chunky dark outlines, clean cel shading, slightly pixel-textured cartoon finish and simple readable forms. Do not copy the reference characters, labels or layout. Make ONE character, shown in FOUR movement frames in a strict 2x2 grid on a square transparent canvas. Each quarter contains a full complete character facing RIGHT. Same character, palette, body size and body-root position across frames. Generous transparent gutters and at least 10% transparent margins on ALL four sides of EVERY cell. Each character occupies at most 70% cell width and 75% cell height. Keep tails, wings, feet, antennae and all appendages entirely inside each cell. Grounded poses share a floor baseline; flying/swimming body centres share the same height. Frame order top-left, top-right, bottom-left, bottom-right. No separate attacks, no idle sequence, no weapons, no gore, no text, no labels, no boxes, no ground, no cast shadows, no scenery. Entire background truly transparent. Designed to reduce to four crisp 64x64 frames, so bold silhouettes and simple details."
+  },
+  {
+    "id": "EN130",
+    "title": "Lava imp",
+    "form": "bounce",
+    "brief": "small round charcoal lava creature with glowing orange cracks, stubby horns and tiny feet, no wings, squash-and-stretch bounce",
+    "tags": [
+      "volcano",
+      "lava",
+      "magma",
+      "climate",
+      "fantasy"
+    ],
+    "suggestedBehaviour": "moving obstacle",
+    "batch": 34,
+    "batchTitle": "Environment and climate",
+    "filename": "sLavaImpEnemyMove_strip4.png",
+    "status": "planned",
+    "prompt": "SUBJECT: small round charcoal lava creature with glowing orange cracks, stubby horns and tiny feet, no wings, squash-and-stretch bounce. MOVEMENT: Four squash-and-stretch movement phases: rounded, compressed, elongated airborne, rounded landing. Same markings and eyes; all inside each cell. Use case: stylized-concept. Production Game Forge enemy sprite sheet. Attached image is STYLE REFERENCE ONLY: match its chunky dark outlines, clean cel shading, slightly pixel-textured cartoon finish and simple readable forms. Do not copy the reference characters, labels or layout. Make ONE character, shown in FOUR movement frames in a strict 2x2 grid on a square transparent canvas. Each quarter contains a full complete character facing RIGHT. Same character, palette, body size and body-root position across frames. Generous transparent gutters and at least 10% transparent margins on ALL four sides of EVERY cell. Each character occupies at most 70% cell width and 75% cell height. Keep tails, wings, feet, antennae and all appendages entirely inside each cell. Grounded poses share a floor baseline; flying/swimming body centres share the same height. Frame order top-left, top-right, bottom-left, bottom-right. No separate attacks, no idle sequence, no weapons, no gore, no text, no labels, no boxes, no ground, no cast shadows, no scenery. Entire background truly transparent. Designed to reduce to four crisp 64x64 frames, so bold silhouettes and simple details."
+  },
+  {
+    "id": "EN131",
+    "title": "Snow gremlin",
+    "form": "quadruped",
+    "brief": "short blue furry snow gremlin with rounded ears, white brow, stubby legs and dark feet, mischievous eyes, no clothing",
+    "tags": [
+      "polar",
+      "tundra",
+      "snow",
+      "ice",
+      "climate",
+      "fantasy"
+    ],
+    "suggestedBehaviour": "patrol",
+    "batch": 34,
+    "batchTitle": "Environment and climate",
+    "filename": "sSnowGremlinEnemyMove_strip4.png",
+    "status": "planned",
+    "prompt": "SUBJECT: short blue furry snow gremlin with rounded ears, white brow, stubby legs and dark feet, mischievous eyes, no clothing. MOVEMENT: Four distinct walking phases: left foot forward, passing, right foot forward, opposite passing. Same head and torso proportions. Use case: stylized-concept. Production Game Forge enemy sprite sheet. Attached image is STYLE REFERENCE ONLY: match its chunky dark outlines, clean cel shading, slightly pixel-textured cartoon finish and simple readable forms. Do not copy the reference characters, labels or layout. Make ONE character, shown in FOUR movement frames in a strict 2x2 grid on a square transparent canvas. Each quarter contains a full complete character facing RIGHT. Same character, palette, body size and body-root position across frames. Generous transparent gutters and at least 10% transparent margins on ALL four sides of EVERY cell. Each character occupies at most 70% cell width and 75% cell height. Keep tails, wings, feet, antennae and all appendages entirely inside each cell. Grounded poses share a floor baseline; flying/swimming body centres share the same height. Frame order top-left, top-right, bottom-left, bottom-right. No separate attacks, no idle sequence, no weapons, no gore, no text, no labels, no boxes, no ground, no cast shadows, no scenery. Entire background truly transparent. Designed to reduce to four crisp 64x64 frames, so bold silhouettes and simple details."
+  },
+  {
+    "id": "EN132",
+    "title": "Sand whirlwind",
+    "form": "float",
+    "brief": "small compact spiral of golden sand with two amber eyes and a pointed swirling base, no scattered sand outside silhouette",
+    "tags": [
+      "desert",
+      "arid",
+      "climate",
+      "wind",
+      "weather"
+    ],
+    "suggestedBehaviour": "moving obstacle",
+    "batch": 34,
+    "batchTitle": "Environment and climate",
+    "filename": "sSandWhirlwindEnemyMove_strip4.png",
+    "status": "planned",
+    "prompt": "SUBJECT: small compact spiral of golden sand with two amber eyes and a pointed swirling base, no scattered sand outside silhouette. MOVEMENT: Four sequential subtle hovering poses, centre, 2 pixels higher in final sprite, centre, 2 pixels lower; small appendage motion. Consistent body dimensions and horizontal position. Use case: stylized-concept. Production Game Forge enemy sprite sheet. Attached image is STYLE REFERENCE ONLY: match its chunky dark outlines, clean cel shading, slightly pixel-textured cartoon finish and simple readable forms. Do not copy the reference characters, labels or layout. Make ONE character, shown in FOUR movement frames in a strict 2x2 grid on a square transparent canvas. Each quarter contains a full complete character facing RIGHT. Same character, palette, body size and body-root position across frames. Generous transparent gutters and at least 10% transparent margins on ALL four sides of EVERY cell. Each character occupies at most 70% cell width and 75% cell height. Keep tails, wings, feet, antennae and all appendages entirely inside each cell. Grounded poses share a floor baseline; flying/swimming body centres share the same height. Frame order top-left, top-right, bottom-left, bottom-right. No separate attacks, no idle sequence, no weapons, no gore, no text, no labels, no boxes, no ground, no cast shadows, no scenery. Entire background truly transparent. Designed to reduce to four crisp 64x64 frames, so bold silhouettes and simple details."
+  },
+  {
+    "id": "EN015",
+    "title": "Stone sentinel",
+    "form": "walk",
+    "brief": "compact stocky dark slate-grey stone golem with a square head, single cyan eye, bright cyan chest rune and chunky segmented stone limbs. Same dark slate material and cyan markings in EVERY frame, no costume, no recolouring",
+    "tags": [
+      "castle",
+      "ruins",
+      "fantasy",
+      "stone"
+    ],
+    "suggestedBehaviour": "patrol",
+    "batch": 20,
+    "batchTitle": "Existing enemy repair",
+    "filename": "sStoneSentinelMove_strip4.png",
+    "status": "repair planned",
+    "prompt": "SUBJECT: compact stocky dark slate-grey stone golem with a square head, single cyan eye, bright cyan chest rune and chunky segmented stone limbs. Same dark slate material and cyan markings in EVERY frame, no costume, no recolouring. MOVEMENT: Four distinct walking phases: left foot forward, passing, right foot forward, opposite passing. Same head and torso proportions. Use case: stylized-concept. Production Game Forge enemy sprite sheet. Attached image is STYLE REFERENCE ONLY: match its chunky dark outlines, clean cel shading, slightly pixel-textured cartoon finish and simple readable forms. Do not copy the reference characters, labels or layout. Make ONE character, shown in FOUR movement frames in a strict 2x2 grid on a square transparent canvas. Each quarter contains a full complete character facing RIGHT. Same character, palette, body size and body-root position across frames. Generous transparent gutters and at least 10% transparent margins on ALL four sides of EVERY cell. Each character occupies at most 70% cell width and 75% cell height. Keep tails, wings, feet, antennae and all appendages entirely inside each cell. Grounded poses share a floor baseline; flying/swimming body centres share the same height. Frame order top-left, top-right, bottom-left, bottom-right. No separate attacks, no idle sequence, no weapons, no gore, no text, no labels, no boxes, no ground, no cast shadows, no scenery. Entire background truly transparent. Designed to reduce to four crisp 64x64 frames, so bold silhouettes and simple details."
+  }
+]

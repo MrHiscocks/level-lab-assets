@@ -1,0 +1,53 @@
+{
+  "id": "EN125",
+  "title": "Litter creature",
+  "category": "enemies",
+  "variant": "movement",
+  "batch": 34,
+  "tags": [
+    "community",
+    "enemies",
+    "enemy",
+    "environment",
+    "litter",
+    "movement",
+    "obstacle",
+    "patrol",
+    "recycling",
+    "walk",
+    "waste"
+  ],
+  "form": "walk",
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 20,
+    "right": 43,
+    "top": 24,
+    "bottom": 63
+  },
+  "fps": 8,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "bf395ed44032ea41c1976572283a270cfec5743efc287b9b3f61a0c549601563",
+  "sourceFile": "EN125.png",
+  "sourceBatch": "Environment and climate",
+  "suggestedBehaviour": "patrol",
+  "description": "Litter creature. Movement animation for a patrol. Choose its role in your story; behaviour is added in GameMaker.",
+  "placement": "64 x 64 frames. Origin (32, 64). Use a fixed manual rectangular body mask for all frames. Ground contact at bottom of cell. PNG does not store origin, mask, playback settings or behaviour.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "ac8d68e60147cbd6b5aaf636796f1caf30987126bcaaed0b8c73b9b7e807cbf3",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

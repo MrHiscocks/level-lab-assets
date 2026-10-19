@@ -1,0 +1,4286 @@
+{
+  "date": "2026-10-19",
+  "existingConcepts": 24,
+  "newConcepts": 32,
+  "totalConcepts": 56,
+  "totalFiles": 80,
+  "repairedConcepts": [
+    "EN015"
+  ],
+  "repairReason": "Stone sentinel palette and body proportions changed between the original movement frames. Regenerated a consistent movement strip and matching static first frame.",
+  "validation": {
+    "allFrames64x64": true,
+    "allMovementStrips256x64": true,
+    "transparentBackgrounds": true,
+    "distinctMovementFrames": true,
+    "sourceChecksumsVerified": true,
+    "visualReview": "All new strips reviewed at export scale; complete limbs and common frame registration.",
+    "gameMakerIDE": "Not available. File dimensions and strip names verified; behaviour, origin and fixed mask must be set in GameMaker."
+  },
+  "existingAuditBefore": [
+    {
+      "id": "EN021",
+      "title": "Bat",
+      "file": "sBatMove_strip4.png",
+      "size": [
+        256,
+        64
+      ],
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "variant": "movement",
+      "form": "fly",
+      "distinctFrames": 4,
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256Before": "01f94d5f91aa6b8b50c15200843de3e901350c8bd70c862b72643451c406278d"
+    },
+    {
+      "id": "EN021",
+      "title": "Bat",
+      "file": "sBatStatic.png",
+      "size": [
+        64,
+        64
+      ],
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "variant": "static",
+      "form": "fly",
+      "distinctFrames": 1,
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256Before": "60ac48cd74dec89bd557a356c3765988ebec4ed374f2b3d7f69a92c5912c595a"
+    },
+    {
+      "id": "EN001",
+      "title": "Beetle",
+      "file": "sBeetleMove_strip4.png",
+      "size": [
+        256,
+        64
+      ],
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "variant": "movement",
+      "form": "crawl",
+      "distinctFrames": 4,
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256Before": "837f9299d87ac8e9e1b205282448da9747b3202ffab27abf996c98d55f0fa157"
+    },
+    {
+      "id": "EN001",
+      "title": "Beetle",
+      "file": "sBeetleStatic.png",
+      "size": [
+        64,
+        64
+      ],
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "variant": "static",
+      "form": "crawl",
+      "distinctFrames": 1,
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256Before": "cc6e32098a34c0ecfb775a0ca6c67f69595db8e5ea82a92dd68dd7bf76e872f6"
+    },
+    {
+      "id": "EN049",
+      "title": "Cartoon mould creature",
+      "file": "sCartoonMouldCreatureMove_strip4.png",
+      "size": [
+        256,
+        64
+      ],
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "variant": "movement",
+      "form": "slither",
+      "distinctFrames": 4,
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256Before": "70b7cd5461cb897c97343da4861d7905fc2ef07c9e7a97e088637ab76667f52c"
+    },
+    {
+      "id": "EN049",
+      "title": "Cartoon mould creature",
+      "file": "sCartoonMouldCreatureStatic.png",
+      "size": [
+        64,
+        64
+      ],
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "variant": "static",
+      "form": "slither",
+      "distinctFrames": 1,
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256Before": "5a8c707108889d31581835e6f6b1daf7dc9417fca55aa8c5952072260f67954c"
+    },
+    {
+      "id": "EN062",
+      "title": "Computer-bug creature",
+      "file": "sComputerBugCreatureMove_strip4.png",
+      "size": [
+        256,
+        64
+      ],
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "variant": "movement",
+      "form": "crawl",
+      "distinctFrames": 4,
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256Before": "16e5aea2de979be525da926173ba1106bb59a23cdcd44a4b21b2506d048d7dab"
+    },
+    {
+      "id": "EN062",
+      "title": "Computer-bug creature",
+      "file": "sComputerBugCreatureStatic.png",
+      "size": [
+        64,
+        64
+      ],
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "variant": "static",
+      "form": "crawl",
+      "distinctFrames": 1,
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256Before": "7eaa574254a1e6cdc2d47c785a3410835db4e9f6cd9f3b6e2f39a0f945bb6c2b"
+    },
+    {
+      "id": "EN003",
+      "title": "Crab",
+      "file": "sCrabMove_strip4.png",
+      "size": [
+        256,
+        64
+      ],
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "variant": "movement",
+      "form": "crawl",
+      "distinctFrames": 4,
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256Before": "a3ddaafd3044b764204ab8d0552ca660bbceca01c3aeff7676e8184136bea89d"
+    },
+    {
+      "id": "EN003",
+      "title": "Crab",
+      "file": "sCrabStatic.png",
+      "size": [
+        64,
+        64
+      ],
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "variant": "static",
+      "form": "crawl",
+      "distinctFrames": 1,
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256Before": "00185b7d99bcf7e3d69014be54d53be4e7ca3ee261eb6c70534d812cc2783c2d"
+    },
+    {
+      "id": "EN052",
+      "title": "Enchanted helmet",
+      "file": "sEnchantedHelmetMove_strip4.png",
+      "size": [
+        256,
+        64
+      ],
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "variant": "movement",
+      "form": "float",
+      "distinctFrames": 4,
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256Before": "7f5aee04b351d6d44271e604bc4d6e1ec3fffd39c1f93df9e080c50f08e61740"
+    },
+    {
+      "id": "EN052",
+      "title": "Enchanted helmet",
+      "file": "sEnchantedHelmetStatic.png",
+      "size": [
+        64,
+        64
+      ],
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "variant": "static",
+      "form": "float",
+      "distinctFrames": 1,
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256Before": "e74a077814336ed8dee41a3defdce898bae937391c9c72dd8fba0ef3670eb6bd"
+    },
+    {
+      "id": "EN029",
+      "title": "Floating jellyfish",
+      "file": "sFloatingJellyfishMove_strip4.png",
+      "size": [
+        256,
+        64
+      ],
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "variant": "movement",
+      "form": "float",
+      "distinctFrames": 4,
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256Before": "2dfc4dd6d13415f3fe9f7654d0c5b04d028fd54d66bd8b2df388268bfc8517da"
+    },
+    {
+      "id": "EN029",
+      "title": "Floating jellyfish",
+      "file": "sFloatingJellyfishStatic.png",
+      "size": [
+        64,
+        64
+      ],
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "variant": "static",
+      "form": "float",
+      "distinctFrames": 1,
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256Before": "e93c13b43c03e7472e758c2aded0c7dc8a3cbf46b1d9a3dad4e9a2070b190413"
+    },
+    {
+      "id": "EN054",
+      "title": "Gargoyle",
+      "file": "sGargoyleMove_strip4.png",
+      "size": [
+        256,
+        64
+      ],
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "variant": "movement",
+      "form": "fly",
+      "distinctFrames": 4,
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256Before": "fdb67fa048a155d09d5cd8aa0fcc8c32e6d43fd89097528f8400d53d0fce7d96"
+    },
+    {
+      "id": "EN054",
+      "title": "Gargoyle",
+      "file": "sGargoyleStatic.png",
+      "size": [
+        64,
+        64
+      ],
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "variant": "static",
+      "form": "fly",
+      "distinctFrames": 1,
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256Before": "e66e40eac2e36440d57735ed3e47fe6344301db99704866e761993ccc31528e9"
+    },
+    {
+      "id": "EN019",
+      "title": "Ice crawler",
+      "file": "sIceCrawlerMove_strip4.png",
+      "size": [
+        256,
+        64
+      ],
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "variant": "movement",
+      "form": "crawl",
+      "distinctFrames": 4,
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256Before": "0c9230ffbb64645d9de67e168e3e423f15d210126be94a92ef889d93127d9714"
+    },
+    {
+      "id": "EN019",
+      "title": "Ice crawler",
+      "file": "sIceCrawlerStatic.png",
+      "size": [
+        64,
+        64
+      ],
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "variant": "static",
+      "form": "crawl",
+      "distinctFrames": 1,
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256Before": "538a5c35150594227ff98fd1420f5ea5e865758e0838595d6e18ab892eec83fd"
+    },
+    {
+      "id": "EN057",
+      "title": "Ink blot creature",
+      "file": "sInkBlotCreatureMove_strip4.png",
+      "size": [
+        256,
+        64
+      ],
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "variant": "movement",
+      "form": "slither",
+      "distinctFrames": 4,
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256Before": "1ba0daf875a377f13142a2a3ea89b65b7654d0c5bfb8c1de5bc26bc52ce32b0d"
+    },
+    {
+      "id": "EN057",
+      "title": "Ink blot creature",
+      "file": "sInkBlotCreatureStatic.png",
+      "size": [
+        64,
+        64
+      ],
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "variant": "static",
+      "form": "slither",
+      "distinctFrames": 1,
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256Before": "c38a308fa8999a237010fc02b003ee0543e70eb1f72dfab9ff77ba9f5239e13c"
+    },
+    {
+      "id": "EN020",
+      "title": "Magma crawler",
+      "file": "sMagmaCrawlerMove_strip4.png",
+      "size": [
+        256,
+        64
+      ],
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "variant": "movement",
+      "form": "crawl",
+      "distinctFrames": 4,
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256Before": "0bb558dccc5ae5febdff6f395f0d429cb86ff20d3dda28d14425ee99cf5563d4"
+    },
+    {
+      "id": "EN020",
+      "title": "Magma crawler",
+      "file": "sMagmaCrawlerStatic.png",
+      "size": [
+        64,
+        64
+      ],
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "variant": "static",
+      "form": "crawl",
+      "distinctFrames": 1,
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256Before": "48b54b6e9c670c01489c08db3ed2ce9298c621c9a1dea80beed573cc6e8fb914"
+    },
+    {
+      "id": "EN017",
+      "title": "Mushroom walker",
+      "file": "sMushroomWalkerMove_strip4.png",
+      "size": [
+        256,
+        64
+      ],
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "variant": "movement",
+      "form": "walk",
+      "distinctFrames": 4,
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256Before": "b6fc54e918291518d9cd2ff1adbca3cb2b7785cdee281b1e59bcd99b2d46dd6b"
+    },
+    {
+      "id": "EN017",
+      "title": "Mushroom walker",
+      "file": "sMushroomWalkerStatic.png",
+      "size": [
+        64,
+        64
+      ],
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "variant": "static",
+      "form": "walk",
+      "distinctFrames": 1,
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256Before": "e6502dbabbbed09a0f8e7efaa86145b2467263c6b593e64a4b31b9f6908ca29d"
+    },
+    {
+      "id": "EN011",
+      "title": "Patrol robot",
+      "file": "sPatrolRobotMove_strip4.png",
+      "size": [
+        256,
+        64
+      ],
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "variant": "movement",
+      "form": "walk",
+      "distinctFrames": 4,
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256Before": "e94095ff076fdf20a42564b5de893c6fe1f1396d579675202ea031277a523593"
+    },
+    {
+      "id": "EN011",
+      "title": "Patrol robot",
+      "file": "sPatrolRobotStatic.png",
+      "size": [
+        64,
+        64
+      ],
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "variant": "static",
+      "form": "walk",
+      "distinctFrames": 1,
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256Before": "5ada0e7ed0d57f46778126b8deee0216ed8cbc53c9dee0fbfac1ea7c64622ef1"
+    },
+    {
+      "id": "EN045",
+      "title": "Runaway tyre",
+      "file": "sRunawayTyreMove_strip4.png",
+      "size": [
+        256,
+        64
+      ],
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "variant": "movement",
+      "form": "roll",
+      "distinctFrames": 4,
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256Before": "2f9d9ba62f2e9cc091d9e6c8d34303dc3adbb8486233f4d65b40cbabf07eee14"
+    },
+    {
+      "id": "EN045",
+      "title": "Runaway tyre",
+      "file": "sRunawayTyreStatic.png",
+      "size": [
+        64,
+        64
+      ],
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "variant": "static",
+      "form": "roll",
+      "distinctFrames": 1,
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256Before": "915fd492f665cd9df7ed14694e1211b49f08f08be8cbd9c1de1974af93329cb4"
+    },
+    {
+      "id": "EN007",
+      "title": "Scorpion",
+      "file": "sScorpionMove_strip4.png",
+      "size": [
+        256,
+        64
+      ],
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "variant": "movement",
+      "form": "crawl",
+      "distinctFrames": 4,
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256Before": "21bbaccfb906f5dd8a184711106750e691f8c9b9ee2e489e275b73c959b34c1c"
+    },
+    {
+      "id": "EN007",
+      "title": "Scorpion",
+      "file": "sScorpionStatic.png",
+      "size": [
+        64,
+        64
+      ],
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "variant": "static",
+      "form": "crawl",
+      "distinctFrames": 1,
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256Before": "5d47fb7d7719c84029601213ba8481fece11cb38c884932d38905772ae87f7ac"
+    },
+    {
+      "id": "EN025",
+      "title": "Security drone",
+      "file": "sSecurityDroneMove_strip4.png",
+      "size": [
+        256,
+        64
+      ],
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "variant": "movement",
+      "form": "rotor",
+      "distinctFrames": 4,
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256Before": "abe665eaf9a05be2520ed28b1e40ad6c9802a80869f9624e2e6adb9bdfa9b8b7"
+    },
+    {
+      "id": "EN025",
+      "title": "Security drone",
+      "file": "sSecurityDroneStatic.png",
+      "size": [
+        64,
+        64
+      ],
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "variant": "static",
+      "form": "rotor",
+      "distinctFrames": 1,
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256Before": "4c990eacb6dc59de2b7fc39662be137463eb375732370488541f6eb6d9739e66"
+    },
+    {
+      "id": "EN050",
+      "title": "Smog-cloud creature",
+      "file": "sSmogCloudCreatureMove_strip4.png",
+      "size": [
+        256,
+        64
+      ],
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "variant": "movement",
+      "form": "float",
+      "distinctFrames": 4,
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256Before": "1ebd3f9f238aac140b7c66b0e51da75115c5519927ec3c7d2565779c6b99906e"
+    },
+    {
+      "id": "EN050",
+      "title": "Smog-cloud creature",
+      "file": "sSmogCloudCreatureStatic.png",
+      "size": [
+        64,
+        64
+      ],
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "variant": "static",
+      "form": "float",
+      "distinctFrames": 1,
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256Before": "5670a5e55b7d70643c2f2f079889f8b99118943875a3b614d16bc14f17bbfcd7"
+    },
+    {
+      "id": "EN004",
+      "title": "Snail",
+      "file": "sSnailMove_strip4.png",
+      "size": [
+        256,
+        64
+      ],
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "variant": "movement",
+      "form": "slither",
+      "distinctFrames": 4,
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256Before": "2ab1fe24dec6014f377330504c911f9382432ca67c8d2138db6b5edd2137e936"
+    },
+    {
+      "id": "EN004",
+      "title": "Snail",
+      "file": "sSnailStatic.png",
+      "size": [
+        64,
+        64
+      ],
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "variant": "static",
+      "form": "slither",
+      "distinctFrames": 1,
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256Before": "9eee123393d6bbbfab3dad117580f138ab42f5ea71a9a754ea01039b46996ddb"
+    },
+    {
+      "id": "EN031",
+      "title": "Snapping plant",
+      "file": "sSnappingPlantMove_strip4.png",
+      "size": [
+        256,
+        64
+      ],
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "variant": "movement",
+      "form": "snap",
+      "distinctFrames": 4,
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256Before": "5e5aa8d2e0fc92c6404782652a9418560fc022b20154c07394c14eea1f2d451a"
+    },
+    {
+      "id": "EN031",
+      "title": "Snapping plant",
+      "file": "sSnappingPlantStatic.png",
+      "size": [
+        64,
+        64
+      ],
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "variant": "static",
+      "form": "snap",
+      "distinctFrames": 1,
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256Before": "7f2f0d038f9a7f57a04b8429bba327270d7393830a3aad4834c0a6670c524870"
+    },
+    {
+      "id": "EN063",
+      "title": "Spam-envelope creature",
+      "file": "sSpamEnvelopeCreatureMove_strip4.png",
+      "size": [
+        256,
+        64
+      ],
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "variant": "movement",
+      "form": "fly",
+      "distinctFrames": 4,
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256Before": "108f63b9c6fde1e2ce3ff5da4bf3aeb7c0b1cf71de830222a0c56bb988e49819"
+    },
+    {
+      "id": "EN063",
+      "title": "Spam-envelope creature",
+      "file": "sSpamEnvelopeCreatureStatic.png",
+      "size": [
+        64,
+        64
+      ],
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "variant": "static",
+      "form": "fly",
+      "distinctFrames": 1,
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256Before": "844854aed2fd5aa9a5520e8b17db10b7d1abc4024e24b92532f5d2d27b98651f"
+    },
+    {
+      "id": "EN015",
+      "title": "Stone sentinel",
+      "file": "sStoneSentinelMove_strip4.png",
+      "size": [
+        256,
+        64
+      ],
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "variant": "movement",
+      "form": "walk",
+      "distinctFrames": 4,
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256Before": "324abffff3c58d8cb625b15edd29cbebddcc9c457fd42f580f8e7ebdca209658"
+    },
+    {
+      "id": "EN015",
+      "title": "Stone sentinel",
+      "file": "sStoneSentinelStatic.png",
+      "size": [
+        64,
+        64
+      ],
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "variant": "static",
+      "form": "walk",
+      "distinctFrames": 1,
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256Before": "8222cc03f3e5636a299d3d3d0043c114fca9d314b6c6d1a91126a4fc37b53d89"
+    },
+    {
+      "id": "EN028",
+      "title": "Tiny storm cloud",
+      "file": "sTinyStormCloudMove_strip4.png",
+      "size": [
+        256,
+        64
+      ],
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "variant": "movement",
+      "form": "float",
+      "distinctFrames": 4,
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256Before": "d9d537674f54934d011f157f4b8302bcf956399c6d83ff463af92e2165e77b5f"
+    },
+    {
+      "id": "EN028",
+      "title": "Tiny storm cloud",
+      "file": "sTinyStormCloudStatic.png",
+      "size": [
+        64,
+        64
+      ],
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "variant": "static",
+      "form": "float",
+      "distinctFrames": 1,
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256Before": "1a51167b243c9661ea93187418f2e311227d01e2119204049df4206a71046668"
+    },
+    {
+      "id": "EN037",
+      "title": "Turret robot",
+      "file": "sTurretRobotMove_strip4.png",
+      "size": [
+        256,
+        64
+      ],
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "variant": "movement",
+      "form": "turret",
+      "distinctFrames": 4,
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256Before": "fcf01cf8279f3b4c849d4c64d1a6731369aba20536e219a2846e31dd04f4a8c3"
+    },
+    {
+      "id": "EN037",
+      "title": "Turret robot",
+      "file": "sTurretRobotStatic.png",
+      "size": [
+        64,
+        64
+      ],
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "variant": "static",
+      "form": "turret",
+      "distinctFrames": 1,
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256Before": "6d2d22971103916cf5316a0090a0a66fe682a73b7f675e4c915d575ca9c6a590"
+    },
+    {
+      "id": "EN022",
+      "title": "Wasp",
+      "file": "sWaspMove_strip4.png",
+      "size": [
+        256,
+        64
+      ],
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "variant": "movement",
+      "form": "fly",
+      "distinctFrames": 4,
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256Before": "2c8c90c7964829c8130809f787130e85162a0f3bbf96bc8e9b6465a6a2aeabd9"
+    },
+    {
+      "id": "EN022",
+      "title": "Wasp",
+      "file": "sWaspStatic.png",
+      "size": [
+        64,
+        64
+      ],
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "variant": "static",
+      "form": "fly",
+      "distinctFrames": 1,
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256Before": "bc786202bfe7e588b5ff5b87c27b9ffa4cdf99de896303e526a815357ce60580"
+    }
+  ],
+  "assets": [
+    {
+      "id": "EN123",
+      "title": "Animated pumpkin",
+      "file": "sAnimatedPumpkinEnemyMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "b462deb587754397516b384f5a2193fb5ae8fa8504428859b25fd77dabaebe73"
+    },
+    {
+      "id": "EN118",
+      "title": "Armoured castle guard",
+      "file": "sArmouredCastleGuardEnemyMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "6c82443952b67e02f73f91121047242a176c6307124da83c28e2eee3a9afb3c7"
+    },
+    {
+      "id": "EN021",
+      "title": "Bat",
+      "file": "sBatMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "01f94d5f91aa6b8b50c15200843de3e901350c8bd70c862b72643451c406278d"
+    },
+    {
+      "id": "EN021",
+      "title": "Bat",
+      "file": "sBatStatic.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "distinctFrames": 1,
+      "sha256": "60ac48cd74dec89bd557a356c3765988ebec4ed374f2b3d7f69a92c5912c595a"
+    },
+    {
+      "id": "EN001",
+      "title": "Beetle",
+      "file": "sBeetleMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "837f9299d87ac8e9e1b205282448da9747b3202ffab27abf996c98d55f0fa157"
+    },
+    {
+      "id": "EN001",
+      "title": "Beetle",
+      "file": "sBeetleStatic.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "distinctFrames": 1,
+      "sha256": "cc6e32098a34c0ecfb775a0ca6c67f69595db8e5ea82a92dd68dd7bf76e872f6"
+    },
+    {
+      "id": "EN101",
+      "title": "Brown rat",
+      "file": "sBrownRatEnemyMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "bf1e1cf35990bb8a982a58c88d551957338d9b8038e02b5699700fb3cce7837f"
+    },
+    {
+      "id": "EN049",
+      "title": "Cartoon mould creature",
+      "file": "sCartoonMouldCreatureMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "70b7cd5461cb897c97343da4861d7905fc2ef07c9e7a97e088637ab76667f52c"
+    },
+    {
+      "id": "EN049",
+      "title": "Cartoon mould creature",
+      "file": "sCartoonMouldCreatureStatic.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "distinctFrames": 1,
+      "sha256": "5a8c707108889d31581835e6f6b1daf7dc9417fca55aa8c5952072260f67954c"
+    },
+    {
+      "id": "EN062",
+      "title": "Computer-bug creature",
+      "file": "sComputerBugCreatureMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "16e5aea2de979be525da926173ba1106bb59a23cdcd44a4b21b2506d048d7dab"
+    },
+    {
+      "id": "EN062",
+      "title": "Computer-bug creature",
+      "file": "sComputerBugCreatureStatic.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "distinctFrames": 1,
+      "sha256": "7eaa574254a1e6cdc2d47c785a3410835db4e9f6cd9f3b6e2f39a0f945bb6c2b"
+    },
+    {
+      "id": "EN003",
+      "title": "Crab",
+      "file": "sCrabMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "a3ddaafd3044b764204ab8d0552ca660bbceca01c3aeff7676e8184136bea89d"
+    },
+    {
+      "id": "EN003",
+      "title": "Crab",
+      "file": "sCrabStatic.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "distinctFrames": 1,
+      "sha256": "00185b7d99bcf7e3d69014be54d53be4e7ca3ee261eb6c70534d812cc2783c2d"
+    },
+    {
+      "id": "EN106",
+      "title": "Desert lizard",
+      "file": "sDesertLizardEnemyMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "1277b2c69e882923e433f9047c9d883a721fd1a54a1d12073d0066a2c3d21e35"
+    },
+    {
+      "id": "EN052",
+      "title": "Enchanted helmet",
+      "file": "sEnchantedHelmetMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "7f5aee04b351d6d44271e604bc4d6e1ec3fffd39c1f93df9e080c50f08e61740"
+    },
+    {
+      "id": "EN052",
+      "title": "Enchanted helmet",
+      "file": "sEnchantedHelmetStatic.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "distinctFrames": 1,
+      "sha256": "e74a077814336ed8dee41a3defdce898bae937391c9c72dd8fba0ef3670eb6bd"
+    },
+    {
+      "id": "EN124",
+      "title": "Floating eyeball",
+      "file": "sFloatingEyeballEnemyMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "6869b67470e59f2d2ec103d3e73f6e0b4ab9e11d94c27f97a90c76c27b40fd99"
+    },
+    {
+      "id": "EN029",
+      "title": "Floating jellyfish",
+      "file": "sFloatingJellyfishMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "2dfc4dd6d13415f3fe9f7654d0c5b04d028fd54d66bd8b2df388268bfc8517da"
+    },
+    {
+      "id": "EN029",
+      "title": "Floating jellyfish",
+      "file": "sFloatingJellyfishStatic.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "distinctFrames": 1,
+      "sha256": "e93c13b43c03e7472e758c2aded0c7dc8a3cbf46b1d9a3dad4e9a2070b190413"
+    },
+    {
+      "id": "EN108",
+      "title": "Garden slug",
+      "file": "sGardenSlugEnemyMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "08eeaca5421e0ba04fb2d54f66a147d3dc0c2e5f33e06e89862ec8f81bda259b"
+    },
+    {
+      "id": "EN102",
+      "title": "Garden spider",
+      "file": "sGardenSpiderEnemyMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "fa5eddc0a778312873b6b175150351b57cd1da0122fbd07d28b31a8284ae334a"
+    },
+    {
+      "id": "EN054",
+      "title": "Gargoyle",
+      "file": "sGargoyleMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "fdb67fa048a155d09d5cd8aa0fcc8c32e6d43fd89097528f8400d53d0fce7d96"
+    },
+    {
+      "id": "EN054",
+      "title": "Gargoyle",
+      "file": "sGargoyleStatic.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "distinctFrames": 1,
+      "sha256": "e66e40eac2e36440d57735ed3e47fe6344301db99704866e761993ccc31528e9"
+    },
+    {
+      "id": "EN115",
+      "title": "Glitch cube",
+      "file": "sGlitchCubeEnemyMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "5dac25893bc7321828ddf68ffcd37d1d585e0916404a2fa9200d5b7c7ce903ab"
+    },
+    {
+      "id": "EN117",
+      "title": "Goblin scout",
+      "file": "sGoblinScoutEnemyMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "80833f4537f4fe78584bd7a6e5d9156824db9da3554a030fe3c74da404563bef"
+    },
+    {
+      "id": "EN103",
+      "title": "Grass snake",
+      "file": "sGrassSnakeEnemyMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "d962281c5d01ec3b70d65c1a04a23a37659543dd173570aefc508e54af424aaf"
+    },
+    {
+      "id": "EN107",
+      "title": "Hungry caterpillar",
+      "file": "sHungryCaterpillarEnemyMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "76c88876cff787357d97f8c748102c08db3ae46ede6d6397c36c61112297d1ae"
+    },
+    {
+      "id": "EN019",
+      "title": "Ice crawler",
+      "file": "sIceCrawlerMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "0c9230ffbb64645d9de67e168e3e423f15d210126be94a92ef889d93127d9714"
+    },
+    {
+      "id": "EN019",
+      "title": "Ice crawler",
+      "file": "sIceCrawlerStatic.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "distinctFrames": 1,
+      "sha256": "538a5c35150594227ff98fd1420f5ea5e865758e0838595d6e18ab892eec83fd"
+    },
+    {
+      "id": "EN057",
+      "title": "Ink blot creature",
+      "file": "sInkBlotCreatureMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "1ba0daf875a377f13142a2a3ea89b65b7654d0c5bfb8c1de5bc26bc52ce32b0d"
+    },
+    {
+      "id": "EN057",
+      "title": "Ink blot creature",
+      "file": "sInkBlotCreatureStatic.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "distinctFrames": 1,
+      "sha256": "c38a308fa8999a237010fc02b003ee0543e70eb1f72dfab9ff77ba9f5239e13c"
+    },
+    {
+      "id": "EN116",
+      "title": "Kitchen helper robot",
+      "file": "sKitchenHelperRobotEnemyMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "0fb9121226871a8496417ddbea62b9aeeaed5cbe1a81c17afe31edc685646132"
+    },
+    {
+      "id": "EN130",
+      "title": "Lava imp",
+      "file": "sLavaImpEnemyMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "8d08e129ced021fea0089b01abda6bd7e12ed5a8af4fa3cee596262b35356e3c"
+    },
+    {
+      "id": "EN128",
+      "title": "Leaking maintenance robot",
+      "file": "sLeakingMaintenanceRobotEnemyMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "78557605d63fb0aa99560e4a958b9c6f7e4901afcf42a7d0eb5294f08a75d5ba"
+    },
+    {
+      "id": "EN125",
+      "title": "Litter creature",
+      "file": "sLitterCreatureEnemyMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "bf395ed44032ea41c1976572283a270cfec5743efc287b9b3f61a0c549601563"
+    },
+    {
+      "id": "EN020",
+      "title": "Magma crawler",
+      "file": "sMagmaCrawlerMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "0bb558dccc5ae5febdff6f395f0d429cb86ff20d3dda28d14425ee99cf5563d4"
+    },
+    {
+      "id": "EN020",
+      "title": "Magma crawler",
+      "file": "sMagmaCrawlerStatic.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "distinctFrames": 1,
+      "sha256": "48b54b6e9c670c01489c08db3ed2ce9298c621c9a1dea80beed573cc6e8fb914"
+    },
+    {
+      "id": "EN114",
+      "title": "Magnet robot",
+      "file": "sMagnetRobotEnemyMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "201e72577172a6151c47a00c613f3a8155d5d983e9425ac74b27885ea71ed13b"
+    },
+    {
+      "id": "EN119",
+      "title": "Mimic chest",
+      "file": "sMimicChestEnemyMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "b70270978d97585720c8afe52b18a47ffc991c773234b7b231b96f4b7c603d11"
+    },
+    {
+      "id": "EN120",
+      "title": "Mischievous imp",
+      "file": "sMischievousImpEnemyMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "e1f1305e4a95c23e6b9a626c7934e21277ed5408e13d9e12dc2d114d25642bca"
+    },
+    {
+      "id": "EN105",
+      "title": "Mountain goat",
+      "file": "sMountainGoatEnemyMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "08ab037a1a13baa005ebcf9713b85dc409aab892529d5b4d770b8679dde6611e"
+    },
+    {
+      "id": "EN017",
+      "title": "Mushroom walker",
+      "file": "sMushroomWalkerMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "b6fc54e918291518d9cd2ff1adbca3cb2b7785cdee281b1e59bcd99b2d46dd6b"
+    },
+    {
+      "id": "EN017",
+      "title": "Mushroom walker",
+      "file": "sMushroomWalkerStatic.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "distinctFrames": 1,
+      "sha256": "e6502dbabbbed09a0f8e7efaa86145b2467263c6b593e64a4b31b9f6908ca29d"
+    },
+    {
+      "id": "EN126",
+      "title": "Oil blob",
+      "file": "sOilBlobEnemyMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "ce4b51e53f1da6341411a0249e446261bee8d94ec3e77800a2afe5daaa1cbac1"
+    },
+    {
+      "id": "EN011",
+      "title": "Patrol robot",
+      "file": "sPatrolRobotMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "e94095ff076fdf20a42564b5de893c6fe1f1396d579675202ea031277a523593"
+    },
+    {
+      "id": "EN011",
+      "title": "Patrol robot",
+      "file": "sPatrolRobotStatic.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "distinctFrames": 1,
+      "sha256": "5ada0e7ed0d57f46778126b8deee0216ed8cbc53c9dee0fbfac1ea7c64622ef1"
+    },
+    {
+      "id": "EN109",
+      "title": "Pufferfish",
+      "file": "sPufferfishEnemyMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "96ef5f50c2641902ce8373ee1a19a5ed97066a704b1c70fe069a2347504c1858"
+    },
+    {
+      "id": "EN110",
+      "title": "Reef shark",
+      "file": "sReefSharkEnemyMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "aad8687cd1f816aaf49ab1e5a2b39fe5c57aea95be30419e60ff9dc8875da2cb"
+    },
+    {
+      "id": "EN113",
+      "title": "Rolling security robot",
+      "file": "sRollingSecurityRobotEnemyMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "0f70e2b3035a32b6ebebab6fda5243abbec689000e901007f65f8e0861cdcf5b"
+    },
+    {
+      "id": "EN045",
+      "title": "Runaway tyre",
+      "file": "sRunawayTyreMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "2f9d9ba62f2e9cc091d9e6c8d34303dc3adbb8486233f4d65b40cbabf07eee14"
+    },
+    {
+      "id": "EN045",
+      "title": "Runaway tyre",
+      "file": "sRunawayTyreStatic.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "distinctFrames": 1,
+      "sha256": "915fd492f665cd9df7ed14694e1211b49f08f08be8cbd9c1de1974af93329cb4"
+    },
+    {
+      "id": "EN132",
+      "title": "Sand whirlwind",
+      "file": "sSandWhirlwindEnemyMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "8de229dcfe81310a7bf24e945842b5589f82a6d678463a4075f43d09c4ed4609"
+    },
+    {
+      "id": "EN007",
+      "title": "Scorpion",
+      "file": "sScorpionMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "21bbaccfb906f5dd8a184711106750e691f8c9b9ee2e489e275b73c959b34c1c"
+    },
+    {
+      "id": "EN007",
+      "title": "Scorpion",
+      "file": "sScorpionStatic.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "distinctFrames": 1,
+      "sha256": "5d47fb7d7719c84029601213ba8481fece11cb38c884932d38905772ae87f7ac"
+    },
+    {
+      "id": "EN127",
+      "title": "Scrap creature",
+      "file": "sScrapCreatureEnemyMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "e8c3232b58a415526282a8ede431f7dcee67ec3c3a1af8625d3131869d8b2c9b"
+    },
+    {
+      "id": "EN025",
+      "title": "Security drone",
+      "file": "sSecurityDroneMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "abe665eaf9a05be2520ed28b1e40ad6c9802a80869f9624e2e6adb9bdfa9b8b7"
+    },
+    {
+      "id": "EN025",
+      "title": "Security drone",
+      "file": "sSecurityDroneStatic.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "distinctFrames": 1,
+      "sha256": "4c990eacb6dc59de2b7fc39662be137463eb375732370488541f6eb6d9739e66"
+    },
+    {
+      "id": "EN122",
+      "title": "Skeleton guard",
+      "file": "sSkeletonGuardEnemyMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "56d1b642b446dac084167372a3e52a5bea64d895e882e6f83c89d854303b4d2a"
+    },
+    {
+      "id": "EN050",
+      "title": "Smog-cloud creature",
+      "file": "sSmogCloudCreatureMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "1ebd3f9f238aac140b7c66b0e51da75115c5519927ec3c7d2565779c6b99906e"
+    },
+    {
+      "id": "EN050",
+      "title": "Smog-cloud creature",
+      "file": "sSmogCloudCreatureStatic.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "distinctFrames": 1,
+      "sha256": "5670a5e55b7d70643c2f2f079889f8b99118943875a3b614d16bc14f17bbfcd7"
+    },
+    {
+      "id": "EN004",
+      "title": "Snail",
+      "file": "sSnailMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "2ab1fe24dec6014f377330504c911f9382432ca67c8d2138db6b5edd2137e936"
+    },
+    {
+      "id": "EN004",
+      "title": "Snail",
+      "file": "sSnailStatic.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "distinctFrames": 1,
+      "sha256": "9eee123393d6bbbfab3dad117580f138ab42f5ea71a9a754ea01039b46996ddb"
+    },
+    {
+      "id": "EN031",
+      "title": "Snapping plant",
+      "file": "sSnappingPlantMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "5e5aa8d2e0fc92c6404782652a9418560fc022b20154c07394c14eea1f2d451a"
+    },
+    {
+      "id": "EN031",
+      "title": "Snapping plant",
+      "file": "sSnappingPlantStatic.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "distinctFrames": 1,
+      "sha256": "7f2f0d038f9a7f57a04b8429bba327270d7393830a3aad4834c0a6670c524870"
+    },
+    {
+      "id": "EN111",
+      "title": "Snapping river fish",
+      "file": "sSnappingRiverFishEnemyMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "981f985a32df2984acfd5f13d2ee45d96760f33812a432b0ed6c49219a4506be"
+    },
+    {
+      "id": "EN112",
+      "title": "Snapping turtle",
+      "file": "sSnappingTurtleEnemyMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "7be82e1d34af7917ef22204de45077d20ecbf745ff1d6d6f19982390ae5babc8"
+    },
+    {
+      "id": "EN131",
+      "title": "Snow gremlin",
+      "file": "sSnowGremlinEnemyMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "1f2a3082ad0ee3b28fee18733aa5ba0739ab0e52b780e45d030cd0e894df45ba"
+    },
+    {
+      "id": "EN063",
+      "title": "Spam-envelope creature",
+      "file": "sSpamEnvelopeCreatureMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "108f63b9c6fde1e2ce3ff5da4bf3aeb7c0b1cf71de830222a0c56bb988e49819"
+    },
+    {
+      "id": "EN063",
+      "title": "Spam-envelope creature",
+      "file": "sSpamEnvelopeCreatureStatic.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "distinctFrames": 1,
+      "sha256": "844854aed2fd5aa9a5520e8b17db10b7d1abc4024e24b92532f5d2d27b98651f"
+    },
+    {
+      "id": "EN121",
+      "title": "Spooky ghost",
+      "file": "sSpookyGhostEnemyMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "7e0bd7b7c940db78aebbfb9dec5adc727e9526a6db1e078ec9625850aa478c84"
+    },
+    {
+      "id": "EN015",
+      "title": "Stone sentinel",
+      "file": "sStoneSentinelMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "d614861c1351b1e7cd872d1d35001e5f9b0ee39aff9b2cf3e80c39fd58a554d2"
+    },
+    {
+      "id": "EN015",
+      "title": "Stone sentinel",
+      "file": "sStoneSentinelStatic.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "distinctFrames": 1,
+      "sha256": "88f00b3804217425790da576dc5d16ec57d019efa071fecb927827e81f50c500"
+    },
+    {
+      "id": "EN129",
+      "title": "Thorn-vine walker",
+      "file": "sThornVineWalkerEnemyMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "6cc5d51ce0ac6a875391cbedef88ead6df007252f075f6638c45dba36f724f8f"
+    },
+    {
+      "id": "EN028",
+      "title": "Tiny storm cloud",
+      "file": "sTinyStormCloudMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "d9d537674f54934d011f157f4b8302bcf956399c6d83ff463af92e2165e77b5f"
+    },
+    {
+      "id": "EN028",
+      "title": "Tiny storm cloud",
+      "file": "sTinyStormCloudStatic.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "distinctFrames": 1,
+      "sha256": "1a51167b243c9661ea93187418f2e311227d01e2119204049df4206a71046668"
+    },
+    {
+      "id": "EN037",
+      "title": "Turret robot",
+      "file": "sTurretRobotMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "fcf01cf8279f3b4c849d4c64d1a6731369aba20536e219a2846e31dd04f4a8c3"
+    },
+    {
+      "id": "EN037",
+      "title": "Turret robot",
+      "file": "sTurretRobotStatic.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "distinctFrames": 1,
+      "sha256": "6d2d22971103916cf5316a0090a0a66fe682a73b7f675e4c915d575ca9c6a590"
+    },
+    {
+      "id": "EN022",
+      "title": "Wasp",
+      "file": "sWaspMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "2c8c90c7964829c8130809f787130e85162a0f3bbf96bc8e9b6465a6a2aeabd9"
+    },
+    {
+      "id": "EN022",
+      "title": "Wasp",
+      "file": "sWaspStatic.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "distinctFrames": 1,
+      "sha256": "bc786202bfe7e588b5ff5b87c27b9ffa4cdf99de896303e526a815357ce60580"
+    },
+    {
+      "id": "EN104",
+      "title": "Wild boar",
+      "file": "sWildBoarEnemyMove_strip4.png",
+      "frameSize": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "distinctFrames": 4,
+      "sha256": "a380b295f943160004a702c67532ad22cc957cdbc2783ddeb7e91d36df06d6aa"
+    }
+  ],
+  "newExportDetails": [
+    {
+      "id": "EN101",
+      "title": "Brown rat",
+      "file": "sBrownRatEnemyMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          119,
+          251,
+          594,
+          574
+        ],
+        [
+          49,
+          254,
+          517,
+          573
+        ],
+        [
+          125,
+          83,
+          592,
+          404
+        ],
+        [
+          73,
+          83,
+          524,
+          401
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          8,
+          28,
+          63,
+          64
+        ],
+        [
+          1,
+          28,
+          56,
+          64
+        ],
+        [
+          8,
+          28,
+          63,
+          64
+        ],
+        [
+          3,
+          28,
+          56,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "bf1e1cf35990bb8a982a58c88d551957338d9b8038e02b5699700fb3cce7837f"
+    },
+    {
+      "id": "EN102",
+      "title": "Garden spider",
+      "file": "sGardenSpiderEnemyMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          62,
+          237,
+          569,
+          567
+        ],
+        [
+          60,
+          243,
+          569,
+          570
+        ],
+        [
+          62,
+          152,
+          570,
+          470
+        ],
+        [
+          64,
+          152,
+          572,
+          471
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          1,
+          25,
+          63,
+          64
+        ],
+        [
+          1,
+          25,
+          63,
+          64
+        ],
+        [
+          1,
+          26,
+          63,
+          64
+        ],
+        [
+          1,
+          25,
+          63,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "fa5eddc0a778312873b6b175150351b57cd1da0122fbd07d28b31a8284ae334a"
+    },
+    {
+      "id": "EN103",
+      "title": "Grass snake",
+      "file": "sGrassSnakeEnemyMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          56,
+          276,
+          582,
+          522
+        ],
+        [
+          42,
+          276,
+          602,
+          524
+        ],
+        [
+          48,
+          193,
+          586,
+          431
+        ],
+        [
+          38,
+          191,
+          603,
+          430
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          2,
+          37,
+          62,
+          64
+        ],
+        [
+          1,
+          37,
+          63,
+          64
+        ],
+        [
+          1,
+          37,
+          62,
+          64
+        ],
+        [
+          1,
+          37,
+          63,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "d962281c5d01ec3b70d65c1a04a23a37659543dd173570aefc508e54af424aaf"
+    },
+    {
+      "id": "EN104",
+      "title": "Wild boar",
+      "file": "sWildBoarEnemyMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          76,
+          223,
+          603,
+          563
+        ],
+        [
+          44,
+          221,
+          559,
+          566
+        ],
+        [
+          79,
+          103,
+          602,
+          440
+        ],
+        [
+          51,
+          101,
+          566,
+          440
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          4,
+          26,
+          63,
+          64
+        ],
+        [
+          1,
+          26,
+          59,
+          64
+        ],
+        [
+          4,
+          26,
+          63,
+          64
+        ],
+        [
+          1,
+          26,
+          60,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "a380b295f943160004a702c67532ad22cc957cdbc2783ddeb7e91d36df06d6aa"
+    },
+    {
+      "id": "EN105",
+      "title": "Mountain goat",
+      "file": "sMountainGoatEnemyMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          58,
+          162,
+          588,
+          583
+        ],
+        [
+          62,
+          166,
+          556,
+          583
+        ],
+        [
+          48,
+          84,
+          591,
+          508
+        ],
+        [
+          62,
+          83,
+          557,
+          508
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          1,
+          17,
+          63,
+          64
+        ],
+        [
+          2,
+          17,
+          60,
+          64
+        ],
+        [
+          1,
+          17,
+          63,
+          64
+        ],
+        [
+          2,
+          17,
+          60,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "08ab037a1a13baa005ebcf9713b85dc409aab892529d5b4d770b8679dde6611e"
+    },
+    {
+      "id": "EN106",
+      "title": "Desert lizard",
+      "file": "sDesertLizardEnemyMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          85,
+          277,
+          608,
+          546
+        ],
+        [
+          49,
+          297,
+          546,
+          550
+        ],
+        [
+          78,
+          159,
+          605,
+          412
+        ],
+        [
+          48,
+          161,
+          553,
+          412
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          4,
+          34,
+          63,
+          64
+        ],
+        [
+          1,
+          35,
+          57,
+          64
+        ],
+        [
+          3,
+          35,
+          63,
+          64
+        ],
+        [
+          1,
+          35,
+          58,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "1277b2c69e882923e433f9047c9d883a721fd1a54a1d12073d0066a2c3d21e35"
+    },
+    {
+      "id": "EN107",
+      "title": "Hungry caterpillar",
+      "file": "sHungryCaterpillarEnemyMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          50,
+          243,
+          586,
+          544
+        ],
+        [
+          54,
+          250,
+          570,
+          546
+        ],
+        [
+          70,
+          127,
+          592,
+          424
+        ],
+        [
+          50,
+          128,
+          565,
+          425
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          1,
+          30,
+          63,
+          64
+        ],
+        [
+          1,
+          30,
+          61,
+          64
+        ],
+        [
+          2,
+          30,
+          63,
+          64
+        ],
+        [
+          1,
+          30,
+          61,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "76c88876cff787357d97f8c748102c08db3ae46ede6d6397c36c61112297d1ae"
+    },
+    {
+      "id": "EN108",
+      "title": "Garden slug",
+      "file": "sGardenSlugEnemyMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          50,
+          272,
+          600,
+          519
+        ],
+        [
+          37,
+          272,
+          588,
+          522
+        ],
+        [
+          50,
+          202,
+          602,
+          455
+        ],
+        [
+          37,
+          202,
+          592,
+          453
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          2,
+          36,
+          63,
+          64
+        ],
+        [
+          1,
+          36,
+          62,
+          64
+        ],
+        [
+          2,
+          36,
+          63,
+          64
+        ],
+        [
+          1,
+          36,
+          63,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "08eeaca5421e0ba04fb2d54f66a147d3dc0c2e5f33e06e89862ec8f81bda259b"
+    },
+    {
+      "id": "EN109",
+      "title": "Pufferfish",
+      "file": "sPufferfishEnemyMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          69,
+          160,
+          563,
+          532
+        ],
+        [
+          78,
+          160,
+          551,
+          538
+        ],
+        [
+          81,
+          109,
+          569,
+          482
+        ],
+        [
+          86,
+          109,
+          551,
+          482
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          1,
+          7,
+          63,
+          55
+        ],
+        [
+          1,
+          6,
+          62,
+          56
+        ],
+        [
+          2,
+          7,
+          63,
+          55
+        ],
+        [
+          2,
+          7,
+          62,
+          55
+        ]
+      ],
+      "grounded": false,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "96ef5f50c2641902ce8373ee1a19a5ed97066a704b1c70fe069a2347504c1858"
+    },
+    {
+      "id": "EN110",
+      "title": "Reef shark",
+      "file": "sReefSharkEnemyMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          70,
+          269,
+          617,
+          575
+        ],
+        [
+          25,
+          269,
+          565,
+          570
+        ],
+        [
+          69,
+          79,
+          614,
+          378
+        ],
+        [
+          25,
+          78,
+          576,
+          390
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          5,
+          14,
+          63,
+          49
+        ],
+        [
+          1,
+          14,
+          59,
+          49
+        ],
+        [
+          5,
+          14,
+          63,
+          49
+        ],
+        [
+          1,
+          14,
+          60,
+          50
+        ]
+      ],
+      "grounded": false,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "aad8687cd1f816aaf49ab1e5a2b39fe5c57aea95be30419e60ff9dc8875da2cb"
+    },
+    {
+      "id": "EN111",
+      "title": "Snapping river fish",
+      "file": "sSnappingRiverFishEnemyMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          75,
+          256,
+          602,
+          578
+        ],
+        [
+          33,
+          262,
+          549,
+          573
+        ],
+        [
+          63,
+          87,
+          608,
+          402
+        ],
+        [
+          22,
+          86,
+          559,
+          404
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          6,
+          13,
+          63,
+          50
+        ],
+        [
+          1,
+          13,
+          58,
+          50
+        ],
+        [
+          4,
+          13,
+          63,
+          50
+        ],
+        [
+          1,
+          13,
+          59,
+          50
+        ]
+      ],
+      "grounded": false,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "981f985a32df2984acfd5f13d2ee45d96760f33812a432b0ed6c49219a4506be"
+    },
+    {
+      "id": "EN112",
+      "title": "Snapping turtle",
+      "file": "sSnappingTurtleEnemyMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          68,
+          263,
+          620,
+          563
+        ],
+        [
+          43,
+          261,
+          541,
+          565
+        ],
+        [
+          68,
+          115,
+          620,
+          418
+        ],
+        [
+          48,
+          129,
+          542,
+          418
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          3,
+          31,
+          63,
+          64
+        ],
+        [
+          1,
+          31,
+          56,
+          64
+        ],
+        [
+          3,
+          31,
+          63,
+          64
+        ],
+        [
+          1,
+          32,
+          56,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "7be82e1d34af7917ef22204de45077d20ecbf745ff1d6d6f19982390ae5babc8"
+    },
+    {
+      "id": "EN113",
+      "title": "Rolling security robot",
+      "file": "sRollingSecurityRobotEnemyMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          191,
+          125,
+          583,
+          608
+        ],
+        [
+          63,
+          134,
+          479,
+          607
+        ],
+        [
+          178,
+          45,
+          588,
+          524
+        ],
+        [
+          95,
+          52,
+          504,
+          524
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          14,
+          8,
+          63,
+          64
+        ],
+        [
+          1,
+          8,
+          52,
+          64
+        ],
+        [
+          13,
+          8,
+          63,
+          64
+        ],
+        [
+          4,
+          8,
+          54,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "0f70e2b3035a32b6ebebab6fda5243abbec689000e901007f65f8e0861cdcf5b"
+    },
+    {
+      "id": "EN114",
+      "title": "Magnet robot",
+      "file": "sMagnetRobotEnemyMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          60,
+          161,
+          583,
+          549
+        ],
+        [
+          46,
+          161,
+          569,
+          545
+        ],
+        [
+          60,
+          80,
+          583,
+          466
+        ],
+        [
+          46,
+          110,
+          570,
+          490
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          2,
+          7,
+          63,
+          54
+        ],
+        [
+          1,
+          7,
+          62,
+          54
+        ],
+        [
+          2,
+          7,
+          63,
+          54
+        ],
+        [
+          1,
+          7,
+          62,
+          54
+        ]
+      ],
+      "grounded": false,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "201e72577172a6151c47a00c613f3a8155d5d983e9425ac74b27885ea71ed13b"
+    },
+    {
+      "id": "EN115",
+      "title": "Glitch cube",
+      "file": "sGlitchCubeEnemyMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          143,
+          181,
+          531,
+          526
+        ],
+        [
+          99,
+          171,
+          488,
+          515
+        ],
+        [
+          139,
+          131,
+          531,
+          482
+        ],
+        [
+          101,
+          135,
+          492,
+          477
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          6,
+          4,
+          63,
+          55
+        ],
+        [
+          1,
+          4,
+          58,
+          55
+        ],
+        [
+          6,
+          3,
+          63,
+          56
+        ],
+        [
+          1,
+          4,
+          59,
+          55
+        ]
+      ],
+      "grounded": false,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "5dac25893bc7321828ddf68ffcd37d1d585e0916404a2fa9200d5b7c7ce903ab"
+    },
+    {
+      "id": "EN116",
+      "title": "Kitchen helper robot",
+      "file": "sKitchenHelperRobotEnemyMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          58,
+          138,
+          600,
+          565
+        ],
+        [
+          36,
+          145,
+          571,
+          566
+        ],
+        [
+          61,
+          88,
+          617,
+          510
+        ],
+        [
+          34,
+          86,
+          579,
+          511
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          3,
+          19,
+          62,
+          64
+        ],
+        [
+          1,
+          19,
+          59,
+          64
+        ],
+        [
+          3,
+          19,
+          63,
+          64
+        ],
+        [
+          1,
+          19,
+          60,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "0fb9121226871a8496417ddbea62b9aeeaed5cbe1a81c17afe31edc685646132"
+    },
+    {
+      "id": "EN117",
+      "title": "Goblin scout",
+      "file": "sGoblinScoutEnemyMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          154,
+          193,
+          525,
+          627
+        ],
+        [
+          113,
+          197,
+          470,
+          631
+        ],
+        [
+          137,
+          55,
+          530,
+          490
+        ],
+        [
+          136,
+          61,
+          485,
+          490
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          6,
+          1,
+          63,
+          64
+        ],
+        [
+          1,
+          1,
+          55,
+          64
+        ],
+        [
+          4,
+          1,
+          63,
+          64
+        ],
+        [
+          4,
+          1,
+          57,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "80833f4537f4fe78584bd7a6e5d9156824db9da3554a030fe3c74da404563bef"
+    },
+    {
+      "id": "EN118",
+      "title": "Armoured castle guard",
+      "file": "sArmouredCastleGuardEnemyMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          155,
+          110,
+          530,
+          613
+        ],
+        [
+          104,
+          110,
+          449,
+          613
+        ],
+        [
+          155,
+          45,
+          541,
+          533
+        ],
+        [
+          104,
+          45,
+          449,
+          536
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          9,
+          0,
+          60,
+          64
+        ],
+        [
+          3,
+          0,
+          50,
+          64
+        ],
+        [
+          9,
+          1,
+          61,
+          64
+        ],
+        [
+          3,
+          1,
+          50,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "6c82443952b67e02f73f91121047242a176c6307124da83c28e2eee3a9afb3c7"
+    },
+    {
+      "id": "EN119",
+      "title": "Mimic chest",
+      "file": "sMimicChestEnemyMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          125,
+          294,
+          539,
+          595
+        ],
+        [
+          86,
+          238,
+          484,
+          589
+        ],
+        [
+          160,
+          67,
+          555,
+          422
+        ],
+        [
+          98,
+          179,
+          502,
+          494
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          5,
+          24,
+          62,
+          64
+        ],
+        [
+          1,
+          18,
+          55,
+          64
+        ],
+        [
+          10,
+          18,
+          63,
+          64
+        ],
+        [
+          2,
+          22,
+          57,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "b70270978d97585720c8afe52b18a47ffc991c773234b7b231b96f4b7c603d11"
+    },
+    {
+      "id": "EN120",
+      "title": "Mischievous imp",
+      "file": "sMischievousImpEnemyMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          77,
+          139,
+          566,
+          546
+        ],
+        [
+          52,
+          253,
+          577,
+          546
+        ],
+        [
+          119,
+          124,
+          566,
+          478
+        ],
+        [
+          58,
+          128,
+          577,
+          407
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          3,
+          3,
+          63,
+          51
+        ],
+        [
+          1,
+          16,
+          63,
+          51
+        ],
+        [
+          8,
+          19,
+          63,
+          63
+        ],
+        [
+          1,
+          18,
+          63,
+          54
+        ]
+      ],
+      "grounded": false,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "e1f1305e4a95c23e6b9a626c7934e21277ed5408e13d9e12dc2d114d25642bca"
+    },
+    {
+      "id": "EN121",
+      "title": "Spooky ghost",
+      "file": "sSpookyGhostEnemyMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          191,
+          177,
+          546,
+          564
+        ],
+        [
+          84,
+          158,
+          462,
+          547
+        ],
+        [
+          191,
+          83,
+          546,
+          462
+        ],
+        [
+          101,
+          112,
+          449,
+          490
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          15,
+          4,
+          60,
+          53
+        ],
+        [
+          3,
+          4,
+          51,
+          53
+        ],
+        [
+          15,
+          4,
+          60,
+          53
+        ],
+        [
+          4,
+          4,
+          50,
+          53
+        ]
+      ],
+      "grounded": false,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "7e0bd7b7c940db78aebbfb9dec5adc727e9526a6db1e078ec9625850aa478c84"
+    },
+    {
+      "id": "EN122",
+      "title": "Skeleton guard",
+      "file": "sSkeletonGuardEnemyMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          151,
+          100,
+          516,
+          598
+        ],
+        [
+          144,
+          103,
+          476,
+          606
+        ],
+        [
+          152,
+          54,
+          522,
+          546
+        ],
+        [
+          126,
+          51,
+          476,
+          555
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          8,
+          0,
+          58,
+          64
+        ],
+        [
+          7,
+          0,
+          53,
+          64
+        ],
+        [
+          8,
+          1,
+          58,
+          64
+        ],
+        [
+          5,
+          0,
+          53,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "56d1b642b446dac084167372a3e52a5bea64d895e882e6f83c89d854303b4d2a"
+    },
+    {
+      "id": "EN123",
+      "title": "Animated pumpkin",
+      "file": "sAnimatedPumpkinEnemyMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          121,
+          126,
+          554,
+          573
+        ],
+        [
+          97,
+          126,
+          468,
+          576
+        ],
+        [
+          128,
+          74,
+          570,
+          516
+        ],
+        [
+          105,
+          74,
+          471,
+          514
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          3,
+          7,
+          62,
+          64
+        ],
+        [
+          1,
+          7,
+          51,
+          64
+        ],
+        [
+          4,
+          7,
+          63,
+          64
+        ],
+        [
+          1,
+          7,
+          52,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "b462deb587754397516b384f5a2193fb5ae8fa8504428859b25fd77dabaebe73"
+    },
+    {
+      "id": "EN124",
+      "title": "Floating eyeball",
+      "file": "sFloatingEyeballEnemyMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          184,
+          249,
+          494,
+          576
+        ],
+        [
+          135,
+          234,
+          436,
+          552
+        ],
+        [
+          188,
+          96,
+          499,
+          422
+        ],
+        [
+          131,
+          120,
+          458,
+          449
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          14,
+          7,
+          55,
+          50
+        ],
+        [
+          9,
+          8,
+          49,
+          49
+        ],
+        [
+          15,
+          7,
+          55,
+          50
+        ],
+        [
+          9,
+          7,
+          51,
+          50
+        ]
+      ],
+      "grounded": false,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "6869b67470e59f2d2ec103d3e73f6e0b4ab9e11d94c27f97a90c76c27b40fd99"
+    },
+    {
+      "id": "EN125",
+      "title": "Litter creature",
+      "file": "sLitterCreatureEnemyMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          135,
+          157,
+          573,
+          578
+        ],
+        [
+          70,
+          156,
+          511,
+          585
+        ],
+        [
+          126,
+          69,
+          593,
+          495
+        ],
+        [
+          69,
+          79,
+          513,
+          498
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          8,
+          14,
+          62,
+          64
+        ],
+        [
+          1,
+          14,
+          55,
+          64
+        ],
+        [
+          7,
+          14,
+          63,
+          64
+        ],
+        [
+          1,
+          14,
+          55,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "bf395ed44032ea41c1976572283a270cfec5743efc287b9b3f61a0c549601563"
+    },
+    {
+      "id": "EN126",
+      "title": "Oil blob",
+      "file": "sOilBlobEnemyMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          48,
+          414,
+          605,
+          565
+        ],
+        [
+          27,
+          398,
+          579,
+          567
+        ],
+        [
+          43,
+          261,
+          604,
+          432
+        ],
+        [
+          23,
+          277,
+          588,
+          427
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          3,
+          46,
+          63,
+          64
+        ],
+        [
+          1,
+          45,
+          61,
+          64
+        ],
+        [
+          2,
+          45,
+          63,
+          64
+        ],
+        [
+          1,
+          46,
+          62,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "ce4b51e53f1da6341411a0249e446261bee8d94ec3e77800a2afe5daaa1cbac1"
+    },
+    {
+      "id": "EN127",
+      "title": "Scrap creature",
+      "file": "sScrapCreatureEnemyMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          129,
+          157,
+          569,
+          593
+        ],
+        [
+          70,
+          158,
+          507,
+          593
+        ],
+        [
+          136,
+          55,
+          586,
+          485
+        ],
+        [
+          66,
+          56,
+          507,
+          488
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          7,
+          13,
+          62,
+          64
+        ],
+        [
+          1,
+          13,
+          55,
+          64
+        ],
+        [
+          8,
+          13,
+          63,
+          64
+        ],
+        [
+          1,
+          13,
+          55,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "e8c3232b58a415526282a8ede431f7dcee67ec3c3a1af8625d3131869d8b2c9b"
+    },
+    {
+      "id": "EN128",
+      "title": "Leaking maintenance robot",
+      "file": "sLeakingMaintenanceRobotEnemyMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          160,
+          156,
+          558,
+          577
+        ],
+        [
+          77,
+          156,
+          490,
+          577
+        ],
+        [
+          160,
+          70,
+          570,
+          492
+        ],
+        [
+          77,
+          70,
+          486,
+          493
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          10,
+          12,
+          62,
+          64
+        ],
+        [
+          1,
+          12,
+          54,
+          64
+        ],
+        [
+          10,
+          12,
+          63,
+          64
+        ],
+        [
+          1,
+          12,
+          54,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "78557605d63fb0aa99560e4a958b9c6f7e4901afcf42a7d0eb5294f08a75d5ba"
+    },
+    {
+      "id": "EN129",
+      "title": "Thorn-vine walker",
+      "file": "sThornVineWalkerEnemyMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          152,
+          117,
+          563,
+          579
+        ],
+        [
+          92,
+          117,
+          476,
+          578
+        ],
+        [
+          156,
+          59,
+          575,
+          513
+        ],
+        [
+          92,
+          56,
+          476,
+          519
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          8,
+          6,
+          62,
+          64
+        ],
+        [
+          1,
+          6,
+          52,
+          64
+        ],
+        [
+          8,
+          6,
+          63,
+          64
+        ],
+        [
+          2,
+          6,
+          52,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "6cc5d51ce0ac6a875391cbedef88ead6df007252f075f6638c45dba36f724f8f"
+    },
+    {
+      "id": "EN130",
+      "title": "Lava imp",
+      "file": "sLavaImpEnemyMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          137,
+          223,
+          549,
+          536
+        ],
+        [
+          78,
+          310,
+          502,
+          536
+        ],
+        [
+          137,
+          113,
+          579,
+          414
+        ],
+        [
+          78,
+          197,
+          498,
+          481
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          7,
+          26,
+          60,
+          64
+        ],
+        [
+          1,
+          35,
+          55,
+          64
+        ],
+        [
+          7,
+          27,
+          63,
+          64
+        ],
+        [
+          1,
+          29,
+          54,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "8d08e129ced021fea0089b01abda6bd7e12ed5a8af4fa3cee596262b35356e3c"
+    },
+    {
+      "id": "EN131",
+      "title": "Snow gremlin",
+      "file": "sSnowGremlinEnemyMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          127,
+          203,
+          579,
+          577
+        ],
+        [
+          38,
+          197,
+          493,
+          577
+        ],
+        [
+          132,
+          61,
+          592,
+          435
+        ],
+        [
+          49,
+          63,
+          502,
+          433
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          10,
+          22,
+          62,
+          64
+        ],
+        [
+          1,
+          22,
+          53,
+          64
+        ],
+        [
+          10,
+          22,
+          63,
+          64
+        ],
+        [
+          1,
+          22,
+          54,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "1f2a3082ad0ee3b28fee18733aa5ba0739ab0e52b780e45d030cd0e894df45ba"
+    },
+    {
+      "id": "EN132",
+      "title": "Sand whirlwind",
+      "file": "sSandWhirlwindEnemyMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          121,
+          167,
+          558,
+          576
+        ],
+        [
+          85,
+          129,
+          514,
+          554
+        ],
+        [
+          121,
+          75,
+          555,
+          497
+        ],
+        [
+          88,
+          102,
+          520,
+          514
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          7,
+          3,
+          60,
+          54
+        ],
+        [
+          4,
+          3,
+          56,
+          55
+        ],
+        [
+          7,
+          3,
+          60,
+          54
+        ],
+        [
+          4,
+          3,
+          57,
+          54
+        ]
+      ],
+      "grounded": false,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "8de229dcfe81310a7bf24e945842b5589f82a6d678463a4075f43d09c4ed4609"
+    },
+    {
+      "id": "EN015",
+      "title": "Stone sentinel",
+      "file": "sStoneSentinelMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          116,
+          150,
+          572,
+          600
+        ],
+        [
+          61,
+          149,
+          499,
+          601
+        ],
+        [
+          112,
+          51,
+          584,
+          500
+        ],
+        [
+          57,
+          51,
+          502,
+          499
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          7,
+          12,
+          62,
+          64
+        ],
+        [
+          1,
+          12,
+          54,
+          64
+        ],
+        [
+          6,
+          12,
+          63,
+          64
+        ],
+        [
+          1,
+          12,
+          55,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "d614861c1351b1e7cd872d1d35001e5f9b0ee39aff9b2cf3e80c39fd58a554d2"
+    }
+  ]
+}

@@ -34,6 +34,8 @@ function walk(directory) {
 for (const page of ['index.html', 'game-forge/index.html', 'prototype-chamber/index.html']) assert(existsSync(resolve(output, page)), `Missing ${page}`);
 walk(output);
 const catalogue = JSON.parse(readFileSync(resolve(output, 'game-forge/catalogue.json'), 'utf8'));
+const generatedCatalogue = JSON.parse(readFileSync(resolve(output, '../game-forge/public/catalogue.json'), 'utf8'));
+assert.deepEqual(catalogue, generatedCatalogue, 'Published catalogue differs from the freshly generated catalogue');
 assert(catalogue.assets.length > 0, 'Game Forge catalogue is empty');
 for (const asset of catalogue.assets) for (const file of asset.files) {
   checkLink(resolve(output, 'game-forge/index.html'), file.url);

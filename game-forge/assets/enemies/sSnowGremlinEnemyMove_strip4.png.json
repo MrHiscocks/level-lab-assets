@@ -1,0 +1,54 @@
+{
+  "id": "EN131",
+  "title": "Snow gremlin",
+  "category": "enemies",
+  "variant": "movement",
+  "batch": 34,
+  "tags": [
+    "climate",
+    "enemies",
+    "enemy",
+    "fantasy",
+    "ice",
+    "movement",
+    "obstacle",
+    "patrol",
+    "polar",
+    "quadruped",
+    "snow",
+    "tundra"
+  ],
+  "form": "quadruped",
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 14,
+    "right": 49,
+    "top": 32,
+    "bottom": 63
+  },
+  "fps": 6,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "1f2a3082ad0ee3b28fee18733aa5ba0739ab0e52b780e45d030cd0e894df45ba",
+  "sourceFile": "EN131.png",
+  "sourceBatch": "Environment and climate",
+  "suggestedBehaviour": "patrol",
+  "description": "Snow gremlin. Movement animation for a patrol. Choose its role in your story; behaviour is added in GameMaker.",
+  "placement": "64 x 64 frames. Origin (32, 64). Use a fixed manual rectangular body mask for all frames. Ground contact at bottom of cell. PNG does not store origin, mask, playback settings or behaviour.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "62cd362775849255e39e96b41c411698ad277d9bb18e15be5e2727dafa8840ee",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}
