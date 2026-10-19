@@ -325,6 +325,48 @@
         "detail": "Short jump effect",
         "url": "assets/pixel-peaks/asset/sJump.wav",
         "theme": "pixel-peaks"
+      },
+      {
+        "id": "pixel-peaks/sTitle.png",
+        "name": "sTitle.png",
+        "title": "Game title",
+        "folder": "asset",
+        "kit": "levelup",
+        "group": "title-screen",
+        "width": 640,
+        "height": 240,
+        "frames": 1,
+        "detail": "Transparent PNG \u00b7 single frame",
+        "url": "assets/pixel-peaks/asset/sTitle.png",
+        "theme": "pixel-peaks"
+      },
+      {
+        "id": "pixel-peaks/sBackground_Title.png",
+        "name": "sBackground_Title.png",
+        "title": "Title-screen background",
+        "folder": "background",
+        "kit": "levelup",
+        "group": "title-screen",
+        "width": 1280,
+        "height": 640,
+        "frames": 1,
+        "detail": "1280 \u00d7 640 \u00b7 Single screen; no tiling",
+        "url": "assets/pixel-peaks/background/sBackground_Title.png",
+        "theme": "pixel-peaks"
+      },
+      {
+        "id": "pixel-peaks/sBtnStart.png",
+        "name": "sBtnStart.png",
+        "title": "Start Game",
+        "folder": "asset",
+        "kit": "levelup",
+        "group": "title-screen",
+        "width": 256,
+        "height": 64,
+        "frames": 1,
+        "detail": "Transparent PNG \u00b7 single frame",
+        "url": "assets/pixel-peaks/asset/sBtnStart.png",
+        "theme": "pixel-peaks"
       }
     ]
   },
@@ -653,6 +695,48 @@
         "duration": 0.23,
         "detail": "Short jump effect",
         "url": "assets/cosmic-outpost/asset/sJump.wav",
+        "theme": "cosmic-outpost"
+      },
+      {
+        "id": "cosmic-outpost/sTitle.png",
+        "name": "sTitle.png",
+        "title": "Game title",
+        "folder": "asset",
+        "kit": "levelup",
+        "group": "title-screen",
+        "width": 640,
+        "height": 240,
+        "frames": 1,
+        "detail": "Transparent PNG \u00b7 single frame",
+        "url": "assets/cosmic-outpost/asset/sTitle.png",
+        "theme": "cosmic-outpost"
+      },
+      {
+        "id": "cosmic-outpost/sBackground_Title.png",
+        "name": "sBackground_Title.png",
+        "title": "Title-screen background",
+        "folder": "background",
+        "kit": "levelup",
+        "group": "title-screen",
+        "width": 1280,
+        "height": 640,
+        "frames": 1,
+        "detail": "1280 \u00d7 640 \u00b7 Single screen; no tiling",
+        "url": "assets/cosmic-outpost/background/sBackground_Title.png",
+        "theme": "cosmic-outpost"
+      },
+      {
+        "id": "cosmic-outpost/sBtnStart.png",
+        "name": "sBtnStart.png",
+        "title": "Start Game",
+        "folder": "asset",
+        "kit": "levelup",
+        "group": "title-screen",
+        "width": 256,
+        "height": 64,
+        "frames": 1,
+        "detail": "Transparent PNG \u00b7 single frame",
+        "url": "assets/cosmic-outpost/asset/sBtnStart.png",
         "theme": "cosmic-outpost"
       }
     ]
@@ -983,6 +1067,48 @@
         "detail": "Short jump effect",
         "url": "assets/monster-factory/asset/sJump.wav",
         "theme": "monster-factory"
+      },
+      {
+        "id": "monster-factory/sTitle.png",
+        "name": "sTitle.png",
+        "title": "Game title",
+        "folder": "asset",
+        "kit": "levelup",
+        "group": "title-screen",
+        "width": 640,
+        "height": 240,
+        "frames": 1,
+        "detail": "Transparent PNG \u00b7 single frame",
+        "url": "assets/monster-factory/asset/sTitle.png",
+        "theme": "monster-factory"
+      },
+      {
+        "id": "monster-factory/sBackground_Title.png",
+        "name": "sBackground_Title.png",
+        "title": "Title-screen background",
+        "folder": "background",
+        "kit": "levelup",
+        "group": "title-screen",
+        "width": 1280,
+        "height": 640,
+        "frames": 1,
+        "detail": "1280 \u00d7 640 \u00b7 Single screen; no tiling",
+        "url": "assets/monster-factory/background/sBackground_Title.png",
+        "theme": "monster-factory"
+      },
+      {
+        "id": "monster-factory/sBtnStart.png",
+        "name": "sBtnStart.png",
+        "title": "Start Game",
+        "folder": "asset",
+        "kit": "levelup",
+        "group": "title-screen",
+        "width": 256,
+        "height": 64,
+        "frames": 1,
+        "detail": "Transparent PNG \u00b7 single frame",
+        "url": "assets/monster-factory/asset/sBtnStart.png",
+        "theme": "monster-factory"
       }
     ]
   },
@@ -1311,6 +1437,48 @@
         "duration": 0.2,
         "detail": "Short jump effect",
         "url": "assets/festive-frenzy/asset/sJump.wav",
+        "theme": "festive-frenzy"
+      },
+      {
+        "id": "festive-frenzy/sTitle.png",
+        "name": "sTitle.png",
+        "title": "Game title",
+        "folder": "asset",
+        "kit": "levelup",
+        "group": "title-screen",
+        "width": 640,
+        "height": 240,
+        "frames": 1,
+        "detail": "Transparent PNG \u00b7 single frame",
+        "url": "assets/festive-frenzy/asset/sTitle.png",
+        "theme": "festive-frenzy"
+      },
+      {
+        "id": "festive-frenzy/sBackground_Title.png",
+        "name": "sBackground_Title.png",
+        "title": "Title-screen background",
+        "folder": "background",
+        "kit": "levelup",
+        "group": "title-screen",
+        "width": 1280,
+        "height": 640,
+        "frames": 1,
+        "detail": "1280 \u00d7 640 \u00b7 Single screen; no tiling",
+        "url": "assets/festive-frenzy/background/sBackground_Title.png",
+        "theme": "festive-frenzy"
+      },
+      {
+        "id": "festive-frenzy/sBtnStart.png",
+        "name": "sBtnStart.png",
+        "title": "Start Game",
+        "folder": "asset",
+        "kit": "levelup",
+        "group": "title-screen",
+        "width": 256,
+        "height": 64,
+        "frames": 1,
+        "detail": "Transparent PNG \u00b7 single frame",
+        "url": "assets/festive-frenzy/asset/sBtnStart.png",
         "theme": "festive-frenzy"
       }
     ]
@@ -1641,6 +1809,48 @@
         "detail": "Short jump effect",
         "url": "assets/sugar-rush/asset/sJump.wav",
         "theme": "sugar-rush"
+      },
+      {
+        "id": "sugar-rush/sTitle.png",
+        "name": "sTitle.png",
+        "title": "Game title",
+        "folder": "asset",
+        "kit": "levelup",
+        "group": "title-screen",
+        "width": 640,
+        "height": 240,
+        "frames": 1,
+        "detail": "Transparent PNG \u00b7 single frame",
+        "url": "assets/sugar-rush/asset/sTitle.png",
+        "theme": "sugar-rush"
+      },
+      {
+        "id": "sugar-rush/sBackground_Title.png",
+        "name": "sBackground_Title.png",
+        "title": "Title-screen background",
+        "folder": "background",
+        "kit": "levelup",
+        "group": "title-screen",
+        "width": 1280,
+        "height": 640,
+        "frames": 1,
+        "detail": "1280 \u00d7 640 \u00b7 Single screen; no tiling",
+        "url": "assets/sugar-rush/background/sBackground_Title.png",
+        "theme": "sugar-rush"
+      },
+      {
+        "id": "sugar-rush/sBtnStart.png",
+        "name": "sBtnStart.png",
+        "title": "Start Game",
+        "folder": "asset",
+        "kit": "levelup",
+        "group": "title-screen",
+        "width": 256,
+        "height": 64,
+        "frames": 1,
+        "detail": "Transparent PNG \u00b7 single frame",
+        "url": "assets/sugar-rush/asset/sBtnStart.png",
+        "theme": "sugar-rush"
       }
     ]
   },
@@ -1969,6 +2179,48 @@
         "duration": 0.25,
         "detail": "Short jump effect",
         "url": "assets/crystal-caverns/asset/sJump.wav",
+        "theme": "crystal-caverns"
+      },
+      {
+        "id": "crystal-caverns/sTitle.png",
+        "name": "sTitle.png",
+        "title": "Game title",
+        "folder": "asset",
+        "kit": "levelup",
+        "group": "title-screen",
+        "width": 640,
+        "height": 240,
+        "frames": 1,
+        "detail": "Transparent PNG \u00b7 single frame",
+        "url": "assets/crystal-caverns/asset/sTitle.png",
+        "theme": "crystal-caverns"
+      },
+      {
+        "id": "crystal-caverns/sBackground_Title.png",
+        "name": "sBackground_Title.png",
+        "title": "Title-screen background",
+        "folder": "background",
+        "kit": "levelup",
+        "group": "title-screen",
+        "width": 1280,
+        "height": 640,
+        "frames": 1,
+        "detail": "1280 \u00d7 640 \u00b7 Single screen; no tiling",
+        "url": "assets/crystal-caverns/background/sBackground_Title.png",
+        "theme": "crystal-caverns"
+      },
+      {
+        "id": "crystal-caverns/sBtnStart.png",
+        "name": "sBtnStart.png",
+        "title": "Start Game",
+        "folder": "asset",
+        "kit": "levelup",
+        "group": "title-screen",
+        "width": 256,
+        "height": 64,
+        "frames": 1,
+        "detail": "Transparent PNG \u00b7 single frame",
+        "url": "assets/crystal-caverns/asset/sBtnStart.png",
         "theme": "crystal-caverns"
       }
     ]
@@ -2299,6 +2551,48 @@
         "detail": "Short jump effect",
         "url": "assets/deep-blue/asset/sJump.wav",
         "theme": "deep-blue"
+      },
+      {
+        "id": "deep-blue/sTitle.png",
+        "name": "sTitle.png",
+        "title": "Game title",
+        "folder": "asset",
+        "kit": "levelup",
+        "group": "title-screen",
+        "width": 640,
+        "height": 240,
+        "frames": 1,
+        "detail": "Transparent PNG \u00b7 single frame",
+        "url": "assets/deep-blue/asset/sTitle.png",
+        "theme": "deep-blue"
+      },
+      {
+        "id": "deep-blue/sBackground_Title.png",
+        "name": "sBackground_Title.png",
+        "title": "Title-screen background",
+        "folder": "background",
+        "kit": "levelup",
+        "group": "title-screen",
+        "width": 1280,
+        "height": 640,
+        "frames": 1,
+        "detail": "1280 \u00d7 640 \u00b7 Single screen; no tiling",
+        "url": "assets/deep-blue/background/sBackground_Title.png",
+        "theme": "deep-blue"
+      },
+      {
+        "id": "deep-blue/sBtnStart.png",
+        "name": "sBtnStart.png",
+        "title": "Start Game",
+        "folder": "asset",
+        "kit": "levelup",
+        "group": "title-screen",
+        "width": 256,
+        "height": 64,
+        "frames": 1,
+        "detail": "Transparent PNG \u00b7 single frame",
+        "url": "assets/deep-blue/asset/sBtnStart.png",
+        "theme": "deep-blue"
       }
     ]
   },
@@ -2627,6 +2921,48 @@
         "duration": 0.23,
         "detail": "Short jump effect",
         "url": "assets/treasure-cove/asset/sJump.wav",
+        "theme": "treasure-cove"
+      },
+      {
+        "id": "treasure-cove/sTitle.png",
+        "name": "sTitle.png",
+        "title": "Game title",
+        "folder": "asset",
+        "kit": "levelup",
+        "group": "title-screen",
+        "width": 640,
+        "height": 240,
+        "frames": 1,
+        "detail": "Transparent PNG \u00b7 single frame",
+        "url": "assets/treasure-cove/asset/sTitle.png",
+        "theme": "treasure-cove"
+      },
+      {
+        "id": "treasure-cove/sBackground_Title.png",
+        "name": "sBackground_Title.png",
+        "title": "Title-screen background",
+        "folder": "background",
+        "kit": "levelup",
+        "group": "title-screen",
+        "width": 1280,
+        "height": 640,
+        "frames": 1,
+        "detail": "1280 \u00d7 640 \u00b7 Single screen; no tiling",
+        "url": "assets/treasure-cove/background/sBackground_Title.png",
+        "theme": "treasure-cove"
+      },
+      {
+        "id": "treasure-cove/sBtnStart.png",
+        "name": "sBtnStart.png",
+        "title": "Start Game",
+        "folder": "asset",
+        "kit": "levelup",
+        "group": "title-screen",
+        "width": 256,
+        "height": 64,
+        "frames": 1,
+        "detail": "Transparent PNG \u00b7 single frame",
+        "url": "assets/treasure-cove/asset/sBtnStart.png",
         "theme": "treasure-cove"
       }
     ]
@@ -2957,6 +3293,48 @@
         "detail": "Short jump effect",
         "url": "assets/dust-and-dynamite/asset/sJump.wav",
         "theme": "dust-and-dynamite"
+      },
+      {
+        "id": "dust-and-dynamite/sTitle.png",
+        "name": "sTitle.png",
+        "title": "Game title",
+        "folder": "asset",
+        "kit": "levelup",
+        "group": "title-screen",
+        "width": 640,
+        "height": 240,
+        "frames": 1,
+        "detail": "Transparent PNG \u00b7 single frame",
+        "url": "assets/dust-and-dynamite/asset/sTitle.png",
+        "theme": "dust-and-dynamite"
+      },
+      {
+        "id": "dust-and-dynamite/sBackground_Title.png",
+        "name": "sBackground_Title.png",
+        "title": "Title-screen background",
+        "folder": "background",
+        "kit": "levelup",
+        "group": "title-screen",
+        "width": 1280,
+        "height": 640,
+        "frames": 1,
+        "detail": "1280 \u00d7 640 \u00b7 Single screen; no tiling",
+        "url": "assets/dust-and-dynamite/background/sBackground_Title.png",
+        "theme": "dust-and-dynamite"
+      },
+      {
+        "id": "dust-and-dynamite/sBtnStart.png",
+        "name": "sBtnStart.png",
+        "title": "Start Game",
+        "folder": "asset",
+        "kit": "levelup",
+        "group": "title-screen",
+        "width": 256,
+        "height": 64,
+        "frames": 1,
+        "detail": "Transparent PNG \u00b7 single frame",
+        "url": "assets/dust-and-dynamite/asset/sBtnStart.png",
+        "theme": "dust-and-dynamite"
       }
     ]
   },
@@ -3285,6 +3663,48 @@
         "duration": 0.2,
         "detail": "Short jump effect",
         "url": "assets/midnight-manor/asset/sJump.wav",
+        "theme": "midnight-manor"
+      },
+      {
+        "id": "midnight-manor/sTitle.png",
+        "name": "sTitle.png",
+        "title": "Game title",
+        "folder": "asset",
+        "kit": "levelup",
+        "group": "title-screen",
+        "width": 640,
+        "height": 240,
+        "frames": 1,
+        "detail": "Transparent PNG \u00b7 single frame",
+        "url": "assets/midnight-manor/asset/sTitle.png",
+        "theme": "midnight-manor"
+      },
+      {
+        "id": "midnight-manor/sBackground_Title.png",
+        "name": "sBackground_Title.png",
+        "title": "Title-screen background",
+        "folder": "background",
+        "kit": "levelup",
+        "group": "title-screen",
+        "width": 1280,
+        "height": 640,
+        "frames": 1,
+        "detail": "1280 \u00d7 640 \u00b7 Single screen; no tiling",
+        "url": "assets/midnight-manor/background/sBackground_Title.png",
+        "theme": "midnight-manor"
+      },
+      {
+        "id": "midnight-manor/sBtnStart.png",
+        "name": "sBtnStart.png",
+        "title": "Start Game",
+        "folder": "asset",
+        "kit": "levelup",
+        "group": "title-screen",
+        "width": 256,
+        "height": 64,
+        "frames": 1,
+        "detail": "Transparent PNG \u00b7 single frame",
+        "url": "assets/midnight-manor/asset/sBtnStart.png",
         "theme": "midnight-manor"
       }
     ]

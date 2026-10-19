@@ -7,7 +7,7 @@ All PNGs have their final dimensions. Do not resize them during import.
 
 FOLDERS
 sprite: gameplay sprites.
-background: three 1280 x 640 backgrounds.
+background: three level backgrounds, plus a title-screen background in the Level Up Kit.
 asset: labels, decorative sprites, UI graphics and sound files.
 All student asset filenames start with s.
 
@@ -57,6 +57,15 @@ the other eight themes retain their previous reflected scenery. Each scene
 is deliberately softer than the foreground. Use the site's preview to
 inspect two copies side by side with a 64 pixel grid and foreground objects.
 
+TITLE SCREEN
+sTitle.png: 640 x 240, transparent, existing theme title resized without stretching.
+sBackground_Title.png: 1280 x 640, single title-room scene. Do not tile.
+sBtnStart.png: 256 x 64, transparent, one static Start Game button.
+Place the title and button separately; add your own characters and decorations.
+Use the existing sMusic sound from the Build Kit. No extra music is needed.
+To make the button clickable, assign its sprite to an object and add a mouse event.
+A graphic placed on an asset layer is decorative only.
+
 LABELS AND AUDIO
 Labels, end titles and buttons: 256 x 64, transparent PNG.
 These are artwork, not clickable controls or game behaviour.
@@ -68,7 +77,8 @@ BUILD KIT AND LEVEL UP KIT
 Build Kit: player, ground block, spikes, goal, three backgrounds, three level
 labels, theme music and jump sound.
 Level Up Kit: enemy, two collectables, health, extra hazard, moving platform,
-three decorations, win/game-over titles and restart/play-again graphics.
+three decorations, win/game-over titles, restart/play-again graphics,
+and a title-screen background, game title and Start Game button.
 Full Pack: both kits together.
 
 CUSTOM SELECTIONS
