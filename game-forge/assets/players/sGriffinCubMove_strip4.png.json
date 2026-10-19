@@ -7,16 +7,16 @@
   "batch": 18,
   "origin": [
     32,
-    96
+    64
   ],
   "mask": {
     "left": 20,
-    "top": 56,
     "right": 43,
-    "bottom": 95
+    "top": 24,
+    "bottom": 63
   },
   "fps": 6,
-  "placement": "Fixed mask excludes changing tails/wings; bottom 95 is the virtual platform contact for hovering sprites. Does not supply free-flight physics.",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Manual rectangular collision mask, fixed across all frames. Ground contact is the lower frame edge; do not auto-trim or independently centre frames. PNG files do not store origin, speed or collision settings.",
   "repeatHorizontal": false,
   "form": "quadruped",
   "loop": false,
@@ -24,8 +24,24 @@
   "description": "",
   "sourceFile": "Game_Forge_Batch_18/assets/players/sGriffinCubMove_strip4.png",
   "sourceBatch": "Game_Forge_Batch_18.zip",
-  "sourceSha256": "e6c5d5e24c27caf396b6bea9f405e812f95688c5f2bbdd686ca406332cb0a654",
+  "sourceSha256": "95b89430224cedbcb124b370b735eaf1bf8963bdcfcde5eefd74a98b6168d740",
   "frameWidth": 64,
-  "frameHeight": 96,
-  "frames": 4
+  "frameHeight": 64,
+  "frames": 4,
+  "exportRevision": {
+    "version": "players-64-v1",
+    "date": "2026-10-19",
+    "previousSha256": "e6c5d5e24c27caf396b6bea9f405e812f95688c5f2bbdd686ca406332cb0a654",
+    "originalFrameSize": [
+      64,
+      96
+    ],
+    "commonCropTop": 32,
+    "resizedContentWidth": 64,
+    "targetFrameSize": [
+      64,
+      64
+    ],
+    "method": "Common transparent-top crop, proportional Lanczos downscale, bottom-centred transparent canvas. Same transform across all variants."
+  }
 }

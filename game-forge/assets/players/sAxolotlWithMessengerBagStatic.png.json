@@ -7,16 +7,16 @@
   "batch": 18,
   "origin": [
     32,
-    96
+    64
   ],
   "mask": {
     "left": 20,
-    "top": 66,
     "right": 43,
-    "bottom": 95
+    "top": 34,
+    "bottom": 63
   },
   "fps": 6,
-  "placement": "Fixed mask excludes changing tails/wings; bottom 95 is the virtual platform contact for hovering sprites. Does not supply free-flight physics.",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Manual rectangular collision mask, fixed across all frames. Ground contact is the lower frame edge; do not auto-trim or independently centre frames. PNG files do not store origin, speed or collision settings.",
   "repeatHorizontal": false,
   "form": "quadruped",
   "loop": false,
@@ -24,8 +24,24 @@
   "description": "",
   "sourceFile": "Game_Forge_Batch_18/assets/players/sAxolotlWithMessengerBagStatic.png",
   "sourceBatch": "Game_Forge_Batch_18.zip",
-  "sourceSha256": "41d736a7a60c63307d737c7569a85530fdef800114168478083e26fa9bb71ca9",
+  "sourceSha256": "b2c28b3b99be1e3c118ddf01afe979d73d87c01ff514a89e6b817b2227d7bb47",
   "frameWidth": 64,
-  "frameHeight": 96,
-  "frames": 1
+  "frameHeight": 64,
+  "frames": 1,
+  "exportRevision": {
+    "version": "players-64-v1",
+    "date": "2026-10-19",
+    "previousSha256": "41d736a7a60c63307d737c7569a85530fdef800114168478083e26fa9bb71ca9",
+    "originalFrameSize": [
+      64,
+      96
+    ],
+    "commonCropTop": 32,
+    "resizedContentWidth": 64,
+    "targetFrameSize": [
+      64,
+      64
+    ],
+    "method": "Common transparent-top crop, proportional Lanczos downscale, bottom-centred transparent canvas. Same transform across all variants."
+  }
 }

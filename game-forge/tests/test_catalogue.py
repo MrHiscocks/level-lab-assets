@@ -9,7 +9,15 @@ class CatalogueTests(unittest.TestCase):
  def image(self,relative,size=(64,64)):
   p=module.ROOT/'assets'/relative;p.parent.mkdir(parents=True,exist_ok=True);Image.new('RGBA',size,(0,120,100,255)).save(p);return p
  def test_new_folder_file_appears_without_metadata(self):
-  self.image('players/woodland/sTestCreatureMove_strip4.png',(256,96));d=module.build();a=d['assets'][0];self.assertEqual(d['counts']['concepts'],1);self.assertEqual(a['primary']['frames'],4);self.assertEqual(a['primary']['frameWidth'],64);self.assertIn('woodland',a['tags']);self.assertEqual(a['category'],'players')
+  self.image('players/woodland/sTestCreatureMove_strip4.png',(256,64));d=module.build();a=d['assets'][0];self.assertEqual(d['counts']['concepts'],1);self.assertEqual(a['primary']['frames'],4);self.assertEqual(a['primary']['frameWidth'],64);self.assertEqual(a['primary']['frameHeight'],64);self.assertIn('woodland',a['tags']);self.assertEqual(a['category'],'players')
+ def test_wrong_player_dimensions_block_build(self):
+  for size in [(256,96),(384,64)]:
+   with self.subTest(size=size):
+    self.image('players/sTallMove_strip4.png',size)
+    with self.assertRaisesRegex(ValueError,'players must use 64 x 64 frames'):module.build()
+ def test_wrong_static_player_dimensions_block_build(self):
+  self.image('players/sTallStatic.png',(64,96))
+  with self.assertRaisesRegex(ValueError,'players must use 64 x 64 frames'):module.build()
  def test_invalid_strip_blocks_build(self):
   self.image('players/sBroken_strip4.png',(255,96))
   with self.assertRaisesRegex(ValueError,'not divisible'):module.build()

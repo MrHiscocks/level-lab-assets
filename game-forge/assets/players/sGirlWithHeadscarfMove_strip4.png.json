@@ -1,0 +1,55 @@
+{
+  "id": "PL113",
+  "title": "Girl with headscarf",
+  "category": "players",
+  "variant": "movement",
+  "batch": 24,
+  "tags": [
+    "adventure",
+    "community",
+    "girl",
+    "healthy eating",
+    "learning",
+    "movement",
+    "player",
+    "walk",
+    "wellbeing"
+  ],
+  "form": "walk",
+  "environments": [
+    "Indoors",
+    "Town & community",
+    "Woodland & gardens"
+  ],
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 22,
+    "right": 41,
+    "top": 15,
+    "bottom": 63
+  },
+  "fps": 8,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "114969d6ba201211053a21230b51b7deec1fa73e299df9b731fc87292960580e",
+  "sourceFile": "PL113.png",
+  "sourceBatch": "Player expansion batch 24",
+  "description": "Girl with headscarf. Four-frame walk movement animation.",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Set a fixed manual rectangular body mask for all frames. Ground contact at bottom of cell. PNG does not store origin, mask or playback settings.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "8037dc0e849e8f97f51c838e05f75b451fd116416586e3a7e4253f39874fed50",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

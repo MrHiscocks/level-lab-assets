@@ -7,16 +7,16 @@
   "batch": 18,
   "origin": [
     32,
-    96
+    64
   ],
   "mask": {
     "left": 20,
-    "top": 48,
     "right": 43,
-    "bottom": 95
+    "top": 16,
+    "bottom": 63
   },
   "fps": 6,
-  "placement": "Fixed mask excludes changing tails/wings; bottom 95 is the virtual platform contact for hovering sprites. Does not supply free-flight physics.",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Manual rectangular collision mask, fixed across all frames. Mask bottom 63 is virtual ground contact; artwork hovers above it. Flying/floating movement requires game code. PNG files do not store origin, speed or collision settings.",
   "repeatHorizontal": false,
   "form": "floating",
   "loop": false,
@@ -24,8 +24,24 @@
   "description": "",
   "sourceFile": "Game_Forge_Batch_18/assets/players/sCloudCreatureMove_strip4.png",
   "sourceBatch": "Game_Forge_Batch_18.zip",
-  "sourceSha256": "1f621eec4a0b8042bd38822fd3a57cc0fc6f63f917d440eeff10a0724d4a97b2",
+  "sourceSha256": "886af99de8f0c44eba68e4d12e3d7504117db526cbf731d0cb4e967789ab9604",
   "frameWidth": 64,
-  "frameHeight": 96,
-  "frames": 4
+  "frameHeight": 64,
+  "frames": 4,
+  "exportRevision": {
+    "version": "players-64-v1",
+    "date": "2026-10-19",
+    "previousSha256": "1f621eec4a0b8042bd38822fd3a57cc0fc6f63f917d440eeff10a0724d4a97b2",
+    "originalFrameSize": [
+      64,
+      96
+    ],
+    "commonCropTop": 32,
+    "resizedContentWidth": 64,
+    "targetFrameSize": [
+      64,
+      64
+    ],
+    "method": "Common transparent-top crop, proportional Lanczos downscale, bottom-centred transparent canvas. Same transform across all variants."
+  }
 }

@@ -7,25 +7,41 @@
   "batch": 15,
   "origin": [
     32,
-    96
+    64
   ],
   "mask": {
     "left": 20,
-    "top": 38,
     "right": 43,
-    "bottom": 95
+    "top": 6,
+    "bottom": 63
   },
   "fps": 8,
-  "placement": "",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Manual rectangular collision mask, fixed across all frames. Ground contact is the lower frame edge; do not auto-trim or independently centre frames. PNG files do not store origin, speed or collision settings.",
   "repeatHorizontal": false,
-  "form": "",
+  "form": "walk",
   "loop": false,
   "duration": null,
   "description": "",
   "sourceFile": "Game_Forge_Batch_15/assets/players/sRaccoonTinkererStatic.png",
   "sourceBatch": "Game_Forge_Batch_15.zip",
-  "sourceSha256": "0966ddaf0c85be5b22399b14ae7b33ea3a707eebd91d077e532c6d69b3c55b53",
+  "sourceSha256": "48b07dfaa752d3cb2cebf3f6ea484e3372d12f7b133d88981656b397f5c3f91f",
   "frameWidth": 64,
-  "frameHeight": 96,
-  "frames": 1
+  "frameHeight": 64,
+  "frames": 1,
+  "exportRevision": {
+    "version": "players-64-v1",
+    "date": "2026-10-19",
+    "previousSha256": "0966ddaf0c85be5b22399b14ae7b33ea3a707eebd91d077e532c6d69b3c55b53",
+    "originalFrameSize": [
+      64,
+      96
+    ],
+    "commonCropTop": 32,
+    "resizedContentWidth": 64,
+    "targetFrameSize": [
+      64,
+      64
+    ],
+    "method": "Common transparent-top crop, proportional Lanczos downscale, bottom-centred transparent canvas. Same transform across all variants."
+  }
 }

@@ -1,0 +1,6056 @@
+{
+  "date": "2026-10-19",
+  "sourceCommit": "7b8cd094218bd134d966ccf51ce0d9d84981a6d8",
+  "concepts": 48,
+  "files": 108,
+  "filesReviewed": [
+    {
+      "id": "PL001",
+      "title": "Fox explorer",
+      "file": "game-forge/assets/players/sFoxExplorerIdle_strip4.png",
+      "variant": "idle",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "8137ffa1446972876fdbe7cc3ffce2482bce2372ebd6990d74309eafb8ee8374",
+      "afterSha256": "2626c028fa64cbde8c65b457a6089a572a88ebf8594a304f8df40506ffa297f8",
+      "cropTop": 24,
+      "contentWidth": 57,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 30,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 20,
+        "right": 42,
+        "top": 5,
+        "bottom": 63
+      },
+      "fps": 4,
+      "form": "walk",
+      "frameBounds": [
+        [
+          7,
+          0,
+          45,
+          64
+        ],
+        [
+          6,
+          0,
+          45,
+          64
+        ],
+        [
+          7,
+          0,
+          47,
+          64
+        ],
+        [
+          6,
+          0,
+          45,
+          64
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL001",
+      "title": "Fox explorer",
+      "file": "game-forge/assets/players/sFoxExplorerMove_strip4.png",
+      "variant": "movement",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "6c7bbedff9a8ad3d69c6890e92e0af8cbe86e37ae05b4f1e2c04f8ceca3a6f67",
+      "afterSha256": "8f8f7737a3718e61944608a543b2c46d2937ccb1f626389f12adbc4a512b6fa7",
+      "cropTop": 24,
+      "contentWidth": 57,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 30,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 20,
+        "right": 42,
+        "top": 5,
+        "bottom": 63
+      },
+      "fps": 8,
+      "form": "walk",
+      "frameBounds": [
+        [
+          4,
+          0,
+          48,
+          64
+        ],
+        [
+          3,
+          0,
+          48,
+          64
+        ],
+        [
+          3,
+          0,
+          52,
+          64
+        ],
+        [
+          3,
+          0,
+          52,
+          64
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL001",
+      "title": "Fox explorer",
+      "file": "game-forge/assets/players/sFoxExplorerStatic.png",
+      "variant": "static",
+      "frames": 1,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "1aab357b410ee110c97957a1968656aff54c8863864621b5a1cc8f449590518e",
+      "afterSha256": "f991d4e8fbcf2501db5662b18c1382618fb967426c2e7007856d540e17c8c573",
+      "cropTop": 24,
+      "contentWidth": 57,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 30,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 20,
+        "right": 42,
+        "top": 5,
+        "bottom": 63
+      },
+      "fps": 8,
+      "form": "walk",
+      "frameBounds": [
+        [
+          7,
+          0,
+          45,
+          64
+        ]
+      ],
+      "uniqueFrames": 1
+    },
+    {
+      "id": "PL002",
+      "title": "Otter adventurer",
+      "file": "game-forge/assets/players/sOtterAdventurerIdle_strip4.png",
+      "variant": "idle",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "115088bedb76a38f3bdc9463e18b30cd75cb649f14c05d6820367c6419b87818",
+      "afterSha256": "05428d3654b2f5bd0593bce013ea31652e0715960d464ea18a6659ed98252194",
+      "cropTop": 23,
+      "contentWidth": 56,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 29,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 21,
+        "right": 42,
+        "top": 5,
+        "bottom": 63
+      },
+      "fps": 4,
+      "form": "walk",
+      "frameBounds": [
+        [
+          9,
+          0,
+          49,
+          64
+        ],
+        [
+          9,
+          0,
+          48,
+          64
+        ],
+        [
+          9,
+          0,
+          49,
+          64
+        ],
+        [
+          9,
+          0,
+          48,
+          64
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL002",
+      "title": "Otter adventurer",
+      "file": "game-forge/assets/players/sOtterAdventurerMove_strip4.png",
+      "variant": "movement",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "0e8b7b5d65e36a987fb27344a372af6bcf949eadd6049944ca3000c6f5c26b4b",
+      "afterSha256": "06f26cc8633112caa493eebd02ddb03233126a77ba6e8414a3b5e224d0dfb39e",
+      "cropTop": 23,
+      "contentWidth": 56,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 29,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 21,
+        "right": 42,
+        "top": 5,
+        "bottom": 63
+      },
+      "fps": 8,
+      "form": "walk",
+      "frameBounds": [
+        [
+          6,
+          0,
+          54,
+          64
+        ],
+        [
+          9,
+          0,
+          54,
+          64
+        ],
+        [
+          4,
+          0,
+          59,
+          64
+        ],
+        [
+          5,
+          0,
+          55,
+          64
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL002",
+      "title": "Otter adventurer",
+      "file": "game-forge/assets/players/sOtterAdventurerStatic.png",
+      "variant": "static",
+      "frames": 1,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "79d1356273ff936f48691b0c312175d5fda1e06df0cfb8597840b2090777b79e",
+      "afterSha256": "011be9064a8c0547065dd6fa249825ae875bf1d9b676b9bf7875cc46b7c6218c",
+      "cropTop": 23,
+      "contentWidth": 56,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 29,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 21,
+        "right": 42,
+        "top": 5,
+        "bottom": 63
+      },
+      "fps": 8,
+      "form": "walk",
+      "frameBounds": [
+        [
+          9,
+          0,
+          49,
+          64
+        ]
+      ],
+      "uniqueFrames": 1
+    },
+    {
+      "id": "PL004",
+      "title": "Rabbit courier",
+      "file": "game-forge/assets/players/sRabbitCourierIdle_strip4.png",
+      "variant": "idle",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "33954dba0f4c8a2937bca970989aa2c5c2a31bf94431d429917bb58f79968277",
+      "afterSha256": "1334a43117c8f9ba1c3c32684543c68698e1ac42bba1bb029115c86e55a2bfdb",
+      "cropTop": 10,
+      "contentWidth": 48,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 16,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 23,
+        "right": 40,
+        "top": 4,
+        "bottom": 63
+      },
+      "fps": 4,
+      "form": "walk",
+      "frameBounds": [
+        [
+          16,
+          0,
+          45,
+          64
+        ],
+        [
+          17,
+          0,
+          46,
+          64
+        ],
+        [
+          17,
+          0,
+          46,
+          64
+        ],
+        [
+          17,
+          0,
+          46,
+          64
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL004",
+      "title": "Rabbit courier",
+      "file": "game-forge/assets/players/sRabbitCourierMove_strip4.png",
+      "variant": "movement",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "010c94cb0e655f5e8ec74c6c671700c1bf2224fd86b6d79d4b3d9856e439e9fc",
+      "afterSha256": "4ba0bb391dad1096bdebd13fcc5f83ea15142e490c8c6d7d406ae1c9ce80462f",
+      "cropTop": 10,
+      "contentWidth": 48,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 16,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 23,
+        "right": 40,
+        "top": 4,
+        "bottom": 63
+      },
+      "fps": 8,
+      "form": "walk",
+      "frameBounds": [
+        [
+          11,
+          0,
+          49,
+          64
+        ],
+        [
+          11,
+          0,
+          48,
+          64
+        ],
+        [
+          12,
+          0,
+          54,
+          64
+        ],
+        [
+          16,
+          0,
+          54,
+          64
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL004",
+      "title": "Rabbit courier",
+      "file": "game-forge/assets/players/sRabbitCourierStatic.png",
+      "variant": "static",
+      "frames": 1,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "daeedd36b03e8984431d068d9370f7fc61d8a91354e09c0279a405b229600fa0",
+      "afterSha256": "c79759241e5a097bb0fd961ce15b60457c002d4e9e478531e1c67eb629667001",
+      "cropTop": 10,
+      "contentWidth": 48,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 16,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 23,
+        "right": 40,
+        "top": 4,
+        "bottom": 63
+      },
+      "fps": 8,
+      "form": "walk",
+      "frameBounds": [
+        [
+          16,
+          0,
+          45,
+          64
+        ]
+      ],
+      "uniqueFrames": 1
+    },
+    {
+      "id": "PL006",
+      "title": "Hedgehog traveller",
+      "file": "game-forge/assets/players/sHedgehogTravellerIdle_strip4.png",
+      "variant": "idle",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "47278782eeb6549a25cf2e2d667df04f4383fd61a1d89f185256febf7c8e0b07",
+      "afterSha256": "47152323c7d5effde4626c2b6f23c3779a7c52ab1db828b2a9f8cacc814ce14f",
+      "cropTop": 20,
+      "contentWidth": 54,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 26,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 21,
+        "right": 42,
+        "top": 5,
+        "bottom": 63
+      },
+      "fps": 4,
+      "form": "walk",
+      "frameBounds": [
+        [
+          12,
+          0,
+          52,
+          64
+        ],
+        [
+          13,
+          0,
+          52,
+          64
+        ],
+        [
+          13,
+          0,
+          52,
+          64
+        ],
+        [
+          13,
+          0,
+          51,
+          64
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL006",
+      "title": "Hedgehog traveller",
+      "file": "game-forge/assets/players/sHedgehogTravellerMove_strip4.png",
+      "variant": "movement",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "14f428c38f8777945152e69b86a2f766240a7fd4d4e145814600020d6fb00d87",
+      "afterSha256": "aab8145472bba97bae47fd98a9a55f54b57d081696c96c60cbe280bcc6bf1c7e",
+      "cropTop": 20,
+      "contentWidth": 54,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 26,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 21,
+        "right": 42,
+        "top": 5,
+        "bottom": 63
+      },
+      "fps": 8,
+      "form": "walk",
+      "frameBounds": [
+        [
+          9,
+          0,
+          55,
+          64
+        ],
+        [
+          10,
+          0,
+          54,
+          64
+        ],
+        [
+          12,
+          0,
+          59,
+          64
+        ],
+        [
+          13,
+          0,
+          59,
+          64
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL006",
+      "title": "Hedgehog traveller",
+      "file": "game-forge/assets/players/sHedgehogTravellerStatic.png",
+      "variant": "static",
+      "frames": 1,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "60b314f8cc5caae6025c68e4a996f5431766d9a80b8efe635db52c3e427c0523",
+      "afterSha256": "4b37f33928b60aa97699604062a8e21c9cffad5db7edc2f8819fef8af5957ad3",
+      "cropTop": 20,
+      "contentWidth": 54,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 26,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 21,
+        "right": 42,
+        "top": 5,
+        "bottom": 63
+      },
+      "fps": 8,
+      "form": "walk",
+      "frameBounds": [
+        [
+          12,
+          0,
+          52,
+          64
+        ]
+      ],
+      "uniqueFrames": 1
+    },
+    {
+      "id": "PL007",
+      "title": "Raccoon tinkerer",
+      "file": "game-forge/assets/players/sRaccoonTinkererIdle_strip4.png",
+      "variant": "idle",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "6b0177cf1d483c3489a6ddf0d378e557b8dc7df8a1984548f7af385102b9f60f",
+      "afterSha256": "993969ea16528d02fe1d413f88a04e853f82a6b81be32da041fdb19b7eefe546",
+      "cropTop": 32,
+      "contentWidth": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 38,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 20,
+        "right": 43,
+        "top": 6,
+        "bottom": 63
+      },
+      "fps": 4,
+      "form": "walk",
+      "frameBounds": [
+        [
+          8,
+          2,
+          46,
+          64
+        ],
+        [
+          8,
+          2,
+          45,
+          64
+        ],
+        [
+          7,
+          2,
+          46,
+          64
+        ],
+        [
+          8,
+          2,
+          46,
+          64
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL007",
+      "title": "Raccoon tinkerer",
+      "file": "game-forge/assets/players/sRaccoonTinkererMove_strip4.png",
+      "variant": "movement",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "df299792f1580037f47d88c903daa89127fad6cfb0fe8626309f4ee98e95d35e",
+      "afterSha256": "de773a367985fb2ce4c414ce14c352b3d4f95ac86c4c69e819f8d01a3a0ba6f2",
+      "cropTop": 32,
+      "contentWidth": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 38,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 20,
+        "right": 43,
+        "top": 6,
+        "bottom": 63
+      },
+      "fps": 8,
+      "form": "walk",
+      "frameBounds": [
+        [
+          5,
+          2,
+          48,
+          64
+        ],
+        [
+          5,
+          2,
+          47,
+          64
+        ],
+        [
+          2,
+          2,
+          52,
+          64
+        ],
+        [
+          7,
+          2,
+          51,
+          64
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL007",
+      "title": "Raccoon tinkerer",
+      "file": "game-forge/assets/players/sRaccoonTinkererStatic.png",
+      "variant": "static",
+      "frames": 1,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "0966ddaf0c85be5b22399b14ae7b33ea3a707eebd91d077e532c6d69b3c55b53",
+      "afterSha256": "48b07dfaa752d3cb2cebf3f6ea484e3372d12f7b133d88981656b397f5c3f91f",
+      "cropTop": 32,
+      "contentWidth": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 38,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 20,
+        "right": 43,
+        "top": 6,
+        "bottom": 63
+      },
+      "fps": 8,
+      "form": "walk",
+      "frameBounds": [
+        [
+          8,
+          2,
+          46,
+          64
+        ]
+      ],
+      "uniqueFrames": 1
+    },
+    {
+      "id": "PL009",
+      "title": "Frog ranger",
+      "file": "game-forge/assets/players/sFrogRangerIdle_strip4.png",
+      "variant": "idle",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "50b07d164d55fb30d3079a62a4108f78c33ccb1fd1f98ac1b06c5338f127735e",
+      "afterSha256": "052470abaa090a00a56f976ce79c576d6e74d01b9a37ee6bcf85b80a52320a4f",
+      "cropTop": 22,
+      "contentWidth": 55,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 28,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 21,
+        "right": 41,
+        "top": 5,
+        "bottom": 63
+      },
+      "fps": 4,
+      "form": "walk",
+      "frameBounds": [
+        [
+          14,
+          0,
+          48,
+          64
+        ],
+        [
+          14,
+          0,
+          49,
+          64
+        ],
+        [
+          14,
+          0,
+          49,
+          64
+        ],
+        [
+          13,
+          0,
+          49,
+          64
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL009",
+      "title": "Frog ranger",
+      "file": "game-forge/assets/players/sFrogRangerMove_strip4.png",
+      "variant": "movement",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "d3de332285eb6d6c3fe6a056eeb6c6a6052bd3616d38c507a82aa128dc71a23e",
+      "afterSha256": "40d2f40d8a8a8a3a7525e98a0e172f75a669c25255b0b492fef3bec368f218af",
+      "cropTop": 22,
+      "contentWidth": 55,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 28,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 21,
+        "right": 41,
+        "top": 5,
+        "bottom": 63
+      },
+      "fps": 8,
+      "form": "walk",
+      "frameBounds": [
+        [
+          12,
+          0,
+          55,
+          64
+        ],
+        [
+          12,
+          0,
+          54,
+          64
+        ],
+        [
+          4,
+          0,
+          59,
+          64
+        ],
+        [
+          13,
+          0,
+          57,
+          64
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL009",
+      "title": "Frog ranger",
+      "file": "game-forge/assets/players/sFrogRangerStatic.png",
+      "variant": "static",
+      "frames": 1,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "156b432c6822a14524bc4741a2242d05d5b7fca1edf4bb0f86c9039f6c355dd5",
+      "afterSha256": "6341c020fddc163da4d32b2f563b4caf195a9d1b562076678f750b2db6e1feae",
+      "cropTop": 22,
+      "contentWidth": 55,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 28,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 21,
+        "right": 41,
+        "top": 5,
+        "bottom": 63
+      },
+      "fps": 8,
+      "form": "walk",
+      "frameBounds": [
+        [
+          14,
+          0,
+          48,
+          64
+        ]
+      ],
+      "uniqueFrames": 1
+    },
+    {
+      "id": "PL011",
+      "title": "Box robot",
+      "file": "game-forge/assets/players/sBoxRobotIdle_strip4.png",
+      "variant": "idle",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "8e03ce2eeec113d221f54af1143a077f474b61050166e6b84cc6c07fd76af121",
+      "afterSha256": "59b853f70f98df5c2ddae7da16401bf111d0be876744a76494374339cfdad4a3",
+      "cropTop": 20,
+      "contentWidth": 54,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 26,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 21,
+        "right": 42,
+        "top": 5,
+        "bottom": 63
+      },
+      "fps": 4,
+      "form": "walk",
+      "frameBounds": [
+        [
+          13,
+          0,
+          51,
+          64
+        ],
+        [
+          14,
+          0,
+          52,
+          64
+        ],
+        [
+          14,
+          0,
+          52,
+          64
+        ],
+        [
+          13,
+          0,
+          52,
+          64
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL011",
+      "title": "Box robot",
+      "file": "game-forge/assets/players/sBoxRobotMove_strip4.png",
+      "variant": "movement",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "f92d539cd895c4325d836a5f2e88387f8a7bcb93dfb8b54582c46941dcdb055f",
+      "afterSha256": "50302e8c00533696510001d21077b3d7e71fd0ffd1fc7956dbc7f500a4ab4a41",
+      "cropTop": 20,
+      "contentWidth": 54,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 26,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 21,
+        "right": 42,
+        "top": 5,
+        "bottom": 63
+      },
+      "fps": 8,
+      "form": "walk",
+      "frameBounds": [
+        [
+          7,
+          0,
+          56,
+          64
+        ],
+        [
+          7,
+          0,
+          55,
+          64
+        ],
+        [
+          5,
+          0,
+          59,
+          64
+        ],
+        [
+          9,
+          0,
+          56,
+          64
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL011",
+      "title": "Box robot",
+      "file": "game-forge/assets/players/sBoxRobotStatic.png",
+      "variant": "static",
+      "frames": 1,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "3c68e43331f13dbd351dfec7315a4f1a1fe23dd7c150721337eac1efb762f99e",
+      "afterSha256": "89a4e410a57f6e2642b47f72bffc6a8d8b383c79d5f001cff8ad582958eb26ca",
+      "cropTop": 20,
+      "contentWidth": 54,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 26,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 21,
+        "right": 42,
+        "top": 5,
+        "bottom": 63
+      },
+      "fps": 8,
+      "form": "walk",
+      "frameBounds": [
+        [
+          13,
+          0,
+          51,
+          64
+        ]
+      ],
+      "uniqueFrames": 1
+    },
+    {
+      "id": "PL013",
+      "title": "Spring-legged robot",
+      "file": "game-forge/assets/players/sSpringleggedRobotIdle_strip4.png",
+      "variant": "idle",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "0d052d76d2736b206b24a99dc5eeb7447e6c12a720e72a2088d9c39bea065e4c",
+      "afterSha256": "2738d7211edf7f336df879fc9a6cb0da2bf80922f0a13e114795460fc28cf0b7",
+      "cropTop": 22,
+      "contentWidth": 55,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 28,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 21,
+        "right": 41,
+        "top": 5,
+        "bottom": 63
+      },
+      "fps": 4,
+      "form": "walk",
+      "frameBounds": [
+        [
+          15,
+          0,
+          49,
+          64
+        ],
+        [
+          15,
+          0,
+          49,
+          64
+        ],
+        [
+          15,
+          0,
+          49,
+          64
+        ],
+        [
+          15,
+          0,
+          49,
+          64
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL013",
+      "title": "Spring-legged robot",
+      "file": "game-forge/assets/players/sSpringleggedRobotMove_strip4.png",
+      "variant": "movement",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "5a7e8a1fe1cf022e547c3450f21fe5257b94691817d6e712a86e5e384d368f56",
+      "afterSha256": "2cea73cf4ed1b70e4bd22b7c0f5198a0a39498b2aa6008163855a9eb77af350c",
+      "cropTop": 22,
+      "contentWidth": 55,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 28,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 21,
+        "right": 41,
+        "top": 5,
+        "bottom": 63
+      },
+      "fps": 8,
+      "form": "walk",
+      "frameBounds": [
+        [
+          11,
+          0,
+          51,
+          64
+        ],
+        [
+          9,
+          0,
+          51,
+          64
+        ],
+        [
+          4,
+          0,
+          54,
+          64
+        ],
+        [
+          14,
+          0,
+          55,
+          64
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL013",
+      "title": "Spring-legged robot",
+      "file": "game-forge/assets/players/sSpringleggedRobotStatic.png",
+      "variant": "static",
+      "frames": 1,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "2069eb1a4ea9e7ccc647b711aa675a1c4016419343148a15062ffddfbe1b51f4",
+      "afterSha256": "70ff7fb5ed46c9f079a3dd3ba5d79a7abe09936bec6196ac4de843a5eba3270d",
+      "cropTop": 22,
+      "contentWidth": 55,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 28,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 21,
+        "right": 41,
+        "top": 5,
+        "bottom": 63
+      },
+      "fps": 8,
+      "form": "walk",
+      "frameBounds": [
+        [
+          15,
+          0,
+          49,
+          64
+        ]
+      ],
+      "uniqueFrames": 1
+    },
+    {
+      "id": "PL015",
+      "title": "Diving robot",
+      "file": "game-forge/assets/players/sDivingRobotMove_strip4.png",
+      "variant": "movement",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "addd3816587a49b79872ae76c6f030d7974c5d86da225662469524686051d963",
+      "afterSha256": "21fa55a3c159aa0059a9c07dda8dbf2ab140cdd2c14415d1688c84aa489b9681",
+      "cropTop": 25,
+      "contentWidth": 58,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 18,
+        "top": 42,
+        "right": 45,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 19,
+        "right": 44,
+        "top": 15,
+        "bottom": 63
+      },
+      "fps": 6,
+      "form": "walk",
+      "frameBounds": [
+        [
+          9,
+          0,
+          56,
+          64
+        ],
+        [
+          10,
+          0,
+          53,
+          64
+        ],
+        [
+          3,
+          0,
+          60,
+          64
+        ],
+        [
+          9,
+          0,
+          61,
+          64
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL015",
+      "title": "Diving robot",
+      "file": "game-forge/assets/players/sDivingRobotStatic.png",
+      "variant": "static",
+      "frames": 1,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "6138c83cc9e636e7ea0584f9ac229ba426c3ebd679c74601ea1d017561db015f",
+      "afterSha256": "12555ac437f9b9e437b031ce3b679ea2d774d6de829eba6b92d69294a9306f7f",
+      "cropTop": 25,
+      "contentWidth": 58,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 18,
+        "top": 42,
+        "right": 45,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 19,
+        "right": 44,
+        "top": 15,
+        "bottom": 63
+      },
+      "fps": 6,
+      "form": "walk",
+      "frameBounds": [
+        [
+          9,
+          0,
+          56,
+          64
+        ]
+      ],
+      "uniqueFrames": 1
+    },
+    {
+      "id": "PL016",
+      "title": "Repair robot",
+      "file": "game-forge/assets/players/sRepairRobotIdle_strip4.png",
+      "variant": "idle",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "0800b63a30d266d8a1fa7a75a6d594e7e69f63b5d644ab2c150706d05fb99483",
+      "afterSha256": "d5d10ec60e2c45393ea12fc20b51ccecd9109ba0bf98f9fb327f7a6de6d55702",
+      "cropTop": 10,
+      "contentWidth": 48,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 16,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 23,
+        "right": 40,
+        "top": 4,
+        "bottom": 63
+      },
+      "fps": 4,
+      "form": "walk",
+      "frameBounds": [
+        [
+          14,
+          0,
+          51,
+          64
+        ],
+        [
+          14,
+          0,
+          50,
+          64
+        ],
+        [
+          15,
+          0,
+          51,
+          64
+        ],
+        [
+          15,
+          0,
+          51,
+          64
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL016",
+      "title": "Repair robot",
+      "file": "game-forge/assets/players/sRepairRobotMove_strip4.png",
+      "variant": "movement",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "c3f935e367f7d9f97f9d25a5ab7636cc2dc5350fd9d6393e7839d2230f2893ca",
+      "afterSha256": "10a62d957dc896f3240cb2b763863ff072a2dc86b308857d395c1d385bce4aef",
+      "cropTop": 10,
+      "contentWidth": 48,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 16,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 23,
+        "right": 40,
+        "top": 4,
+        "bottom": 63
+      },
+      "fps": 8,
+      "form": "walk",
+      "frameBounds": [
+        [
+          10,
+          0,
+          52,
+          64
+        ],
+        [
+          10,
+          0,
+          52,
+          64
+        ],
+        [
+          8,
+          0,
+          56,
+          64
+        ],
+        [
+          15,
+          0,
+          55,
+          64
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL016",
+      "title": "Repair robot",
+      "file": "game-forge/assets/players/sRepairRobotStatic.png",
+      "variant": "static",
+      "frames": 1,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "805615733f9098de12b64bf1f1c41382c8eccd89f4ea2f4d316e74bd799b3f1a",
+      "afterSha256": "e2796957ca3334c18e0c72a43f6c0aa07e6c2ee81aa9c17bf11ad171f0a64993",
+      "cropTop": 10,
+      "contentWidth": 48,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 16,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 23,
+        "right": 40,
+        "top": 4,
+        "bottom": 63
+      },
+      "fps": 8,
+      "form": "walk",
+      "frameBounds": [
+        [
+          14,
+          0,
+          51,
+          64
+        ]
+      ],
+      "uniqueFrames": 1
+    },
+    {
+      "id": "PL017",
+      "title": "Alien scout",
+      "file": "game-forge/assets/players/sAlienScoutIdle_strip4.png",
+      "variant": "idle",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "2e48ced0835fe0327c30c7ca56dee67d7dab84f4e5c39aa6d123f1ceaaf5ec8b",
+      "afterSha256": "b34de3306ae631afc4ed2d3445535ead736dca14ce29e50a947615703c743c2f",
+      "cropTop": 10,
+      "contentWidth": 48,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 16,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 23,
+        "right": 40,
+        "top": 4,
+        "bottom": 63
+      },
+      "fps": 4,
+      "form": "walk",
+      "frameBounds": [
+        [
+          15,
+          0,
+          47,
+          64
+        ],
+        [
+          16,
+          0,
+          46,
+          64
+        ],
+        [
+          15,
+          0,
+          47,
+          64
+        ],
+        [
+          15,
+          0,
+          47,
+          64
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL017",
+      "title": "Alien scout",
+      "file": "game-forge/assets/players/sAlienScoutMove_strip4.png",
+      "variant": "movement",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "eec1dcffecc9dd87b592450df56639bf93797bf303052e45ec38daa6fe4de13c",
+      "afterSha256": "8ad36eeeb1d509febea410ab8f42009642162a02c4252a095f583f220aac3b35",
+      "cropTop": 10,
+      "contentWidth": 48,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 16,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 23,
+        "right": 40,
+        "top": 4,
+        "bottom": 63
+      },
+      "fps": 8,
+      "form": "walk",
+      "frameBounds": [
+        [
+          12,
+          0,
+          50,
+          64
+        ],
+        [
+          14,
+          0,
+          51,
+          64
+        ],
+        [
+          8,
+          0,
+          52,
+          64
+        ],
+        [
+          15,
+          0,
+          52,
+          64
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL017",
+      "title": "Alien scout",
+      "file": "game-forge/assets/players/sAlienScoutStatic.png",
+      "variant": "static",
+      "frames": 1,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "6261311618befa0da0fe3d2235201997db9ec03fc52af115c9764b5415af8394",
+      "afterSha256": "837757948bc4a932bb13bd0ef129f8408d173cb2ca3a0a61d68eebb0000ec501",
+      "cropTop": 10,
+      "contentWidth": 48,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 16,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 23,
+        "right": 40,
+        "top": 4,
+        "bottom": 63
+      },
+      "fps": 8,
+      "form": "walk",
+      "frameBounds": [
+        [
+          15,
+          0,
+          47,
+          64
+        ]
+      ],
+      "uniqueFrames": 1
+    },
+    {
+      "id": "PL019",
+      "title": "Satellite-headed robot",
+      "file": "game-forge/assets/players/sSatelliteheadedRobotIdle_strip4.png",
+      "variant": "idle",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "3b90e0a27ffdc2130ea1f1bade20b7244db77924499ab30458c02ec3df98bdc8",
+      "afterSha256": "4bdd4e9b0c7ac3526af709d7354817126fabd8b0f12d27ac7ece34d828601f37",
+      "cropTop": 10,
+      "contentWidth": 48,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 16,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 23,
+        "right": 40,
+        "top": 4,
+        "bottom": 63
+      },
+      "fps": 4,
+      "form": "walk",
+      "frameBounds": [
+        [
+          17,
+          0,
+          47,
+          64
+        ],
+        [
+          17,
+          0,
+          47,
+          64
+        ],
+        [
+          17,
+          0,
+          47,
+          64
+        ],
+        [
+          17,
+          0,
+          47,
+          64
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL019",
+      "title": "Satellite-headed robot",
+      "file": "game-forge/assets/players/sSatelliteheadedRobotMove_strip4.png",
+      "variant": "movement",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "4968e5a8de6050e951f157010a6e5ad69c41fcbae8b5f6d4eb49b5413911a391",
+      "afterSha256": "753f871abb6997d02ea5237fe6e2a41f24be2daeaac6efb4c5b662bd24c15548",
+      "cropTop": 10,
+      "contentWidth": 48,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 16,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 23,
+        "right": 40,
+        "top": 4,
+        "bottom": 63
+      },
+      "fps": 8,
+      "form": "walk",
+      "frameBounds": [
+        [
+          13,
+          0,
+          52,
+          64
+        ],
+        [
+          14,
+          0,
+          50,
+          64
+        ],
+        [
+          8,
+          1,
+          55,
+          64
+        ],
+        [
+          14,
+          0,
+          51,
+          64
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL019",
+      "title": "Satellite-headed robot",
+      "file": "game-forge/assets/players/sSatelliteheadedRobotStatic.png",
+      "variant": "static",
+      "frames": 1,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "5417af41b9c0e0e1054bb5c0f70091443c7095d5b019e12b761f7a4c6b97d7fe",
+      "afterSha256": "31619908a2ee1288cdc6c26c4b24acda7c94924b45c0bd2bb72253dda6619454",
+      "cropTop": 10,
+      "contentWidth": 48,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 16,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 23,
+        "right": 40,
+        "top": 4,
+        "bottom": 63
+      },
+      "fps": 8,
+      "form": "walk",
+      "frameBounds": [
+        [
+          17,
+          0,
+          47,
+          64
+        ]
+      ],
+      "uniqueFrames": 1
+    },
+    {
+      "id": "PL020",
+      "title": "Salvage robot",
+      "file": "game-forge/assets/players/sSalvageRobotIdle_strip4.png",
+      "variant": "idle",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "167eb9d0572a18ebc88709a06ffd0c0ac86f87d8d0e4ffa34aeb079c999b3e32",
+      "afterSha256": "85673ec525014c70866946266d2873fbf0702aafe04cbb36ed7fa560bc64c938",
+      "cropTop": 17,
+      "contentWidth": 52,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 23,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 22,
+        "right": 41,
+        "top": 4,
+        "bottom": 63
+      },
+      "fps": 4,
+      "form": "walk",
+      "frameBounds": [
+        [
+          14,
+          0,
+          51,
+          64
+        ],
+        [
+          14,
+          0,
+          51,
+          64
+        ],
+        [
+          14,
+          1,
+          51,
+          64
+        ],
+        [
+          14,
+          0,
+          51,
+          64
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL020",
+      "title": "Salvage robot",
+      "file": "game-forge/assets/players/sSalvageRobotMove_strip4.png",
+      "variant": "movement",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "14fcd82399026e8e36c5643f0bb38ba7e3e285b39843d46ee26e846ed80db87a",
+      "afterSha256": "80fcf45fb5e49ab86aeeb5c47cfb5941450d27ded3a5272305b3abc684f39964",
+      "cropTop": 17,
+      "contentWidth": 52,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 23,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 22,
+        "right": 41,
+        "top": 4,
+        "bottom": 63
+      },
+      "fps": 8,
+      "form": "walk",
+      "frameBounds": [
+        [
+          8,
+          0,
+          55,
+          64
+        ],
+        [
+          13,
+          0,
+          52,
+          64
+        ],
+        [
+          6,
+          0,
+          55,
+          64
+        ],
+        [
+          16,
+          0,
+          51,
+          64
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL020",
+      "title": "Salvage robot",
+      "file": "game-forge/assets/players/sSalvageRobotStatic.png",
+      "variant": "static",
+      "frames": 1,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "6e73bfb9070b6342a06b57e71b43606c723fa9cd1bb1fbc85365374f79c32d39",
+      "afterSha256": "5e35fdd2b967032888980cf359cc8d00e00fa7cf367f88069267d7a0757b1de7",
+      "cropTop": 17,
+      "contentWidth": 52,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 23,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 22,
+        "right": 41,
+        "top": 4,
+        "bottom": 63
+      },
+      "fps": 8,
+      "form": "walk",
+      "frameBounds": [
+        [
+          14,
+          0,
+          51,
+          64
+        ]
+      ],
+      "uniqueFrames": 1
+    },
+    {
+      "id": "PL021",
+      "title": "Mushroom creature",
+      "file": "game-forge/assets/players/sMushroomCreatureMove_strip4.png",
+      "variant": "movement",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "3d3c7eecb1df3f2ca08dab413c6ea36bb607dc3d63b055a034eb1e2789ea7a7b",
+      "afterSha256": "1fc4d0c734c4c35b0da27a250a35a35f5bc0b663ad044ae093f14af3419b24b6",
+      "cropTop": 22,
+      "contentWidth": 55,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 18,
+        "top": 47,
+        "right": 45,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 19,
+        "right": 43,
+        "top": 21,
+        "bottom": 63
+      },
+      "fps": 6,
+      "form": "walk",
+      "frameBounds": [
+        [
+          4,
+          0,
+          58,
+          64
+        ],
+        [
+          5,
+          0,
+          57,
+          64
+        ],
+        [
+          5,
+          1,
+          59,
+          64
+        ],
+        [
+          4,
+          1,
+          59,
+          64
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL021",
+      "title": "Mushroom creature",
+      "file": "game-forge/assets/players/sMushroomCreatureStatic.png",
+      "variant": "static",
+      "frames": 1,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "1ce4ab01eea3b9c1240020a9b6d30d597e97db5c12a9b383330e99b981f191c5",
+      "afterSha256": "c9bd57717af642d9d9dedb1f78d0de6f62341f074875ebfe5aebf696e4babc1b",
+      "cropTop": 22,
+      "contentWidth": 55,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 18,
+        "top": 47,
+        "right": 45,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 19,
+        "right": 43,
+        "top": 21,
+        "bottom": 63
+      },
+      "fps": 6,
+      "form": "walk",
+      "frameBounds": [
+        [
+          4,
+          0,
+          58,
+          64
+        ]
+      ],
+      "uniqueFrames": 1
+    },
+    {
+      "id": "PL023",
+      "title": "Pebble golem",
+      "file": "game-forge/assets/players/sPebbleGolemMove_strip4.png",
+      "variant": "movement",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "da07e12ab5a0eda97e04952e4fa002866cff974790598a75a7709f3c91126c15",
+      "afterSha256": "9c35a1e305f07ef592a92c8c43c12c7f3a9fbae2fa5e68e198f98dba2306558b",
+      "cropTop": 22,
+      "contentWidth": 55,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 18,
+        "top": 33,
+        "right": 45,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 19,
+        "right": 43,
+        "top": 9,
+        "bottom": 63
+      },
+      "fps": 6,
+      "form": "walk",
+      "frameBounds": [
+        [
+          5,
+          0,
+          58,
+          64
+        ],
+        [
+          7,
+          0,
+          55,
+          64
+        ],
+        [
+          4,
+          0,
+          59,
+          64
+        ],
+        [
+          5,
+          0,
+          59,
+          64
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL023",
+      "title": "Pebble golem",
+      "file": "game-forge/assets/players/sPebbleGolemStatic.png",
+      "variant": "static",
+      "frames": 1,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "bec1220bf68e56f01f2781c1acf4124435771aed743a2947eea25bb6c8febd66",
+      "afterSha256": "7300084f2bfad70fa2b2b3e4da5970638fdcf1c952a55dc3f135a3055deefe7f",
+      "cropTop": 22,
+      "contentWidth": 55,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 18,
+        "top": 33,
+        "right": 45,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 19,
+        "right": 43,
+        "top": 9,
+        "bottom": 63
+      },
+      "fps": 6,
+      "form": "walk",
+      "frameBounds": [
+        [
+          5,
+          0,
+          58,
+          64
+        ]
+      ],
+      "uniqueFrames": 1
+    },
+    {
+      "id": "PL024",
+      "title": "Crystal golem",
+      "file": "game-forge/assets/players/sCrystalGolemMove_strip4.png",
+      "variant": "movement",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "a8354c3317579e01a45959ec1c76bd45e7e2bd9d710e9c1f24b2351adaee2c72",
+      "afterSha256": "17d9f1cb746d003cb78dc82c1709ba6dde0d90de6427accc523a843e1e62e83d",
+      "cropTop": 20,
+      "contentWidth": 54,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 45,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 21,
+        "right": 42,
+        "top": 21,
+        "bottom": 63
+      },
+      "fps": 6,
+      "form": "floating",
+      "frameBounds": [
+        [
+          5,
+          1,
+          58,
+          60
+        ],
+        [
+          12,
+          0,
+          58,
+          59
+        ],
+        [
+          5,
+          2,
+          57,
+          60
+        ],
+        [
+          14,
+          0,
+          59,
+          59
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL024",
+      "title": "Crystal golem",
+      "file": "game-forge/assets/players/sCrystalGolemStatic.png",
+      "variant": "static",
+      "frames": 1,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "98fffd973ad509bcb58b8015756d19cf6c5369b315ec714f005adcc97940e030",
+      "afterSha256": "3e273b64e7f983135c9241facb22812655ff10ff91be4aba8db7ac7b742a31bd",
+      "cropTop": 20,
+      "contentWidth": 54,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 45,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 21,
+        "right": 42,
+        "top": 21,
+        "bottom": 63
+      },
+      "fps": 6,
+      "form": "floating",
+      "frameBounds": [
+        [
+          5,
+          1,
+          58,
+          60
+        ]
+      ],
+      "uniqueFrames": 1
+    },
+    {
+      "id": "PL025",
+      "title": "Flame creature",
+      "file": "game-forge/assets/players/sFlameCreatureMove_strip4.png",
+      "variant": "movement",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "d8d0d082c47afa911dbbea8ab46498c20b13fbf19ca6442ba8520a615a6e85f9",
+      "afterSha256": "9f9cb7d2c98c070af6c7303f92bcf16e08e79eace261619bc72feec01e42431a",
+      "cropTop": 22,
+      "contentWidth": 55,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 48,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 21,
+        "right": 41,
+        "top": 22,
+        "bottom": 63
+      },
+      "fps": 6,
+      "form": "floating",
+      "frameBounds": [
+        [
+          4,
+          3,
+          59,
+          53
+        ],
+        [
+          15,
+          0,
+          59,
+          53
+        ],
+        [
+          10,
+          5,
+          59,
+          53
+        ],
+        [
+          13,
+          5,
+          57,
+          53
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL025",
+      "title": "Flame creature",
+      "file": "game-forge/assets/players/sFlameCreatureStatic.png",
+      "variant": "static",
+      "frames": 1,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "c55436f200a0853486278fb02768b445432c2585bf08039eeda0ffabe61a747d",
+      "afterSha256": "a68fb7652f0d4a8598936014f1480aadbecb62512eec18da665dce1042dc6ca2",
+      "cropTop": 22,
+      "contentWidth": 55,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 48,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 21,
+        "right": 41,
+        "top": 22,
+        "bottom": 63
+      },
+      "fps": 6,
+      "form": "floating",
+      "frameBounds": [
+        [
+          4,
+          3,
+          59,
+          53
+        ]
+      ],
+      "uniqueFrames": 1
+    },
+    {
+      "id": "PL026",
+      "title": "Ice creature",
+      "file": "game-forge/assets/players/sIceCreatureMove_strip4.png",
+      "variant": "movement",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "a1dfa13f9e5e2342ebf74d7b829eccd44c184e03b9d4b708da402c595ef10ba6",
+      "afterSha256": "844777970c776a3348d5e910afa2f97c5537f514694d7fce9495767531aa004c",
+      "cropTop": 21,
+      "contentWidth": 55,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 44,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 21,
+        "right": 41,
+        "top": 19,
+        "bottom": 63
+      },
+      "fps": 6,
+      "form": "floating",
+      "frameBounds": [
+        [
+          4,
+          0,
+          59,
+          60
+        ],
+        [
+          8,
+          0,
+          59,
+          58
+        ],
+        [
+          6,
+          0,
+          59,
+          58
+        ],
+        [
+          9,
+          0,
+          59,
+          58
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL026",
+      "title": "Ice creature",
+      "file": "game-forge/assets/players/sIceCreatureStatic.png",
+      "variant": "static",
+      "frames": 1,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "352620cf8fbfcae1225df5cd45fc849fa1b00becaab40853ca7a23d20528bc16",
+      "afterSha256": "60fc7c5491ba88c280d297cdaf9f4fb3a756debc3e372789312943a2b0fc1919",
+      "cropTop": 21,
+      "contentWidth": 55,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 44,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 21,
+        "right": 41,
+        "top": 19,
+        "bottom": 63
+      },
+      "fps": 6,
+      "form": "floating",
+      "frameBounds": [
+        [
+          4,
+          0,
+          59,
+          60
+        ]
+      ],
+      "uniqueFrames": 1
+    },
+    {
+      "id": "PL027",
+      "title": "Cloud creature",
+      "file": "game-forge/assets/players/sCloudCreatureMove_strip4.png",
+      "variant": "movement",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "1f621eec4a0b8042bd38822fd3a57cc0fc6f63f917d440eeff10a0724d4a97b2",
+      "afterSha256": "886af99de8f0c44eba68e4d12e3d7504117db526cbf731d0cb4e967789ab9604",
+      "cropTop": 32,
+      "contentWidth": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 48,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 20,
+        "right": 43,
+        "top": 16,
+        "bottom": 63
+      },
+      "fps": 6,
+      "form": "floating",
+      "frameBounds": [
+        [
+          4,
+          6,
+          58,
+          47
+        ],
+        [
+          12,
+          6,
+          60,
+          47
+        ],
+        [
+          3,
+          6,
+          61,
+          47
+        ],
+        [
+          14,
+          8,
+          60,
+          45
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL027",
+      "title": "Cloud creature",
+      "file": "game-forge/assets/players/sCloudCreatureStatic.png",
+      "variant": "static",
+      "frames": 1,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "cb3bd766fe04453dfca02e056d62a4c0082ac2428222ca2eb04f04d4a9dbf2b8",
+      "afterSha256": "b917d45a334fced9f71d6a975c6648dc8b138a60f09dc3444e6d652e178debdd",
+      "cropTop": 32,
+      "contentWidth": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 48,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 20,
+        "right": 43,
+        "top": 16,
+        "bottom": 63
+      },
+      "fps": 6,
+      "form": "floating",
+      "frameBounds": [
+        [
+          4,
+          6,
+          58,
+          47
+        ]
+      ],
+      "uniqueFrames": 1
+    },
+    {
+      "id": "PL028",
+      "title": "Little dragon",
+      "file": "game-forge/assets/players/sLittleDragonMove_strip4.png",
+      "variant": "movement",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "cff4469a806eaac08710386efa62f460b64a21d8915445b6d19311c65f0bd6c8",
+      "afterSha256": "4d1a27f925f044049b611de10a564205bfa969b6d12bc30b48e0aea0ecb35288",
+      "cropTop": 32,
+      "contentWidth": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 57,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 20,
+        "right": 43,
+        "top": 25,
+        "bottom": 63
+      },
+      "fps": 6,
+      "form": "quadruped",
+      "frameBounds": [
+        [
+          4,
+          18,
+          61,
+          64
+        ],
+        [
+          3,
+          18,
+          61,
+          64
+        ],
+        [
+          3,
+          19,
+          60,
+          64
+        ],
+        [
+          3,
+          18,
+          61,
+          64
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL028",
+      "title": "Little dragon",
+      "file": "game-forge/assets/players/sLittleDragonStatic.png",
+      "variant": "static",
+      "frames": 1,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "157d7a28a4efd7ad4305b1d5a9cc7cd480b42438ba1d467428a33a38042173b3",
+      "afterSha256": "b3dae6e975af4714703006a9d4cf2a7b73e0ee63ece3020ae8d6f1c72f263420",
+      "cropTop": 32,
+      "contentWidth": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 57,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 20,
+        "right": 43,
+        "top": 25,
+        "bottom": 63
+      },
+      "fps": 6,
+      "form": "quadruped",
+      "frameBounds": [
+        [
+          4,
+          18,
+          61,
+          64
+        ]
+      ],
+      "uniqueFrames": 1
+    },
+    {
+      "id": "PL032",
+      "title": "Otter in buoyancy aid",
+      "file": "game-forge/assets/players/sOtterInBuoyancyAidMove_strip4.png",
+      "variant": "movement",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "19030775a21a92daa1c1dd90a9a81bb2e6dd3b41568d3ac08bf2aabdb12da7eb",
+      "afterSha256": "50e1fd73326a1b30d10487a55e3a81144da2a255e0e1b161890b27bd15f76a5f",
+      "cropTop": 22,
+      "contentWidth": 55,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 18,
+        "top": 27,
+        "right": 45,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 19,
+        "right": 43,
+        "top": 4,
+        "bottom": 63
+      },
+      "fps": 6,
+      "form": "walk",
+      "frameBounds": [
+        [
+          5,
+          0,
+          59,
+          64
+        ],
+        [
+          5,
+          0,
+          59,
+          64
+        ],
+        [
+          4,
+          0,
+          59,
+          64
+        ],
+        [
+          4,
+          0,
+          58,
+          64
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL032",
+      "title": "Otter in buoyancy aid",
+      "file": "game-forge/assets/players/sOtterInBuoyancyAidStatic.png",
+      "variant": "static",
+      "frames": 1,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "5c01a56040e4691afb625feae010316745d5ae4e25c00a19f2b3ab2d00401f66",
+      "afterSha256": "b5414c264fae025644ca08a9c58022833936a7ad347d0175b8e53fa1c877c129",
+      "cropTop": 22,
+      "contentWidth": 55,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 18,
+        "top": 27,
+        "right": 45,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 19,
+        "right": 43,
+        "top": 4,
+        "bottom": 63
+      },
+      "fps": 6,
+      "form": "walk",
+      "frameBounds": [
+        [
+          5,
+          0,
+          59,
+          64
+        ]
+      ],
+      "uniqueFrames": 1
+    },
+    {
+      "id": "PL035",
+      "title": "Mole with helmet and headtorch",
+      "file": "game-forge/assets/players/sMoleWithHelmetAndHeadtorchMove_strip4.png",
+      "variant": "movement",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "0fff53fabfb149aa8994d6f3360a1e7ec6bb6c19963986bf1cb892106f7b79d0",
+      "afterSha256": "d3d55f536e8484b8d3aaf1cd30c218832af6e378a65bb3b9104b5b9e71069728",
+      "cropTop": 26,
+      "contentWidth": 59,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 18,
+        "top": 38,
+        "right": 45,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 18,
+        "right": 44,
+        "top": 10,
+        "bottom": 63
+      },
+      "fps": 6,
+      "form": "walk",
+      "frameBounds": [
+        [
+          7,
+          0,
+          61,
+          64
+        ],
+        [
+          13,
+          0,
+          56,
+          64
+        ],
+        [
+          2,
+          0,
+          59,
+          64
+        ],
+        [
+          2,
+          0,
+          60,
+          64
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL035",
+      "title": "Mole with helmet and headtorch",
+      "file": "game-forge/assets/players/sMoleWithHelmetAndHeadtorchStatic.png",
+      "variant": "static",
+      "frames": 1,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "2e5819ac4f08cc22af46684f54152240adf501bf462811e7824a8be5818f6da5",
+      "afterSha256": "b6838349642084f2b00165434ab1ab9672a4905e54cc61546feaacc18fc5e128",
+      "cropTop": 26,
+      "contentWidth": 59,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 18,
+        "top": 38,
+        "right": 45,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 18,
+        "right": 44,
+        "top": 10,
+        "bottom": 63
+      },
+      "fps": 6,
+      "form": "walk",
+      "frameBounds": [
+        [
+          7,
+          0,
+          61,
+          64
+        ]
+      ],
+      "uniqueFrames": 1
+    },
+    {
+      "id": "PL042",
+      "title": "Robot made from reused household parts",
+      "file": "game-forge/assets/players/sRobotMadeFromReusedHouseholdPartsMove_strip4.png",
+      "variant": "movement",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "1096f383f0527810d67407e652a476d63647770f486414ef1ddb4cb1471820d4",
+      "afterSha256": "6c55eaefd88202c50f685890ea3047ac541147b6789def70955aea5b154ed0ec",
+      "cropTop": 22,
+      "contentWidth": 55,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 18,
+        "top": 40,
+        "right": 45,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 19,
+        "right": 43,
+        "top": 15,
+        "bottom": 63
+      },
+      "fps": 6,
+      "form": "walk",
+      "frameBounds": [
+        [
+          6,
+          0,
+          59,
+          64
+        ],
+        [
+          7,
+          0,
+          56,
+          64
+        ],
+        [
+          4,
+          0,
+          59,
+          64
+        ],
+        [
+          7,
+          0,
+          58,
+          64
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL042",
+      "title": "Robot made from reused household parts",
+      "file": "game-forge/assets/players/sRobotMadeFromReusedHouseholdPartsStatic.png",
+      "variant": "static",
+      "frames": 1,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "d342a6a9f5716b834cf8489287214c455b1cc59de95cd36df3b5148acbe7e7e2",
+      "afterSha256": "d9830f0f1ce52b7f6284ede9b2f6feec570c5b7911382302f0cf54111aa44570",
+      "cropTop": 22,
+      "contentWidth": 55,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 18,
+        "top": 40,
+        "right": 45,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 19,
+        "right": 43,
+        "top": 15,
+        "bottom": 63
+      },
+      "fps": 6,
+      "form": "walk",
+      "frameBounds": [
+        [
+          6,
+          0,
+          59,
+          64
+        ]
+      ],
+      "uniqueFrames": 1
+    },
+    {
+      "id": "PL043",
+      "title": "Pea-pod hero with lunchbox backpack",
+      "file": "game-forge/assets/players/sPeaPodHeroWithLunchboxBackpackMove_strip4.png",
+      "variant": "movement",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "de78751fc7fd5377b9acf88c6f5a6863fd7d4fa13ba94e35e3c95d275c4cd0af",
+      "afterSha256": "9dfe65d81876694b8b55c477af1f2cc7ad42ab53a9288f6d879f72aa0f8161f7",
+      "cropTop": 1,
+      "contentWidth": 43,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 18,
+        "top": 24,
+        "right": 45,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 22,
+        "right": 40,
+        "top": 15,
+        "bottom": 63
+      },
+      "fps": 6,
+      "form": "walk",
+      "frameBounds": [
+        [
+          14,
+          0,
+          53,
+          64
+        ],
+        [
+          14,
+          0,
+          51,
+          64
+        ],
+        [
+          10,
+          0,
+          53,
+          64
+        ],
+        [
+          13,
+          0,
+          52,
+          64
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL043",
+      "title": "Pea-pod hero with lunchbox backpack",
+      "file": "game-forge/assets/players/sPeaPodHeroWithLunchboxBackpackStatic.png",
+      "variant": "static",
+      "frames": 1,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "b2d9164dc8d6f54492e740a5cdf240a40ece8144756b10f1a1758ac84042b234",
+      "afterSha256": "0ac1180064fd1705a6e86412511d6dbb2b274567e4191f76741ee668c6a63953",
+      "cropTop": 1,
+      "contentWidth": 43,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 18,
+        "top": 24,
+        "right": 45,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 22,
+        "right": 40,
+        "top": 15,
+        "bottom": 63
+      },
+      "fps": 6,
+      "form": "walk",
+      "frameBounds": [
+        [
+          14,
+          0,
+          53,
+          64
+        ]
+      ],
+      "uniqueFrames": 1
+    },
+    {
+      "id": "PL045",
+      "title": "Leaf creature in trainers",
+      "file": "game-forge/assets/players/sLeafCreatureInTrainersMove_strip4.png",
+      "variant": "movement",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "64c7805ff24ef891e3c22dbaf68e06d7f7ec15a7d265312a15a2f3ae54ae5db1",
+      "afterSha256": "dd021cb30d6b3335c885b283ab5211297fb93eaad3359aebff7d0ae5b65c2823",
+      "cropTop": 18,
+      "contentWidth": 53,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 18,
+        "top": 41,
+        "right": 45,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 19,
+        "right": 43,
+        "top": 18,
+        "bottom": 63
+      },
+      "fps": 6,
+      "form": "walk",
+      "frameBounds": [
+        [
+          8,
+          0,
+          58,
+          64
+        ],
+        [
+          13,
+          0,
+          53,
+          64
+        ],
+        [
+          5,
+          0,
+          58,
+          64
+        ],
+        [
+          9,
+          0,
+          56,
+          64
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL045",
+      "title": "Leaf creature in trainers",
+      "file": "game-forge/assets/players/sLeafCreatureInTrainersStatic.png",
+      "variant": "static",
+      "frames": 1,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "16248cb500d6224c0b3872ed664ffb3e12ef5ca3ae5db943c7f14ae4e6d4cd75",
+      "afterSha256": "86d3446e8bf22b1182d35be0ef34d776236914a774d854c2a3f443875a053c3d",
+      "cropTop": 18,
+      "contentWidth": 53,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 18,
+        "top": 41,
+        "right": 45,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 19,
+        "right": 43,
+        "top": 18,
+        "bottom": 63
+      },
+      "fps": 6,
+      "form": "walk",
+      "frameBounds": [
+        [
+          8,
+          0,
+          58,
+          64
+        ]
+      ],
+      "uniqueFrames": 1
+    },
+    {
+      "id": "PL046",
+      "title": "Moss guardian",
+      "file": "game-forge/assets/players/sMossGuardianMove_strip4.png",
+      "variant": "movement",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "f9d192736c8e823b130fb7d93aae6570a3ce77630b98129cc980c19415ef3d41",
+      "afterSha256": "34ddedf2934994f66ca42401a37fc8be12ab53de1a497eef29f77b6b1e1bd671",
+      "cropTop": 32,
+      "contentWidth": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 68,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 20,
+        "right": 43,
+        "top": 36,
+        "bottom": 63
+      },
+      "fps": 6,
+      "form": "quadruped",
+      "frameBounds": [
+        [
+          9,
+          25,
+          60,
+          64
+        ],
+        [
+          7,
+          26,
+          61,
+          64
+        ],
+        [
+          3,
+          27,
+          60,
+          64
+        ],
+        [
+          5,
+          26,
+          60,
+          64
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL046",
+      "title": "Moss guardian",
+      "file": "game-forge/assets/players/sMossGuardianStatic.png",
+      "variant": "static",
+      "frames": 1,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "0b93f23f27623da0c1b47352a2400c2caa10db1d7037364a2e9c2fdfe8054143",
+      "afterSha256": "5c6abd5b923dbb7e2545cf9b38a950c2bec8e9359b54404684ab1bf944714674",
+      "cropTop": 32,
+      "contentWidth": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 68,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 20,
+        "right": 43,
+        "top": 36,
+        "bottom": 63
+      },
+      "fps": 6,
+      "form": "quadruped",
+      "frameBounds": [
+        [
+          9,
+          25,
+          60,
+          64
+        ]
+      ],
+      "uniqueFrames": 1
+    },
+    {
+      "id": "PL053",
+      "title": "Turtle with goggles",
+      "file": "game-forge/assets/players/sTurtleWithGogglesMove_strip4.png",
+      "variant": "movement",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "65a747a3634eaec5be48a596f9703a47fae48bc3910c2ade1dc74553d94fc37f",
+      "afterSha256": "4aa31b3340832e58e1753b5383592a6e4582d82482393fa0bedb97fe43e5eb6f",
+      "cropTop": 32,
+      "contentWidth": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 61,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 20,
+        "right": 43,
+        "top": 29,
+        "bottom": 63
+      },
+      "fps": 6,
+      "form": "quadruped",
+      "frameBounds": [
+        [
+          3,
+          25,
+          60,
+          64
+        ],
+        [
+          4,
+          26,
+          60,
+          64
+        ],
+        [
+          4,
+          26,
+          60,
+          64
+        ],
+        [
+          4,
+          25,
+          61,
+          64
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL053",
+      "title": "Turtle with goggles",
+      "file": "game-forge/assets/players/sTurtleWithGogglesStatic.png",
+      "variant": "static",
+      "frames": 1,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "681486ff1f6a56583dca0953de5bc7eeab09da61da2e178f66eeb116143cd1df",
+      "afterSha256": "96633d651ae48bd96504c49555a82c79b17b9ecc05805c2b07b1934ee0f4fb53",
+      "cropTop": 32,
+      "contentWidth": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 61,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 20,
+        "right": 43,
+        "top": 29,
+        "bottom": 63
+      },
+      "fps": 6,
+      "form": "quadruped",
+      "frameBounds": [
+        [
+          3,
+          25,
+          60,
+          64
+        ]
+      ],
+      "uniqueFrames": 1
+    },
+    {
+      "id": "PL054",
+      "title": "Axolotl with messenger bag",
+      "file": "game-forge/assets/players/sAxolotlWithMessengerBagMove_strip4.png",
+      "variant": "movement",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "37c2e697b5a544812f5c75db3c4cee883b0830ee167f1a4507769ff1f3c071e0",
+      "afterSha256": "f17444fa749a128ef310ffa54739048a8cea7e93f72449ba6ee1212a49a6284a",
+      "cropTop": 32,
+      "contentWidth": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 66,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 20,
+        "right": 43,
+        "top": 34,
+        "bottom": 63
+      },
+      "fps": 6,
+      "form": "quadruped",
+      "frameBounds": [
+        [
+          5,
+          28,
+          61,
+          64
+        ],
+        [
+          4,
+          28,
+          60,
+          64
+        ],
+        [
+          5,
+          28,
+          61,
+          64
+        ],
+        [
+          3,
+          28,
+          61,
+          64
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL054",
+      "title": "Axolotl with messenger bag",
+      "file": "game-forge/assets/players/sAxolotlWithMessengerBagStatic.png",
+      "variant": "static",
+      "frames": 1,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "41d736a7a60c63307d737c7569a85530fdef800114168478083e26fa9bb71ca9",
+      "afterSha256": "b2c28b3b99be1e3c118ddf01afe979d73d87c01ff514a89e6b817b2227d7bb47",
+      "cropTop": 32,
+      "contentWidth": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 66,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 20,
+        "right": 43,
+        "top": 34,
+        "bottom": 63
+      },
+      "fps": 6,
+      "form": "quadruped",
+      "frameBounds": [
+        [
+          5,
+          28,
+          61,
+          64
+        ]
+      ],
+      "uniqueFrames": 1
+    },
+    {
+      "id": "PL055",
+      "title": "Penguin ranger with kit bag",
+      "file": "game-forge/assets/players/sPenguinRangerWithKitBagMove_strip4.png",
+      "variant": "movement",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "d6c107e327b1a2b15b075d5b177570e626ec4ff465b54ea04efc3089f7dc6eab",
+      "afterSha256": "b21b15a239c176025a35550d71cd229bf9926c8b7cdc753fa47e2bb370d21395",
+      "cropTop": 17,
+      "contentWidth": 52,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 18,
+        "top": 32,
+        "right": 45,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 20,
+        "right": 43,
+        "top": 12,
+        "bottom": 63
+      },
+      "fps": 6,
+      "form": "walk",
+      "frameBounds": [
+        [
+          6,
+          0,
+          58,
+          64
+        ],
+        [
+          8,
+          0,
+          58,
+          64
+        ],
+        [
+          8,
+          0,
+          58,
+          64
+        ],
+        [
+          8,
+          0,
+          57,
+          64
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL055",
+      "title": "Penguin ranger with kit bag",
+      "file": "game-forge/assets/players/sPenguinRangerWithKitBagStatic.png",
+      "variant": "static",
+      "frames": 1,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "723c6464244f6051f3fb26a0c982bcbb25f53880a5a9d8d659250bf3416384d8",
+      "afterSha256": "2c2b58bf051e81168967d8732bcbc26070cb683949acc6ece51360c324d3ef9d",
+      "cropTop": 17,
+      "contentWidth": 52,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 18,
+        "top": 32,
+        "right": 45,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 20,
+        "right": 43,
+        "top": 12,
+        "bottom": 63
+      },
+      "fps": 6,
+      "form": "walk",
+      "frameBounds": [
+        [
+          6,
+          0,
+          58,
+          64
+        ]
+      ],
+      "uniqueFrames": 1
+    },
+    {
+      "id": "PL057",
+      "title": "Fox knight",
+      "file": "game-forge/assets/players/sFoxKnightMove_strip4.png",
+      "variant": "movement",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "1bf88fbee8322f6c1adb46a674304982a5bae2c666073f49e38116dbf41fdf06",
+      "afterSha256": "a4205a25132ee41891c0aa35d61fed61bf2e41d00d65e1bda176b662e0a72236",
+      "cropTop": 20,
+      "contentWidth": 54,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 30,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 21,
+        "right": 42,
+        "top": 8,
+        "bottom": 63
+      },
+      "fps": 8,
+      "form": "walk",
+      "frameBounds": [
+        [
+          10,
+          0,
+          56,
+          64
+        ],
+        [
+          11,
+          0,
+          50,
+          64
+        ],
+        [
+          5,
+          0,
+          57,
+          64
+        ],
+        [
+          10,
+          0,
+          57,
+          64
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL057",
+      "title": "Fox knight",
+      "file": "game-forge/assets/players/sFoxKnightStatic.png",
+      "variant": "static",
+      "frames": 1,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "d6f1cbc2fba9d2749826cc65ec12e2262943a169e5b95c706ae4291ec06b1407",
+      "afterSha256": "c30ce1fe7ca5eafc69d4ef226662882ff5a68f31e6c462e9c4c6c97a391c0fb8",
+      "cropTop": 20,
+      "contentWidth": 54,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 30,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 21,
+        "right": 42,
+        "top": 8,
+        "bottom": 63
+      },
+      "fps": 8,
+      "form": "walk",
+      "frameBounds": [
+        [
+          10,
+          0,
+          56,
+          64
+        ]
+      ],
+      "uniqueFrames": 1
+    },
+    {
+      "id": "PL058",
+      "title": "Badger knight",
+      "file": "game-forge/assets/players/sBadgerKnightMove_strip4.png",
+      "variant": "movement",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "0750c1c285f8a1d5ce0e4f912fe7b96f8700e29e688cba18fddddc593c9f207c",
+      "afterSha256": "08fda5b5e129497624b97b08e2dc9707d5601b8519dbd7f7a54a238497d7c2e6",
+      "cropTop": 20,
+      "contentWidth": 54,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 30,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 21,
+        "right": 42,
+        "top": 8,
+        "bottom": 63
+      },
+      "fps": 8,
+      "form": "walk",
+      "frameBounds": [
+        [
+          9,
+          0,
+          55,
+          64
+        ],
+        [
+          13,
+          0,
+          53,
+          64
+        ],
+        [
+          7,
+          0,
+          57,
+          64
+        ],
+        [
+          11,
+          0,
+          59,
+          64
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL058",
+      "title": "Badger knight",
+      "file": "game-forge/assets/players/sBadgerKnightStatic.png",
+      "variant": "static",
+      "frames": 1,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "221f74906f285a99882f26781a16c066b6d0e8f9e9742a5526f87ca1b5ff1a66",
+      "afterSha256": "927905b4946a58ca914b5d3c4789514038628c1cfd9824bffa20c89f51bde6b9",
+      "cropTop": 20,
+      "contentWidth": 54,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 30,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 21,
+        "right": 42,
+        "top": 8,
+        "bottom": 63
+      },
+      "fps": 8,
+      "form": "walk",
+      "frameBounds": [
+        [
+          9,
+          0,
+          55,
+          64
+        ]
+      ],
+      "uniqueFrames": 1
+    },
+    {
+      "id": "PL059",
+      "title": "Mouse squire",
+      "file": "game-forge/assets/players/sMouseSquireMove_strip4.png",
+      "variant": "movement",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "222b028e8f4716584d2f3a858d9f8b0e762017f4fb86c8a7db81537b7556586e",
+      "afterSha256": "d7baf70eed35db190d85b2081559e0d33585c382cfc945b2449732bf2f922608",
+      "cropTop": 20,
+      "contentWidth": 54,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 30,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 21,
+        "right": 42,
+        "top": 8,
+        "bottom": 63
+      },
+      "fps": 8,
+      "form": "walk",
+      "frameBounds": [
+        [
+          9,
+          0,
+          57,
+          64
+        ],
+        [
+          10,
+          0,
+          54,
+          64
+        ],
+        [
+          5,
+          0,
+          59,
+          64
+        ],
+        [
+          8,
+          0,
+          58,
+          64
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL059",
+      "title": "Mouse squire",
+      "file": "game-forge/assets/players/sMouseSquireStatic.png",
+      "variant": "static",
+      "frames": 1,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "cd32f370c977fd4cbf62c40133bd69e4071b284c006c20d92665de5df0bd9e2e",
+      "afterSha256": "ae23fcf38456fb5495fef7e1201559a9b9013df46cacc75baf63712626f444e5",
+      "cropTop": 20,
+      "contentWidth": 54,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 30,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 21,
+        "right": 42,
+        "top": 8,
+        "bottom": 63
+      },
+      "fps": 8,
+      "form": "walk",
+      "frameBounds": [
+        [
+          9,
+          0,
+          57,
+          64
+        ]
+      ],
+      "uniqueFrames": 1
+    },
+    {
+      "id": "PL060",
+      "title": "Rabbit archer",
+      "file": "game-forge/assets/players/sRabbitArcherMove_strip4.png",
+      "variant": "movement",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "9b734d2b8fd0725b1bc3de499f26843fed1126baa23632cc89aa1d1e73f29f97",
+      "afterSha256": "96006c5a6df5a9d68e39560d5be1e820a8333f9eb65dc65e8d417539d9d1f47d",
+      "cropTop": 9,
+      "contentWidth": 47,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 30,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 22,
+        "right": 40,
+        "top": 15,
+        "bottom": 63
+      },
+      "fps": 8,
+      "form": "walk",
+      "frameBounds": [
+        [
+          13,
+          0,
+          54,
+          64
+        ],
+        [
+          15,
+          0,
+          47,
+          64
+        ],
+        [
+          12,
+          0,
+          54,
+          64
+        ],
+        [
+          16,
+          0,
+          47,
+          64
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL060",
+      "title": "Rabbit archer",
+      "file": "game-forge/assets/players/sRabbitArcherStatic.png",
+      "variant": "static",
+      "frames": 1,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "1f9f7a84fb480ae891d3d250e1700cc26c83ef9a8460e5197c52294619b0acd4",
+      "afterSha256": "6042bf7bc5d2009b582c4d3540f7f9029b9b5bad7d01a7c721b29867c321d9f0",
+      "cropTop": 9,
+      "contentWidth": 47,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 30,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 22,
+        "right": 40,
+        "top": 15,
+        "bottom": 63
+      },
+      "fps": 8,
+      "form": "walk",
+      "frameBounds": [
+        [
+          13,
+          0,
+          54,
+          64
+        ]
+      ],
+      "uniqueFrames": 1
+    },
+    {
+      "id": "PL062",
+      "title": "Beaver blacksmith",
+      "file": "game-forge/assets/players/sBeaverBlacksmithMove_strip4.png",
+      "variant": "movement",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "e72ce331dcb902eb5e77a08cc1ca6add08def1e59fb18f6bd71869b3891a5b75",
+      "afterSha256": "c06da707adcce1238bb7995d8a94cf47ea7a54d7a5570b26e1ec4572fef61861",
+      "cropTop": 20,
+      "contentWidth": 54,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 30,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 21,
+        "right": 42,
+        "top": 8,
+        "bottom": 63
+      },
+      "fps": 8,
+      "form": "walk",
+      "frameBounds": [
+        [
+          6,
+          0,
+          56,
+          64
+        ],
+        [
+          8,
+          0,
+          56,
+          64
+        ],
+        [
+          6,
+          0,
+          59,
+          64
+        ],
+        [
+          8,
+          0,
+          59,
+          64
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL062",
+      "title": "Beaver blacksmith",
+      "file": "game-forge/assets/players/sBeaverBlacksmithStatic.png",
+      "variant": "static",
+      "frames": 1,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "c5153d73fafd5cb76c0778385a20e23cb39b9442e31711915ff800ea28bcabf4",
+      "afterSha256": "cae3d69702a4e045885a9ea0040a5f2052ee5be328a731d9f0866286fadd40c6",
+      "cropTop": 20,
+      "contentWidth": 54,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 30,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 21,
+        "right": 42,
+        "top": 8,
+        "bottom": 63
+      },
+      "fps": 8,
+      "form": "walk",
+      "frameBounds": [
+        [
+          6,
+          0,
+          56,
+          64
+        ]
+      ],
+      "uniqueFrames": 1
+    },
+    {
+      "id": "PL064",
+      "title": "Mole miner",
+      "file": "game-forge/assets/players/sMoleMinerMove_strip4.png",
+      "variant": "movement",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "56d5f4c5c10f0badc575ad9da5645bda2463a8bea5df0cdb22acc7e5b59d222b",
+      "afterSha256": "72fd2a4a672a828755357f8fc76b574beff3f368ab832aa8665418f2e665ec24",
+      "cropTop": 20,
+      "contentWidth": 54,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 30,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 21,
+        "right": 42,
+        "top": 8,
+        "bottom": 63
+      },
+      "fps": 8,
+      "form": "walk",
+      "frameBounds": [
+        [
+          11,
+          0,
+          54,
+          64
+        ],
+        [
+          14,
+          0,
+          53,
+          64
+        ],
+        [
+          9,
+          0,
+          59,
+          64
+        ],
+        [
+          14,
+          0,
+          59,
+          64
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL064",
+      "title": "Mole miner",
+      "file": "game-forge/assets/players/sMoleMinerStatic.png",
+      "variant": "static",
+      "frames": 1,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "0f53c17193a4ad19290dc3adfa1390a7c7a1589289aa00923fca0cfb0aeb0ae7",
+      "afterSha256": "fe7166eee455e9109a5d49e90fd993ff6c6fc2d898c5b63cac398f40cee879c4",
+      "cropTop": 20,
+      "contentWidth": 54,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 30,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 21,
+        "right": 42,
+        "top": 8,
+        "bottom": 63
+      },
+      "fps": 8,
+      "form": "walk",
+      "frameBounds": [
+        [
+          11,
+          0,
+          54,
+          64
+        ]
+      ],
+      "uniqueFrames": 1
+    },
+    {
+      "id": "PL067",
+      "title": "Frog wizard",
+      "file": "game-forge/assets/players/sFrogWizardMove_strip4.png",
+      "variant": "movement",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "c75b1139e5f6e341e9e4a56d00018c55c452a2d80b872b81a35178882f5d7c52",
+      "afterSha256": "d721723f41056529232c4654aeced838746fa1265bec01233f208276dad4f724",
+      "cropTop": 11,
+      "contentWidth": 48,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 30,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 23,
+        "right": 40,
+        "top": 14,
+        "bottom": 63
+      },
+      "fps": 8,
+      "form": "walk",
+      "frameBounds": [
+        [
+          9,
+          0,
+          55,
+          64
+        ],
+        [
+          9,
+          0,
+          55,
+          64
+        ],
+        [
+          8,
+          0,
+          56,
+          64
+        ],
+        [
+          10,
+          0,
+          55,
+          64
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL067",
+      "title": "Frog wizard",
+      "file": "game-forge/assets/players/sFrogWizardStatic.png",
+      "variant": "static",
+      "frames": 1,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "265d60c26961e44eefad0437e0dfda0d94618598b3f02d9d614166ef791e4edf",
+      "afterSha256": "bbb535d1d7990116f8f99588752ed3f73a2d79aee6cba9f0bea78289c406c79d",
+      "cropTop": 11,
+      "contentWidth": 48,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 30,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 23,
+        "right": 40,
+        "top": 14,
+        "bottom": 63
+      },
+      "fps": 8,
+      "form": "walk",
+      "frameBounds": [
+        [
+          9,
+          0,
+          55,
+          64
+        ]
+      ],
+      "uniqueFrames": 1
+    },
+    {
+      "id": "PL068",
+      "title": "Owl sorcerer",
+      "file": "game-forge/assets/players/sOwlSorcererMove_strip4.png",
+      "variant": "movement",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "59133008e1e62af6fc62b0c1e2f44dae12110590fb988423e020f0953ed220d3",
+      "afterSha256": "eeba122ec11f8a15013e7777c32d4576c3f53cfe2907c98593c4e52dc4a1fddd",
+      "cropTop": 20,
+      "contentWidth": 54,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 30,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 21,
+        "right": 42,
+        "top": 8,
+        "bottom": 63
+      },
+      "fps": 8,
+      "form": "walk",
+      "frameBounds": [
+        [
+          8,
+          0,
+          55,
+          64
+        ],
+        [
+          11,
+          0,
+          56,
+          64
+        ],
+        [
+          10,
+          0,
+          58,
+          64
+        ],
+        [
+          10,
+          0,
+          59,
+          64
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL068",
+      "title": "Owl sorcerer",
+      "file": "game-forge/assets/players/sOwlSorcererStatic.png",
+      "variant": "static",
+      "frames": 1,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "0e6ff1fe088c52c4c4067031f77c6ba734da4d41858e46f5d0169bd970694b3e",
+      "afterSha256": "0157f337321172dcf3a6d1377b46d5d8470fab99096df527b7d9159bdf6deeae",
+      "cropTop": 20,
+      "contentWidth": 54,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 30,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 21,
+        "right": 42,
+        "top": 8,
+        "bottom": 63
+      },
+      "fps": 8,
+      "form": "walk",
+      "frameBounds": [
+        [
+          8,
+          0,
+          55,
+          64
+        ]
+      ],
+      "uniqueFrames": 1
+    },
+    {
+      "id": "PL070",
+      "title": "Walking suit of enchanted armour",
+      "file": "game-forge/assets/players/sWalkingSuitOfEnchantedArmourMove_strip4.png",
+      "variant": "movement",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "a3b758d4e633234998b2154705a15639eb6d9f1b95a11d990d4dcc2da86ca234",
+      "afterSha256": "babb6e157f291241faa383b0d038d9a7867fe55948f7893c6de0a978868157bf",
+      "cropTop": 20,
+      "contentWidth": 54,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 30,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 21,
+        "right": 42,
+        "top": 8,
+        "bottom": 63
+      },
+      "fps": 8,
+      "form": "walk",
+      "frameBounds": [
+        [
+          10,
+          0,
+          57,
+          64
+        ],
+        [
+          18,
+          0,
+          54,
+          64
+        ],
+        [
+          9,
+          0,
+          58,
+          64
+        ],
+        [
+          15,
+          0,
+          59,
+          64
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL070",
+      "title": "Walking suit of enchanted armour",
+      "file": "game-forge/assets/players/sWalkingSuitOfEnchantedArmourStatic.png",
+      "variant": "static",
+      "frames": 1,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "bb97bc47971dbe942bcec14c0d06f56c852a83488640a69c14d0e04d39a7bf16",
+      "afterSha256": "7f2ed7a152b3a80fb67cf7d998ca07bc0898f82a204f6389ce588c64bba08057",
+      "cropTop": 20,
+      "contentWidth": 54,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 30,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 21,
+        "right": 42,
+        "top": 8,
+        "bottom": 63
+      },
+      "fps": 8,
+      "form": "walk",
+      "frameBounds": [
+        [
+          10,
+          0,
+          57,
+          64
+        ]
+      ],
+      "uniqueFrames": 1
+    },
+    {
+      "id": "PL071",
+      "title": "Griffin cub",
+      "file": "game-forge/assets/players/sGriffinCubMove_strip4.png",
+      "variant": "movement",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "e6c5d5e24c27caf396b6bea9f405e812f95688c5f2bbdd686ca406332cb0a654",
+      "afterSha256": "95b89430224cedbcb124b370b735eaf1bf8963bdcfcde5eefd74a98b6168d740",
+      "cropTop": 32,
+      "contentWidth": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 56,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 20,
+        "right": 43,
+        "top": 24,
+        "bottom": 63
+      },
+      "fps": 6,
+      "form": "quadruped",
+      "frameBounds": [
+        [
+          8,
+          20,
+          57,
+          64
+        ],
+        [
+          9,
+          21,
+          56,
+          64
+        ],
+        [
+          3,
+          20,
+          61,
+          64
+        ],
+        [
+          5,
+          20,
+          59,
+          64
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL071",
+      "title": "Griffin cub",
+      "file": "game-forge/assets/players/sGriffinCubStatic.png",
+      "variant": "static",
+      "frames": 1,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "80ec0305a947d130c951e4b6b4bda88370082386dceb323c4d3a025a8ae4dd2a",
+      "afterSha256": "424f4c22deb9d1f4477e541bc8aedac7e853b712f9669e4bdf3cc91d2aaffc80",
+      "cropTop": 32,
+      "contentWidth": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 56,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 20,
+        "right": 43,
+        "top": 24,
+        "bottom": 63
+      },
+      "fps": 6,
+      "form": "quadruped",
+      "frameBounds": [
+        [
+          8,
+          20,
+          57,
+          64
+        ]
+      ],
+      "uniqueFrames": 1
+    },
+    {
+      "id": "PL073",
+      "title": "Tiny phoenix",
+      "file": "game-forge/assets/players/sTinyPhoenixMove_strip4.png",
+      "variant": "movement",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "fcb600e2a1edcd1efa3f9d9438180e187460e57361bb7e6515dda91646e6f571",
+      "afterSha256": "cbf34556e08081dec180eb09313bc219d0c239323663ca649b34fd29fd003027",
+      "cropTop": 21,
+      "contentWidth": 55,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 41,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 21,
+        "right": 41,
+        "top": 17,
+        "bottom": 63
+      },
+      "fps": 8,
+      "form": "flying",
+      "frameBounds": [
+        [
+          4,
+          0,
+          58,
+          50
+        ],
+        [
+          5,
+          7,
+          59,
+          50
+        ],
+        [
+          5,
+          7,
+          58,
+          60
+        ],
+        [
+          4,
+          4,
+          59,
+          50
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL073",
+      "title": "Tiny phoenix",
+      "file": "game-forge/assets/players/sTinyPhoenixStatic.png",
+      "variant": "static",
+      "frames": 1,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "aea1e53d5a13ab3a4642574fd1fc9917e95dc7d15e764b5af5f41d481b06c0f2",
+      "afterSha256": "802edd21181f91fa7e70595b97303bd01e095d417241898951e29f181955b2c4",
+      "cropTop": 21,
+      "contentWidth": 55,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 41,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 21,
+        "right": 41,
+        "top": 17,
+        "bottom": 63
+      },
+      "fps": 8,
+      "form": "flying",
+      "frameBounds": [
+        [
+          4,
+          0,
+          58,
+          50
+        ]
+      ],
+      "uniqueFrames": 1
+    },
+    {
+      "id": "PL076",
+      "title": "Welsh red dragon mascot",
+      "file": "game-forge/assets/players/sWelshRedDragonMascotMove_strip4.png",
+      "variant": "movement",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "cbf68a56fdbc6f7be7c05e14a94d3bb97bb36f162168279247fe895bdf8f6a3e",
+      "afterSha256": "3c0474b2e2793cc3c1899ba87f322741efdf8ca73a58694e322abe85f870930c",
+      "cropTop": 19,
+      "contentWidth": 53,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 30,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 21,
+        "right": 41,
+        "top": 9,
+        "bottom": 63
+      },
+      "fps": 8,
+      "form": "walk",
+      "frameBounds": [
+        [
+          6,
+          0,
+          52,
+          64
+        ],
+        [
+          6,
+          0,
+          51,
+          64
+        ],
+        [
+          5,
+          0,
+          58,
+          64
+        ],
+        [
+          6,
+          0,
+          57,
+          64
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL076",
+      "title": "Welsh red dragon mascot",
+      "file": "game-forge/assets/players/sWelshRedDragonMascotStatic.png",
+      "variant": "static",
+      "frames": 1,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "c28758e67e9f744d524b07463905f5fbd9073458b4aa64f232306b87636b357e",
+      "afterSha256": "9455d68e9fbcdae485bc31098a0bc68eef358779ae5bdab98b14d79c10f50a5a",
+      "cropTop": 19,
+      "contentWidth": 53,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 30,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 21,
+        "right": 41,
+        "top": 9,
+        "bottom": 63
+      },
+      "fps": 8,
+      "form": "walk",
+      "frameBounds": [
+        [
+          6,
+          0,
+          52,
+          64
+        ]
+      ],
+      "uniqueFrames": 1
+    },
+    {
+      "id": "PL077",
+      "title": "Sheep adventurer",
+      "file": "game-forge/assets/players/sSheepAdventurerMove_strip4.png",
+      "variant": "movement",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "35483db6c59b481a342beda30221d72e1ac10d46979f03cfaf8f5dcc84efaeb3",
+      "afterSha256": "8d93be6e7ad56d32febcd50f68413107ba6ad187950a8fee45ec2125eda8166a",
+      "cropTop": 20,
+      "contentWidth": 54,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 30,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 21,
+        "right": 42,
+        "top": 8,
+        "bottom": 63
+      },
+      "fps": 8,
+      "form": "walk",
+      "frameBounds": [
+        [
+          14,
+          0,
+          52,
+          64
+        ],
+        [
+          14,
+          0,
+          50,
+          64
+        ],
+        [
+          8,
+          0,
+          56,
+          64
+        ],
+        [
+          14,
+          0,
+          59,
+          64
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL077",
+      "title": "Sheep adventurer",
+      "file": "game-forge/assets/players/sSheepAdventurerStatic.png",
+      "variant": "static",
+      "frames": 1,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "a69073067e1657521fce14206106b9fb5c2d5ef12800ac7b22ee91a525223441",
+      "afterSha256": "e1f7348893a44bb6b8e83699e79b1290b4588a31a29db9fba4e489eedea98cc0",
+      "cropTop": 20,
+      "contentWidth": 54,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 30,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 21,
+        "right": 42,
+        "top": 8,
+        "bottom": 63
+      },
+      "fps": 8,
+      "form": "walk",
+      "frameBounds": [
+        [
+          14,
+          0,
+          52,
+          64
+        ]
+      ],
+      "uniqueFrames": 1
+    },
+    {
+      "id": "PL078",
+      "title": "Puffin coastal explorer",
+      "file": "game-forge/assets/players/sPuffinCoastalExplorerMove_strip4.png",
+      "variant": "movement",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "da85939364bd613af513d0c28885245bc078825fae29656edb32b0524cb4ba13",
+      "afterSha256": "d7db67f52ce7090cddef785d5d32d18d154554bcbe2c70bcf1f6e8cad387494d",
+      "cropTop": 13,
+      "contentWidth": 49,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 35,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 22,
+        "right": 40,
+        "top": 16,
+        "bottom": 63
+      },
+      "fps": 8,
+      "form": "flying",
+      "frameBounds": [
+        [
+          7,
+          0,
+          55,
+          46
+        ],
+        [
+          8,
+          16,
+          56,
+          46
+        ],
+        [
+          11,
+          16,
+          56,
+          60
+        ],
+        [
+          9,
+          5,
+          55,
+          46
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL078",
+      "title": "Puffin coastal explorer",
+      "file": "game-forge/assets/players/sPuffinCoastalExplorerStatic.png",
+      "variant": "static",
+      "frames": 1,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "4295ccd9cf1b4faab12fc590a74d9f290a30870bcaf2168d1ee6e1237b9acd76",
+      "afterSha256": "eee43df92cac3a033db5571624d2af157776076580caf6a6cf4236ff1972cb26",
+      "cropTop": 13,
+      "contentWidth": 49,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 35,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 22,
+        "right": 40,
+        "top": 16,
+        "bottom": 63
+      },
+      "fps": 8,
+      "form": "flying",
+      "frameBounds": [
+        [
+          7,
+          0,
+          55,
+          46
+        ]
+      ],
+      "uniqueFrames": 1
+    },
+    {
+      "id": "PL080",
+      "title": "Otter bard with harp motif",
+      "file": "game-forge/assets/players/sOtterBardWithHarpMotifMove_strip4.png",
+      "variant": "movement",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "b7d888276c4578eb7ba52949723e044d6881185d35a681cd146123328d48effd",
+      "afterSha256": "1215d66a9eb2d37db48294acc86cdb9e318d4c3af6254fc0780890a0695f93ce",
+      "cropTop": 20,
+      "contentWidth": 54,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 30,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 21,
+        "right": 42,
+        "top": 8,
+        "bottom": 63
+      },
+      "fps": 8,
+      "form": "walk",
+      "frameBounds": [
+        [
+          8,
+          0,
+          56,
+          64
+        ],
+        [
+          8,
+          0,
+          52,
+          64
+        ],
+        [
+          6,
+          0,
+          58,
+          64
+        ],
+        [
+          8,
+          0,
+          59,
+          64
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL080",
+      "title": "Otter bard with harp motif",
+      "file": "game-forge/assets/players/sOtterBardWithHarpMotifStatic.png",
+      "variant": "static",
+      "frames": 1,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "58c33bf4118d547e8f806a51f6961a4048905d2a82346d96cfeb29a3f4c1f3d6",
+      "afterSha256": "558d8be1c020ba6806fc47347091080d3348679337bbba87916993968b370bc8",
+      "cropTop": 20,
+      "contentWidth": 54,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 30,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 21,
+        "right": 42,
+        "top": 8,
+        "bottom": 63
+      },
+      "fps": 8,
+      "form": "walk",
+      "frameBounds": [
+        [
+          8,
+          0,
+          56,
+          64
+        ]
+      ],
+      "uniqueFrames": 1
+    },
+    {
+      "id": "PL082",
+      "title": "Rabbit sports-club mascot",
+      "file": "game-forge/assets/players/sRabbitSportsClubMascotMove_strip4.png",
+      "variant": "movement",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "1588537ac4ffa330e7cc0621e7331325a804e1ebed1a5f486699555ec5a79108",
+      "afterSha256": "63140fc8378fd2e3c760fe20f229318e023c57f5667f284c3307c3bd0d7de568",
+      "cropTop": 1,
+      "contentWidth": 43,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 18,
+        "top": 30,
+        "right": 45,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 22,
+        "right": 40,
+        "top": 19,
+        "bottom": 63
+      },
+      "fps": 6,
+      "form": "walk",
+      "frameBounds": [
+        [
+          12,
+          0,
+          49,
+          64
+        ],
+        [
+          16,
+          0,
+          47,
+          64
+        ],
+        [
+          13,
+          0,
+          51,
+          64
+        ],
+        [
+          16,
+          0,
+          47,
+          64
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL082",
+      "title": "Rabbit sports-club mascot",
+      "file": "game-forge/assets/players/sRabbitSportsClubMascotStatic.png",
+      "variant": "static",
+      "frames": 1,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "9e2c5cc70117cc513d424324d7599ce743c1b5b2bc0d3280a49ed1cdc8204c83",
+      "afterSha256": "96d723eef90e6a5359858d20f040445225e5f2f0c138a4a327561ba251040708",
+      "cropTop": 1,
+      "contentWidth": 43,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 18,
+        "top": 30,
+        "right": 45,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 22,
+        "right": 40,
+        "top": 19,
+        "bottom": 63
+      },
+      "fps": 6,
+      "form": "walk",
+      "frameBounds": [
+        [
+          12,
+          0,
+          49,
+          64
+        ]
+      ],
+      "uniqueFrames": 1
+    },
+    {
+      "id": "PL084",
+      "title": "Bee conservation helper",
+      "file": "game-forge/assets/players/sBeeConservationHelperMove_strip4.png",
+      "variant": "movement",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "ab3bd7c1b585e24b30f4743f590fdaedc21e3694b94f5e12857737cf1e925ae2",
+      "afterSha256": "4e87b432d6d3edb25c47a0053fec637b482ec58af09a8ad9299a952b0f275655",
+      "cropTop": 13,
+      "contentWidth": 49,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 40,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 22,
+        "right": 40,
+        "top": 20,
+        "bottom": 63
+      },
+      "fps": 8,
+      "form": "flying",
+      "frameBounds": [
+        [
+          7,
+          0,
+          56,
+          51
+        ],
+        [
+          7,
+          8,
+          56,
+          52
+        ],
+        [
+          8,
+          9,
+          55,
+          60
+        ],
+        [
+          8,
+          2,
+          56,
+          51
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL084",
+      "title": "Bee conservation helper",
+      "file": "game-forge/assets/players/sBeeConservationHelperStatic.png",
+      "variant": "static",
+      "frames": 1,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "bfc356c0af31f3421ca375838bfb51b12d0a48c7020ddca485b8045de79d451b",
+      "afterSha256": "5037ba42e8ad9d3e4e50db93ee76b66828a37b34a03ac47607dceb7fc1f758bf",
+      "cropTop": 13,
+      "contentWidth": 49,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 20,
+        "top": 40,
+        "right": 43,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 22,
+        "right": 40,
+        "top": 20,
+        "bottom": 63
+      },
+      "fps": 8,
+      "form": "flying",
+      "frameBounds": [
+        [
+          7,
+          0,
+          56,
+          51
+        ]
+      ],
+      "uniqueFrames": 1
+    },
+    {
+      "id": "PL086",
+      "title": "Bookworm librarian",
+      "file": "game-forge/assets/players/sBookwormLibrarianMove_strip4.png",
+      "variant": "movement",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "da3a6db80cf9cf436d5e50ca7f637278714147dc453ddc86db75cb9b81c1ca82",
+      "afterSha256": "21c0ba4c4c15d7f3dae0289a74e8e8ff6cb2d3eaa29197f5ebf3805e885b21bb",
+      "cropTop": 32,
+      "contentWidth": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 18,
+        "top": 55,
+        "right": 45,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 18,
+        "right": 45,
+        "top": 23,
+        "bottom": 63
+      },
+      "fps": 6,
+      "form": "slither",
+      "frameBounds": [
+        [
+          9,
+          22,
+          61,
+          64
+        ],
+        [
+          3,
+          22,
+          61,
+          64
+        ],
+        [
+          8,
+          23,
+          61,
+          64
+        ],
+        [
+          4,
+          22,
+          61,
+          64
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL086",
+      "title": "Bookworm librarian",
+      "file": "game-forge/assets/players/sBookwormLibrarianStatic.png",
+      "variant": "static",
+      "frames": 1,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "ff08b17f91f8706132a105c1a60c655df06cac7eb2f57852e492383d8c7e5fb2",
+      "afterSha256": "0ab701f09f69fc6dcd9e7ee039e934ab7ef832849c845f64031a581d29d66dfe",
+      "cropTop": 32,
+      "contentWidth": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 18,
+        "top": 55,
+        "right": 45,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 18,
+        "right": 45,
+        "top": 23,
+        "bottom": 63
+      },
+      "fps": 6,
+      "form": "slither",
+      "frameBounds": [
+        [
+          9,
+          22,
+          61,
+          64
+        ]
+      ],
+      "uniqueFrames": 1
+    },
+    {
+      "id": "PL089",
+      "title": "Hedgehog community gardener",
+      "file": "game-forge/assets/players/sHedgehogCommunityGardenerMove_strip4.png",
+      "variant": "movement",
+      "frames": 4,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "28829140fcde528d02c1cd9cd527abea2c21aae2c7f5a2df2ce7a8bc7bd946f0",
+      "afterSha256": "e4f766a274ee6606db72f3c7a7a0750bf3dd45bb13282b2474fba4d70a11c5dc",
+      "cropTop": 17,
+      "contentWidth": 52,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 18,
+        "top": 35,
+        "right": 45,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 20,
+        "right": 43,
+        "top": 14,
+        "bottom": 63
+      },
+      "fps": 6,
+      "form": "walk",
+      "frameBounds": [
+        [
+          6,
+          0,
+          58,
+          64
+        ],
+        [
+          6,
+          0,
+          58,
+          64
+        ],
+        [
+          6,
+          0,
+          58,
+          64
+        ],
+        [
+          6,
+          0,
+          58,
+          64
+        ]
+      ],
+      "uniqueFrames": 4
+    },
+    {
+      "id": "PL089",
+      "title": "Hedgehog community gardener",
+      "file": "game-forge/assets/players/sHedgehogCommunityGardenerStatic.png",
+      "variant": "static",
+      "frames": 1,
+      "beforeFrame": [
+        64,
+        96
+      ],
+      "afterFrame": [
+        64,
+        64
+      ],
+      "beforeSha256": "a59b89455702bfc804087c75016dcd84553d3f586a30e32f3d2d73d74db4ce6f",
+      "afterSha256": "dfeaa182fc0c59d73233085fa529a7d94b17b8446e6daf3f462b66d1980dc015",
+      "cropTop": 17,
+      "contentWidth": 52,
+      "origin": [
+        32,
+        64
+      ],
+      "oldMask": {
+        "left": 18,
+        "top": 35,
+        "right": 45,
+        "bottom": 95
+      },
+      "mask": {
+        "left": 20,
+        "right": 43,
+        "top": 14,
+        "bottom": 63
+      },
+      "fps": 6,
+      "form": "walk",
+      "frameBounds": [
+        [
+          6,
+          0,
+          58,
+          64
+        ]
+      ],
+      "uniqueFrames": 1
+    }
+  ]
+}

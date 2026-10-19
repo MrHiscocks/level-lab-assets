@@ -1,0 +1,53 @@
+{
+  "id": "PL163",
+  "title": "Girl gardener",
+  "category": "players",
+  "variant": "movement",
+  "batch": 30,
+  "tags": [
+    "adventure",
+    "community",
+    "food",
+    "gardener",
+    "girl",
+    "healthy eating",
+    "movement",
+    "player",
+    "walk"
+  ],
+  "form": "walk",
+  "environments": [
+    "Woodland & gardens"
+  ],
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 22,
+    "right": 41,
+    "top": 15,
+    "bottom": 63
+  },
+  "fps": 8,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "00f7da0ae9a2641979d1ae9482427533469b6694c5431ada97e50a3814696c73",
+  "sourceFile": "PL163.png",
+  "sourceBatch": "Player expansion batch 30",
+  "description": "Girl gardener. Four-frame walk movement animation.",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Set a fixed manual rectangular body mask for all frames. Ground contact at bottom of cell. PNG does not store origin, mask or playback settings.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "4e9ddb08a4caf13215a3fc7039a2bd72e380961503c4029d30263cb64ed50897",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

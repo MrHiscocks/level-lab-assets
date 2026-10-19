@@ -1,0 +1,56 @@
+{
+  "id": "PL130",
+  "title": "Swimming otter",
+  "category": "players",
+  "variant": "movement",
+  "batch": 26,
+  "tags": [
+    "animal",
+    "animals",
+    "lake",
+    "movement",
+    "nature",
+    "ordinary animals",
+    "player",
+    "swim",
+    "swimming",
+    "water",
+    "wildlife"
+  ],
+  "form": "swim",
+  "environments": [
+    "Coast & ocean",
+    "Rivers & wetlands"
+  ],
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 14,
+    "right": 49,
+    "top": 40,
+    "bottom": 63
+  },
+  "fps": 6,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "4a33543d09400b21de3b011e2fd48e6fd8ab9bfed80e102da6c9b5a07beb8cf9",
+  "sourceFile": "PL130.png",
+  "sourceBatch": "Player expansion batch 26",
+  "description": "Swimming otter. Four-frame swim movement animation.",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Set a fixed manual rectangular body mask for all frames. Mask bottom 63 is a virtual platform contact; specialised flying/swimming movement requires game code. PNG does not store origin, mask or playback settings.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "1fbb8a4cdfcb9d78bdd7d5f9f99ec17cf7d928295f52653ec7e6ad31c9d2e449",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

@@ -7,25 +7,41 @@
   "batch": 15,
   "origin": [
     32,
-    96
+    64
   ],
   "mask": {
-    "left": 20,
-    "top": 16,
-    "right": 43,
-    "bottom": 95
+    "left": 23,
+    "right": 40,
+    "top": 4,
+    "bottom": 63
   },
   "fps": 4,
-  "placement": "",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Manual rectangular collision mask, fixed across all frames. Ground contact is the lower frame edge; do not auto-trim or independently centre frames. PNG files do not store origin, speed or collision settings.",
   "repeatHorizontal": false,
-  "form": "",
+  "form": "walk",
   "loop": false,
   "duration": null,
   "description": "",
   "sourceFile": "Game_Forge_Batch_15/assets/players/sRepairRobotIdle_strip4.png",
   "sourceBatch": "Game_Forge_Batch_15.zip",
-  "sourceSha256": "0800b63a30d266d8a1fa7a75a6d594e7e69f63b5d644ab2c150706d05fb99483",
+  "sourceSha256": "d5d10ec60e2c45393ea12fc20b51ccecd9109ba0bf98f9fb327f7a6de6d55702",
   "frameWidth": 64,
-  "frameHeight": 96,
-  "frames": 4
+  "frameHeight": 64,
+  "frames": 4,
+  "exportRevision": {
+    "version": "players-64-v1",
+    "date": "2026-10-19",
+    "previousSha256": "0800b63a30d266d8a1fa7a75a6d594e7e69f63b5d644ab2c150706d05fb99483",
+    "originalFrameSize": [
+      64,
+      96
+    ],
+    "commonCropTop": 10,
+    "resizedContentWidth": 48,
+    "targetFrameSize": [
+      64,
+      64
+    ],
+    "method": "Common transparent-top crop, proportional Lanczos downscale, bottom-centred transparent canvas. Same transform across all variants."
+  }
 }

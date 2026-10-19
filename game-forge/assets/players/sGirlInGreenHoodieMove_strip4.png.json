@@ -1,0 +1,55 @@
+{
+  "id": "PL111",
+  "title": "Girl in green hoodie",
+  "category": "players",
+  "variant": "movement",
+  "batch": 24,
+  "tags": [
+    "adventure",
+    "community",
+    "girl",
+    "healthy eating",
+    "learning",
+    "movement",
+    "player",
+    "walk",
+    "wellbeing"
+  ],
+  "form": "walk",
+  "environments": [
+    "Indoors",
+    "Town & community",
+    "Woodland & gardens"
+  ],
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 22,
+    "right": 41,
+    "top": 15,
+    "bottom": 63
+  },
+  "fps": 8,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "282e2d8c19c4c830b2f8ad27d1711f1f0261f62f3acee697d9d8fb156c6f7eed",
+  "sourceFile": "PL111.png",
+  "sourceBatch": "Player expansion batch 24",
+  "description": "Girl in green hoodie. Four-frame walk movement animation.",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Set a fixed manual rectangular body mask for all frames. Ground contact at bottom of cell. PNG does not store origin, mask or playback settings.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "ed81ee22e9f67c4a29a1a458e8cd48f15546b3c567a4babdd98cc4dffe0998b2",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

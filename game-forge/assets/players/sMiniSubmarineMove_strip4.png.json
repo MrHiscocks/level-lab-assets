@@ -1,0 +1,56 @@
+{
+  "id": "PL146",
+  "title": "Mini submarine",
+  "category": "players",
+  "variant": "movement",
+  "batch": 28,
+  "tags": [
+    "beach",
+    "coast",
+    "lake",
+    "movement",
+    "player",
+    "science",
+    "swim",
+    "swimming",
+    "technology",
+    "transport",
+    "water"
+  ],
+  "form": "swim",
+  "environments": [
+    "Coast & ocean",
+    "Rivers & wetlands"
+  ],
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 14,
+    "right": 49,
+    "top": 22,
+    "bottom": 63
+  },
+  "fps": 6,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "fc938b334ba9d3d802ad2da1e9b5b998ea79a3d7a7655872ffd07116aee8e943",
+  "sourceFile": "PL146.png",
+  "sourceBatch": "Player expansion batch 28",
+  "description": "Mini submarine. Four-frame swim movement animation.",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Set a fixed manual rectangular body mask for all frames. Mask bottom 63 is a virtual platform contact; specialised flying/swimming movement requires game code. PNG does not store origin, mask or playback settings.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "62e5c13723caa306d71172de55506936ff5c78fda90d9c5011e879ab20772eb0",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

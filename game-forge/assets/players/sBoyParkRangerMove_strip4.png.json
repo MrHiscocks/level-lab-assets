@@ -1,0 +1,52 @@
+{
+  "id": "PL158",
+  "title": "Boy park ranger",
+  "category": "players",
+  "variant": "movement",
+  "batch": 30,
+  "tags": [
+    "adventure",
+    "boy",
+    "movement",
+    "nature",
+    "outdoor",
+    "player",
+    "tourism",
+    "walk"
+  ],
+  "form": "walk",
+  "environments": [
+    "Woodland & gardens"
+  ],
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 22,
+    "right": 41,
+    "top": 15,
+    "bottom": 63
+  },
+  "fps": 8,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "e916c792eccd55498fde31e3361c8ba20ed044b1c08a7f2df8aa7733bba15b0c",
+  "sourceFile": "PL158.png",
+  "sourceBatch": "Player expansion batch 30",
+  "description": "Boy park ranger. Four-frame walk movement animation.",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Set a fixed manual rectangular body mask for all frames. Ground contact at bottom of cell. PNG does not store origin, mask or playback settings.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "ec04ea8080fce8f81c3fc8f5adb138c7ca55a525767a26b260d75da2f66c10bd",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "PL133",
+  "title": "Girl cyclist",
+  "category": "players",
+  "variant": "movement",
+  "batch": 27,
+  "tags": [
+    "cycle",
+    "cycling",
+    "cyclist",
+    "girl",
+    "movement",
+    "outdoor",
+    "physical activity",
+    "player",
+    "sport",
+    "sustainable travel"
+  ],
+  "form": "cycle",
+  "environments": [],
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 14,
+    "right": 49,
+    "top": 12,
+    "bottom": 63
+  },
+  "fps": 8,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "e7e958eb4d54805cddcd4279b417f0597868f7e523d2d4055c45fcdf6a98bb09",
+  "sourceFile": "PL133.png",
+  "sourceBatch": "Player expansion batch 27",
+  "description": "Girl cyclist. Four-frame cycle movement animation.",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Set a fixed manual rectangular body mask for all frames. Ground contact at bottom of cell. PNG does not store origin, mask or playback settings.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "0a327ec7849aa700b252bd7bc66bb01acc5b153d501cef591153f384453290f7",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

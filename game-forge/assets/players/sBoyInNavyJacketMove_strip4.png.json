@@ -1,0 +1,55 @@
+{
+  "id": "PL108",
+  "title": "Boy in navy jacket",
+  "category": "players",
+  "variant": "movement",
+  "batch": 23,
+  "tags": [
+    "adventure",
+    "boy",
+    "community",
+    "healthy eating",
+    "learning",
+    "movement",
+    "player",
+    "walk",
+    "wellbeing"
+  ],
+  "form": "walk",
+  "environments": [
+    "Indoors",
+    "Town & community",
+    "Woodland & gardens"
+  ],
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 22,
+    "right": 41,
+    "top": 15,
+    "bottom": 63
+  },
+  "fps": 8,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "a06f635dbf0e64fb903c28e9b6677c1b7b11ecaf6a09596703014404fd968eaf",
+  "sourceFile": "PL108.png",
+  "sourceBatch": "Player expansion batch 23",
+  "description": "Boy in navy jacket. Four-frame walk movement animation.",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Set a fixed manual rectangular body mask for all frames. Ground contact at bottom of cell. PNG does not store origin, mask or playback settings.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "ca7a925b6d954db5ce1a95ea644837b3d5d9694f145e00a4973477b156a93baa",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

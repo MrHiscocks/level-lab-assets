@@ -7,25 +7,41 @@
   "batch": 15,
   "origin": [
     32,
-    96
+    64
   ],
   "mask": {
-    "left": 20,
-    "top": 16,
-    "right": 43,
-    "bottom": 95
+    "left": 23,
+    "right": 40,
+    "top": 4,
+    "bottom": 63
   },
   "fps": 8,
-  "placement": "",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Manual rectangular collision mask, fixed across all frames. Ground contact is the lower frame edge; do not auto-trim or independently centre frames. PNG files do not store origin, speed or collision settings.",
   "repeatHorizontal": false,
-  "form": "",
+  "form": "walk",
   "loop": false,
   "duration": null,
   "description": "",
   "sourceFile": "Game_Forge_Batch_15/assets/players/sRabbitCourierMove_strip4.png",
   "sourceBatch": "Game_Forge_Batch_15.zip",
-  "sourceSha256": "010c94cb0e655f5e8ec74c6c671700c1bf2224fd86b6d79d4b3d9856e439e9fc",
+  "sourceSha256": "4ba0bb391dad1096bdebd13fcc5f83ea15142e490c8c6d7d406ae1c9ce80462f",
   "frameWidth": 64,
-  "frameHeight": 96,
-  "frames": 4
+  "frameHeight": 64,
+  "frames": 4,
+  "exportRevision": {
+    "version": "players-64-v1",
+    "date": "2026-10-19",
+    "previousSha256": "010c94cb0e655f5e8ec74c6c671700c1bf2224fd86b6d79d4b3d9856e439e9fc",
+    "originalFrameSize": [
+      64,
+      96
+    ],
+    "commonCropTop": 10,
+    "resizedContentWidth": 48,
+    "targetFrameSize": [
+      64,
+      64
+    ],
+    "method": "Common transparent-top crop, proportional Lanczos downscale, bottom-centred transparent canvas. Same transform across all variants."
+  }
 }

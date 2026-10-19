@@ -1,0 +1,54 @@
+{
+  "id": "PL142",
+  "title": "Hovering orb robot",
+  "category": "players",
+  "variant": "movement",
+  "batch": 28,
+  "tags": [
+    "bot",
+    "bots",
+    "digital wellbeing",
+    "float",
+    "movement",
+    "online safety",
+    "player",
+    "robot",
+    "robots",
+    "science",
+    "technology",
+    "transport"
+  ],
+  "form": "floating",
+  "environments": [],
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 22,
+    "right": 41,
+    "top": 17,
+    "bottom": 63
+  },
+  "fps": 6,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "c18ad953b47ca86db72f7e8d4eee5d5be5b801a2b256a26441b553903900056b",
+  "sourceFile": "PL142.png",
+  "sourceBatch": "Player expansion batch 28",
+  "description": "Hovering orb robot. Four-frame float movement animation.",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Set a fixed manual rectangular body mask for all frames. Mask bottom 63 is a virtual platform contact; specialised flying/swimming movement requires game code. PNG does not store origin, mask or playback settings.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "e133477d0792ac160e2ef0bad3686ab038d349d9f530a4467cc39928f0387008",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

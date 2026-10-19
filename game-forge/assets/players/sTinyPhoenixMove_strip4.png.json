@@ -7,16 +7,16 @@
   "batch": 18,
   "origin": [
     32,
-    96
+    64
   ],
   "mask": {
-    "left": 20,
-    "top": 41,
-    "right": 43,
-    "bottom": 95
+    "left": 21,
+    "right": 41,
+    "top": 17,
+    "bottom": 63
   },
   "fps": 8,
-  "placement": "Fixed mask excludes changing tails/wings; bottom 95 is the virtual platform contact for hovering sprites. Does not supply free-flight physics.",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Manual rectangular collision mask, fixed across all frames. Mask bottom 63 is virtual ground contact; artwork hovers above it. Flying/floating movement requires game code. PNG files do not store origin, speed or collision settings.",
   "repeatHorizontal": false,
   "form": "flying",
   "loop": false,
@@ -24,8 +24,24 @@
   "description": "",
   "sourceFile": "Game_Forge_Batch_18/assets/players/sTinyPhoenixMove_strip4.png",
   "sourceBatch": "Game_Forge_Batch_18.zip",
-  "sourceSha256": "fcb600e2a1edcd1efa3f9d9438180e187460e57361bb7e6515dda91646e6f571",
+  "sourceSha256": "cbf34556e08081dec180eb09313bc219d0c239323663ca649b34fd29fd003027",
   "frameWidth": 64,
-  "frameHeight": 96,
-  "frames": 4
+  "frameHeight": 64,
+  "frames": 4,
+  "exportRevision": {
+    "version": "players-64-v1",
+    "date": "2026-10-19",
+    "previousSha256": "fcb600e2a1edcd1efa3f9d9438180e187460e57361bb7e6515dda91646e6f571",
+    "originalFrameSize": [
+      64,
+      96
+    ],
+    "commonCropTop": 21,
+    "resizedContentWidth": 55,
+    "targetFrameSize": [
+      64,
+      64
+    ],
+    "method": "Common transparent-top crop, proportional Lanczos downscale, bottom-centred transparent canvas. Same transform across all variants."
+  }
 }

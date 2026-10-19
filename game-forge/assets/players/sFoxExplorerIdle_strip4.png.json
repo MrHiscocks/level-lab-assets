@@ -7,25 +7,41 @@
   "batch": 15,
   "origin": [
     32,
-    96
+    64
   ],
   "mask": {
     "left": 20,
-    "top": 30,
-    "right": 43,
-    "bottom": 95
+    "right": 42,
+    "top": 5,
+    "bottom": 63
   },
   "fps": 4,
-  "placement": "",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Manual rectangular collision mask, fixed across all frames. Ground contact is the lower frame edge; do not auto-trim or independently centre frames. PNG files do not store origin, speed or collision settings.",
   "repeatHorizontal": false,
-  "form": "",
+  "form": "walk",
   "loop": false,
   "duration": null,
   "description": "",
   "sourceFile": "Game_Forge_Batch_15/assets/players/sFoxExplorerIdle_strip4.png",
   "sourceBatch": "Game_Forge_Batch_15.zip",
-  "sourceSha256": "8137ffa1446972876fdbe7cc3ffce2482bce2372ebd6990d74309eafb8ee8374",
+  "sourceSha256": "2626c028fa64cbde8c65b457a6089a572a88ebf8594a304f8df40506ffa297f8",
   "frameWidth": 64,
-  "frameHeight": 96,
-  "frames": 4
+  "frameHeight": 64,
+  "frames": 4,
+  "exportRevision": {
+    "version": "players-64-v1",
+    "date": "2026-10-19",
+    "previousSha256": "8137ffa1446972876fdbe7cc3ffce2482bce2372ebd6990d74309eafb8ee8374",
+    "originalFrameSize": [
+      64,
+      96
+    ],
+    "commonCropTop": 24,
+    "resizedContentWidth": 57,
+    "targetFrameSize": [
+      64,
+      64
+    ],
+    "method": "Common transparent-top crop, proportional Lanczos downscale, bottom-centred transparent canvas. Same transform across all variants."
+  }
 }

@@ -1,0 +1,54 @@
+{
+  "id": "PL141",
+  "title": "Wheeled helper robot",
+  "category": "players",
+  "variant": "movement",
+  "batch": 28,
+  "tags": [
+    "bot",
+    "bots",
+    "digital wellbeing",
+    "movement",
+    "online safety",
+    "player",
+    "robot",
+    "robots",
+    "roll",
+    "science",
+    "technology",
+    "transport"
+  ],
+  "form": "roll",
+  "environments": [],
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 14,
+    "right": 49,
+    "top": 12,
+    "bottom": 63
+  },
+  "fps": 8,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "d33cc150cd9982feee293682769606e14169dc05babeb40bf61faa28168844dc",
+  "sourceFile": "PL141.png",
+  "sourceBatch": "Player expansion batch 28",
+  "description": "Wheeled helper robot. Four-frame roll movement animation.",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Set a fixed manual rectangular body mask for all frames. Ground contact at bottom of cell. PNG does not store origin, mask or playback settings.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "93eaf60ba1446f7e39b459ae5142a67a09f67ca1e72199e12d13d34cf6bebb8d",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

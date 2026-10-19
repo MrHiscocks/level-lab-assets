@@ -7,25 +7,41 @@
   "batch": 15,
   "origin": [
     32,
-    96
+    64
   ],
   "mask": {
-    "left": 20,
-    "top": 28,
-    "right": 43,
-    "bottom": 95
+    "left": 21,
+    "right": 41,
+    "top": 5,
+    "bottom": 63
   },
   "fps": 4,
-  "placement": "",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Manual rectangular collision mask, fixed across all frames. Ground contact is the lower frame edge; do not auto-trim or independently centre frames. PNG files do not store origin, speed or collision settings.",
   "repeatHorizontal": false,
-  "form": "",
+  "form": "walk",
   "loop": false,
   "duration": null,
   "description": "",
   "sourceFile": "Game_Forge_Batch_15/assets/players/sSpringleggedRobotIdle_strip4.png",
   "sourceBatch": "Game_Forge_Batch_15.zip",
-  "sourceSha256": "0d052d76d2736b206b24a99dc5eeb7447e6c12a720e72a2088d9c39bea065e4c",
+  "sourceSha256": "2738d7211edf7f336df879fc9a6cb0da2bf80922f0a13e114795460fc28cf0b7",
   "frameWidth": 64,
-  "frameHeight": 96,
-  "frames": 4
+  "frameHeight": 64,
+  "frames": 4,
+  "exportRevision": {
+    "version": "players-64-v1",
+    "date": "2026-10-19",
+    "previousSha256": "0d052d76d2736b206b24a99dc5eeb7447e6c12a720e72a2088d9c39bea065e4c",
+    "originalFrameSize": [
+      64,
+      96
+    ],
+    "commonCropTop": 22,
+    "resizedContentWidth": 55,
+    "targetFrameSize": [
+      64,
+      64
+    ],
+    "method": "Common transparent-top crop, proportional Lanczos downscale, bottom-centred transparent canvas. Same transform across all variants."
+  }
 }

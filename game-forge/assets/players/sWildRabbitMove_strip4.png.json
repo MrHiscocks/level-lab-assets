@@ -1,0 +1,56 @@
+{
+  "id": "PL120",
+  "title": "Wild rabbit",
+  "category": "players",
+  "variant": "movement",
+  "batch": 25,
+  "tags": [
+    "Wales",
+    "animal",
+    "animals",
+    "hop",
+    "movement",
+    "nature",
+    "ordinary animals",
+    "outdoor",
+    "player",
+    "wildlife",
+    "woodland"
+  ],
+  "form": "hop",
+  "environments": [
+    "Savanna & grassland",
+    "Woodland & gardens"
+  ],
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 14,
+    "right": 49,
+    "top": 30,
+    "bottom": 63
+  },
+  "fps": 6,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "c25cd1a915ec916e6f415d752b2b56a27cdb5cbcfedc7d47a1e90e600b6aad99",
+  "sourceFile": "PL120.png",
+  "sourceBatch": "Player expansion batch 25",
+  "description": "Wild rabbit. Four-frame hop movement animation.",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Set a fixed manual rectangular body mask for all frames. Ground contact at bottom of cell. PNG does not store origin, mask or playback settings.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "4c98c4082ceb8d4982f0bf85677b2c716c6a96c0e8f820deab2837c3bfe3e496",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

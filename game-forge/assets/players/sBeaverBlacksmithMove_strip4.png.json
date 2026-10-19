@@ -7,25 +7,41 @@
   "batch": 17,
   "origin": [
     32,
-    96
+    64
   ],
   "mask": {
-    "left": 20,
-    "top": 30,
-    "right": 43,
-    "bottom": 95
+    "left": 21,
+    "right": 42,
+    "top": 8,
+    "bottom": 63
   },
   "fps": 8,
-  "placement": "",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Manual rectangular collision mask, fixed across all frames. Ground contact is the lower frame edge; do not auto-trim or independently centre frames. PNG files do not store origin, speed or collision settings.",
   "repeatHorizontal": false,
-  "form": "",
+  "form": "walk",
   "loop": false,
   "duration": null,
   "description": "",
   "sourceFile": "Game_Forge_Batch_17/assets/players/sBeaverBlacksmithMove_strip4.png",
   "sourceBatch": "Game_Forge_Batch_17.zip",
-  "sourceSha256": "e72ce331dcb902eb5e77a08cc1ca6add08def1e59fb18f6bd71869b3891a5b75",
+  "sourceSha256": "c06da707adcce1238bb7995d8a94cf47ea7a54d7a5570b26e1ec4572fef61861",
   "frameWidth": 64,
-  "frameHeight": 96,
-  "frames": 4
+  "frameHeight": 64,
+  "frames": 4,
+  "exportRevision": {
+    "version": "players-64-v1",
+    "date": "2026-10-19",
+    "previousSha256": "e72ce331dcb902eb5e77a08cc1ca6add08def1e59fb18f6bd71869b3891a5b75",
+    "originalFrameSize": [
+      64,
+      96
+    ],
+    "commonCropTop": 20,
+    "resizedContentWidth": 54,
+    "targetFrameSize": [
+      64,
+      64
+    ],
+    "method": "Common transparent-top crop, proportional Lanczos downscale, bottom-centred transparent canvas. Same transform across all variants."
+  }
 }

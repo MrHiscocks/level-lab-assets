@@ -7,25 +7,41 @@
   "batch": 15,
   "origin": [
     32,
-    96
+    64
   ],
   "mask": {
-    "left": 20,
-    "top": 16,
-    "right": 43,
-    "bottom": 95
+    "left": 23,
+    "right": 40,
+    "top": 4,
+    "bottom": 63
   },
   "fps": 4,
-  "placement": "",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Manual rectangular collision mask, fixed across all frames. Ground contact is the lower frame edge; do not auto-trim or independently centre frames. PNG files do not store origin, speed or collision settings.",
   "repeatHorizontal": false,
-  "form": "",
+  "form": "walk",
   "loop": false,
   "duration": null,
   "description": "",
   "sourceFile": "Game_Forge_Batch_15/assets/players/sSatelliteheadedRobotIdle_strip4.png",
   "sourceBatch": "Game_Forge_Batch_15.zip",
-  "sourceSha256": "3b90e0a27ffdc2130ea1f1bade20b7244db77924499ab30458c02ec3df98bdc8",
+  "sourceSha256": "4bdd4e9b0c7ac3526af709d7354817126fabd8b0f12d27ac7ece34d828601f37",
   "frameWidth": 64,
-  "frameHeight": 96,
-  "frames": 4
+  "frameHeight": 64,
+  "frames": 4,
+  "exportRevision": {
+    "version": "players-64-v1",
+    "date": "2026-10-19",
+    "previousSha256": "3b90e0a27ffdc2130ea1f1bade20b7244db77924499ab30458c02ec3df98bdc8",
+    "originalFrameSize": [
+      64,
+      96
+    ],
+    "commonCropTop": 10,
+    "resizedContentWidth": 48,
+    "targetFrameSize": [
+      64,
+      64
+    ],
+    "method": "Common transparent-top crop, proportional Lanczos downscale, bottom-centred transparent canvas. Same transform across all variants."
+  }
 }

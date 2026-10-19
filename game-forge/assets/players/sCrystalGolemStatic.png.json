@@ -7,16 +7,16 @@
   "batch": 18,
   "origin": [
     32,
-    96
+    64
   ],
   "mask": {
-    "left": 20,
-    "top": 45,
-    "right": 43,
-    "bottom": 95
+    "left": 21,
+    "right": 42,
+    "top": 21,
+    "bottom": 63
   },
   "fps": 6,
-  "placement": "Fixed mask excludes changing tails/wings; bottom 95 is the virtual platform contact for hovering sprites. Does not supply free-flight physics.",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Manual rectangular collision mask, fixed across all frames. Mask bottom 63 is virtual ground contact; artwork hovers above it. Flying/floating movement requires game code. PNG files do not store origin, speed or collision settings.",
   "repeatHorizontal": false,
   "form": "floating",
   "loop": false,
@@ -24,8 +24,24 @@
   "description": "",
   "sourceFile": "Game_Forge_Batch_18/assets/players/sCrystalGolemStatic.png",
   "sourceBatch": "Game_Forge_Batch_18.zip",
-  "sourceSha256": "98fffd973ad509bcb58b8015756d19cf6c5369b315ec714f005adcc97940e030",
+  "sourceSha256": "3e273b64e7f983135c9241facb22812655ff10ff91be4aba8db7ac7b742a31bd",
   "frameWidth": 64,
-  "frameHeight": 96,
-  "frames": 1
+  "frameHeight": 64,
+  "frames": 1,
+  "exportRevision": {
+    "version": "players-64-v1",
+    "date": "2026-10-19",
+    "previousSha256": "98fffd973ad509bcb58b8015756d19cf6c5369b315ec714f005adcc97940e030",
+    "originalFrameSize": [
+      64,
+      96
+    ],
+    "commonCropTop": 20,
+    "resizedContentWidth": 54,
+    "targetFrameSize": [
+      64,
+      64
+    ],
+    "method": "Common transparent-top crop, proportional Lanczos downscale, bottom-centred transparent canvas. Same transform across all variants."
+  }
 }

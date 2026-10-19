@@ -7,16 +7,16 @@
   "batch": 18,
   "origin": [
     32,
-    96
+    64
   ],
   "mask": {
-    "left": 20,
-    "top": 35,
-    "right": 43,
-    "bottom": 95
+    "left": 22,
+    "right": 40,
+    "top": 16,
+    "bottom": 63
   },
   "fps": 8,
-  "placement": "Fixed mask excludes changing tails/wings; bottom 95 is the virtual platform contact for hovering sprites. Does not supply free-flight physics.",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Manual rectangular collision mask, fixed across all frames. Mask bottom 63 is virtual ground contact; artwork hovers above it. Flying/floating movement requires game code. PNG files do not store origin, speed or collision settings.",
   "repeatHorizontal": false,
   "form": "flying",
   "loop": false,
@@ -24,8 +24,24 @@
   "description": "",
   "sourceFile": "Game_Forge_Batch_18/assets/players/sPuffinCoastalExplorerMove_strip4.png",
   "sourceBatch": "Game_Forge_Batch_18.zip",
-  "sourceSha256": "da85939364bd613af513d0c28885245bc078825fae29656edb32b0524cb4ba13",
+  "sourceSha256": "d7db67f52ce7090cddef785d5d32d18d154554bcbe2c70bcf1f6e8cad387494d",
   "frameWidth": 64,
-  "frameHeight": 96,
-  "frames": 4
+  "frameHeight": 64,
+  "frames": 4,
+  "exportRevision": {
+    "version": "players-64-v1",
+    "date": "2026-10-19",
+    "previousSha256": "da85939364bd613af513d0c28885245bc078825fae29656edb32b0524cb4ba13",
+    "originalFrameSize": [
+      64,
+      96
+    ],
+    "commonCropTop": 13,
+    "resizedContentWidth": 49,
+    "targetFrameSize": [
+      64,
+      64
+    ],
+    "method": "Common transparent-top crop, proportional Lanczos downscale, bottom-centred transparent canvas. Same transform across all variants."
+  }
 }

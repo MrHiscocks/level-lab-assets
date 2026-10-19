@@ -7,16 +7,16 @@
   "batch": 18,
   "origin": [
     32,
-    96
+    64
   ],
   "mask": {
-    "left": 20,
-    "top": 40,
-    "right": 43,
-    "bottom": 95
+    "left": 22,
+    "right": 40,
+    "top": 20,
+    "bottom": 63
   },
   "fps": 8,
-  "placement": "Fixed mask excludes changing tails/wings; bottom 95 is the virtual platform contact for hovering sprites. Does not supply free-flight physics.",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Manual rectangular collision mask, fixed across all frames. Mask bottom 63 is virtual ground contact; artwork hovers above it. Flying/floating movement requires game code. PNG files do not store origin, speed or collision settings.",
   "repeatHorizontal": false,
   "form": "flying",
   "loop": false,
@@ -24,8 +24,24 @@
   "description": "",
   "sourceFile": "Game_Forge_Batch_18/assets/players/sBeeConservationHelperStatic.png",
   "sourceBatch": "Game_Forge_Batch_18.zip",
-  "sourceSha256": "bfc356c0af31f3421ca375838bfb51b12d0a48c7020ddca485b8045de79d451b",
+  "sourceSha256": "5037ba42e8ad9d3e4e50db93ee76b66828a37b34a03ac47607dceb7fc1f758bf",
   "frameWidth": 64,
-  "frameHeight": 96,
-  "frames": 1
+  "frameHeight": 64,
+  "frames": 1,
+  "exportRevision": {
+    "version": "players-64-v1",
+    "date": "2026-10-19",
+    "previousSha256": "bfc356c0af31f3421ca375838bfb51b12d0a48c7020ddca485b8045de79d451b",
+    "originalFrameSize": [
+      64,
+      96
+    ],
+    "commonCropTop": 13,
+    "resizedContentWidth": 49,
+    "targetFrameSize": [
+      64,
+      64
+    ],
+    "method": "Common transparent-top crop, proportional Lanczos downscale, bottom-centred transparent canvas. Same transform across all variants."
+  }
 }

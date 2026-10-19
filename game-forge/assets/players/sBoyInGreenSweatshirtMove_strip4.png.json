@@ -1,0 +1,55 @@
+{
+  "id": "PL106",
+  "title": "Boy in green sweatshirt",
+  "category": "players",
+  "variant": "movement",
+  "batch": 23,
+  "tags": [
+    "adventure",
+    "boy",
+    "community",
+    "healthy eating",
+    "learning",
+    "movement",
+    "player",
+    "walk",
+    "wellbeing"
+  ],
+  "form": "walk",
+  "environments": [
+    "Indoors",
+    "Town & community",
+    "Woodland & gardens"
+  ],
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 22,
+    "right": 41,
+    "top": 15,
+    "bottom": 63
+  },
+  "fps": 8,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "454caed688548e43d43295b80b0e3137e01a5629d4bf0949f8d6682c2c7c1e2b",
+  "sourceFile": "PL106.png",
+  "sourceBatch": "Player expansion batch 23",
+  "description": "Boy in green sweatshirt. Four-frame walk movement animation.",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Set a fixed manual rectangular body mask for all frames. Ground contact at bottom of cell. PNG does not store origin, mask or playback settings.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "f9159c41e98c4a7376e9d3c7d0edec15d70ba435e2d4226fb78afc75cf4d2dec",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "PL132",
+  "title": "Freshwater fish",
+  "category": "players",
+  "variant": "movement",
+  "batch": 26,
+  "tags": [
+    "animal",
+    "animals",
+    "freshwater",
+    "lake",
+    "movement",
+    "nature",
+    "ordinary animals",
+    "player",
+    "pond",
+    "swim",
+    "swimming",
+    "water",
+    "wildlife"
+  ],
+  "form": "swim",
+  "environments": [
+    "Coast & ocean",
+    "Rivers & wetlands"
+  ],
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 14,
+    "right": 49,
+    "top": 27,
+    "bottom": 63
+  },
+  "fps": 6,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "6c9cf7340a27b69ea8d4704dd3ca78d99954c7a3087d7af892ec67ae018a0ede",
+  "sourceFile": "PL132.png",
+  "sourceBatch": "Player expansion batch 26",
+  "description": "Freshwater fish. Four-frame swim movement animation.",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Set a fixed manual rectangular body mask for all frames. Mask bottom 63 is a virtual platform contact; specialised flying/swimming movement requires game code. PNG does not store origin, mask or playback settings.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "fc1690ef49c33c83816bbeb417858ea424027c9380b7a7ebefd72e65a51b8835",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

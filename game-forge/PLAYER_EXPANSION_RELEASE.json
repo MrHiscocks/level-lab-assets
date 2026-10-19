@@ -1,0 +1,4386 @@
+{
+  "date": "2026-10-19",
+  "existingPlayersCorrected": 48,
+  "newPlayers": 64,
+  "totalPlayers": 112,
+  "playerPngFiles": 172,
+  "variants": {
+    "static": 48,
+    "movement": 112,
+    "idle": 12
+  },
+  "frameSize": [
+    64,
+    64
+  ],
+  "newStripSize": [
+    256,
+    64
+  ],
+  "newFramesPerStrip": 4,
+  "newAnimations": "movement only",
+  "checks": {
+    "allPlayerDimensions": "pass",
+    "uniqueNewFrames": "pass",
+    "pngHashes": "pass",
+    "sourceClipping": "pass",
+    "visualReview": "all 8 new contact sheets reviewed; row drift corrected",
+    "catalogueTests": "13 passed",
+    "combinedSiteBuild": "passed: 1114 concepts, 1201 gameplay files",
+    "GameMakerIDE": "not available; PNG geometry, strip naming and import settings checked"
+  },
+  "assets": [
+    {
+      "id": "PL101",
+      "title": "Girl in teal hoodie",
+      "file": "sGirlInTealHoodieMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          164,
+          37,
+          529,
+          614
+        ],
+        [
+          122,
+          37,
+          425,
+          611
+        ],
+        [
+          160,
+          25,
+          548,
+          582
+        ],
+        [
+          122,
+          25,
+          428,
+          584
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          14,
+          4,
+          56,
+          64
+        ],
+        [
+          14,
+          3,
+          50,
+          64
+        ],
+        [
+          14,
+          6,
+          58,
+          64
+        ],
+        [
+          14,
+          5,
+          50,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "4266ec1bbfb38a31357e90086f2a41c3e51c4eb1bf6e6b362d848b7a9c14b80e"
+    },
+    {
+      "id": "PL102",
+      "title": "Boy in orange T-shirt",
+      "file": "sBoyInOrangeTShirtMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          164,
+          48,
+          564,
+          627
+        ],
+        [
+          124,
+          44,
+          407,
+          632
+        ],
+        [
+          160,
+          17,
+          582,
+          580
+        ],
+        [
+          121,
+          12,
+          407,
+          586
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          12,
+          5,
+          56,
+          64
+        ],
+        [
+          15,
+          3,
+          49,
+          64
+        ],
+        [
+          12,
+          7,
+          58,
+          64
+        ],
+        [
+          15,
+          5,
+          49,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "37e9523ecd34f5a1f7828223c08a4f656c09806572f0afbde861baccdcd82fd4"
+    },
+    {
+      "id": "PL103",
+      "title": "Girl in purple sweatshirt",
+      "file": "sGirlInPurpleSweatshirtMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          163,
+          49,
+          568,
+          631
+        ],
+        [
+          101,
+          51,
+          422,
+          635
+        ],
+        [
+          147,
+          15,
+          587,
+          577
+        ],
+        [
+          109,
+          17,
+          429,
+          582
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          12,
+          4,
+          57,
+          64
+        ],
+        [
+          13,
+          3,
+          50,
+          64
+        ],
+        [
+          9,
+          5,
+          59,
+          64
+        ],
+        [
+          13,
+          5,
+          51,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "2588f814be72d1ecad4aebb6f2cd34901945a5ee1fd4fe352e686a52b845657b"
+    },
+    {
+      "id": "PL104",
+      "title": "Boy in blue hoodie",
+      "file": "sBoyInBlueHoodieMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          145,
+          39,
+          545,
+          623
+        ],
+        [
+          106,
+          40,
+          384,
+          623
+        ],
+        [
+          142,
+          21,
+          584,
+          584
+        ],
+        [
+          106,
+          18,
+          377,
+          587
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          9,
+          4,
+          54,
+          64
+        ],
+        [
+          15,
+          3,
+          48,
+          64
+        ],
+        [
+          8,
+          5,
+          57,
+          64
+        ],
+        [
+          16,
+          6,
+          48,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "4dc8865580e15177d4a42ed31b2ce70c35420c8bb38eff1808f0ca182cc8d12c"
+    },
+    {
+      "id": "PL105",
+      "title": "Girl in red jacket",
+      "file": "sGirlInRedJacketMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          182,
+          47,
+          591,
+          659
+        ],
+        [
+          77,
+          44,
+          437,
+          659
+        ],
+        [
+          181,
+          20,
+          606,
+          580
+        ],
+        [
+          82,
+          14,
+          438,
+          580
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          13,
+          5,
+          56,
+          64
+        ],
+        [
+          13,
+          7,
+          51,
+          64
+        ],
+        [
+          13,
+          11,
+          57,
+          64
+        ],
+        [
+          13,
+          11,
+          51,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "1b382fd20c035756717e030464a234526617469af4735392cf8a2847732b5161"
+    },
+    {
+      "id": "PL106",
+      "title": "Boy in green sweatshirt",
+      "file": "sBoyInGreenSweatshirtMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          184,
+          41,
+          577,
+          652
+        ],
+        [
+          115,
+          37,
+          437,
+          651
+        ],
+        [
+          161,
+          16,
+          581,
+          584
+        ],
+        [
+          117,
+          12,
+          437,
+          585
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          14,
+          3,
+          56,
+          64
+        ],
+        [
+          15,
+          5,
+          49,
+          64
+        ],
+        [
+          12,
+          9,
+          56,
+          64
+        ],
+        [
+          15,
+          8,
+          49,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "454caed688548e43d43295b80b0e3137e01a5629d4bf0949f8d6682c2c7c1e2b"
+    },
+    {
+      "id": "PL107",
+      "title": "Girl in yellow T-shirt",
+      "file": "sGirlInYellowTShirtMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          154,
+          43,
+          559,
+          627
+        ],
+        [
+          107,
+          43,
+          463,
+          627
+        ],
+        [
+          149,
+          16,
+          567,
+          583
+        ],
+        [
+          109,
+          16,
+          465,
+          587
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          13,
+          9,
+          55,
+          64
+        ],
+        [
+          13,
+          9,
+          51,
+          64
+        ],
+        [
+          13,
+          11,
+          55,
+          64
+        ],
+        [
+          13,
+          10,
+          50,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "38903eba748ce00770f5796667abeb57fbf20ca8d2b178204173bdf3f59b6e4c"
+    },
+    {
+      "id": "PL108",
+      "title": "Boy in navy jacket",
+      "file": "sBoyInNavyJacketMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          171,
+          58,
+          551,
+          631
+        ],
+        [
+          132,
+          58,
+          405,
+          629
+        ],
+        [
+          156,
+          22,
+          567,
+          573
+        ],
+        [
+          139,
+          23,
+          414,
+          572
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          11,
+          3,
+          54,
+          64
+        ],
+        [
+          16,
+          4,
+          48,
+          64
+        ],
+        [
+          11,
+          7,
+          57,
+          64
+        ],
+        [
+          16,
+          6,
+          48,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "a06f635dbf0e64fb903c28e9b6677c1b7b11ecaf6a09596703014404fd968eaf"
+    },
+    {
+      "id": "PL109",
+      "title": "Girl in blue cardigan",
+      "file": "sGirlInBlueCardiganMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          128,
+          33,
+          545,
+          613
+        ],
+        [
+          95,
+          34,
+          468,
+          613
+        ],
+        [
+          128,
+          17,
+          554,
+          592
+        ],
+        [
+          91,
+          17,
+          424,
+          592
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          9,
+          5,
+          55,
+          64
+        ],
+        [
+          10,
+          4,
+          52,
+          64
+        ],
+        [
+          10,
+          8,
+          55,
+          64
+        ],
+        [
+          10,
+          3,
+          49,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "9c55ec75b941b23f96882d25a14c4d918cf89b19da33c9c3bc1b6ed9f0eb5be9"
+    },
+    {
+      "id": "PL110",
+      "title": "Boy in burgundy sweatshirt",
+      "file": "sBoyInBurgundySweatshirtMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          157,
+          16,
+          521,
+          603
+        ],
+        [
+          109,
+          20,
+          409,
+          606
+        ],
+        [
+          141,
+          16,
+          543,
+          591
+        ],
+        [
+          125,
+          16,
+          470,
+          591
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          11,
+          6,
+          51,
+          64
+        ],
+        [
+          12,
+          3,
+          47,
+          64
+        ],
+        [
+          9,
+          9,
+          51,
+          64
+        ],
+        [
+          14,
+          6,
+          53,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "521f6fed3d82d4fbe34eb10c0d044bf9d19de7faf8f4d327ed4685a875917ffc"
+    },
+    {
+      "id": "PL111",
+      "title": "Girl in green hoodie",
+      "file": "sGirlInGreenHoodieMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          184,
+          42,
+          552,
+          605
+        ],
+        [
+          97,
+          43,
+          386,
+          605
+        ],
+        [
+          149,
+          27,
+          583,
+          576
+        ],
+        [
+          101,
+          28,
+          389,
+          578
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          14,
+          3,
+          56,
+          64
+        ],
+        [
+          15,
+          3,
+          50,
+          64
+        ],
+        [
+          9,
+          5,
+          58,
+          64
+        ],
+        [
+          14,
+          4,
+          50,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "282e2d8c19c4c830b2f8ad27d1711f1f0261f62f3acee697d9d8fb156c6f7eed"
+    },
+    {
+      "id": "PL112",
+      "title": "Boy in yellow jacket",
+      "file": "sBoyInYellowJacketMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          165,
+          37,
+          556,
+          623
+        ],
+        [
+          125,
+          39,
+          424,
+          622
+        ],
+        [
+          141,
+          16,
+          567,
+          585
+        ],
+        [
+          157,
+          15,
+          434,
+          591
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          11,
+          3,
+          55,
+          64
+        ],
+        [
+          14,
+          4,
+          48,
+          64
+        ],
+        [
+          10,
+          6,
+          56,
+          64
+        ],
+        [
+          16,
+          5,
+          48,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "fd5feb3cbcfb1abaa47e7d8fefe02925807e2c5853322bbaf555c715dbbb37a3"
+    },
+    {
+      "id": "PL113",
+      "title": "Girl with headscarf",
+      "file": "sGirlWithHeadscarfMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          159,
+          59,
+          569,
+          620
+        ],
+        [
+          106,
+          59,
+          406,
+          625
+        ],
+        [
+          155,
+          18,
+          588,
+          566
+        ],
+        [
+          95,
+          19,
+          389,
+          569
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          10,
+          3,
+          57,
+          64
+        ],
+        [
+          16,
+          8,
+          49,
+          64
+        ],
+        [
+          10,
+          8,
+          57,
+          64
+        ],
+        [
+          14,
+          4,
+          50,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "114969d6ba201211053a21230b51b7deec1fa73e299df9b731fc87292960580e"
+    },
+    {
+      "id": "PL114",
+      "title": "Boy with turban",
+      "file": "sBoyWithTurbanMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          171,
+          29,
+          541,
+          618
+        ],
+        [
+          140,
+          32,
+          397,
+          619
+        ],
+        [
+          161,
+          12,
+          564,
+          594
+        ],
+        [
+          142,
+          14,
+          404,
+          597
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          12,
+          3,
+          54,
+          64
+        ],
+        [
+          16,
+          3,
+          46,
+          64
+        ],
+        [
+          12,
+          5,
+          56,
+          64
+        ],
+        [
+          16,
+          5,
+          47,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "2ceee5e2f58991c740556ceb967a8a6cdb45eda00fb8356cd69192bea20f2434"
+    },
+    {
+      "id": "PL115",
+      "title": "Girl using a wheelchair",
+      "file": "sGirlUsingAWheelchairMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          133,
+          37,
+          567,
+          627
+        ],
+        [
+          73,
+          35,
+          505,
+          628
+        ],
+        [
+          140,
+          10,
+          582,
+          590
+        ],
+        [
+          110,
+          8,
+          544,
+          591
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          9,
+          0,
+          59,
+          64
+        ],
+        [
+          3,
+          0,
+          53,
+          64
+        ],
+        [
+          9,
+          1,
+          60,
+          64
+        ],
+        [
+          6,
+          0,
+          57,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "72da2492c28ffe7b7e09b3b9de807c3b47c16a92ddd9da5e222497e9f9d3b676"
+    },
+    {
+      "id": "PL116",
+      "title": "Boy using a wheelchair",
+      "file": "sBoyUsingAWheelchairMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          134,
+          46,
+          572,
+          623
+        ],
+        [
+          83,
+          67,
+          516,
+          621
+        ],
+        [
+          130,
+          17,
+          572,
+          577
+        ],
+        [
+          88,
+          14,
+          531,
+          578
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          9,
+          0,
+          60,
+          64
+        ],
+        [
+          4,
+          2,
+          55,
+          64
+        ],
+        [
+          8,
+          1,
+          60,
+          64
+        ],
+        [
+          4,
+          1,
+          56,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "8bb5f7a4731099c186ccbe86d9a35fdfecdd2abfceeed9efb1eb065cdf814f00"
+    },
+    {
+      "id": "PL117",
+      "title": "Domestic cat",
+      "file": "sDomesticCatMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          80,
+          110,
+          583,
+          558
+        ],
+        [
+          58,
+          115,
+          571,
+          560
+        ],
+        [
+          58,
+          87,
+          592,
+          530
+        ],
+        [
+          43,
+          88,
+          579,
+          529
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          4,
+          15,
+          63,
+          64
+        ],
+        [
+          2,
+          15,
+          62,
+          64
+        ],
+        [
+          2,
+          15,
+          63,
+          64
+        ],
+        [
+          1,
+          15,
+          62,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "4707fcf14a85ab1240b5967a4a5ea4f0d203db8a7c2d9053d97f719fa6a3b236"
+    },
+    {
+      "id": "PL118",
+      "title": "Domestic dog",
+      "file": "sDomesticDogMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          69,
+          125,
+          583,
+          575
+        ],
+        [
+          44,
+          139,
+          567,
+          574
+        ],
+        [
+          67,
+          84,
+          605,
+          516
+        ],
+        [
+          51,
+          90,
+          571,
+          519
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          3,
+          15,
+          62,
+          64
+        ],
+        [
+          1,
+          16,
+          60,
+          64
+        ],
+        [
+          3,
+          16,
+          63,
+          64
+        ],
+        [
+          1,
+          16,
+          60,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "f4c11f9a8a89d161714c4d5f59a4d456159269db4be38e9508e4483c86a8da4f"
+    },
+    {
+      "id": "PL119",
+      "title": "Red fox",
+      "file": "sRedFoxMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          21,
+          104,
+          604,
+          546
+        ],
+        [
+          26,
+          103,
+          611,
+          544
+        ],
+        [
+          15,
+          91,
+          607,
+          512
+        ],
+        [
+          16,
+          91,
+          612,
+          513
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          1,
+          19,
+          63,
+          64
+        ],
+        [
+          1,
+          19,
+          63,
+          64
+        ],
+        [
+          1,
+          20,
+          63,
+          64
+        ],
+        [
+          1,
+          20,
+          63,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "ee10fcb8f775c2aaf5ff275172f29bd6c891e3ffe71bb09b89b3c54f7f4d4cac"
+    },
+    {
+      "id": "PL120",
+      "title": "Wild rabbit",
+      "file": "sWildRabbitMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          119,
+          227,
+          566,
+          588
+        ],
+        [
+          41,
+          133,
+          445,
+          599
+        ],
+        [
+          68,
+          57,
+          653,
+          441
+        ],
+        [
+          57,
+          85,
+          508,
+          512
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          8,
+          27,
+          55,
+          64
+        ],
+        [
+          1,
+          18,
+          44,
+          64
+        ],
+        [
+          3,
+          25,
+          63,
+          64
+        ],
+        [
+          2,
+          21,
+          50,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "c25cd1a915ec916e6f415d752b2b56a27cdb5cbcfedc7d47a1e90e600b6aad99"
+    },
+    {
+      "id": "PL121",
+      "title": "Red squirrel",
+      "file": "sRedSquirrelMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          32,
+          136,
+          601,
+          563
+        ],
+        [
+          31,
+          139,
+          592,
+          563
+        ],
+        [
+          18,
+          87,
+          602,
+          510
+        ],
+        [
+          27,
+          85,
+          597,
+          510
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          2,
+          19,
+          63,
+          64
+        ],
+        [
+          1,
+          19,
+          63,
+          64
+        ],
+        [
+          1,
+          19,
+          63,
+          64
+        ],
+        [
+          1,
+          19,
+          63,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "2cb1a857afc5566b5450082f414d0b73d6f8bf487af41be36ca5f15abe9bb75a"
+    },
+    {
+      "id": "PL122",
+      "title": "Wild hedgehog",
+      "file": "sWildHedgehogMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          56,
+          153,
+          615,
+          579
+        ],
+        [
+          40,
+          153,
+          578,
+          580
+        ],
+        [
+          59,
+          96,
+          614,
+          507
+        ],
+        [
+          36,
+          98,
+          583,
+          506
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          2,
+          19,
+          63,
+          64
+        ],
+        [
+          1,
+          19,
+          60,
+          64
+        ],
+        [
+          3,
+          20,
+          63,
+          64
+        ],
+        [
+          1,
+          20,
+          60,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "d51ac6e8b92a3a41af23fe786578d2a26ede9ab107c5ae43af7a0744dcff72a6"
+    },
+    {
+      "id": "PL123",
+      "title": "European badger",
+      "file": "sEuropeanBadgerMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          32,
+          202,
+          611,
+          557
+        ],
+        [
+          15,
+          210,
+          596,
+          557
+        ],
+        [
+          31,
+          146,
+          621,
+          462
+        ],
+        [
+          19,
+          116,
+          601,
+          464
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          2,
+          28,
+          63,
+          64
+        ],
+        [
+          1,
+          28,
+          61,
+          64
+        ],
+        [
+          2,
+          31,
+          63,
+          64
+        ],
+        [
+          1,
+          28,
+          62,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "52bfc6e343e132f962e81c871e7d8df1197be80f258063b75d5e90c0844cab1a"
+    },
+    {
+      "id": "PL124",
+      "title": "Welsh hill sheep",
+      "file": "sWelshHillSheepMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          51,
+          113,
+          585,
+          584
+        ],
+        [
+          69,
+          112,
+          572,
+          584
+        ],
+        [
+          60,
+          70,
+          587,
+          536
+        ],
+        [
+          55,
+          69,
+          572,
+          536
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          1,
+          11,
+          63,
+          64
+        ],
+        [
+          2,
+          11,
+          62,
+          64
+        ],
+        [
+          1,
+          11,
+          63,
+          64
+        ],
+        [
+          1,
+          11,
+          62,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "0e350b879c0d8f086aa5494e1c81cf72774f69a3a77083d82834106c22fc6e7e"
+    },
+    {
+      "id": "PL125",
+      "title": "Robin",
+      "file": "sRobinMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          105,
+          30,
+          605,
+          602
+        ],
+        [
+          23,
+          140,
+          547,
+          593
+        ],
+        [
+          62,
+          153,
+          619,
+          559
+        ],
+        [
+          49,
+          45,
+          563,
+          500
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          8,
+          0,
+          61,
+          57
+        ],
+        [
+          1,
+          10,
+          56,
+          57
+        ],
+        [
+          4,
+          17,
+          62,
+          61
+        ],
+        [
+          3,
+          6,
+          57,
+          55
+        ]
+      ],
+      "grounded": false,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "3d73e987945cb87ea958bab15569e60343839dacbc4547c4c2e894332a96fe9b"
+    },
+    {
+      "id": "PL126",
+      "title": "Seagull",
+      "file": "sSeagullMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          82,
+          35,
+          598,
+          545
+        ],
+        [
+          24,
+          155,
+          599,
+          547
+        ],
+        [
+          80,
+          214,
+          598,
+          599
+        ],
+        [
+          56,
+          58,
+          607,
+          527
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          6,
+          0,
+          62,
+          54
+        ],
+        [
+          1,
+          11,
+          62,
+          54
+        ],
+        [
+          6,
+          19,
+          62,
+          59
+        ],
+        [
+          3,
+          2,
+          62,
+          52
+        ]
+      ],
+      "grounded": false,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "e76a8738a085a30e140e28878e6946eca79e35508752a0cd4e43c830327b9ae4"
+    },
+    {
+      "id": "PL127",
+      "title": "Small bat",
+      "file": "sSmallBatMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          78,
+          46,
+          589,
+          565
+        ],
+        [
+          40,
+          178,
+          583,
+          556
+        ],
+        [
+          175,
+          90,
+          574,
+          551
+        ],
+        [
+          48,
+          86,
+          600,
+          460
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          4,
+          0,
+          63,
+          56
+        ],
+        [
+          1,
+          14,
+          62,
+          57
+        ],
+        [
+          14,
+          12,
+          61,
+          64
+        ],
+        [
+          1,
+          11,
+          63,
+          56
+        ]
+      ],
+      "grounded": false,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "d32169faf58c80230764afbbea7ed97f626dba49088bc68adb2b21e8c2a5194e"
+    },
+    {
+      "id": "PL128",
+      "title": "Butterfly",
+      "file": "sButterflyMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          108,
+          39,
+          562,
+          560
+        ],
+        [
+          72,
+          143,
+          549,
+          566
+        ],
+        [
+          40,
+          212,
+          592,
+          537
+        ],
+        [
+          78,
+          60,
+          557,
+          536
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          7,
+          0,
+          60,
+          57
+        ],
+        [
+          4,
+          10,
+          58,
+          57
+        ],
+        [
+          1,
+          24,
+          62,
+          64
+        ],
+        [
+          4,
+          4,
+          59,
+          59
+        ]
+      ],
+      "grounded": false,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "3cf61a76a33f2e655dd61c31641b1c2d964392e20c2098b3e30e38369f346d36"
+    },
+    {
+      "id": "PL129",
+      "title": "Duck",
+      "file": "sDuckMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          83,
+          128,
+          602,
+          567
+        ],
+        [
+          41,
+          126,
+          565,
+          566
+        ],
+        [
+          69,
+          78,
+          608,
+          500
+        ],
+        [
+          41,
+          78,
+          575,
+          512
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          5,
+          9,
+          63,
+          57
+        ],
+        [
+          1,
+          9,
+          59,
+          57
+        ],
+        [
+          3,
+          12,
+          63,
+          60
+        ],
+        [
+          1,
+          11,
+          60,
+          60
+        ]
+      ],
+      "grounded": false,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "5dc4ba738fca2f5d7cf2678a4eff8c84b03848d087352ad5a1b113fca1ceca45"
+    },
+    {
+      "id": "PL130",
+      "title": "Swimming otter",
+      "file": "sSwimmingOtterMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          21,
+          230,
+          606,
+          458
+        ],
+        [
+          19,
+          235,
+          609,
+          502
+        ],
+        [
+          14,
+          169,
+          616,
+          402
+        ],
+        [
+          16,
+          179,
+          611,
+          403
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          1,
+          28,
+          62,
+          55
+        ],
+        [
+          1,
+          29,
+          62,
+          57
+        ],
+        [
+          1,
+          30,
+          63,
+          57
+        ],
+        [
+          1,
+          29,
+          63,
+          56
+        ]
+      ],
+      "grounded": false,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "4a33543d09400b21de3b011e2fd48e6fd8ab9bfed80e102da6c9b5a07beb8cf9"
+    },
+    {
+      "id": "PL131",
+      "title": "Pond frog",
+      "file": "sPondFrogMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          131,
+          230,
+          550,
+          543
+        ],
+        [
+          7,
+          159,
+          440,
+          547
+        ],
+        [
+          70,
+          72,
+          720,
+          508
+        ],
+        [
+          48,
+          262,
+          467,
+          562
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          10,
+          35,
+          50,
+          64
+        ],
+        [
+          1,
+          29,
+          41,
+          64
+        ],
+        [
+          5,
+          26,
+          63,
+          64
+        ],
+        [
+          4,
+          37,
+          43,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "d3bb543db98dee9a54eb1489c815130d0fda9f3ff53937ce822a164c0e6df9a4"
+    },
+    {
+      "id": "PL132",
+      "title": "Freshwater fish",
+      "file": "sFreshwaterFishMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          38,
+          172,
+          616,
+          550
+        ],
+        [
+          54,
+          172,
+          575,
+          550
+        ],
+        [
+          97,
+          98,
+          616,
+          479
+        ],
+        [
+          28,
+          98,
+          576,
+          479
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          1,
+          17,
+          63,
+          57
+        ],
+        [
+          3,
+          17,
+          60,
+          57
+        ],
+        [
+          7,
+          16,
+          63,
+          58
+        ],
+        [
+          1,
+          15,
+          60,
+          57
+        ]
+      ],
+      "grounded": false,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "6c9cf7340a27b69ea8d4704dd3ca78d99954c7a3087d7af892ec67ae018a0ede"
+    },
+    {
+      "id": "PL133",
+      "title": "Girl cyclist",
+      "file": "sGirlCyclistMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          100,
+          57,
+          568,
+          604
+        ],
+        [
+          75,
+          58,
+          536,
+          604
+        ],
+        [
+          101,
+          38,
+          568,
+          579
+        ],
+        [
+          78,
+          31,
+          555,
+          582
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          4,
+          0,
+          61,
+          64
+        ],
+        [
+          2,
+          0,
+          58,
+          64
+        ],
+        [
+          4,
+          1,
+          61,
+          64
+        ],
+        [
+          2,
+          0,
+          60,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "e7e958eb4d54805cddcd4279b417f0597868f7e523d2d4055c45fcdf6a98bb09"
+    },
+    {
+      "id": "PL134",
+      "title": "Boy cyclist",
+      "file": "sBoyCyclistMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          51,
+          36,
+          607,
+          624
+        ],
+        [
+          38,
+          36,
+          593,
+          624
+        ],
+        [
+          46,
+          8,
+          607,
+          594
+        ],
+        [
+          34,
+          8,
+          595,
+          594
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          2,
+          2,
+          63,
+          64
+        ],
+        [
+          1,
+          2,
+          62,
+          64
+        ],
+        [
+          1,
+          2,
+          63,
+          64
+        ],
+        [
+          1,
+          2,
+          62,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "a570630abe517d3532765751e79c4add205f7f7926f890f0d5b10ac380a2362a"
+    },
+    {
+      "id": "PL135",
+      "title": "Girl swimmer",
+      "file": "sGirlSwimmerMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          79,
+          251,
+          590,
+          492
+        ],
+        [
+          43,
+          251,
+          553,
+          502
+        ],
+        [
+          85,
+          161,
+          597,
+          415
+        ],
+        [
+          60,
+          159,
+          569,
+          413
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          4,
+          28,
+          63,
+          57
+        ],
+        [
+          1,
+          28,
+          59,
+          57
+        ],
+        [
+          5,
+          26,
+          63,
+          57
+        ],
+        [
+          2,
+          26,
+          61,
+          57
+        ]
+      ],
+      "grounded": false,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "e10621e6bed4a3f8874348fb6be23a4b07722224c7433199ea6ea7d2a309cf5a"
+    },
+    {
+      "id": "PL136",
+      "title": "Boy swimmer",
+      "file": "sBoySwimmerMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          32,
+          182,
+          604,
+          496
+        ],
+        [
+          18,
+          182,
+          597,
+          522
+        ],
+        [
+          23,
+          123,
+          615,
+          460
+        ],
+        [
+          22,
+          123,
+          600,
+          477
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          2,
+          21,
+          63,
+          57
+        ],
+        [
+          1,
+          21,
+          62,
+          57
+        ],
+        [
+          1,
+          22,
+          63,
+          59
+        ],
+        [
+          1,
+          22,
+          62,
+          61
+        ]
+      ],
+      "grounded": false,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "c3872547eccf9c7a40820ef793e560029df23b5569c0a46b2423e1c10d610ab3"
+    },
+    {
+      "id": "PL137",
+      "title": "Girl kayaker",
+      "file": "sGirlKayakerMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          31,
+          140,
+          631,
+          596
+        ],
+        [
+          9,
+          164,
+          598,
+          599
+        ],
+        [
+          31,
+          47,
+          620,
+          533
+        ],
+        [
+          11,
+          109,
+          599,
+          538
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          2,
+          11,
+          63,
+          57
+        ],
+        [
+          1,
+          13,
+          61,
+          57
+        ],
+        [
+          2,
+          9,
+          63,
+          59
+        ],
+        [
+          1,
+          13,
+          61,
+          59
+        ]
+      ],
+      "grounded": false,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "bf01c8c2ebdcfcdd84a25ee7406b8cad4547a1db3d82bfcbf1470d5c90afc0eb"
+    },
+    {
+      "id": "PL138",
+      "title": "Boy kayaker",
+      "file": "sBoyKayakerMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          27,
+          130,
+          608,
+          559
+        ],
+        [
+          17,
+          139,
+          607,
+          563
+        ],
+        [
+          27,
+          74,
+          616,
+          528
+        ],
+        [
+          14,
+          103,
+          602,
+          529
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          2,
+          13,
+          63,
+          57
+        ],
+        [
+          1,
+          14,
+          63,
+          57
+        ],
+        [
+          1,
+          13,
+          63,
+          61
+        ],
+        [
+          1,
+          15,
+          62,
+          61
+        ]
+      ],
+      "grounded": false,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "9904bb037b421de5c7670247b088e05aeaef0e763c7b40a1de5c339cee598240"
+    },
+    {
+      "id": "PL139",
+      "title": "Girl skateboarder",
+      "file": "sGirlSkateboarderMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          96,
+          28,
+          581,
+          614
+        ],
+        [
+          80,
+          28,
+          522,
+          614
+        ],
+        [
+          111,
+          29,
+          571,
+          586
+        ],
+        [
+          48,
+          20,
+          574,
+          586
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          6,
+          0,
+          61,
+          64
+        ],
+        [
+          5,
+          0,
+          56,
+          64
+        ],
+        [
+          8,
+          2,
+          62,
+          64
+        ],
+        [
+          2,
+          1,
+          62,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "f42237080630b2ce6ad146f48c4a7ca45d0b8df9a6a130b83f2cdba21fdf4eb8"
+    },
+    {
+      "id": "PL140",
+      "title": "Boy skateboarder",
+      "file": "sBoySkateboarderMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          100,
+          42,
+          575,
+          610
+        ],
+        [
+          94,
+          49,
+          466,
+          613
+        ],
+        [
+          92,
+          30,
+          575,
+          591
+        ],
+        [
+          108,
+          20,
+          494,
+          594
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          4,
+          0,
+          60,
+          64
+        ],
+        [
+          4,
+          0,
+          49,
+          64
+        ],
+        [
+          4,
+          1,
+          60,
+          64
+        ],
+        [
+          5,
+          0,
+          52,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "60a2d051e2d98741991d15a1ab15bca57af12afe42c84f94df6f5e91d08a48ba"
+    },
+    {
+      "id": "PL141",
+      "title": "Wheeled helper robot",
+      "file": "sWheeledHelperRobotMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          144,
+          72,
+          526,
+          606
+        ],
+        [
+          97,
+          104,
+          531,
+          607
+        ],
+        [
+          138,
+          74,
+          547,
+          561
+        ],
+        [
+          139,
+          34,
+          539,
+          564
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          9,
+          0,
+          58,
+          64
+        ],
+        [
+          4,
+          3,
+          59,
+          64
+        ],
+        [
+          8,
+          5,
+          60,
+          64
+        ],
+        [
+          8,
+          0,
+          60,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "d33cc150cd9982feee293682769606e14169dc05babeb40bf61faa28168844dc"
+    },
+    {
+      "id": "PL142",
+      "title": "Hovering orb robot",
+      "file": "sHoveringOrbRobotMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          166,
+          120,
+          490,
+          587
+        ],
+        [
+          150,
+          125,
+          472,
+          565
+        ],
+        [
+          166,
+          63,
+          493,
+          527
+        ],
+        [
+          150,
+          64,
+          472,
+          503
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          13,
+          5,
+          52,
+          57
+        ],
+        [
+          12,
+          6,
+          51,
+          57
+        ],
+        [
+          13,
+          7,
+          52,
+          60
+        ],
+        [
+          12,
+          7,
+          51,
+          58
+        ]
+      ],
+      "grounded": false,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "c18ad953b47ca86db72f7e8d4eee5d5be5b801a2b256a26441b553903900056b"
+    },
+    {
+      "id": "PL143",
+      "title": "Quadcopter robot",
+      "file": "sQuadcopterRobotMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          76,
+          174,
+          606,
+          550
+        ],
+        [
+          16,
+          223,
+          581,
+          569
+        ],
+        [
+          27,
+          157,
+          640,
+          505
+        ],
+        [
+          46,
+          103,
+          580,
+          472
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          6,
+          18,
+          61,
+          57
+        ],
+        [
+          1,
+          22,
+          58,
+          57
+        ],
+        [
+          1,
+          20,
+          63,
+          58
+        ],
+        [
+          3,
+          17,
+          58,
+          56
+        ]
+      ],
+      "grounded": false,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "bf838ae1c833fef2bb7e4afbce7a541a914551ebec9eed0a5b242df51b0e0f87"
+    },
+    {
+      "id": "PL144",
+      "title": "Exploration rover",
+      "file": "sExplorationRoverMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          46,
+          90,
+          582,
+          552
+        ],
+        [
+          44,
+          94,
+          584,
+          565
+        ],
+        [
+          68,
+          70,
+          585,
+          546
+        ],
+        [
+          53,
+          72,
+          573,
+          542
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          1,
+          12,
+          63,
+          64
+        ],
+        [
+          1,
+          11,
+          63,
+          64
+        ],
+        [
+          3,
+          11,
+          63,
+          64
+        ],
+        [
+          1,
+          11,
+          62,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "76153d482968273a823cc773ca84a260194716a18bc3aac34927061f3abd0daf"
+    },
+    {
+      "id": "PL145",
+      "title": "Small spaceship",
+      "file": "sSmallSpaceshipMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          46,
+          149,
+          596,
+          492
+        ],
+        [
+          16,
+          149,
+          612,
+          492
+        ],
+        [
+          25,
+          129,
+          596,
+          472
+        ],
+        [
+          69,
+          129,
+          612,
+          472
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          4,
+          21,
+          62,
+          57
+        ],
+        [
+          1,
+          21,
+          63,
+          57
+        ],
+        [
+          1,
+          22,
+          62,
+          59
+        ],
+        [
+          6,
+          22,
+          63,
+          59
+        ]
+      ],
+      "grounded": false,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "d68975b03caca45b7742f96d2bc2a4a335f8e27f77c25d41d3546e66b456aca7"
+    },
+    {
+      "id": "PL146",
+      "title": "Mini submarine",
+      "file": "sMiniSubmarineMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          64,
+          120,
+          589,
+          549
+        ],
+        [
+          55,
+          120,
+          576,
+          548
+        ],
+        [
+          33,
+          85,
+          590,
+          513
+        ],
+        [
+          33,
+          85,
+          576,
+          514
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          4,
+          10,
+          63,
+          57
+        ],
+        [
+          3,
+          10,
+          62,
+          57
+        ],
+        [
+          1,
+          11,
+          63,
+          60
+        ],
+        [
+          1,
+          12,
+          62,
+          61
+        ]
+      ],
+      "grounded": false,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "fc938b334ba9d3d802ad2da1e9b5b998ea79a3d7a7655872ffd07116aee8e943"
+    },
+    {
+      "id": "PL147",
+      "title": "Small motorboat",
+      "file": "sSmallMotorboatMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          38,
+          165,
+          608,
+          531
+        ],
+        [
+          32,
+          165,
+          592,
+          540
+        ],
+        [
+          31,
+          126,
+          608,
+          500
+        ],
+        [
+          28,
+          117,
+          592,
+          478
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          1,
+          17,
+          63,
+          57
+        ],
+        [
+          1,
+          17,
+          62,
+          57
+        ],
+        [
+          1,
+          18,
+          63,
+          61
+        ],
+        [
+          1,
+          17,
+          62,
+          57
+        ]
+      ],
+      "grounded": false,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "1fa576572991c3a1e16623510bdc80dc9f6ee44580f69e21cd38b733e87f155a"
+    },
+    {
+      "id": "PL148",
+      "title": "Mini helicopter",
+      "file": "sMiniHelicopterMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          46,
+          60,
+          616,
+          557
+        ],
+        [
+          13,
+          146,
+          589,
+          568
+        ],
+        [
+          46,
+          155,
+          622,
+          558
+        ],
+        [
+          25,
+          63,
+          597,
+          544
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          3,
+          6,
+          63,
+          57
+        ],
+        [
+          1,
+          14,
+          61,
+          57
+        ],
+        [
+          3,
+          14,
+          63,
+          57
+        ],
+        [
+          1,
+          6,
+          61,
+          57
+        ]
+      ],
+      "grounded": false,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "38f368bac1d456192a9a9e6dc5bfdadbbafa4a260272d247c0ab96bd31fd0970"
+    },
+    {
+      "id": "PL149",
+      "title": "Girl knight",
+      "file": "sGirlKnightMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          157,
+          46,
+          524,
+          601
+        ],
+        [
+          121,
+          46,
+          445,
+          601
+        ],
+        [
+          149,
+          26,
+          535,
+          578
+        ],
+        [
+          117,
+          32,
+          446,
+          580
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          14,
+          3,
+          57,
+          64
+        ],
+        [
+          14,
+          4,
+          52,
+          64
+        ],
+        [
+          14,
+          6,
+          58,
+          64
+        ],
+        [
+          14,
+          7,
+          52,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "769e959cc3ffa43c738c63ab2e0f68d2a4b03234b0db561a7edf8ce345feff6f"
+    },
+    {
+      "id": "PL150",
+      "title": "Boy knight",
+      "file": "sBoyKnightMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          128,
+          41,
+          540,
+          618
+        ],
+        [
+          88,
+          47,
+          444,
+          618
+        ],
+        [
+          131,
+          15,
+          548,
+          586
+        ],
+        [
+          88,
+          17,
+          446,
+          585
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          7,
+          3,
+          53,
+          64
+        ],
+        [
+          8,
+          4,
+          49,
+          64
+        ],
+        [
+          9,
+          8,
+          54,
+          64
+        ],
+        [
+          11,
+          8,
+          49,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "e8a8a197654eb0768fb7c2bdac701bdc8ac785b21271e80c0ceb419260f4aa8d"
+    },
+    {
+      "id": "PL151",
+      "title": "Girl wizard",
+      "file": "sGirlWizardMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          107,
+          19,
+          572,
+          620
+        ],
+        [
+          88,
+          19,
+          523,
+          620
+        ],
+        [
+          118,
+          9,
+          571,
+          606
+        ],
+        [
+          76,
+          10,
+          526,
+          606
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          9,
+          14,
+          51,
+          64
+        ],
+        [
+          11,
+          14,
+          51,
+          64
+        ],
+        [
+          10,
+          15,
+          51,
+          64
+        ],
+        [
+          10,
+          15,
+          51,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "71ed30e8f2fcd24f4f10d02bfa252f33f3e8809d69f9d6f2adef44dc34384836"
+    },
+    {
+      "id": "PL152",
+      "title": "Boy wizard",
+      "file": "sBoyWizardMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          118,
+          44,
+          569,
+          613
+        ],
+        [
+          77,
+          55,
+          509,
+          614
+        ],
+        [
+          131,
+          19,
+          572,
+          581
+        ],
+        [
+          94,
+          19,
+          519,
+          581
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          11,
+          18,
+          51,
+          64
+        ],
+        [
+          11,
+          17,
+          51,
+          64
+        ],
+        [
+          13,
+          20,
+          51,
+          64
+        ],
+        [
+          13,
+          18,
+          50,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "f8037e80e295dbbebf602bc0151ad7bfdca47dcaddeb6f4b321ec0fa42f54a41"
+    },
+    {
+      "id": "PL153",
+      "title": "Friendly ghost",
+      "file": "sFriendlyGhostMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          138,
+          87,
+          558,
+          604
+        ],
+        [
+          107,
+          143,
+          522,
+          633
+        ],
+        [
+          159,
+          113,
+          570,
+          574
+        ],
+        [
+          88,
+          25,
+          515,
+          536
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          12,
+          5,
+          55,
+          57
+        ],
+        [
+          9,
+          7,
+          52,
+          54
+        ],
+        [
+          14,
+          7,
+          55,
+          54
+        ],
+        [
+          8,
+          7,
+          51,
+          58
+        ]
+      ],
+      "grounded": false,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "077eabeabe82029ea7a38b09809005eb0a3862d174647ae5bf0b5caf47054750"
+    },
+    {
+      "id": "PL154",
+      "title": "Jelly slime",
+      "file": "sJellySlimeMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          89,
+          267,
+          546,
+          576
+        ],
+        [
+          82,
+          189,
+          562,
+          576
+        ],
+        [
+          87,
+          68,
+          573,
+          511
+        ],
+        [
+          64,
+          288,
+          590,
+          566
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          3,
+          27,
+          59,
+          64
+        ],
+        [
+          2,
+          18,
+          61,
+          64
+        ],
+        [
+          3,
+          13,
+          62,
+          64
+        ],
+        [
+          1,
+          31,
+          63,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "2bf534edee98421bbd85a177a5c7e1a0075c3f9f2201b869e1642d1a3cd6ed95"
+    },
+    {
+      "id": "PL155",
+      "title": "Friendly skeleton",
+      "file": "sFriendlySkeletonMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          162,
+          51,
+          564,
+          617
+        ],
+        [
+          95,
+          51,
+          428,
+          619
+        ],
+        [
+          157,
+          16,
+          580,
+          584
+        ],
+        [
+          92,
+          17,
+          453,
+          584
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          14,
+          7,
+          57,
+          64
+        ],
+        [
+          14,
+          7,
+          51,
+          64
+        ],
+        [
+          13,
+          9,
+          57,
+          64
+        ],
+        [
+          14,
+          8,
+          53,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "60ddf8e9304494dc413a6b879d24ada7f4ab972b5410452ba3a60e178f22f31c"
+    },
+    {
+      "id": "PL156",
+      "title": "Little mummy",
+      "file": "sLittleMummyMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          110,
+          58,
+          548,
+          617
+        ],
+        [
+          86,
+          58,
+          493,
+          617
+        ],
+        [
+          102,
+          26,
+          555,
+          579
+        ],
+        [
+          81,
+          23,
+          493,
+          579
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          13,
+          17,
+          53,
+          64
+        ],
+        [
+          13,
+          17,
+          51,
+          64
+        ],
+        [
+          13,
+          19,
+          54,
+          64
+        ],
+        [
+          13,
+          18,
+          51,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "e4ba1a9274397f297233c474481c6e58eb47ddc30eb267029e4cf906b7fed1c9"
+    },
+    {
+      "id": "PL157",
+      "title": "Girl hiker",
+      "file": "sGirlHikerMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          166,
+          39,
+          552,
+          609
+        ],
+        [
+          113,
+          40,
+          433,
+          609
+        ],
+        [
+          169,
+          20,
+          572,
+          591
+        ],
+        [
+          93,
+          20,
+          415,
+          594
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          13,
+          4,
+          57,
+          64
+        ],
+        [
+          13,
+          5,
+          51,
+          64
+        ],
+        [
+          13,
+          5,
+          58,
+          64
+        ],
+        [
+          13,
+          4,
+          51,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "f3db6fa9208288e78c1fd234dbaf84e4d6c0ec25cfd2b4042342955235f29593"
+    },
+    {
+      "id": "PL158",
+      "title": "Boy park ranger",
+      "file": "sBoyParkRangerMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          170,
+          40,
+          537,
+          612
+        ],
+        [
+          109,
+          42,
+          427,
+          619
+        ],
+        [
+          171,
+          22,
+          565,
+          586
+        ],
+        [
+          105,
+          17,
+          424,
+          589
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          12,
+          3,
+          54,
+          64
+        ],
+        [
+          14,
+          4,
+          50,
+          64
+        ],
+        [
+          11,
+          5,
+          55,
+          64
+        ],
+        [
+          14,
+          5,
+          50,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "e916c792eccd55498fde31e3361c8ba20ed044b1c08a7f2df8aa7733bba15b0c"
+    },
+    {
+      "id": "PL159",
+      "title": "Girl astronaut",
+      "file": "sGirlAstronautMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          146,
+          60,
+          504,
+          599
+        ],
+        [
+          126,
+          82,
+          495,
+          609
+        ],
+        [
+          139,
+          60,
+          503,
+          570
+        ],
+        [
+          137,
+          39,
+          498,
+          564
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          13,
+          1,
+          52,
+          57
+        ],
+        [
+          12,
+          3,
+          52,
+          57
+        ],
+        [
+          12,
+          1,
+          52,
+          56
+        ],
+        [
+          12,
+          0,
+          52,
+          55
+        ]
+      ],
+      "grounded": false,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "c5ca2d4c558e7f2c59ec7865b397294742c4fb2249f23c99d65f3da2ac0399b0"
+    },
+    {
+      "id": "PL160",
+      "title": "Boy astronaut",
+      "file": "sBoyAstronautMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          130,
+          58,
+          529,
+          595
+        ],
+        [
+          109,
+          62,
+          501,
+          579
+        ],
+        [
+          129,
+          42,
+          529,
+          567
+        ],
+        [
+          102,
+          42,
+          505,
+          571
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          11,
+          1,
+          55,
+          57
+        ],
+        [
+          9,
+          1,
+          53,
+          57
+        ],
+        [
+          11,
+          0,
+          55,
+          57
+        ],
+        [
+          9,
+          0,
+          53,
+          57
+        ]
+      ],
+      "grounded": false,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "8fccc1167949f88926138be30d51dacf2c93b3cd8ef2f842636e4f476e460048"
+    },
+    {
+      "id": "PL161",
+      "title": "Girl community cook",
+      "file": "sGirlCommunityCookMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          185,
+          50,
+          561,
+          611
+        ],
+        [
+          110,
+          46,
+          393,
+          611
+        ],
+        [
+          172,
+          22,
+          563,
+          583
+        ],
+        [
+          114,
+          22,
+          423,
+          583
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          14,
+          3,
+          58,
+          64
+        ],
+        [
+          15,
+          3,
+          49,
+          64
+        ],
+        [
+          14,
+          4,
+          60,
+          64
+        ],
+        [
+          15,
+          4,
+          52,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "86adede4d0592348d75af1bc6b9018154a4071eea38c3e7a3e94a47e3c0ce6c7"
+    },
+    {
+      "id": "PL162",
+      "title": "Boy community cook",
+      "file": "sBoyCommunityCookMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          180,
+          45,
+          538,
+          616
+        ],
+        [
+          132,
+          51,
+          406,
+          617
+        ],
+        [
+          163,
+          20,
+          542,
+          580
+        ],
+        [
+          128,
+          24,
+          438,
+          583
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          14,
+          3,
+          55,
+          64
+        ],
+        [
+          15,
+          3,
+          48,
+          64
+        ],
+        [
+          12,
+          5,
+          55,
+          64
+        ],
+        [
+          13,
+          4,
+          50,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "2c25e16a493b8d44b2b0ce28048a7a3cf836b028f9677ef908499300519fe511"
+    },
+    {
+      "id": "PL163",
+      "title": "Girl gardener",
+      "file": "sGirlGardenerMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          168,
+          34,
+          544,
+          618
+        ],
+        [
+          115,
+          36,
+          448,
+          620
+        ],
+        [
+          163,
+          16,
+          556,
+          587
+        ],
+        [
+          108,
+          16,
+          454,
+          588
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          14,
+          4,
+          56,
+          64
+        ],
+        [
+          14,
+          3,
+          52,
+          64
+        ],
+        [
+          14,
+          6,
+          57,
+          64
+        ],
+        [
+          14,
+          5,
+          53,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "00f7da0ae9a2641979d1ae9482427533469b6694c5431ada97e50a3814696c73"
+    },
+    {
+      "id": "PL164",
+      "title": "Boy gardener",
+      "file": "sBoyGardenerMove_strip4.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceFrameBounds": [
+        [
+          156,
+          28,
+          547,
+          621
+        ],
+        [
+          105,
+          31,
+          420,
+          620
+        ],
+        [
+          156,
+          16,
+          555,
+          595
+        ],
+        [
+          122,
+          17,
+          405,
+          597
+        ]
+      ],
+      "exportFrameBounds": [
+        [
+          13,
+          4,
+          56,
+          64
+        ],
+        [
+          14,
+          3,
+          51,
+          64
+        ],
+        [
+          14,
+          4,
+          58,
+          64
+        ],
+        [
+          17,
+          5,
+          49,
+          64
+        ]
+      ],
+      "grounded": true,
+      "frames": 4,
+      "frameSize": [
+        64,
+        64
+      ],
+      "sha256": "b038b8c1a08c9dfba9edad075026a7b7fb1dd1b12adeebcde09f2f2f41a2725e"
+    }
+  ]
+}

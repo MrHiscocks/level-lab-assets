@@ -1,0 +1,56 @@
+{
+  "id": "PL123",
+  "title": "European badger",
+  "category": "players",
+  "variant": "movement",
+  "batch": 25,
+  "tags": [
+    "Wales",
+    "animal",
+    "animals",
+    "movement",
+    "nature",
+    "ordinary animals",
+    "outdoor",
+    "player",
+    "quadruped",
+    "wildlife",
+    "woodland"
+  ],
+  "form": "quadruped",
+  "environments": [
+    "Savanna & grassland",
+    "Woodland & gardens"
+  ],
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 14,
+    "right": 49,
+    "top": 40,
+    "bottom": 63
+  },
+  "fps": 6,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "52bfc6e343e132f962e81c871e7d8df1197be80f258063b75d5e90c0844cab1a",
+  "sourceFile": "PL123.png",
+  "sourceBatch": "Player expansion batch 25",
+  "description": "European badger. Four-frame quadruped movement animation.",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Set a fixed manual rectangular body mask for all frames. Ground contact at bottom of cell. PNG does not store origin, mask or playback settings.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "0c844b494a691be4e56b693671fcf6c3f3b5b1439e07dc09e822190294c5dc4f",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

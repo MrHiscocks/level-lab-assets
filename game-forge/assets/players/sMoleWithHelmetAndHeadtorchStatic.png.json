@@ -7,16 +7,16 @@
   "batch": 20,
   "origin": [
     32,
-    96
+    64
   ],
   "mask": {
     "left": 18,
-    "top": 38,
-    "right": 45,
-    "bottom": 95
+    "right": 44,
+    "top": 10,
+    "bottom": 63
   },
   "fps": 6,
-  "placement": "Use one fixed rectangular mask for every animation frame. PNG does not store origin, playback speed or mask metadata.",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Manual rectangular collision mask, fixed across all frames. Ground contact is the lower frame edge; do not auto-trim or independently centre frames. PNG files do not store origin, speed or collision settings.",
   "repeatHorizontal": false,
   "form": "walk",
   "loop": false,
@@ -24,8 +24,24 @@
   "description": "",
   "sourceFile": "Game_Forge_Batch_20/assets/players/sMoleWithHelmetAndHeadtorchStatic.png",
   "sourceBatch": "Game_Forge_Batch_20.zip",
-  "sourceSha256": "2e5819ac4f08cc22af46684f54152240adf501bf462811e7824a8be5818f6da5",
+  "sourceSha256": "b6838349642084f2b00165434ab1ab9672a4905e54cc61546feaacc18fc5e128",
   "frameWidth": 64,
-  "frameHeight": 96,
-  "frames": 1
+  "frameHeight": 64,
+  "frames": 1,
+  "exportRevision": {
+    "version": "players-64-v1",
+    "date": "2026-10-19",
+    "previousSha256": "2e5819ac4f08cc22af46684f54152240adf501bf462811e7824a8be5818f6da5",
+    "originalFrameSize": [
+      64,
+      96
+    ],
+    "commonCropTop": 26,
+    "resizedContentWidth": 59,
+    "targetFrameSize": [
+      64,
+      64
+    ],
+    "method": "Common transparent-top crop, proportional Lanczos downscale, bottom-centred transparent canvas. Same transform across all variants."
+  }
 }

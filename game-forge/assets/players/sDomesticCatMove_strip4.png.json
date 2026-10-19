@@ -1,0 +1,56 @@
+{
+  "id": "PL117",
+  "title": "Domestic cat",
+  "category": "players",
+  "variant": "movement",
+  "batch": 25,
+  "tags": [
+    "Wales",
+    "animal",
+    "animals",
+    "movement",
+    "nature",
+    "ordinary animals",
+    "outdoor",
+    "player",
+    "quadruped",
+    "wildlife",
+    "woodland"
+  ],
+  "form": "quadruped",
+  "environments": [
+    "Savanna & grassland",
+    "Woodland & gardens"
+  ],
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 14,
+    "right": 49,
+    "top": 27,
+    "bottom": 63
+  },
+  "fps": 6,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "4707fcf14a85ab1240b5967a4a5ea4f0d203db8a7c2d9053d97f719fa6a3b236",
+  "sourceFile": "PL117.png",
+  "sourceBatch": "Player expansion batch 25",
+  "description": "Domestic cat. Four-frame quadruped movement animation.",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Set a fixed manual rectangular body mask for all frames. Ground contact at bottom of cell. PNG does not store origin, mask or playback settings.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "24ad901384a9fc438d7e24a5dcaaa63185ca55b04dd1ea504f7b1b130fd3e0fb",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

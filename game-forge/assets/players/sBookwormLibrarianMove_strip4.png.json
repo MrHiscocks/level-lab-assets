@@ -7,16 +7,16 @@
   "batch": 20,
   "origin": [
     32,
-    96
+    64
   ],
   "mask": {
     "left": 18,
-    "top": 55,
     "right": 45,
-    "bottom": 95
+    "top": 23,
+    "bottom": 63
   },
   "fps": 6,
-  "placement": "Use one fixed rectangular mask for every animation frame. PNG does not store origin, playback speed or mask metadata.",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Manual rectangular collision mask, fixed across all frames. Ground contact is the lower frame edge; do not auto-trim or independently centre frames. PNG files do not store origin, speed or collision settings.",
   "repeatHorizontal": false,
   "form": "slither",
   "loop": false,
@@ -24,8 +24,24 @@
   "description": "",
   "sourceFile": "Game_Forge_Batch_20/assets/players/sBookwormLibrarianMove_strip4.png",
   "sourceBatch": "Game_Forge_Batch_20.zip",
-  "sourceSha256": "da3a6db80cf9cf436d5e50ca7f637278714147dc453ddc86db75cb9b81c1ca82",
+  "sourceSha256": "21c0ba4c4c15d7f3dae0289a74e8e8ff6cb2d3eaa29197f5ebf3805e885b21bb",
   "frameWidth": 64,
-  "frameHeight": 96,
-  "frames": 4
+  "frameHeight": 64,
+  "frames": 4,
+  "exportRevision": {
+    "version": "players-64-v1",
+    "date": "2026-10-19",
+    "previousSha256": "da3a6db80cf9cf436d5e50ca7f637278714147dc453ddc86db75cb9b81c1ca82",
+    "originalFrameSize": [
+      64,
+      96
+    ],
+    "commonCropTop": 32,
+    "resizedContentWidth": 64,
+    "targetFrameSize": [
+      64,
+      64
+    ],
+    "method": "Common transparent-top crop, proportional Lanczos downscale, bottom-centred transparent canvas. Same transform across all variants."
+  }
 }

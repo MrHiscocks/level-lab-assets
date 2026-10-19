@@ -1,0 +1,56 @@
+{
+  "id": "PL118",
+  "title": "Domestic dog",
+  "category": "players",
+  "variant": "movement",
+  "batch": 25,
+  "tags": [
+    "Wales",
+    "animal",
+    "animals",
+    "movement",
+    "nature",
+    "ordinary animals",
+    "outdoor",
+    "player",
+    "quadruped",
+    "wildlife",
+    "woodland"
+  ],
+  "form": "quadruped",
+  "environments": [
+    "Savanna & grassland",
+    "Woodland & gardens"
+  ],
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 14,
+    "right": 49,
+    "top": 27,
+    "bottom": 63
+  },
+  "fps": 6,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "f4c11f9a8a89d161714c4d5f59a4d456159269db4be38e9508e4483c86a8da4f",
+  "sourceFile": "PL118.png",
+  "sourceBatch": "Player expansion batch 25",
+  "description": "Domestic dog. Four-frame quadruped movement animation.",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Set a fixed manual rectangular body mask for all frames. Ground contact at bottom of cell. PNG does not store origin, mask or playback settings.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "bbd703ace1c31fe55d7751077a767ab41740b306e104aab2c315f0df0b29b22e",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

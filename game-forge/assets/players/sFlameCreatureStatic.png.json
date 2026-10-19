@@ -7,16 +7,16 @@
   "batch": 18,
   "origin": [
     32,
-    96
+    64
   ],
   "mask": {
-    "left": 20,
-    "top": 48,
-    "right": 43,
-    "bottom": 95
+    "left": 21,
+    "right": 41,
+    "top": 22,
+    "bottom": 63
   },
   "fps": 6,
-  "placement": "Fixed mask excludes changing tails/wings; bottom 95 is the virtual platform contact for hovering sprites. Does not supply free-flight physics.",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Manual rectangular collision mask, fixed across all frames. Mask bottom 63 is virtual ground contact; artwork hovers above it. Flying/floating movement requires game code. PNG files do not store origin, speed or collision settings.",
   "repeatHorizontal": false,
   "form": "floating",
   "loop": false,
@@ -24,8 +24,24 @@
   "description": "",
   "sourceFile": "Game_Forge_Batch_18/assets/players/sFlameCreatureStatic.png",
   "sourceBatch": "Game_Forge_Batch_18.zip",
-  "sourceSha256": "c55436f200a0853486278fb02768b445432c2585bf08039eeda0ffabe61a747d",
+  "sourceSha256": "a68fb7652f0d4a8598936014f1480aadbecb62512eec18da665dce1042dc6ca2",
   "frameWidth": 64,
-  "frameHeight": 96,
-  "frames": 1
+  "frameHeight": 64,
+  "frames": 1,
+  "exportRevision": {
+    "version": "players-64-v1",
+    "date": "2026-10-19",
+    "previousSha256": "c55436f200a0853486278fb02768b445432c2585bf08039eeda0ffabe61a747d",
+    "originalFrameSize": [
+      64,
+      96
+    ],
+    "commonCropTop": 22,
+    "resizedContentWidth": 55,
+    "targetFrameSize": [
+      64,
+      64
+    ],
+    "method": "Common transparent-top crop, proportional Lanczos downscale, bottom-centred transparent canvas. Same transform across all variants."
+  }
 }

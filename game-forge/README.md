@@ -70,15 +70,17 @@ Add a sibling file with `.json` appended to the **whole filename**. For example 
   "title": "New woodland explorer",
   "tags": ["woodland", "adventure", "Welsh"],
   "variant": "movement",
-  "origin": [32, 96],
+  "origin": [32, 64],
   "fps": 8,
-  "mask": {"left": 20, "top": 30, "right": 43, "bottom": 95},
+  "mask": {"left": 20, "top": 12, "right": 43, "bottom": 63},
   "form": "quadruped",
   "placement": "Bottom-centre origin. Use a fixed mask across the movement frames."
 }
 ```
 
 Names, tags, import settings and new files are data edits, not website recoding. Use the same explicit `id` on multiple variants of one concept. Each filename must be unique within its category, including theme subfolders. Without an ID, the generator creates a stable ID from category + filename; moving a theme subfolder does not change it, but renaming the file does. Add an explicit ID before renaming if you need to preserve saved baskets.
+
+All player exports must have **64 x 64 frames**, including legacy static and idle variants. A four-frame movement strip is **256 x 64 pixels**, ending `_strip4.png`. The catalogue build rejects other player frame dimensions. New players need one movement strip only. The mask above is an example: choose a fixed body mask appropriate to each character. See `PLAYER_64_REVIEW.json` for the October 2026 correction audit and original checksums.
 
 Recognised variants: `movement`, `primary`, `static`, `idle`. Movement and primary files enter packages; static/idle alternatives stay in the detail view. New character strips infer the movement role from `_stripN`. A sprite has only one movement animation by default. Players and enemies without an origin sidecar default to bottom-centre; other assets default to top-left. For accurate masks, repeat settings and animation speed, supply the sidecar.
 

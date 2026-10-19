@@ -1,0 +1,1292 @@
+{
+  "date": "2026-10-19",
+  "existingPlayers": 48,
+  "newPlayersPlanned": 64,
+  "resultingPlayerCount": 112,
+  "movementOnly": true,
+  "assets": [
+    {
+      "id": "PL101",
+      "batch": 23,
+      "batchTitle": "Everyday people A",
+      "title": "Girl in teal hoodie",
+      "form": "walk",
+      "brief": "Black British girl; deep brown skin, natural coily hair; everyday trousers and trainers",
+      "use": "Universal stories; first production priority",
+      "animationBrief": "Opposite contact, passing, opposite contact, passing; consistent body registration.",
+      "filename": "sGirlInTealHoodieMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "4266ec1bbfb38a31357e90086f2a41c3e51c4eb1bf6e6b362d848b7a9c14b80e"
+    },
+    {
+      "id": "PL102",
+      "batch": 23,
+      "batchTitle": "Everyday people A",
+      "title": "Boy in orange T-shirt",
+      "form": "walk",
+      "brief": "South Asian British boy; medium brown skin, short dark hair; everyday shorts and trainers",
+      "use": "Universal stories; first production priority",
+      "animationBrief": "Opposite contact, passing, opposite contact, passing; consistent body registration.",
+      "filename": "sBoyInOrangeTShirtMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "37e9523ecd34f5a1f7828223c08a4f656c09806572f0afbde861baccdcd82fd4"
+    },
+    {
+      "id": "PL103",
+      "batch": 23,
+      "batchTitle": "Everyday people A",
+      "title": "Girl in purple sweatshirt",
+      "form": "walk",
+      "brief": "East Asian British girl; light-medium skin, straight dark bob; trousers and trainers",
+      "use": "Universal stories; first production priority",
+      "animationBrief": "Opposite contact, passing, opposite contact, passing; consistent body registration.",
+      "filename": "sGirlInPurpleSweatshirtMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "2588f814be72d1ecad4aebb6f2cd34901945a5ee1fd4fe352e686a52b845657b"
+    },
+    {
+      "id": "PL104",
+      "batch": 23,
+      "batchTitle": "Everyday people A",
+      "title": "Boy in blue hoodie",
+      "form": "walk",
+      "brief": "White British boy; light skin, ginger hair; trousers and trainers",
+      "use": "Universal stories; first production priority",
+      "animationBrief": "Opposite contact, passing, opposite contact, passing; consistent body registration.",
+      "filename": "sBoyInBlueHoodieMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "4dc8865580e15177d4a42ed31b2ce70c35420c8bb38eff1808f0ca182cc8d12c"
+    },
+    {
+      "id": "PL105",
+      "batch": 23,
+      "batchTitle": "Everyday people A",
+      "title": "Girl in red jacket",
+      "form": "walk",
+      "brief": "Mixed-heritage British girl; medium brown skin, curly hair; practical everyday clothing",
+      "use": "Universal stories; first production priority",
+      "animationBrief": "Opposite contact, passing, opposite contact, passing; consistent body registration.",
+      "filename": "sGirlInRedJacketMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "1b382fd20c035756717e030464a234526617469af4735392cf8a2847732b5161"
+    },
+    {
+      "id": "PL106",
+      "batch": 23,
+      "batchTitle": "Everyday people A",
+      "title": "Boy in green sweatshirt",
+      "form": "walk",
+      "brief": "Black British boy; deep brown skin, short coily hair; neutral everyday clothing",
+      "use": "Universal stories; first production priority",
+      "animationBrief": "Opposite contact, passing, opposite contact, passing; consistent body registration.",
+      "filename": "sBoyInGreenSweatshirtMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "454caed688548e43d43295b80b0e3137e01a5629d4bf0949f8d6682c2c7c1e2b"
+    },
+    {
+      "id": "PL107",
+      "batch": 23,
+      "batchTitle": "Everyday people A",
+      "title": "Girl in yellow T-shirt",
+      "form": "walk",
+      "brief": "White British girl; light skin, brown ponytail; trousers and trainers",
+      "use": "Universal stories; first production priority",
+      "animationBrief": "Opposite contact, passing, opposite contact, passing; consistent body registration.",
+      "filename": "sGirlInYellowTShirtMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "38903eba748ce00770f5796667abeb57fbf20ca8d2b178204173bdf3f59b6e4c"
+    },
+    {
+      "id": "PL108",
+      "batch": 23,
+      "batchTitle": "Everyday people A",
+      "title": "Boy in navy jacket",
+      "form": "walk",
+      "brief": "East Asian British boy; light-medium skin, straight dark hair; everyday trousers",
+      "use": "Universal stories; first production priority",
+      "animationBrief": "Opposite contact, passing, opposite contact, passing; consistent body registration.",
+      "filename": "sBoyInNavyJacketMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "a06f635dbf0e64fb903c28e9b6677c1b7b11ecaf6a09596703014404fd968eaf"
+    },
+    {
+      "id": "PL109",
+      "batch": 24,
+      "batchTitle": "Everyday people B",
+      "title": "Girl in blue cardigan",
+      "form": "walk",
+      "brief": "South Asian British girl; brown skin, dark plait; casual trousers and trainers",
+      "use": "More personal choice and inclusive everyday stories",
+      "animationBrief": "Opposite contact, passing, opposite contact, passing; consistent body registration.",
+      "filename": "sGirlInBlueCardiganMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "9c55ec75b941b23f96882d25a14c4d918cf89b19da33c9c3bc1b6ed9f0eb5be9"
+    },
+    {
+      "id": "PL110",
+      "batch": 24,
+      "batchTitle": "Everyday people B",
+      "title": "Boy in burgundy sweatshirt",
+      "form": "walk",
+      "brief": "Mixed-heritage British boy; medium brown skin, loose curls; casual trousers",
+      "use": "More personal choice and inclusive everyday stories",
+      "animationBrief": "Opposite contact, passing, opposite contact, passing; consistent body registration.",
+      "filename": "sBoyInBurgundySweatshirtMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "521f6fed3d82d4fbe34eb10c0d044bf9d19de7faf8f4d327ed4685a875917ffc"
+    },
+    {
+      "id": "PL111",
+      "batch": 24,
+      "batchTitle": "Everyday people B",
+      "title": "Girl in green hoodie",
+      "form": "walk",
+      "brief": "Middle Eastern British girl; olive skin, dark wavy hair; casual trousers",
+      "use": "More personal choice and inclusive everyday stories",
+      "animationBrief": "Opposite contact, passing, opposite contact, passing; consistent body registration.",
+      "filename": "sGirlInGreenHoodieMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "282e2d8c19c4c830b2f8ad27d1711f1f0261f62f3acee697d9d8fb156c6f7eed"
+    },
+    {
+      "id": "PL112",
+      "batch": 24,
+      "batchTitle": "Everyday people B",
+      "title": "Boy in yellow jacket",
+      "form": "walk",
+      "brief": "White British boy; light skin, blond hair and glasses; casual trousers",
+      "use": "More personal choice and inclusive everyday stories",
+      "animationBrief": "Opposite contact, passing, opposite contact, passing; consistent body registration.",
+      "filename": "sBoyInYellowJacketMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "fd5feb3cbcfb1abaa47e7d8fefe02925807e2c5853322bbaf555c715dbbb37a3"
+    },
+    {
+      "id": "PL113",
+      "batch": 24,
+      "batchTitle": "Everyday people B",
+      "title": "Girl with headscarf",
+      "form": "walk",
+      "brief": "British Muslim girl; brown skin, plain securely tucked teal hijab and ordinary sportswear",
+      "use": "More personal choice and inclusive everyday stories",
+      "animationBrief": "Opposite contact, passing, opposite contact, passing; consistent body registration.",
+      "filename": "sGirlWithHeadscarfMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "114969d6ba201211053a21230b51b7deec1fa73e299df9b731fc87292960580e"
+    },
+    {
+      "id": "PL114",
+      "batch": 24,
+      "batchTitle": "Everyday people B",
+      "title": "Boy with turban",
+      "form": "walk",
+      "brief": "British Sikh boy; brown skin, simple navy patka and ordinary sportswear",
+      "use": "More personal choice and inclusive everyday stories",
+      "animationBrief": "Opposite contact, passing, opposite contact, passing; consistent body registration.",
+      "filename": "sBoyWithTurbanMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "2ceee5e2f58991c740556ceb967a8a6cdb45eda00fb8356cd69192bea20f2434"
+    },
+    {
+      "id": "PL115",
+      "batch": 24,
+      "batchTitle": "Everyday people B",
+      "title": "Girl using a wheelchair",
+      "form": "roll",
+      "brief": "Black British girl; dark skin, short natural hair; active manual chair, clear wheel rotation",
+      "use": "More personal choice and inclusive everyday stories",
+      "animationBrief": "Four distinct wheel/push phases; do not translate the whole character across the cell.",
+      "filename": "sGirlUsingAWheelchairMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "72da2492c28ffe7b7e09b3b9de807c3b47c16a92ddd9da5e222497e9f9d3b676"
+    },
+    {
+      "id": "PL116",
+      "batch": 24,
+      "batchTitle": "Everyday people B",
+      "title": "Boy using a wheelchair",
+      "form": "roll",
+      "brief": "White British boy; light skin, brown hair; active manual chair, clear wheel rotation",
+      "use": "More personal choice and inclusive everyday stories",
+      "animationBrief": "Four distinct wheel/push phases; do not translate the whole character across the cell.",
+      "filename": "sBoyUsingAWheelchairMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "8bb5f7a4731099c186ccbe86d9a35fdfecdd2abfceeed9efb1eb065cdf814f00"
+    },
+    {
+      "id": "PL117",
+      "batch": 25,
+      "batchTitle": "Ordinary land animals",
+      "title": "Domestic cat",
+      "form": "quadruped",
+      "brief": "Ordinary tabby cat; no clothes, tools or backpack",
+      "use": "Woodland, countryside, home, Welsh landscapes and wildlife",
+      "animationBrief": "Four distinct gait phases; natural animal posture and stable body registration.",
+      "filename": "sDomesticCatMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "4707fcf14a85ab1240b5967a4a5ea4f0d203db8a7c2d9053d97f719fa6a3b236"
+    },
+    {
+      "id": "PL118",
+      "batch": 25,
+      "batchTitle": "Ordinary land animals",
+      "title": "Domestic dog",
+      "form": "quadruped",
+      "brief": "Small mixed-breed dog; natural proportions, no costume",
+      "use": "Woodland, countryside, home, Welsh landscapes and wildlife",
+      "animationBrief": "Four distinct gait phases; natural animal posture and stable body registration.",
+      "filename": "sDomesticDogMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "f4c11f9a8a89d161714c4d5f59a4d456159269db4be38e9508e4483c86a8da4f"
+    },
+    {
+      "id": "PL119",
+      "batch": 25,
+      "batchTitle": "Ordinary land animals",
+      "title": "Red fox",
+      "form": "quadruped",
+      "brief": "Ordinary fox on four legs, readable tail and ears",
+      "use": "Woodland, countryside, home, Welsh landscapes and wildlife",
+      "animationBrief": "Four distinct gait phases; natural animal posture and stable body registration.",
+      "filename": "sRedFoxMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "ee10fcb8f775c2aaf5ff275172f29bd6c891e3ffe71bb09b89b3c54f7f4d4cac"
+    },
+    {
+      "id": "PL120",
+      "batch": 25,
+      "batchTitle": "Ordinary land animals",
+      "title": "Wild rabbit",
+      "form": "hop",
+      "brief": "Ordinary four-legged rabbit, compact hop cycle",
+      "use": "Woodland, countryside, home, Welsh landscapes and wildlife",
+      "animationBrief": "Crouch, lift, extension, recovery; visual hop only, physics supplied by game.",
+      "filename": "sWildRabbitMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "c25cd1a915ec916e6f415d752b2b56a27cdb5cbcfedc7d47a1e90e600b6aad99"
+    },
+    {
+      "id": "PL121",
+      "batch": 25,
+      "batchTitle": "Ordinary land animals",
+      "title": "Red squirrel",
+      "form": "quadruped",
+      "brief": "Ordinary squirrel, springy running gait and stable tail root",
+      "use": "Woodland, countryside, home, Welsh landscapes and wildlife",
+      "animationBrief": "Four distinct gait phases; natural animal posture and stable body registration.",
+      "filename": "sRedSquirrelMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "2cb1a857afc5566b5450082f414d0b73d6f8bf487af41be36ca5f15abe9bb75a"
+    },
+    {
+      "id": "PL122",
+      "batch": 25,
+      "batchTitle": "Ordinary land animals",
+      "title": "Wild hedgehog",
+      "form": "quadruped",
+      "brief": "Ordinary low-bodied hedgehog; short readable steps",
+      "use": "Woodland, countryside, home, Welsh landscapes and wildlife",
+      "animationBrief": "Four distinct gait phases; natural animal posture and stable body registration.",
+      "filename": "sWildHedgehogMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "d51ac6e8b92a3a41af23fe786578d2a26ede9ab107c5ae43af7a0744dcff72a6"
+    },
+    {
+      "id": "PL123",
+      "batch": 25,
+      "batchTitle": "Ordinary land animals",
+      "title": "European badger",
+      "form": "quadruped",
+      "brief": "Ordinary badger on four legs with recognisable face markings",
+      "use": "Woodland, countryside, home, Welsh landscapes and wildlife",
+      "animationBrief": "Four distinct gait phases; natural animal posture and stable body registration.",
+      "filename": "sEuropeanBadgerMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "52bfc6e343e132f962e81c871e7d8df1197be80f258063b75d5e90c0844cab1a"
+    },
+    {
+      "id": "PL124",
+      "batch": 25,
+      "batchTitle": "Ordinary land animals",
+      "title": "Welsh hill sheep",
+      "form": "quadruped",
+      "brief": "Ordinary sheep on four legs, simple wool silhouette",
+      "use": "Woodland, countryside, home, Welsh landscapes and wildlife",
+      "animationBrief": "Four distinct gait phases; natural animal posture and stable body registration.",
+      "filename": "sWelshHillSheepMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "0e350b879c0d8f086aa5494e1c81cf72774f69a3a77083d82834106c22fc6e7e"
+    },
+    {
+      "id": "PL125",
+      "batch": 26,
+      "batchTitle": "Ordinary air and water animals",
+      "title": "Robin",
+      "form": "fly",
+      "brief": "Natural robin; wingbeat loop, no clothes",
+      "use": "Beach, lake, swimming, woodland, horror and biodiversity",
+      "animationBrief": "Upstroke, intermediate, downstroke, return; fixed body root with controlled bob.",
+      "filename": "sRobinMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "3d73e987945cb87ea958bab15569e60343839dacbc4547c4c2e894332a96fe9b"
+    },
+    {
+      "id": "PL126",
+      "batch": 26,
+      "batchTitle": "Ordinary air and water animals",
+      "title": "Seagull",
+      "form": "fly",
+      "brief": "Ordinary coastal gull; wingbeat loop",
+      "use": "Beach, lake, swimming, woodland, horror and biodiversity",
+      "animationBrief": "Upstroke, intermediate, downstroke, return; fixed body root with controlled bob.",
+      "filename": "sSeagullMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "e76a8738a085a30e140e28878e6946eca79e35508752a0cd4e43c830327b9ae4"
+    },
+    {
+      "id": "PL127",
+      "batch": 26,
+      "batchTitle": "Ordinary air and water animals",
+      "title": "Small bat",
+      "form": "fly",
+      "brief": "Friendly natural bat; clear membrane wings, useful for caves and gentle horror",
+      "use": "Beach, lake, swimming, woodland, horror and biodiversity",
+      "animationBrief": "Upstroke, intermediate, downstroke, return; fixed body root with controlled bob.",
+      "filename": "sSmallBatMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "d32169faf58c80230764afbbea7ed97f626dba49088bc68adb2b21e8c2a5194e"
+    },
+    {
+      "id": "PL128",
+      "batch": 26,
+      "batchTitle": "Ordinary air and water animals",
+      "title": "Butterfly",
+      "form": "fly",
+      "brief": "Ordinary butterfly with paired wingbeats",
+      "use": "Beach, lake, swimming, woodland, horror and biodiversity",
+      "animationBrief": "Upstroke, intermediate, downstroke, return; fixed body root with controlled bob.",
+      "filename": "sButterflyMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "3cf61a76a33f2e655dd61c31641b1c2d964392e20c2098b3e30e38369f346d36"
+    },
+    {
+      "id": "PL129",
+      "batch": 26,
+      "batchTitle": "Ordinary air and water animals",
+      "title": "Duck",
+      "form": "swim",
+      "brief": "Natural duck afloat; paddling and gentle bob, no baked-in water background",
+      "use": "Beach, lake, swimming, woodland, horror and biodiversity",
+      "animationBrief": "Four stroke/tail phases; stable head/body root, no scene background.",
+      "filename": "sDuckMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "5dc4ba738fca2f5d7cf2678a4eff8c84b03848d087352ad5a1b113fca1ceca45"
+    },
+    {
+      "id": "PL130",
+      "batch": 26,
+      "batchTitle": "Ordinary air and water animals",
+      "title": "Swimming otter",
+      "form": "swim",
+      "brief": "Ordinary unclothed otter; horizontal swim and tail stroke",
+      "use": "Beach, lake, swimming, woodland, horror and biodiversity",
+      "animationBrief": "Four stroke/tail phases; stable head/body root, no scene background.",
+      "filename": "sSwimmingOtterMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "4a33543d09400b21de3b011e2fd48e6fd8ab9bfed80e102da6c9b5a07beb8cf9"
+    },
+    {
+      "id": "PL131",
+      "batch": 26,
+      "batchTitle": "Ordinary air and water animals",
+      "title": "Pond frog",
+      "form": "hop",
+      "brief": "Ordinary unclothed frog; compact crouch, rise, extension, landing cycle",
+      "use": "Beach, lake, swimming, woodland, horror and biodiversity",
+      "animationBrief": "Crouch, lift, extension, recovery; visual hop only, physics supplied by game.",
+      "filename": "sPondFrogMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "d3bb543db98dee9a54eb1489c815130d0fda9f3ff53937ce822a164c0e6df9a4"
+    },
+    {
+      "id": "PL132",
+      "batch": 26,
+      "batchTitle": "Ordinary air and water animals",
+      "title": "Freshwater fish",
+      "form": "swim",
+      "brief": "Simple perch-like fish; tail movement, no bubbles extending beyond frame",
+      "use": "Beach, lake, swimming, woodland, horror and biodiversity",
+      "animationBrief": "Four stroke/tail phases; stable head/body root, no scene background.",
+      "filename": "sFreshwaterFishMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "6c9cf7340a27b69ea8d4704dd3ca78d99954c7a3087d7af892ec67ae018a0ede"
+    },
+    {
+      "id": "PL133",
+      "batch": 27,
+      "batchTitle": "Sport and water people",
+      "title": "Girl cyclist",
+      "form": "cycle",
+      "brief": "Black British girl; helmet, ordinary bicycle, clear pedalling and wheel cycle",
+      "use": "Cycling, physical activity, beach, lake and swimming",
+      "animationBrief": "Four quarter-turn pedal phases; stable bicycle body and wheelbase.",
+      "filename": "sGirlCyclistMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "e7e958eb4d54805cddcd4279b417f0597868f7e523d2d4055c45fcdf6a98bb09"
+    },
+    {
+      "id": "PL134",
+      "batch": 27,
+      "batchTitle": "Sport and water people",
+      "title": "Boy cyclist",
+      "form": "cycle",
+      "brief": "South Asian British boy; helmet, ordinary bicycle, clear pedalling and wheel cycle",
+      "use": "Cycling, physical activity, beach, lake and swimming",
+      "animationBrief": "Four quarter-turn pedal phases; stable bicycle body and wheelbase.",
+      "filename": "sBoyCyclistMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "a570630abe517d3532765751e79c4add205f7f7926f890f0d5b10ac380a2362a"
+    },
+    {
+      "id": "PL135",
+      "batch": 27,
+      "batchTitle": "Sport and water people",
+      "title": "Girl swimmer",
+      "form": "swim",
+      "brief": "East Asian British girl; practical swimming costume and cap; horizontal stroke",
+      "use": "Cycling, physical activity, beach, lake and swimming",
+      "animationBrief": "Four stroke/tail phases; stable head/body root, no scene background.",
+      "filename": "sGirlSwimmerMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "e10621e6bed4a3f8874348fb6be23a4b07722224c7433199ea6ea7d2a309cf5a"
+    },
+    {
+      "id": "PL136",
+      "batch": 27,
+      "batchTitle": "Sport and water people",
+      "title": "Boy swimmer",
+      "form": "swim",
+      "brief": "White British boy; swim shorts and goggles; horizontal stroke",
+      "use": "Cycling, physical activity, beach, lake and swimming",
+      "animationBrief": "Four stroke/tail phases; stable head/body root, no scene background.",
+      "filename": "sBoySwimmerMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "c3872547eccf9c7a40820ef793e560029df23b5569c0a46b2423e1c10d610ab3"
+    },
+    {
+      "id": "PL137",
+      "batch": 27,
+      "batchTitle": "Sport and water people",
+      "title": "Girl kayaker",
+      "form": "paddle",
+      "brief": "Mixed-heritage British girl; buoyancy aid and helmet; kayak and paddle inside cell",
+      "use": "Cycling, physical activity, beach, lake and swimming",
+      "animationBrief": "Four paddle stroke phases; whole paddle remains inside the 64-pixel cell.",
+      "filename": "sGirlKayakerMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "bf01c8c2ebdcfcdd84a25ee7406b8cad4547a1db3d82bfcbf1470d5c90afc0eb"
+    },
+    {
+      "id": "PL138",
+      "batch": 27,
+      "batchTitle": "Sport and water people",
+      "title": "Boy kayaker",
+      "form": "paddle",
+      "brief": "Black British boy; buoyancy aid and helmet; kayak and paddle inside cell",
+      "use": "Cycling, physical activity, beach, lake and swimming",
+      "animationBrief": "Four paddle stroke phases; whole paddle remains inside the 64-pixel cell.",
+      "filename": "sBoyKayakerMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "9904bb037b421de5c7670247b088e05aeaef0e763c7b40a1de5c339cee598240"
+    },
+    {
+      "id": "PL139",
+      "batch": 27,
+      "batchTitle": "Sport and water people",
+      "title": "Girl skateboarder",
+      "form": "roll",
+      "brief": "South Asian British girl; helmet and pads, one pushing leg then glide",
+      "use": "Cycling, physical activity, beach, lake and swimming",
+      "animationBrief": "Four distinct wheel/push phases; do not translate the whole character across the cell.",
+      "filename": "sGirlSkateboarderMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "f42237080630b2ce6ad146f48c4a7ca45d0b8df9a6a130b83f2cdba21fdf4eb8"
+    },
+    {
+      "id": "PL140",
+      "batch": 27,
+      "batchTitle": "Sport and water people",
+      "title": "Boy skateboarder",
+      "form": "roll",
+      "brief": "East Asian British boy; helmet and pads, one pushing leg then glide",
+      "use": "Cycling, physical activity, beach, lake and swimming",
+      "animationBrief": "Four distinct wheel/push phases; do not translate the whole character across the cell.",
+      "filename": "sBoySkateboarderMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "60a2d051e2d98741991d15a1ab15bca57af12afe42c84f94df6f5e91d08a48ba"
+    },
+    {
+      "id": "PL141",
+      "batch": 28,
+      "batchTitle": "Bots and playable vehicles",
+      "title": "Wheeled helper robot",
+      "form": "roll",
+      "brief": "Friendly two-wheel bot; no humanoid legs, simple clear face",
+      "use": "Digital safety, engineering, space, travel and waterways",
+      "animationBrief": "Four distinct wheel/push phases; do not translate the whole character across the cell.",
+      "filename": "sWheeledHelperRobotMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "d33cc150cd9982feee293682769606e14169dc05babeb40bf61faa28168844dc"
+    },
+    {
+      "id": "PL142",
+      "batch": 28,
+      "batchTitle": "Bots and playable vehicles",
+      "title": "Hovering orb robot",
+      "form": "float",
+      "brief": "Small orb bot, subtle bob and moving thruster glow contained in cell",
+      "use": "Digital safety, engineering, space, travel and waterways",
+      "animationBrief": "Four subtle bob/propulsion phases; deliberate loop, no horizontal drift.",
+      "filename": "sHoveringOrbRobotMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "c18ad953b47ca86db72f7e8d4eee5d5be5b801a2b256a26441b553903900056b"
+    },
+    {
+      "id": "PL143",
+      "batch": 28,
+      "batchTitle": "Bots and playable vehicles",
+      "title": "Quadcopter robot",
+      "form": "fly",
+      "brief": "Compact drone; propeller cycle, stable central body",
+      "use": "Digital safety, engineering, space, travel and waterways",
+      "animationBrief": "Upstroke, intermediate, downstroke, return; fixed body root with controlled bob.",
+      "filename": "sQuadcopterRobotMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "bf838ae1c833fef2bb7e4afbce7a541a914551ebec9eed0a5b242df51b0e0f87"
+    },
+    {
+      "id": "PL144",
+      "batch": 28,
+      "batchTitle": "Bots and playable vehicles",
+      "title": "Exploration rover",
+      "form": "roll",
+      "brief": "Four-wheel rover; readable wheels, no human driver required",
+      "use": "Digital safety, engineering, space, travel and waterways",
+      "animationBrief": "Four distinct wheel/push phases; do not translate the whole character across the cell.",
+      "filename": "sExplorationRoverMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "76153d482968273a823cc773ca84a260194716a18bc3aac34927061f3abd0daf"
+    },
+    {
+      "id": "PL145",
+      "batch": 28,
+      "batchTitle": "Bots and playable vehicles",
+      "title": "Small spaceship",
+      "form": "float",
+      "brief": "Side-view compact spacecraft; thruster pulse within cell",
+      "use": "Digital safety, engineering, space, travel and waterways",
+      "animationBrief": "Four subtle bob/propulsion phases; deliberate loop, no horizontal drift.",
+      "filename": "sSmallSpaceshipMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "d68975b03caca45b7742f96d2bc2a4a335f8e27f77c25d41d3546e66b456aca7"
+    },
+    {
+      "id": "PL146",
+      "batch": 28,
+      "batchTitle": "Bots and playable vehicles",
+      "title": "Mini submarine",
+      "form": "swim",
+      "brief": "Side-view rounded submarine; propeller loop within cell",
+      "use": "Digital safety, engineering, space, travel and waterways",
+      "animationBrief": "Four stroke/tail phases; stable head/body root, no scene background.",
+      "filename": "sMiniSubmarineMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "fc938b334ba9d3d802ad2da1e9b5b998ea79a3d7a7655872ffd07116aee8e943"
+    },
+    {
+      "id": "PL147",
+      "batch": 28,
+      "batchTitle": "Bots and playable vehicles",
+      "title": "Small motorboat",
+      "form": "float",
+      "brief": "Compact side-view boat; gentle bob, no baked-in sea or trailing wake",
+      "use": "Digital safety, engineering, space, travel and waterways",
+      "animationBrief": "Four subtle bob/propulsion phases; deliberate loop, no horizontal drift.",
+      "filename": "sSmallMotorboatMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "1fa576572991c3a1e16623510bdc80dc9f6ee44580f69e21cd38b733e87f155a"
+    },
+    {
+      "id": "PL148",
+      "batch": 28,
+      "batchTitle": "Bots and playable vehicles",
+      "title": "Mini helicopter",
+      "form": "fly",
+      "brief": "Compact helicopter; rotor and tail fit all four frames",
+      "use": "Digital safety, engineering, space, travel and waterways",
+      "animationBrief": "Upstroke, intermediate, downstroke, return; fixed body root with controlled bob.",
+      "filename": "sMiniHelicopterMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "38f368bac1d456192a9a9e6dc5bfdadbbafa4a260272d247c0ab96bd31fd0970"
+    },
+    {
+      "id": "PL149",
+      "batch": 29,
+      "batchTitle": "Classic fantasy and gentle horror",
+      "title": "Girl knight",
+      "form": "walk",
+      "brief": "Black girl; practical small armour silhouette, no oversized weapon",
+      "use": "Human alternatives to existing dressed animals; accessible horror",
+      "animationBrief": "Opposite contact, passing, opposite contact, passing; consistent body registration.",
+      "filename": "sGirlKnightMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "769e959cc3ffa43c738c63ab2e0f68d2a4b03234b0db561a7edf8ce345feff6f"
+    },
+    {
+      "id": "PL150",
+      "batch": 29,
+      "batchTitle": "Classic fantasy and gentle horror",
+      "title": "Boy knight",
+      "form": "walk",
+      "brief": "East Asian boy; practical small armour silhouette, no oversized weapon",
+      "use": "Human alternatives to existing dressed animals; accessible horror",
+      "animationBrief": "Opposite contact, passing, opposite contact, passing; consistent body registration.",
+      "filename": "sBoyKnightMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "e8a8a197654eb0768fb7c2bdac701bdc8ac785b21271e80c0ceb419260f4aa8d"
+    },
+    {
+      "id": "PL151",
+      "batch": 29,
+      "batchTitle": "Classic fantasy and gentle horror",
+      "title": "Girl wizard",
+      "form": "walk",
+      "brief": "South Asian girl; compact hat and robe, readable face",
+      "use": "Human alternatives to existing dressed animals; accessible horror",
+      "animationBrief": "Opposite contact, passing, opposite contact, passing; consistent body registration.",
+      "filename": "sGirlWizardMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "71ed30e8f2fcd24f4f10d02bfa252f33f3e8809d69f9d6f2adef44dc34384836"
+    },
+    {
+      "id": "PL152",
+      "batch": 29,
+      "batchTitle": "Classic fantasy and gentle horror",
+      "title": "Boy wizard",
+      "form": "walk",
+      "brief": "White boy; compact hat and robe, readable face",
+      "use": "Human alternatives to existing dressed animals; accessible horror",
+      "animationBrief": "Opposite contact, passing, opposite contact, passing; consistent body registration.",
+      "filename": "sBoyWizardMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "f8037e80e295dbbebf602bc0151ad7bfdca47dcaddeb6f4b321ec0fa42f54a41"
+    },
+    {
+      "id": "PL153",
+      "batch": 29,
+      "batchTitle": "Classic fantasy and gentle horror",
+      "title": "Friendly ghost",
+      "form": "float",
+      "brief": "Simple original ghost character; soft bob and expressive face",
+      "use": "Human alternatives to existing dressed animals; accessible horror",
+      "animationBrief": "Four subtle bob/propulsion phases; deliberate loop, no horizontal drift.",
+      "filename": "sFriendlyGhostMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "077eabeabe82029ea7a38b09809005eb0a3862d174647ae5bf0b5caf47054750"
+    },
+    {
+      "id": "PL154",
+      "batch": 29,
+      "batchTitle": "Classic fantasy and gentle horror",
+      "title": "Jelly slime",
+      "form": "bounce",
+      "brief": "Original round slime; squash and stretch contained in frame",
+      "use": "Human alternatives to existing dressed animals; accessible horror",
+      "animationBrief": "Four controlled squash/stretch phases; fixed virtual ground reference.",
+      "filename": "sJellySlimeMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "2bf534edee98421bbd85a177a5c7e1a0075c3f9f2201b869e1642d1a3cd6ed95"
+    },
+    {
+      "id": "PL155",
+      "batch": 29,
+      "batchTitle": "Classic fantasy and gentle horror",
+      "title": "Friendly skeleton",
+      "form": "walk",
+      "brief": "Non-graphic cartoon skeleton; chunky readable limbs",
+      "use": "Human alternatives to existing dressed animals; accessible horror",
+      "animationBrief": "Opposite contact, passing, opposite contact, passing; consistent body registration.",
+      "filename": "sFriendlySkeletonMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "60ddf8e9304494dc413a6b879d24ada7f4ab972b5410452ba3a60e178f22f31c"
+    },
+    {
+      "id": "PL156",
+      "batch": 29,
+      "batchTitle": "Classic fantasy and gentle horror",
+      "title": "Little mummy",
+      "form": "walk",
+      "brief": "Friendly wrapped fantasy creature; no gore or injury details",
+      "use": "Human alternatives to existing dressed animals; accessible horror",
+      "animationBrief": "Opposite contact, passing, opposite contact, passing; consistent body registration.",
+      "filename": "sLittleMummyMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "e4ba1a9274397f297233c474481c6e58eb47ddc30eb267029e4cf906b7fed1c9"
+    },
+    {
+      "id": "PL157",
+      "batch": 30,
+      "batchTitle": "Outdoor food and space roles",
+      "title": "Girl hiker",
+      "form": "walk",
+      "brief": "Middle Eastern British girl; practical boots and small rucksack, no fixed story props",
+      "use": "Outdoor journeys, healthy eating, community, gardening and space",
+      "animationBrief": "Opposite contact, passing, opposite contact, passing; consistent body registration.",
+      "filename": "sGirlHikerMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "f3db6fa9208288e78c1fd234dbaf84e4d6c0ec25cfd2b4042342955235f29593"
+    },
+    {
+      "id": "PL158",
+      "batch": 30,
+      "batchTitle": "Outdoor food and space roles",
+      "title": "Boy park ranger",
+      "form": "walk",
+      "brief": "Mixed-heritage British boy; practical outdoor clothing and compact kit",
+      "use": "Outdoor journeys, healthy eating, community, gardening and space",
+      "animationBrief": "Opposite contact, passing, opposite contact, passing; consistent body registration.",
+      "filename": "sBoyParkRangerMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "e916c792eccd55498fde31e3361c8ba20ed044b1c08a7f2df8aa7733bba15b0c"
+    },
+    {
+      "id": "PL159",
+      "batch": 30,
+      "batchTitle": "Outdoor food and space roles",
+      "title": "Girl astronaut",
+      "form": "float",
+      "brief": "Black girl visible through helmet; compact suit and gentle thruster bob",
+      "use": "Outdoor journeys, healthy eating, community, gardening and space",
+      "animationBrief": "Four subtle bob/propulsion phases; deliberate loop, no horizontal drift.",
+      "filename": "sGirlAstronautMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "c5ca2d4c558e7f2c59ec7865b397294742c4fb2249f23c99d65f3da2ac0399b0"
+    },
+    {
+      "id": "PL160",
+      "batch": 30,
+      "batchTitle": "Outdoor food and space roles",
+      "title": "Boy astronaut",
+      "form": "float",
+      "brief": "East Asian boy visible through helmet; compact suit and gentle thruster bob",
+      "use": "Outdoor journeys, healthy eating, community, gardening and space",
+      "animationBrief": "Four subtle bob/propulsion phases; deliberate loop, no horizontal drift.",
+      "filename": "sBoyAstronautMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "8fccc1167949f88926138be30d51dacf2c93b3cd8ef2f842636e4f476e460048"
+    },
+    {
+      "id": "PL161",
+      "batch": 30,
+      "batchTitle": "Outdoor food and space roles",
+      "title": "Girl community cook",
+      "form": "walk",
+      "brief": "White British girl; apron and practical clothing, hands free to collect ingredients",
+      "use": "Outdoor journeys, healthy eating, community, gardening and space",
+      "animationBrief": "Opposite contact, passing, opposite contact, passing; consistent body registration.",
+      "filename": "sGirlCommunityCookMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "86adede4d0592348d75af1bc6b9018154a4071eea38c3e7a3e94a47e3c0ce6c7"
+    },
+    {
+      "id": "PL162",
+      "batch": 30,
+      "batchTitle": "Outdoor food and space roles",
+      "title": "Boy community cook",
+      "form": "walk",
+      "brief": "South Asian British boy; apron and practical clothing, hands free",
+      "use": "Outdoor journeys, healthy eating, community, gardening and space",
+      "animationBrief": "Opposite contact, passing, opposite contact, passing; consistent body registration.",
+      "filename": "sBoyCommunityCookMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "2c25e16a493b8d44b2b0ce28048a7a3cf836b028f9677ef908499300519fe511"
+    },
+    {
+      "id": "PL163",
+      "batch": 30,
+      "batchTitle": "Outdoor food and space roles",
+      "title": "Girl gardener",
+      "form": "walk",
+      "brief": "South Asian British girl; practical garden clothes, hands free",
+      "use": "Outdoor journeys, healthy eating, community, gardening and space",
+      "animationBrief": "Opposite contact, passing, opposite contact, passing; consistent body registration.",
+      "filename": "sGirlGardenerMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "00f7da0ae9a2641979d1ae9482427533469b6694c5431ada97e50a3814696c73"
+    },
+    {
+      "id": "PL164",
+      "batch": 30,
+      "batchTitle": "Outdoor food and space roles",
+      "title": "Boy gardener",
+      "form": "walk",
+      "brief": "Black British boy; practical garden clothes, hands free",
+      "use": "Outdoor journeys, healthy eating, community, gardening and space",
+      "animationBrief": "Opposite contact, passing, opposite contact, passing; consistent body registration.",
+      "filename": "sBoyGardenerMove_strip4.png",
+      "frames": 4,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        32,
+        64
+      ],
+      "status": "complete: generated, exported and reviewed",
+      "sha256": "b038b8c1a08c9dfba9edad075026a7b7fb1dd1b12adeebcde09f2f2f41a2725e"
+    }
+  ],
+  "newPlayersCompleted": 64,
+  "status": "complete",
+  "existingPlayersCorrected": 48
+}

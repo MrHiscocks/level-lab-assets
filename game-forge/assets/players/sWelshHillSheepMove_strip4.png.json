@@ -1,0 +1,56 @@
+{
+  "id": "PL124",
+  "title": "Welsh hill sheep",
+  "category": "players",
+  "variant": "movement",
+  "batch": 25,
+  "tags": [
+    "Wales",
+    "animal",
+    "animals",
+    "movement",
+    "nature",
+    "ordinary animals",
+    "outdoor",
+    "player",
+    "quadruped",
+    "wildlife",
+    "woodland"
+  ],
+  "form": "quadruped",
+  "environments": [
+    "Savanna & grassland",
+    "Woodland & gardens"
+  ],
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 14,
+    "right": 49,
+    "top": 23,
+    "bottom": 63
+  },
+  "fps": 6,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "0e350b879c0d8f086aa5494e1c81cf72774f69a3a77083d82834106c22fc6e7e",
+  "sourceFile": "PL124.png",
+  "sourceBatch": "Player expansion batch 25",
+  "description": "Welsh hill sheep. Four-frame quadruped movement animation.",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Set a fixed manual rectangular body mask for all frames. Ground contact at bottom of cell. PNG does not store origin, mask or playback settings.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "bacaf9d40abcc0da4869b4afc5fbfc5ac109483de8c75209c2c4f0dc15a5e46e",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

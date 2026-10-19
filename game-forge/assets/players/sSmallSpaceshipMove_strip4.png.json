@@ -1,0 +1,51 @@
+{
+  "id": "PL145",
+  "title": "Small spaceship",
+  "category": "players",
+  "variant": "movement",
+  "batch": 28,
+  "tags": [
+    "float",
+    "movement",
+    "player",
+    "science",
+    "space",
+    "technology",
+    "transport"
+  ],
+  "form": "floating",
+  "environments": [
+    "Space"
+  ],
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 22,
+    "right": 41,
+    "top": 33,
+    "bottom": 63
+  },
+  "fps": 6,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "d68975b03caca45b7742f96d2bc2a4a335f8e27f77c25d41d3546e66b456aca7",
+  "sourceFile": "PL145.png",
+  "sourceBatch": "Player expansion batch 28",
+  "description": "Small spaceship. Four-frame float movement animation.",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Set a fixed manual rectangular body mask for all frames. Mask bottom 63 is a virtual platform contact; specialised flying/swimming movement requires game code. PNG does not store origin, mask or playback settings.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "b926d1c2329723007ac94f1218db4cde618926b26b45822f2cc98cad70f75a50",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

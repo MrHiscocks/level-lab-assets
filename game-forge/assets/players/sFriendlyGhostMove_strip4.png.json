@@ -1,0 +1,51 @@
+{
+  "id": "PL153",
+  "title": "Friendly ghost",
+  "category": "players",
+  "variant": "movement",
+  "batch": 29,
+  "tags": [
+    "castle",
+    "fantasy",
+    "float",
+    "horror",
+    "movement",
+    "player",
+    "spooky"
+  ],
+  "form": "floating",
+  "environments": [
+    "Castle & ruins"
+  ],
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 22,
+    "right": 41,
+    "top": 17,
+    "bottom": 63
+  },
+  "fps": 6,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "077eabeabe82029ea7a38b09809005eb0a3862d174647ae5bf0b5caf47054750",
+  "sourceFile": "PL153.png",
+  "sourceBatch": "Player expansion batch 29",
+  "description": "Friendly ghost. Four-frame float movement animation.",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Set a fixed manual rectangular body mask for all frames. Mask bottom 63 is a virtual platform contact; specialised flying/swimming movement requires game code. PNG does not store origin, mask or playback settings.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "225bde22bfc9923f5ae965b9dcfc4b989ac7d1d7c66ee7e8a2832611452b641e",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

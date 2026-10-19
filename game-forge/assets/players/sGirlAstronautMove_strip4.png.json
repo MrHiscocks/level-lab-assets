@@ -1,0 +1,52 @@
+{
+  "id": "PL159",
+  "title": "Girl astronaut",
+  "category": "players",
+  "variant": "movement",
+  "batch": 30,
+  "tags": [
+    "adventure",
+    "astronaut",
+    "float",
+    "girl",
+    "movement",
+    "player",
+    "science",
+    "space"
+  ],
+  "form": "floating",
+  "environments": [
+    "Space"
+  ],
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 22,
+    "right": 41,
+    "top": 12,
+    "bottom": 63
+  },
+  "fps": 6,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "c5ca2d4c558e7f2c59ec7865b397294742c4fb2249f23c99d65f3da2ac0399b0",
+  "sourceFile": "PL159.png",
+  "sourceBatch": "Player expansion batch 30",
+  "description": "Girl astronaut. Four-frame float movement animation.",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Set a fixed manual rectangular body mask for all frames. Mask bottom 63 is a virtual platform contact; specialised flying/swimming movement requires game code. PNG does not store origin, mask or playback settings.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "5b99012a5d9116c7d2d21cacfc44c2284072bd2267626e99a36b76863226d49b",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

@@ -7,16 +7,16 @@
   "batch": 20,
   "origin": [
     32,
-    96
+    64
   ],
   "mask": {
-    "left": 18,
-    "top": 24,
-    "right": 45,
-    "bottom": 95
+    "left": 22,
+    "right": 40,
+    "top": 15,
+    "bottom": 63
   },
   "fps": 6,
-  "placement": "Use one fixed rectangular mask for every animation frame. PNG does not store origin, playback speed or mask metadata.",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Manual rectangular collision mask, fixed across all frames. Ground contact is the lower frame edge; do not auto-trim or independently centre frames. PNG files do not store origin, speed or collision settings.",
   "repeatHorizontal": false,
   "form": "walk",
   "loop": false,
@@ -24,8 +24,24 @@
   "description": "",
   "sourceFile": "Game_Forge_Batch_20/assets/players/sPeaPodHeroWithLunchboxBackpackMove_strip4.png",
   "sourceBatch": "Game_Forge_Batch_20.zip",
-  "sourceSha256": "de78751fc7fd5377b9acf88c6f5a6863fd7d4fa13ba94e35e3c95d275c4cd0af",
+  "sourceSha256": "9dfe65d81876694b8b55c477af1f2cc7ad42ab53a9288f6d879f72aa0f8161f7",
   "frameWidth": 64,
-  "frameHeight": 96,
-  "frames": 4
+  "frameHeight": 64,
+  "frames": 4,
+  "exportRevision": {
+    "version": "players-64-v1",
+    "date": "2026-10-19",
+    "previousSha256": "de78751fc7fd5377b9acf88c6f5a6863fd7d4fa13ba94e35e3c95d275c4cd0af",
+    "originalFrameSize": [
+      64,
+      96
+    ],
+    "commonCropTop": 1,
+    "resizedContentWidth": 43,
+    "targetFrameSize": [
+      64,
+      64
+    ],
+    "method": "Common transparent-top crop, proportional Lanczos downscale, bottom-centred transparent canvas. Same transform across all variants."
+  }
 }

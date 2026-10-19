@@ -7,16 +7,16 @@
   "batch": 20,
   "origin": [
     32,
-    96
+    64
   ],
   "mask": {
-    "left": 18,
-    "top": 32,
-    "right": 45,
-    "bottom": 95
+    "left": 20,
+    "right": 43,
+    "top": 12,
+    "bottom": 63
   },
   "fps": 6,
-  "placement": "Use one fixed rectangular mask for every animation frame. PNG does not store origin, playback speed or mask metadata.",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Manual rectangular collision mask, fixed across all frames. Ground contact is the lower frame edge; do not auto-trim or independently centre frames. PNG files do not store origin, speed or collision settings.",
   "repeatHorizontal": false,
   "form": "walk",
   "loop": false,
@@ -24,8 +24,24 @@
   "description": "",
   "sourceFile": "Game_Forge_Batch_20/assets/players/sPenguinRangerWithKitBagStatic.png",
   "sourceBatch": "Game_Forge_Batch_20.zip",
-  "sourceSha256": "723c6464244f6051f3fb26a0c982bcbb25f53880a5a9d8d659250bf3416384d8",
+  "sourceSha256": "2c2b58bf051e81168967d8732bcbc26070cb683949acc6ece51360c324d3ef9d",
   "frameWidth": 64,
-  "frameHeight": 96,
-  "frames": 1
+  "frameHeight": 64,
+  "frames": 1,
+  "exportRevision": {
+    "version": "players-64-v1",
+    "date": "2026-10-19",
+    "previousSha256": "723c6464244f6051f3fb26a0c982bcbb25f53880a5a9d8d659250bf3416384d8",
+    "originalFrameSize": [
+      64,
+      96
+    ],
+    "commonCropTop": 17,
+    "resizedContentWidth": 52,
+    "targetFrameSize": [
+      64,
+      64
+    ],
+    "method": "Common transparent-top crop, proportional Lanczos downscale, bottom-centred transparent canvas. Same transform across all variants."
+  }
 }

@@ -7,16 +7,16 @@
   "batch": 20,
   "origin": [
     32,
-    96
+    64
   ],
   "mask": {
-    "left": 18,
-    "top": 40,
-    "right": 45,
-    "bottom": 95
+    "left": 19,
+    "right": 43,
+    "top": 15,
+    "bottom": 63
   },
   "fps": 6,
-  "placement": "Use one fixed rectangular mask for every animation frame. PNG does not store origin, playback speed or mask metadata.",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Manual rectangular collision mask, fixed across all frames. Ground contact is the lower frame edge; do not auto-trim or independently centre frames. PNG files do not store origin, speed or collision settings.",
   "repeatHorizontal": false,
   "form": "walk",
   "loop": false,
@@ -24,8 +24,24 @@
   "description": "",
   "sourceFile": "Game_Forge_Batch_20/assets/players/sRobotMadeFromReusedHouseholdPartsMove_strip4.png",
   "sourceBatch": "Game_Forge_Batch_20.zip",
-  "sourceSha256": "1096f383f0527810d67407e652a476d63647770f486414ef1ddb4cb1471820d4",
+  "sourceSha256": "6c55eaefd88202c50f685890ea3047ac541147b6789def70955aea5b154ed0ec",
   "frameWidth": 64,
-  "frameHeight": 96,
-  "frames": 4
+  "frameHeight": 64,
+  "frames": 4,
+  "exportRevision": {
+    "version": "players-64-v1",
+    "date": "2026-10-19",
+    "previousSha256": "1096f383f0527810d67407e652a476d63647770f486414ef1ddb4cb1471820d4",
+    "originalFrameSize": [
+      64,
+      96
+    ],
+    "commonCropTop": 22,
+    "resizedContentWidth": 55,
+    "targetFrameSize": [
+      64,
+      64
+    ],
+    "method": "Common transparent-top crop, proportional Lanczos downscale, bottom-centred transparent canvas. Same transform across all variants."
+  }
 }

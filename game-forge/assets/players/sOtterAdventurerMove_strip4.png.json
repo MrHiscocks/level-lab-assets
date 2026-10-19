@@ -7,25 +7,41 @@
   "batch": 15,
   "origin": [
     32,
-    96
+    64
   ],
   "mask": {
-    "left": 20,
-    "top": 29,
-    "right": 43,
-    "bottom": 95
+    "left": 21,
+    "right": 42,
+    "top": 5,
+    "bottom": 63
   },
   "fps": 8,
-  "placement": "",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Manual rectangular collision mask, fixed across all frames. Ground contact is the lower frame edge; do not auto-trim or independently centre frames. PNG files do not store origin, speed or collision settings.",
   "repeatHorizontal": false,
-  "form": "",
+  "form": "walk",
   "loop": false,
   "duration": null,
   "description": "",
   "sourceFile": "Game_Forge_Batch_15/assets/players/sOtterAdventurerMove_strip4.png",
   "sourceBatch": "Game_Forge_Batch_15.zip",
-  "sourceSha256": "0e8b7b5d65e36a987fb27344a372af6bcf949eadd6049944ca3000c6f5c26b4b",
+  "sourceSha256": "06f26cc8633112caa493eebd02ddb03233126a77ba6e8414a3b5e224d0dfb39e",
   "frameWidth": 64,
-  "frameHeight": 96,
-  "frames": 4
+  "frameHeight": 64,
+  "frames": 4,
+  "exportRevision": {
+    "version": "players-64-v1",
+    "date": "2026-10-19",
+    "previousSha256": "0e8b7b5d65e36a987fb27344a372af6bcf949eadd6049944ca3000c6f5c26b4b",
+    "originalFrameSize": [
+      64,
+      96
+    ],
+    "commonCropTop": 23,
+    "resizedContentWidth": 56,
+    "targetFrameSize": [
+      64,
+      64
+    ],
+    "method": "Common transparent-top crop, proportional Lanczos downscale, bottom-centred transparent canvas. Same transform across all variants."
+  }
 }

@@ -1,0 +1,57 @@
+{
+  "id": "PL116",
+  "title": "Boy using a wheelchair",
+  "category": "players",
+  "variant": "movement",
+  "batch": 24,
+  "tags": [
+    "accessibility",
+    "adventure",
+    "boy",
+    "community",
+    "healthy eating",
+    "learning",
+    "movement",
+    "player",
+    "roll",
+    "wellbeing",
+    "wheelchair"
+  ],
+  "form": "roll",
+  "environments": [
+    "Indoors",
+    "Town & community",
+    "Woodland & gardens"
+  ],
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 14,
+    "right": 49,
+    "top": 12,
+    "bottom": 63
+  },
+  "fps": 8,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "8bb5f7a4731099c186ccbe86d9a35fdfecdd2abfceeed9efb1eb065cdf814f00",
+  "sourceFile": "PL116.png",
+  "sourceBatch": "Player expansion batch 24",
+  "description": "Boy using a wheelchair. Four-frame roll movement animation.",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Set a fixed manual rectangular body mask for all frames. Ground contact at bottom of cell. PNG does not store origin, mask or playback settings.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "94c3f2989f8b34d81b8b881050eb8b68861e6b54c89873db03b83fa3f5044b68",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

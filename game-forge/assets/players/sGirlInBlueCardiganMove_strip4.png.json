@@ -1,0 +1,55 @@
+{
+  "id": "PL109",
+  "title": "Girl in blue cardigan",
+  "category": "players",
+  "variant": "movement",
+  "batch": 24,
+  "tags": [
+    "adventure",
+    "community",
+    "girl",
+    "healthy eating",
+    "learning",
+    "movement",
+    "player",
+    "walk",
+    "wellbeing"
+  ],
+  "form": "walk",
+  "environments": [
+    "Indoors",
+    "Town & community",
+    "Woodland & gardens"
+  ],
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 22,
+    "right": 41,
+    "top": 15,
+    "bottom": 63
+  },
+  "fps": 8,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "9c55ec75b941b23f96882d25a14c4d918cf89b19da33c9c3bc1b6ed9f0eb5be9",
+  "sourceFile": "PL109.png",
+  "sourceBatch": "Player expansion batch 24",
+  "description": "Girl in blue cardigan. Four-frame walk movement animation.",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Set a fixed manual rectangular body mask for all frames. Ground contact at bottom of cell. PNG does not store origin, mask or playback settings.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "fd55500596ef2bece7ce3dbd3e0bb9b28dc8fece1131be2a16edda3671749ae1",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

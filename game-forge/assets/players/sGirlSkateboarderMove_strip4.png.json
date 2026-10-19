@@ -1,0 +1,48 @@
+{
+  "id": "PL139",
+  "title": "Girl skateboarder",
+  "category": "players",
+  "variant": "movement",
+  "batch": 27,
+  "tags": [
+    "girl",
+    "movement",
+    "physical activity",
+    "player",
+    "roll",
+    "sport"
+  ],
+  "form": "roll",
+  "environments": [],
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 14,
+    "right": 49,
+    "top": 12,
+    "bottom": 63
+  },
+  "fps": 8,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "f42237080630b2ce6ad146f48c4a7ca45d0b8df9a6a130b83f2cdba21fdf4eb8",
+  "sourceFile": "PL139.png",
+  "sourceBatch": "Player expansion batch 27",
+  "description": "Girl skateboarder. Four-frame roll movement animation.",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Set a fixed manual rectangular body mask for all frames. Ground contact at bottom of cell. PNG does not store origin, mask or playback settings.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "d48bad433a8907cf37b71e80d684bd45dfb84fc0c5a0ff4858d6f389f258bf5c",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

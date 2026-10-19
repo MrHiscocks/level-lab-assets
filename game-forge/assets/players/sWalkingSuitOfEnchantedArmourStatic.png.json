@@ -7,25 +7,41 @@
   "batch": 17,
   "origin": [
     32,
-    96
+    64
   ],
   "mask": {
-    "left": 20,
-    "top": 30,
-    "right": 43,
-    "bottom": 95
+    "left": 21,
+    "right": 42,
+    "top": 8,
+    "bottom": 63
   },
   "fps": 8,
-  "placement": "",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Manual rectangular collision mask, fixed across all frames. Ground contact is the lower frame edge; do not auto-trim or independently centre frames. PNG files do not store origin, speed or collision settings.",
   "repeatHorizontal": false,
-  "form": "",
+  "form": "walk",
   "loop": false,
   "duration": null,
   "description": "",
   "sourceFile": "Game_Forge_Batch_17/assets/players/sWalkingSuitOfEnchantedArmourStatic.png",
   "sourceBatch": "Game_Forge_Batch_17.zip",
-  "sourceSha256": "bb97bc47971dbe942bcec14c0d06f56c852a83488640a69c14d0e04d39a7bf16",
+  "sourceSha256": "7f2ed7a152b3a80fb67cf7d998ca07bc0898f82a204f6389ce588c64bba08057",
   "frameWidth": 64,
-  "frameHeight": 96,
-  "frames": 1
+  "frameHeight": 64,
+  "frames": 1,
+  "exportRevision": {
+    "version": "players-64-v1",
+    "date": "2026-10-19",
+    "previousSha256": "bb97bc47971dbe942bcec14c0d06f56c852a83488640a69c14d0e04d39a7bf16",
+    "originalFrameSize": [
+      64,
+      96
+    ],
+    "commonCropTop": 20,
+    "resizedContentWidth": 54,
+    "targetFrameSize": [
+      64,
+      64
+    ],
+    "method": "Common transparent-top crop, proportional Lanczos downscale, bottom-centred transparent canvas. Same transform across all variants."
+  }
 }

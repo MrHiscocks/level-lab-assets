@@ -1,0 +1,54 @@
+{
+  "id": "PL162",
+  "title": "Boy community cook",
+  "category": "players",
+  "variant": "movement",
+  "batch": 30,
+  "tags": [
+    "adventure",
+    "boy",
+    "community",
+    "cook",
+    "food",
+    "healthy eating",
+    "movement",
+    "player",
+    "walk"
+  ],
+  "form": "walk",
+  "environments": [
+    "Indoors",
+    "Town & community"
+  ],
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 22,
+    "right": 41,
+    "top": 15,
+    "bottom": 63
+  },
+  "fps": 8,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "2c25e16a493b8d44b2b0ce28048a7a3cf836b028f9677ef908499300519fe511",
+  "sourceFile": "PL162.png",
+  "sourceBatch": "Player expansion batch 30",
+  "description": "Boy community cook. Four-frame walk movement animation.",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Set a fixed manual rectangular body mask for all frames. Ground contact at bottom of cell. PNG does not store origin, mask or playback settings.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "9ae549820c5c9f46dc2678c9990d07b78aa36253dbf0b1f9193b44cc5f520b07",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

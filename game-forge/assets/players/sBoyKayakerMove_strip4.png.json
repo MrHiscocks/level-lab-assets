@@ -1,0 +1,55 @@
+{
+  "id": "PL138",
+  "title": "Boy kayaker",
+  "category": "players",
+  "variant": "movement",
+  "batch": 27,
+  "tags": [
+    "boy",
+    "kayaking",
+    "lake",
+    "movement",
+    "outdoor",
+    "paddle",
+    "physical activity",
+    "player",
+    "sport",
+    "water"
+  ],
+  "form": "paddle",
+  "environments": [
+    "Coast & ocean",
+    "Rivers & wetlands"
+  ],
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 14,
+    "right": 49,
+    "top": 25,
+    "bottom": 63
+  },
+  "fps": 6,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "9904bb037b421de5c7670247b088e05aeaef0e763c7b40a1de5c339cee598240",
+  "sourceFile": "PL138.png",
+  "sourceBatch": "Player expansion batch 27",
+  "description": "Boy kayaker. Four-frame paddle movement animation.",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Set a fixed manual rectangular body mask for all frames. Mask bottom 63 is a virtual platform contact; specialised flying/swimming movement requires game code. PNG does not store origin, mask or playback settings.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "fdef9f145729ddcb4b55b17cfb15d77ccc46578539d86fd896db75e5af89aca4",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

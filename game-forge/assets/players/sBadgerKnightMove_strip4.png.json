@@ -7,25 +7,41 @@
   "batch": 17,
   "origin": [
     32,
-    96
+    64
   ],
   "mask": {
-    "left": 20,
-    "top": 30,
-    "right": 43,
-    "bottom": 95
+    "left": 21,
+    "right": 42,
+    "top": 8,
+    "bottom": 63
   },
   "fps": 8,
-  "placement": "",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Manual rectangular collision mask, fixed across all frames. Ground contact is the lower frame edge; do not auto-trim or independently centre frames. PNG files do not store origin, speed or collision settings.",
   "repeatHorizontal": false,
-  "form": "",
+  "form": "walk",
   "loop": false,
   "duration": null,
   "description": "",
   "sourceFile": "Game_Forge_Batch_17/assets/players/sBadgerKnightMove_strip4.png",
   "sourceBatch": "Game_Forge_Batch_17.zip",
-  "sourceSha256": "0750c1c285f8a1d5ce0e4f912fe7b96f8700e29e688cba18fddddc593c9f207c",
+  "sourceSha256": "08fda5b5e129497624b97b08e2dc9707d5601b8519dbd7f7a54a238497d7c2e6",
   "frameWidth": 64,
-  "frameHeight": 96,
-  "frames": 4
+  "frameHeight": 64,
+  "frames": 4,
+  "exportRevision": {
+    "version": "players-64-v1",
+    "date": "2026-10-19",
+    "previousSha256": "0750c1c285f8a1d5ce0e4f912fe7b96f8700e29e688cba18fddddc593c9f207c",
+    "originalFrameSize": [
+      64,
+      96
+    ],
+    "commonCropTop": 20,
+    "resizedContentWidth": 54,
+    "targetFrameSize": [
+      64,
+      64
+    ],
+    "method": "Common transparent-top crop, proportional Lanczos downscale, bottom-centred transparent canvas. Same transform across all variants."
+  }
 }

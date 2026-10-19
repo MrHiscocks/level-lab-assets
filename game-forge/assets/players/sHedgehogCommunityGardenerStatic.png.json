@@ -7,16 +7,16 @@
   "batch": 20,
   "origin": [
     32,
-    96
+    64
   ],
   "mask": {
-    "left": 18,
-    "top": 35,
-    "right": 45,
-    "bottom": 95
+    "left": 20,
+    "right": 43,
+    "top": 14,
+    "bottom": 63
   },
   "fps": 6,
-  "placement": "Use one fixed rectangular mask for every animation frame. PNG does not store origin, playback speed or mask metadata.",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Manual rectangular collision mask, fixed across all frames. Ground contact is the lower frame edge; do not auto-trim or independently centre frames. PNG files do not store origin, speed or collision settings.",
   "repeatHorizontal": false,
   "form": "walk",
   "loop": false,
@@ -24,8 +24,24 @@
   "description": "",
   "sourceFile": "Game_Forge_Batch_20/assets/players/sHedgehogCommunityGardenerStatic.png",
   "sourceBatch": "Game_Forge_Batch_20.zip",
-  "sourceSha256": "a59b89455702bfc804087c75016dcd84553d3f586a30e32f3d2d73d74db4ce6f",
+  "sourceSha256": "dfeaa182fc0c59d73233085fa529a7d94b17b8446e6daf3f462b66d1980dc015",
   "frameWidth": 64,
-  "frameHeight": 96,
-  "frames": 1
+  "frameHeight": 64,
+  "frames": 1,
+  "exportRevision": {
+    "version": "players-64-v1",
+    "date": "2026-10-19",
+    "previousSha256": "a59b89455702bfc804087c75016dcd84553d3f586a30e32f3d2d73d74db4ce6f",
+    "originalFrameSize": [
+      64,
+      96
+    ],
+    "commonCropTop": 17,
+    "resizedContentWidth": 52,
+    "targetFrameSize": [
+      64,
+      64
+    ],
+    "method": "Common transparent-top crop, proportional Lanczos downscale, bottom-centred transparent canvas. Same transform across all variants."
+  }
 }

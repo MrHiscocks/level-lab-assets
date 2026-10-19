@@ -1,0 +1,53 @@
+{
+  "id": "PL131",
+  "title": "Pond frog",
+  "category": "players",
+  "variant": "movement",
+  "batch": 26,
+  "tags": [
+    "animal",
+    "animals",
+    "freshwater",
+    "hop",
+    "lake",
+    "movement",
+    "nature",
+    "ordinary animals",
+    "player",
+    "pond",
+    "wildlife"
+  ],
+  "form": "hop",
+  "environments": [],
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 14,
+    "right": 49,
+    "top": 38,
+    "bottom": 63
+  },
+  "fps": 6,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "d3bb543db98dee9a54eb1489c815130d0fda9f3ff53937ce822a164c0e6df9a4",
+  "sourceFile": "PL131.png",
+  "sourceBatch": "Player expansion batch 26",
+  "description": "Pond frog. Four-frame hop movement animation.",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Set a fixed manual rectangular body mask for all frames. Ground contact at bottom of cell. PNG does not store origin, mask or playback settings.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "c724a0931814a5b9783aafa23694c3beede489b56e6c939b4a37da02a5cd97c2",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

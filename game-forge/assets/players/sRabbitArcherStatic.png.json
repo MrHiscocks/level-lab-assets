@@ -7,25 +7,41 @@
   "batch": 17,
   "origin": [
     32,
-    96
+    64
   ],
   "mask": {
-    "left": 20,
-    "top": 30,
-    "right": 43,
-    "bottom": 95
+    "left": 22,
+    "right": 40,
+    "top": 15,
+    "bottom": 63
   },
   "fps": 8,
-  "placement": "",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Manual rectangular collision mask, fixed across all frames. Ground contact is the lower frame edge; do not auto-trim or independently centre frames. PNG files do not store origin, speed or collision settings.",
   "repeatHorizontal": false,
-  "form": "",
+  "form": "walk",
   "loop": false,
   "duration": null,
   "description": "",
   "sourceFile": "Game_Forge_Batch_17/assets/players/sRabbitArcherStatic.png",
   "sourceBatch": "Game_Forge_Batch_17.zip",
-  "sourceSha256": "1f9f7a84fb480ae891d3d250e1700cc26c83ef9a8460e5197c52294619b0acd4",
+  "sourceSha256": "6042bf7bc5d2009b582c4d3540f7f9029b9b5bad7d01a7c721b29867c321d9f0",
   "frameWidth": 64,
-  "frameHeight": 96,
-  "frames": 1
+  "frameHeight": 64,
+  "frames": 1,
+  "exportRevision": {
+    "version": "players-64-v1",
+    "date": "2026-10-19",
+    "previousSha256": "1f9f7a84fb480ae891d3d250e1700cc26c83ef9a8460e5197c52294619b0acd4",
+    "originalFrameSize": [
+      64,
+      96
+    ],
+    "commonCropTop": 9,
+    "resizedContentWidth": 47,
+    "targetFrameSize": [
+      64,
+      64
+    ],
+    "method": "Common transparent-top crop, proportional Lanczos downscale, bottom-centred transparent canvas. Same transform across all variants."
+  }
 }

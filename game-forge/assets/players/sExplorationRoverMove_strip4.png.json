@@ -1,0 +1,51 @@
+{
+  "id": "PL144",
+  "title": "Exploration rover",
+  "category": "players",
+  "variant": "movement",
+  "batch": 28,
+  "tags": [
+    "movement",
+    "player",
+    "roll",
+    "science",
+    "space",
+    "technology",
+    "transport"
+  ],
+  "form": "roll",
+  "environments": [
+    "Space"
+  ],
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 14,
+    "right": 49,
+    "top": 23,
+    "bottom": 63
+  },
+  "fps": 8,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "76153d482968273a823cc773ca84a260194716a18bc3aac34927061f3abd0daf",
+  "sourceFile": "PL144.png",
+  "sourceBatch": "Player expansion batch 28",
+  "description": "Exploration rover. Four-frame roll movement animation.",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Set a fixed manual rectangular body mask for all frames. Ground contact at bottom of cell. PNG does not store origin, mask or playback settings.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "bc41a04ac918f79fb29d4fce5201784aa734602491ebf753695da2841125b9b8",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

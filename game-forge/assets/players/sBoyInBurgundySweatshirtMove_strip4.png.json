@@ -1,0 +1,55 @@
+{
+  "id": "PL110",
+  "title": "Boy in burgundy sweatshirt",
+  "category": "players",
+  "variant": "movement",
+  "batch": 24,
+  "tags": [
+    "adventure",
+    "boy",
+    "community",
+    "healthy eating",
+    "learning",
+    "movement",
+    "player",
+    "walk",
+    "wellbeing"
+  ],
+  "form": "walk",
+  "environments": [
+    "Indoors",
+    "Town & community",
+    "Woodland & gardens"
+  ],
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 22,
+    "right": 41,
+    "top": 15,
+    "bottom": 63
+  },
+  "fps": 8,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "521f6fed3d82d4fbe34eb10c0d044bf9d19de7faf8f4d327ed4685a875917ffc",
+  "sourceFile": "PL110.png",
+  "sourceBatch": "Player expansion batch 24",
+  "description": "Boy in burgundy sweatshirt. Four-frame walk movement animation.",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Set a fixed manual rectangular body mask for all frames. Ground contact at bottom of cell. PNG does not store origin, mask or playback settings.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "6b102e670272bc823b255ed68551a24440d7721d8d36e422ce4bc37c705e1189",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

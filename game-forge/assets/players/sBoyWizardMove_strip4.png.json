@@ -1,0 +1,52 @@
+{
+  "id": "PL152",
+  "title": "Boy wizard",
+  "category": "players",
+  "variant": "movement",
+  "batch": 29,
+  "tags": [
+    "boy",
+    "castle",
+    "fantasy",
+    "magic",
+    "movement",
+    "player",
+    "walk",
+    "wizard"
+  ],
+  "form": "walk",
+  "environments": [
+    "Castle & ruins"
+  ],
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 22,
+    "right": 41,
+    "top": 29,
+    "bottom": 63
+  },
+  "fps": 8,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "f8037e80e295dbbebf602bc0151ad7bfdca47dcaddeb6f4b321ec0fa42f54a41",
+  "sourceFile": "PL152.png",
+  "sourceBatch": "Player expansion batch 29",
+  "description": "Boy wizard. Four-frame walk movement animation.",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Set a fixed manual rectangular body mask for all frames. Ground contact at bottom of cell. PNG does not store origin, mask or playback settings.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "6816ce24d0ad637ab85b26d1872205293022cfa9103f1f6a700030551d184621",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

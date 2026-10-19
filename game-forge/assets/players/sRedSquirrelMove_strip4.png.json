@@ -1,0 +1,56 @@
+{
+  "id": "PL121",
+  "title": "Red squirrel",
+  "category": "players",
+  "variant": "movement",
+  "batch": 25,
+  "tags": [
+    "Wales",
+    "animal",
+    "animals",
+    "movement",
+    "nature",
+    "ordinary animals",
+    "outdoor",
+    "player",
+    "quadruped",
+    "wildlife",
+    "woodland"
+  ],
+  "form": "quadruped",
+  "environments": [
+    "Savanna & grassland",
+    "Woodland & gardens"
+  ],
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 14,
+    "right": 49,
+    "top": 31,
+    "bottom": 63
+  },
+  "fps": 6,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "2cb1a857afc5566b5450082f414d0b73d6f8bf487af41be36ca5f15abe9bb75a",
+  "sourceFile": "PL121.png",
+  "sourceBatch": "Player expansion batch 25",
+  "description": "Red squirrel. Four-frame quadruped movement animation.",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Set a fixed manual rectangular body mask for all frames. Ground contact at bottom of cell. PNG does not store origin, mask or playback settings.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "419332179c847c34f9202b770dcab8c5a8a7828249b7ec632e79369ea3da0e3e",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

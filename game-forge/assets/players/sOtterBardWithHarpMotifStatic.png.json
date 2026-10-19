@@ -7,25 +7,41 @@
   "batch": 17,
   "origin": [
     32,
-    96
+    64
   ],
   "mask": {
-    "left": 20,
-    "top": 30,
-    "right": 43,
-    "bottom": 95
+    "left": 21,
+    "right": 42,
+    "top": 8,
+    "bottom": 63
   },
   "fps": 8,
-  "placement": "",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Manual rectangular collision mask, fixed across all frames. Ground contact is the lower frame edge; do not auto-trim or independently centre frames. PNG files do not store origin, speed or collision settings.",
   "repeatHorizontal": false,
-  "form": "",
+  "form": "walk",
   "loop": false,
   "duration": null,
   "description": "",
   "sourceFile": "Game_Forge_Batch_17/assets/players/sOtterBardWithHarpMotifStatic.png",
   "sourceBatch": "Game_Forge_Batch_17.zip",
-  "sourceSha256": "58c33bf4118d547e8f806a51f6961a4048905d2a82346d96cfeb29a3f4c1f3d6",
+  "sourceSha256": "558d8be1c020ba6806fc47347091080d3348679337bbba87916993968b370bc8",
   "frameWidth": 64,
-  "frameHeight": 96,
-  "frames": 1
+  "frameHeight": 64,
+  "frames": 1,
+  "exportRevision": {
+    "version": "players-64-v1",
+    "date": "2026-10-19",
+    "previousSha256": "58c33bf4118d547e8f806a51f6961a4048905d2a82346d96cfeb29a3f4c1f3d6",
+    "originalFrameSize": [
+      64,
+      96
+    ],
+    "commonCropTop": 20,
+    "resizedContentWidth": 54,
+    "targetFrameSize": [
+      64,
+      64
+    ],
+    "method": "Common transparent-top crop, proportional Lanczos downscale, bottom-centred transparent canvas. Same transform across all variants."
+  }
 }

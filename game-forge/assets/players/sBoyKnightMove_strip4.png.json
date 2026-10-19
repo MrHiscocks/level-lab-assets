@@ -1,0 +1,53 @@
+{
+  "id": "PL150",
+  "title": "Boy knight",
+  "category": "players",
+  "variant": "movement",
+  "batch": 29,
+  "tags": [
+    "boy",
+    "castle",
+    "fantasy",
+    "heritage",
+    "knight",
+    "medieval",
+    "movement",
+    "player",
+    "walk"
+  ],
+  "form": "walk",
+  "environments": [
+    "Castle & ruins"
+  ],
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 22,
+    "right": 41,
+    "top": 15,
+    "bottom": 63
+  },
+  "fps": 8,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "e8a8a197654eb0768fb7c2bdac701bdc8ac785b21271e80c0ceb419260f4aa8d",
+  "sourceFile": "PL150.png",
+  "sourceBatch": "Player expansion batch 29",
+  "description": "Boy knight. Four-frame walk movement animation.",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Set a fixed manual rectangular body mask for all frames. Ground contact at bottom of cell. PNG does not store origin, mask or playback settings.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "df636b5cbbc69736d52b40b4238a41e94e13e99e23b1e38319494033f295268d",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

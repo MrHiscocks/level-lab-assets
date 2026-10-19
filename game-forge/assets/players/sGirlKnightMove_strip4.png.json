@@ -1,0 +1,53 @@
+{
+  "id": "PL149",
+  "title": "Girl knight",
+  "category": "players",
+  "variant": "movement",
+  "batch": 29,
+  "tags": [
+    "castle",
+    "fantasy",
+    "girl",
+    "heritage",
+    "knight",
+    "medieval",
+    "movement",
+    "player",
+    "walk"
+  ],
+  "form": "walk",
+  "environments": [
+    "Castle & ruins"
+  ],
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 22,
+    "right": 41,
+    "top": 15,
+    "bottom": 63
+  },
+  "fps": 8,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "769e959cc3ffa43c738c63ab2e0f68d2a4b03234b0db561a7edf8ce345feff6f",
+  "sourceFile": "PL149.png",
+  "sourceBatch": "Player expansion batch 29",
+  "description": "Girl knight. Four-frame walk movement animation.",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Set a fixed manual rectangular body mask for all frames. Ground contact at bottom of cell. PNG does not store origin, mask or playback settings.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "574034562ba4b2c2797700328a06ffbe4c4adf8552a6240884b7239651be6200",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}

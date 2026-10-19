@@ -1,0 +1,55 @@
+{
+  "id": "PL107",
+  "title": "Girl in yellow T-shirt",
+  "category": "players",
+  "variant": "movement",
+  "batch": 23,
+  "tags": [
+    "adventure",
+    "community",
+    "girl",
+    "healthy eating",
+    "learning",
+    "movement",
+    "player",
+    "walk",
+    "wellbeing"
+  ],
+  "form": "walk",
+  "environments": [
+    "Indoors",
+    "Town & community",
+    "Woodland & gardens"
+  ],
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 22,
+    "right": 41,
+    "top": 21,
+    "bottom": 63
+  },
+  "fps": 8,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4,
+  "sourceSha256": "38903eba748ce00770f5796667abeb57fbf20ca8d2b178204173bdf3f59b6e4c",
+  "sourceFile": "PL107.png",
+  "sourceBatch": "Player expansion batch 23",
+  "description": "Girl in yellow T-shirt. Four-frame walk movement animation.",
+  "placement": "64 x 64 frames. Bottom-centre origin (32, 64). Set a fixed manual rectangular body mask for all frames. Ground contact at bottom of cell. PNG does not store origin, mask or playback settings.",
+  "production": {
+    "date": "2026-10-19",
+    "generator": "built-in image_gen",
+    "sourceSheetSha256": "fcb020d9044a740e5871881eda9f7d87e60e6559c4d4d49c837664fd4240ccf5",
+    "sourceSheetSize": [
+      1254,
+      1254
+    ],
+    "sourceLayout": "2x2",
+    "exportLayout": "4x1",
+    "movementOnly": true
+  }
+}
