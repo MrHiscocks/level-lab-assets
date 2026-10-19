@@ -11,3 +11,6 @@ dialog{color:#edf6ff;background:#07233a;border:1px solid #479ac6;border-radius:1
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}.world-card:hover .world-title,.world-card:focus-visible .world-title{transform:none}}
 
 .lab-home{display:block;margin:0 22px 20px;padding:10px 0;color:#c9e8e3;font-size:13px;text-decoration:none}.lab-home:hover{text-decoration:underline}.lab-home:focus-visible{outline:3px solid #70d7b2;outline-offset:4px}
+
+.title-screen-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media(max-width:740px){.title-screen-grid{grid-template-columns:1fr}}
