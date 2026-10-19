@@ -1,1 +1,32 @@
-<!doctype html><html lang="en-GB"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#0b263f"/><meta name="description" content="Choose sprites, animation strips, backgrounds and audio for your own GameMaker stories. The Level Lab Game Forge asset library."/><title>Game Forge Asset Library | Level Lab</title></head><body><div id="root"></div><script type="module" src="/src/main.jsx"></script></body></html>
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b263f">
+  <meta name="description" content="Choose your Level Lab asset library: themed packs in Prototype Chamber or build your own collection in Game Forge.">
+  <title>Asset libraries | Level Lab</title>
+  <style>
+    :root{font-family:Segoe UI,Arial,sans-serif;color:#102448;background:#0b263f;font-synthesis:none}*{box-sizing:border-box}body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 80% 0,#214b61,transparent 65%);padding:40px 24px 56px}main{max-width:1040px;margin:auto}header{display:flex;align-items:center;gap:26px;margin-bottom:32px;color:#fff}header img{width:155px;height:132px;object-fit:contain}.eyebrow{font-size:13px;letter-spacing:.18em;font-weight:700;color:#ffcf38;margin:0 0 12px}h1{font-size:clamp(30px,5vw,46px);line-height:1.1;letter-spacing:-.04em;margin:0 0 14px}header p:last-child{margin:0;color:#c2d7e7;line-height:1.65;max-width:600px}.libraries{display:grid;grid-template-columns:1fr 1fr;gap:24px}.library{display:flex;flex-direction:column;overflow:hidden;border-radius:20px;background:#f1f7fc;border:1px solid #ffffff30;box-shadow:0 15px 35px #00142730;text-decoration:none;color:inherit;transition:transform .16s,border-color .16s}.library:hover{transform:translateY(-4px);border-color:#a8cbe3}.library:focus-visible{outline:4px solid #fff;outline-offset:6px}.art{height:205px;position:relative;overflow:hidden;background:#143951}.art>img{width:100%;height:100%;object-fit:cover}.prototype .art>img{opacity:.8;object-position:center 58%}.forge .art>img{object-position:75% center}.stage{position:absolute;top:18px;left:18px;padding:8px 11px;border-radius:8px;background:#0b263fe8;color:#e5f5ff;font-size:12px;font-weight:700;letter-spacing:.06em}.copy{padding:27px 28px 28px;display:flex;flex-direction:column;flex:1}.copy h2{font-size:28px;letter-spacing:-.035em;line-height:1.15;margin:0 0 12px}.copy p{font-size:16px;line-height:1.65;color:#526b85;margin:0 0 24px}.open{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-top:auto;padding:14px 16px;border-radius:9px;font-weight:700}.prototype .open{background:#c9f0df;color:#125b44}.forge .open{background:#ffce3b;color:#203146}.open span:last-child{font-size:23px;line-height:1}footer{color:#acc7da;margin-top:28px;font-size:13px;text-align:center;line-height:1.6}@media(max-width:650px){body{padding:24px 18px 36px}header{gap:14px;align-items:flex-start;margin-bottom:26px}header img{width:88px;height:84px}.eyebrow{font-size:11px;margin-bottom:9px}h1{font-size:30px}header p:last-child{font-size:14px}.libraries{grid-template-columns:1fr;gap:20px}.art{height:160px}.copy{padding:23px}.copy h2{font-size:25px}}@media(prefers-reduced-motion:reduce){.library{transition:none}.library:hover{transform:none}}
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <img src="game-forge/brand/level-lab.png" alt="Level Lab" width="155" height="132">
+      <div><p class="eyebrow">LEVEL LAB · ASSET LIBRARIES</p><h1>Choose your next build.</h1><p>Find the sprites, backgrounds and sounds for your game. Choose the library for the stage you are working on.</p></div>
+    </header>
+    <nav class="libraries" aria-label="Choose an asset library">
+      <a class="library prototype" href="prototype-chamber/">
+        <div class="art"><img src="prototype-chamber/images/scenes/pixel-peaks.webp" alt="" width="480" height="205"><span class="stage">STAGE 02</span></div>
+        <div class="copy"><h2>Prototype Chamber</h2><p>Choose from ten themed worlds. Start with a Build Kit, explore the Level Up Kit or put together your own selection.</p><div class="open"><span>Explore the themes</span><span aria-hidden="true">→</span></div></div>
+      </a>
+      <a class="library forge" href="game-forge/">
+        <div class="art"><img src="game-forge/brand/hero.png" alt="" width="480" height="205"><span class="stage">STAGE 03</span></div>
+        <div class="copy"><h2>Game Forge</h2><p>Mix characters, settings and sounds from the wider asset library. Build a collection that brings your own game idea to life.</p><div class="open"><span>Build your asset package</span><span aria-hidden="true">→</span></div></div>
+      </a>
+    </nav>
+    <footer>Download your pack, extract the ZIP and import your assets into GameMaker.</footer>
+  </main>
+</body>
+</html>

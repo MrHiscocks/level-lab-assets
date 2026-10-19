@@ -1,0 +1,19 @@
+LEVEL LAB | GAME FORGE LIBRARY
+
+This folder contains the Game Forge source, assets and build tools.
+Prototype Chamber is in the neighbouring prototype-chamber folder.
+
+PUBLISH
+Use the shared repository workflow in ../.github/workflows/pages.yml.
+Repository Settings > Pages > Source must be GitHub Actions.
+Commit and push from GitHub Desktop to rebuild both libraries.
+
+LIVE ADDRESS
+https://mrhiscocks.github.io/level-lab-assets/game-forge/
+
+ADD ASSETS
+Add sprites or sounds to this folder's assets category folders.
+Commit and push. The catalogue is rebuilt automatically.
+
+PREVIEW
+See the repository root README for building and previewing both libraries.

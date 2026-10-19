@@ -1,0 +1,113 @@
+LEVEL LAB / CURRENT SINGLE GROUND AND SPIKE ART
+Created with the built-in image-generation tool; mechanically exported with ImageMagick.
+Ground PNGs: 64 x 64, opaque, matching left/right and top/bottom pixels.
+Spike PNGs: 64 x 64, transparent, flat visible base at the last pixel row.
+
+Pixel Peaks
+Use case: precise-object-edit. Asset type: single production terrain texture for a 2D platform game.
+Input image is a design reference, not the output layout.
+Use the attached little Pixel Peaks block as the direct design reference: retain chunky rounded warm brown cobblestone masonry, warm ochre highlights and clear brown mortar. Flatten the green moss along the top to an exactly straight horizontal line and add two restrained short leafy green vines running DOWN THE FRONT. No blades or leaves above the block. Material must fill the whole canvas. Make the moss/vines feel embedded in the stone face rather than a projecting grassy surface.
+Output ONE square full-bleed 1024x1024 texture image. The whole image IS the ground block face, viewed exactly straight on, material fills absolutely every pixel including all four corners and entire top row. No margins, backdrop, text, labels, comparisons, props or spike demonstration. Do not draw a cube: no top plane, side face, cast shadow or perspective.
+Crucial: a single block must stack in an orthogonal grid both left/right and above/below with no gaps. Design texture to be seamless horizontally AND vertically, with features joining at opposite edges. Entire collision silhouette is a perfect opaque square with a perfectly flat horizontal top. All decorative features are painted inside the front face. No projecting surface elements. No black frame, outline or bevel round the image edge, no rounded corners. Internal masonry seams may use darker MATERIAL COLOURS.
+Style: bold polished colourful 2D hand-painted cartoon game asset, simple readable forms suitable for downsampling to 64x64. Match reference style faithfully. Avoid photorealism, noise, microscopic details. Produce only the single flat tile texture.
+
+Sugar Rush
+Use case: precise-object-edit. Asset type: single production terrain texture for a 2D platform game.
+Input image is a design reference, not the output layout.
+Use the attached Sugar Rush block as the direct design reference: warm caramel biscuit bricks, simple rounded chunky rectangular pieces and tiny biscuit dimples. Retain the creamy icing with small pink and mint sprinkles but make the upper edge of the icing perfectly flat. Short gentle icing drips may run DOWN the front. No icing humps, cherries, sweets or sprinkles above the tile silhouette.
+Output ONE square full-bleed 1024x1024 texture image. The whole image IS the ground block face, viewed exactly straight on, material fills absolutely every pixel including all four corners and entire top row. No margins, backdrop, text, labels, comparisons, props or spike demonstration. Do not draw a cube: no top plane, side face, cast shadow or perspective.
+Crucial: a single block must stack in an orthogonal grid both left/right and above/below with no gaps. Design texture to be seamless horizontally AND vertically, with features joining at opposite edges. Entire collision silhouette is a perfect opaque square with a perfectly flat horizontal top. All decorative features are painted inside the front face. No projecting surface elements. No black frame, outline or bevel round the image edge, no rounded corners. Internal masonry seams may use darker MATERIAL COLOURS.
+Style: bold polished colourful 2D hand-painted cartoon game asset, simple readable forms suitable for downsampling to 64x64. Match reference style faithfully. Avoid photorealism, noise, microscopic details. Produce only the single flat tile texture.
+
+Deep Blue
+Use case: precise-object-edit. Asset type: single production terrain texture for a 2D platform game.
+Input image is a design reference, not the output layout.
+Use the attached Deep Blue block as the direct design reference: chunky bright turquoise and cyan stone masonry with dark teal coloured mortar and subtle shell/underwater stone marks. Retain a very thin cream sandy seam along the top face but make it perfectly straight and flat, no sand humps or seaweed above. A little subdued sea-green algae may run down between stones.
+Output ONE square full-bleed 1024x1024 texture image. The whole image IS the ground block face, viewed exactly straight on, material fills absolutely every pixel including all four corners and entire top row. No margins, backdrop, text, labels, comparisons, props or spike demonstration. Do not draw a cube: no top plane, side face, cast shadow or perspective.
+Crucial: a single block must stack in an orthogonal grid both left/right and above/below with no gaps. Design texture to be seamless horizontally AND vertically, with features joining at opposite edges. Entire collision silhouette is a perfect opaque square with a perfectly flat horizontal top. All decorative features are painted inside the front face. No projecting surface elements. No black frame, outline or bevel round the image edge, no rounded corners. Internal masonry seams may use darker MATERIAL COLOURS.
+Style: bold polished colourful 2D hand-painted cartoon game asset, simple readable forms suitable for downsampling to 64x64. Match reference style faithfully. Avoid photorealism, noise, microscopic details. Produce only the single flat tile texture.
+
+Dust & Dynamite
+Use case: precise-object-edit. Asset type: single production terrain texture for a 2D platform game.
+Input image is a design reference, not the output layout.
+Use the attached Dust & Dynamite block as direct design reference: chunky warm terracotta and red-orange irregular sandstone masonry, ochre highlights and warm dark red mortar. Retain a thin pale ochre dusty upper seam but make it absolutely straight and flat. No dry grass, tufts, rocks or bumps above the silhouette.
+Output ONE square full-bleed 1024x1024 texture image. The whole image IS the ground block face, viewed exactly straight on, material fills absolutely every pixel including all four corners and entire top row. No margins, backdrop, text, labels, comparisons, props or spike demonstration. Do not draw a cube: no top plane, side face, cast shadow or perspective.
+Crucial: a single block must stack in an orthogonal grid both left/right and above/below with no gaps. Design texture to be seamless horizontally AND vertically, with features joining at opposite edges. Entire collision silhouette is a perfect opaque square with a perfectly flat horizontal top. All decorative features are painted inside the front face. No projecting surface elements. No black frame, outline or bevel round the image edge, no rounded corners. Internal masonry seams may use darker MATERIAL COLOURS.
+Style: bold polished colourful 2D hand-painted cartoon game asset, simple readable forms suitable for downsampling to 64x64. Match reference style faithfully. Avoid photorealism, noise, microscopic details. Produce only the single flat tile texture.
+
+Cosmic Outpost
+Use case: precise-object-edit. Asset type: single production terrain texture for a 2D platform game.
+Input image is a design reference, not the output layout.
+Extract and faithfully recreate ONLY option D MOONCRETE, bottom right of the supplied comparison sheet: cool lavender grey compressed lunar rock, broad simple irregular tonal shapes, few shallow round impact dimples. Preserve that selected design and palette. No metal, circuitry, bolts, orange accents or other options.
+Output ONE square full-bleed 1024x1024 texture image. The whole image IS the ground block face, viewed exactly straight on, material fills absolutely every pixel including all four corners and entire top row. No margins, backdrop, text, labels, comparisons, props or spike demonstration. Do not draw a cube: no top plane, side face, cast shadow or perspective.
+Crucial: a single block must stack in an orthogonal grid both left/right and above/below with no gaps. Design texture to be seamless horizontally AND vertically, with features joining at opposite edges. Entire collision silhouette is a perfect opaque square with a perfectly flat horizontal top. All decorative features are painted inside the front face. No projecting surface elements. No black frame, outline or bevel round the image edge, no rounded corners. Internal masonry seams may use darker MATERIAL COLOURS.
+Style: bold polished colourful 2D hand-painted cartoon game asset, simple readable forms suitable for downsampling to 64x64. Match reference style faithfully. Avoid photorealism, noise, microscopic details. Produce only the single flat tile texture.
+
+Monster Factory
+Use case: precise-object-edit. Asset type: single production terrain texture for a 2D platform game.
+Input image is a design reference, not the output layout.
+Extract and faithfully recreate ONLY option A SLIME STEEL, top left of the supplied comparison sheet: purple factory metal panels, sparse violet rivets, bright lime slime patches and short slime drips on the FRONT. Preserve the selected purple and lime design. Keep all slime within the square, never above top.
+Output ONE square full-bleed 1024x1024 texture image. The whole image IS the ground block face, viewed exactly straight on, material fills absolutely every pixel including all four corners and entire top row. No margins, backdrop, text, labels, comparisons, props or spike demonstration. Do not draw a cube: no top plane, side face, cast shadow or perspective.
+Crucial: a single block must stack in an orthogonal grid both left/right and above/below with no gaps. Design texture to be seamless horizontally AND vertically, with features joining at opposite edges. Entire collision silhouette is a perfect opaque square with a perfectly flat horizontal top. All decorative features are painted inside the front face. No projecting surface elements. No black frame, outline or bevel round the image edge, no rounded corners. Internal masonry seams may use darker MATERIAL COLOURS.
+Style: bold polished colourful 2D hand-painted cartoon game asset, simple readable forms suitable for downsampling to 64x64. Match reference style faithfully. Avoid photorealism, noise, microscopic details. Produce only the single flat tile texture.
+
+Festive Frenzy
+Use case: precise-object-edit. Asset type: single production terrain texture for a 2D platform game.
+Input image is a design reference, not the output layout.
+Extract and faithfully recreate ONLY option C WINTER STONE, bottom left of supplied sheet: broad chunky blue-grey stones, several small white frosty patches embedded INSIDE the face, muted icy highlights. No continuous snow cap above tile. Preserve this selected design.
+Output ONE square full-bleed 1024x1024 texture image. The whole image IS the ground block face, viewed exactly straight on, material fills absolutely every pixel including all four corners and entire top row. No margins, backdrop, text, labels, comparisons, props or spike demonstration. Do not draw a cube: no top plane, side face, cast shadow or perspective.
+Crucial: a single block must stack in an orthogonal grid both left/right and above/below with no gaps. Design texture to be seamless horizontally AND vertically, with features joining at opposite edges. Entire collision silhouette is a perfect opaque square with a perfectly flat horizontal top. All decorative features are painted inside the front face. No projecting surface elements. No black frame, outline or bevel round the image edge, no rounded corners. Internal masonry seams may use darker MATERIAL COLOURS.
+Style: bold polished colourful 2D hand-painted cartoon game asset, simple readable forms suitable for downsampling to 64x64. Match reference style faithfully. Avoid photorealism, noise, microscopic details. Produce only the single flat tile texture.
+
+Crystal Caverns
+Use case: precise-object-edit. Asset type: single production terrain texture for a 2D platform game.
+Input image is a design reference, not the output layout.
+Extract and faithfully recreate ONLY option A PRISM BASALT top left of supplied sheet: chunky rich indigo and deep blue cave rock, sparse SMALL inset jewel inclusions in cyan, amber, rose pink and emerald green. Colourful crystals INSIDE the rock face. Retain selected restrained rocky design with sparse minerals, not jewel mosaic. No crystal points outside square.
+Output ONE square full-bleed 1024x1024 texture image. The whole image IS the ground block face, viewed exactly straight on, material fills absolutely every pixel including all four corners and entire top row. No margins, backdrop, text, labels, comparisons, props or spike demonstration. Do not draw a cube: no top plane, side face, cast shadow or perspective.
+Crucial: a single block must stack in an orthogonal grid both left/right and above/below with no gaps. Design texture to be seamless horizontally AND vertically, with features joining at opposite edges. Entire collision silhouette is a perfect opaque square with a perfectly flat horizontal top. All decorative features are painted inside the front face. No projecting surface elements. No black frame, outline or bevel round the image edge, no rounded corners. Internal masonry seams may use darker MATERIAL COLOURS.
+Style: bold polished colourful 2D hand-painted cartoon game asset, simple readable forms suitable for downsampling to 64x64. Match reference style faithfully. Avoid photorealism, noise, microscopic details. Produce only the single flat tile texture.
+
+Treasure Cove
+Use case: precise-object-edit. Asset type: single production terrain texture for a 2D platform game.
+Input image is a design reference, not the output layout.
+Extract and faithfully recreate ONLY option A ISLAND SANDSTONE top left of supplied sheet: broad warm honey-gold sandstone shapes and sparse small terracotta embedded pebbles. Retain the cheerful gold palette and broad quiet stone texture. No grass or sand cap.
+Output ONE square full-bleed 1024x1024 texture image. The whole image IS the ground block face, viewed exactly straight on, material fills absolutely every pixel including all four corners and entire top row. No margins, backdrop, text, labels, comparisons, props or spike demonstration. Do not draw a cube: no top plane, side face, cast shadow or perspective.
+Crucial: a single block must stack in an orthogonal grid both left/right and above/below with no gaps. Design texture to be seamless horizontally AND vertically, with features joining at opposite edges. Entire collision silhouette is a perfect opaque square with a perfectly flat horizontal top. All decorative features are painted inside the front face. No projecting surface elements. No black frame, outline or bevel round the image edge, no rounded corners. Internal masonry seams may use darker MATERIAL COLOURS.
+Style: bold polished colourful 2D hand-painted cartoon game asset, simple readable forms suitable for downsampling to 64x64. Match reference style faithfully. Avoid photorealism, noise, microscopic details. Produce only the single flat tile texture.
+
+Midnight Manor
+Use case: precise-object-edit. Asset type: single production terrain texture for a 2D platform game.
+Input image is a design reference, not the output layout.
+Extract and faithfully recreate ONLY option A GOTHIC STONE top left of supplied sheet: chunky desaturated purple-grey gothic masonry, cool violet shading, a few pale sage moss stains within the faces. Preserve selected stone sizes and calm colour palette, no ivy vines, no wooden panels.
+Output ONE square full-bleed 1024x1024 texture image. The whole image IS the ground block face, viewed exactly straight on, material fills absolutely every pixel including all four corners and entire top row. No margins, backdrop, text, labels, comparisons, props or spike demonstration. Do not draw a cube: no top plane, side face, cast shadow or perspective.
+Crucial: a single block must stack in an orthogonal grid both left/right and above/below with no gaps. Design texture to be seamless horizontally AND vertically, with features joining at opposite edges. Entire collision silhouette is a perfect opaque square with a perfectly flat horizontal top. All decorative features are painted inside the front face. No projecting surface elements. No black frame, outline or bevel round the image edge, no rounded corners. Internal masonry seams may use darker MATERIAL COLOURS.
+Style: bold polished colourful 2D hand-painted cartoon game asset, simple readable forms suitable for downsampling to 64x64. Match reference style faithfully. Avoid photorealism, noise, microscopic details. Produce only the single flat tile texture.
+
+SPIKE REVISIONS
+deep-blue
+Use case: precise-object-edit. Input is the existing small 2D spike sprite, used as an edit target/style reference.
+Create ONE revised standalone 2D platformer hazard sprite on a truly transparent background. Match the existing colourful hand-painted game style, materials and number/general arrangement of spikes.
+Preserve purple and magenta sea-urchin spines. Make a compact symmetrical row/cluster of sharp violet spines anchored to a low SOLID TEAL STONE PLINTH. The plinth has a perfectly straight horizontal underside all the way from its left corner to its right corner. No individual round pebbles or projecting feet under it. Keep silhouette recognisable as a sea-urchin hazard.
+The critical change is a perfectly FLAT solid continuous base, so this sprite can sit flush on a horizontal ground block. A single connected base bar, front-on, with sharp square bottom corners, a straight opaque underside. No shadow or glow below or around it. No perspective or isometric view, no visible base top plane. No text, tiles, backdrop, extra objects or comparisons.
+Wide compact arrangement, about 1.5 times as wide as tall, centred in a transparent square canvas with clear space around it, so it can be exported without stretching into a 64x64 sprite. All pointed tips must remain intact. Keep side edges of the plinth vertical and bottom horizontal. Fully transparent outside art.
+
+sugar-rush
+Use case: precise-object-edit. Input is the existing small 2D spike sprite, used as an edit target/style reference.
+Create ONE revised standalone 2D platformer hazard sprite on a truly transparent background. Match the existing colourful hand-painted game style, materials and number/general arrangement of spikes.
+Preserve three red and white striped pointed candy spikes. Replace the four round red candy balls beneath them with ONE thin red boiled-sweet plinth. Its underside is a perfectly straight horizontal line across the entire width. No balls, round lumps, individual feet or drips below. Three separated pointy striped triangles grow directly out of the bar.
+The critical change is a perfectly FLAT solid continuous base, so this sprite can sit flush on a horizontal ground block. A single connected base bar, front-on, with sharp square bottom corners, a straight opaque underside. No shadow or glow below or around it. No perspective or isometric view, no visible base top plane. No text, tiles, backdrop, extra objects or comparisons.
+Wide compact arrangement, about 1.5 times as wide as tall, centred in a transparent square canvas with clear space around it, so it can be exported without stretching into a 64x64 sprite. All pointed tips must remain intact. Keep side edges of the plinth vertical and bottom horizontal. Fully transparent outside art.
+
+dust-and-dynamite
+Use case: precise-object-edit. Input is the existing small 2D spike sprite, used as an edit target/style reference.
+Create ONE revised standalone 2D platformer hazard sprite on a truly transparent background. Match the existing colourful hand-painted game style, materials and number/general arrangement of spikes.
+Preserve the three simple silver grey pointed metal spikes mounted to a dark iron-faced warm wooden rail with rivets. Remove the uneven feet or wood protrusions underneath; the full wood/iron rail ends in a single perfectly straight horizontal underside, no gaps or rounded lower corners.
+The critical change is a perfectly FLAT solid continuous base, so this sprite can sit flush on a horizontal ground block. A single connected base bar, front-on, with sharp square bottom corners, a straight opaque underside. No shadow or glow below or around it. No perspective or isometric view, no visible base top plane. No text, tiles, backdrop, extra objects or comparisons.
+Wide compact arrangement, about 1.5 times as wide as tall, centred in a transparent square canvas with clear space around it, so it can be exported without stretching into a 64x64 sprite. All pointed tips must remain intact. Keep side edges of the plinth vertical and bottom horizontal. Fully transparent outside art.
+
+festive-frenzy
+Use case: precise-object-edit. Input is the existing small 2D spike sprite, used as an edit target/style reference.
+Create ONE revised standalone 2D platformer hazard sprite on a truly transparent background. Match the existing colourful hand-painted game style, materials and number/general arrangement of spikes.
+Preserve the cyan and blue pointed ice spikes of differing heights. Replace the lumpy snow underneath with ONE low snow-white frozen plinth with a pale blue front face and a perfectly straight horizontal underside all the way across. No snowballs, dips, icicles, round bulges or feet below the flat baseline.
+The critical change is a perfectly FLAT solid continuous base, so this sprite can sit flush on a horizontal ground block. A single connected base bar, front-on, with sharp square bottom corners, a straight opaque underside. No shadow or glow below or around it. No perspective or isometric view, no visible base top plane. No text, tiles, backdrop, extra objects or comparisons.
+Wide compact arrangement, about 1.5 times as wide as tall, centred in a transparent square canvas with clear space around it, so it can be exported without stretching into a 64x64 sprite. All pointed tips must remain intact. Keep side edges of the plinth vertical and bottom horizontal. Fully transparent outside art.

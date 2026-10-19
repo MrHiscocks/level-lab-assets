@@ -1,0 +1,77 @@
+LEVEL LAB / PROTOTYPE CHAMBER
+GAME ASSET IMPORT GUIDE
+
+ROOM AND GRID
+Room: 1280 x 640 pixels. Grid: 64 x 64 pixels.
+All PNGs have their final dimensions. Do not resize them during import.
+
+FOLDERS
+sprite: gameplay sprites.
+background: three 1280 x 640 backgrounds.
+asset: labels, decorative sprites, UI graphics and sound files.
+All student asset filenames start with s.
+
+PLAYER AND ENEMY
+sPlayer_strip6.png: 384 x 64, six horizontal 64 x 64 frames.
+sEnemy_strip4.png: 256 x 64, four horizontal 64 x 64 frames.
+Import strips as frames, not as one wide sprite. Use 8 frames per second as
+a starting point. Player origin: bottom centre, X=32 Y=64.
+Use the same origin for the enemy. Reverse facing with image_xscale.
+Use a fixed manual rectangular collision mask for animated characters,
+matched to the body, so animation does not change the collision shape.
+There is no GameMaker project or game logic in these artwork packs.
+
+TERRAIN AND OBJECTS
+sSolid.png: one 64 x 64 ground block for every row, including the surface.
+It fills its square completely, with a flat top and matched left/right and
+top/bottom edge pixels. Place copies side by side and above/below each other.
+Use a full square collision mask: left=0, top=0, right=63, bottom=63.
+Assign sSolid to oSolid. Only one ground object is needed.
+The earlier separate fill block has been removed from the packs.
+For an existing game, replace old fill instances with oSolid before deleting
+the old fill object. Existing movement checks against oSolid remain the same.
+Face decoration such as icing or greenery repeats on every copy of the tile.
+Add the separate decorative sprites to dress the surface of your level.
+sSpike.png: 64 x 64, transparent, with a flat base on the bottom pixel row.
+Use top-left origin (0,0) for both ground and spikes. Place a spike one 64-pixel
+grid cell above the ground: ground at (320,512), spike at (320,448).
+Keep the spike trigger mask around its visible hazard, not the empty top area.
+sHazard2.png: 64 x 64, transparent; its placement depends on the hazard shape.
+sGoal.png: 128 x 128; origin bottom centre, X=64 Y=128.
+The goal artwork keeps its natural proportions inside this two-cell canvas.
+Use a trigger mask around its visible doorway/object, not the empty margin.
+This replaces the earlier sFlag.png. If updating an existing game, assign
+sGoal to your existing goal object and update its origin and trigger mask.
+sMovingPlatform.png: 128 x 64. Define the collision rectangle around the
+visible platform, not empty space or decorative hanging details.
+Collectables, health and decorations: 64 x 64.
+Transparent margins preserve the full grid cell and do not imply collision.
+
+BACKGROUND
+sBackground_Level1.png, sBackground_Level2.png, sBackground_Level3.png:
+1280 x 640 each. Use at original size. Enable horizontal tiling for wider
+rooms and place gameplay layers in front. No vertical tiling is intended.
+All background left/right endpoint pixels match. The six revised Festive
+Frenzy and Crystal Caverns scenes retain the full scene with edge blending;
+the other eight themes retain their previous reflected scenery. Each scene
+is deliberately softer than the foreground. Use the site's preview to
+inspect two copies side by side with a 64 pixel grid and foreground objects.
+
+LABELS AND AUDIO
+Labels, end titles and buttons: 256 x 64, transparent PNG.
+These are artwork, not clickable controls or game behaviour.
+sMusic.wav: original instrumental, roughly 30-39 seconds, designed to loop.
+sJump.wav: short jump effect. Import both as sound resources, not sprites.
+Adjust volume in your game. Audio is not played automatically by the site.
+
+BUILD KIT AND LEVEL UP KIT
+Build Kit: player, ground block, spikes, goal, three backgrounds, three level
+labels, theme music and jump sound.
+Level Up Kit: enemy, two collectables, health, extra hazard, moving platform,
+three decorations, win/game-over titles and restart/play-again graphics.
+Full Pack: both kits together.
+
+CUSTOM SELECTIONS
+When assets from multiple themes share a filename, the custom ZIP keeps
+them inside theme subfolders: sprite/PixelPeaks/sPlayer_strip6.png, etc.
+Choose one primary player/background set or rename duplicates in GameMaker.
