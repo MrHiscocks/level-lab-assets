@@ -1,0 +1,37 @@
+{
+  "id": "BG279",
+  "title": "Underground coal mine",
+  "tags": [
+    "historical",
+    "heritage",
+    "mine",
+    "industrial"
+  ],
+  "category": "backgrounds",
+  "variant": "primary",
+  "batch": 36,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 0,
+  "frames": 1,
+  "frameWidth": 1280,
+  "frameHeight": 640,
+  "repeatHorizontal": false,
+  "placement": "Use on a background layer behind gameplay. Top-left origin (0, 0). Disable horizontal and vertical tiling; scale uniformly to cover the view. Add collision ground and interactive objects separately.",
+  "description": "Historical underground coal mine gallery, timber pit props and distant narrow-gauge coal wagons, warm lamps. Fixed-scene background; horizontal seamless repeat is not certified.",
+  "sourceFile": "background-production/sources/BG279.png",
+  "sourceBatch": "Background expansion batch 2 of 2",
+  "sourceSha256": "fe0974baba8c3084a10b9299794f3bb900dd04a84de7f85cc4b076e56715124b",
+  "production": {
+    "method": "Built-in image_gen",
+    "date": "2026-10-19",
+    "group": "History and adventure",
+    "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Historical underground coal mine gallery, timber pit props and distant narrow-gauge coal wagons, warm lamps.",
+    "export": "Proportional resize from 2:1 source to 1280 x 640; PNG RGB, metadata stripped.",
+    "sourceArtworkSha256": "5c63f732ae5704d070e47e78088de6a70eef097f9e91be9ab3c2672b00a7d0ce",
+    "horizontalRepeatVerified": false
+  }
+}

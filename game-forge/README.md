@@ -4,7 +4,7 @@ A complete, folder-driven React + Vite library for the approved Level Lab design
 
 ## What is included
 
-**1,050 asset concepts** and **1,137 game files**: all 1,042 original concepts / 1,129 original files from the 21 production batches, plus eight new 64 × 64 ground blocks in batch 22. The original 1,129 files are preserved byte for byte. There are now 66 ground concepts, with 68 ground PNG files.
+**1,226 asset concepts** and **1,313 game files**, including 56 enemy concepts and 152 backgrounds. The background expansion adds two batches of 40 scenes (batches 35 and 36), refreshes five existing interiors and corrects discovery tags. New and refreshed backgrounds are 1280 × 640 fixed scenes with tiling disabled; their placement notes explain how to use them. See `BACKGROUND_EXPANSION_PLAN.json` and `BACKGROUND_REVIEW.json` for the asset list and validation.
 
 The new materials are red brick, cobblestone, sandstone masonry, Welsh dry-stone, coal-bearing rock, cooled basalt, terracotta and mossy temple stone. Each new block has a full opaque 64 × 64 canvas, top-left origin (0, 0) and rectangular mask (0, 0)–(63, 63). Place instances on multiples of 64 at scale 1. These are solid blocks, not liquid hazards.
 

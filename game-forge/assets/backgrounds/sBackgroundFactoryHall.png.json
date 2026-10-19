@@ -1,7 +1,7 @@
 {
   "id": "BG019",
   "title": "Factory hall",
-  "tags": "industrial",
+  "tags": "industrial, factory, machinery, manufacturing, interior",
   "category": "backgrounds",
   "variant": "primary",
   "batch": 21,
@@ -10,14 +10,26 @@
     0
   ],
   "mask": null,
-  "fps": 6,
-  "placement": "Background layer; horizontal repeat only; decorative, no collision.",
-  "repeatHorizontal": true,
+  "fps": 0,
+  "placement": "Use on a background layer behind gameplay. Top-left origin (0, 0). Disable horizontal and vertical tiling; scale uniformly to cover the view. Add collision ground and interactive objects separately.",
+  "repeatHorizontal": false,
   "form": "",
   "loop": "",
   "duration": "",
-  "description": "",
-  "sourceFile": "Game_Forge_Batch_21/assets/backgrounds/sBackgroundFactoryHall.png",
-  "sourceBatch": "Game_Forge_Batch_21.zip",
-  "sourceSha256": "566c8372bf794c735df61fe3d7f6952de080611d564630a651e9a68f674bdc62"
+  "description": "Modern manufacturing factory hall, clearly recognisable enclosed industrial machinery, conveyor line, pipes and overhead steel gantry, rectangular warehouse windows and metal roof trusses, broad empty concrete foreground. No ornate arches or palace architecture. Fixed-scene background; horizontal seamless repeat is not certified.",
+  "sourceFile": "background-production/sources/BG019.png",
+  "sourceBatch": "October 2026 interior refresh",
+  "sourceSha256": "2d4c88a35de81604bb54021f72b845ef545b84b3b28659e3b699c5d186888706",
+  "frames": 1,
+  "frameWidth": 1280,
+  "frameHeight": 640,
+  "production": {
+    "method": "Built-in image_gen",
+    "date": "2026-10-19",
+    "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Modern manufacturing factory hall, clearly recognisable enclosed industrial machinery, conveyor line, pipes and overhead steel gantry, rectangular warehouse windows and metal roof trusses, broad empty concrete foreground. No ornate arches or palace architecture.",
+    "originalSha256": "566c8372bf794c735df61fe3d7f6952de080611d564630a651e9a68f674bdc62",
+    "sourceArtworkSha256": "935867b6ee47ad557bedac31b864c4dbb9664084f48466e5342e557f1345073b",
+    "export": "Proportional resize from 2:1 source to 1280 x 640; PNG RGB, metadata stripped.",
+    "horizontalRepeatVerified": false
+  }
 }

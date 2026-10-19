@@ -1,0 +1,37 @@
+{
+  "id": "BG242",
+  "title": "Canal towpath",
+  "tags": [
+    "river",
+    "water",
+    "cycling",
+    "travel"
+  ],
+  "category": "backgrounds",
+  "variant": "primary",
+  "batch": 36,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 0,
+  "frames": 1,
+  "frameWidth": 1280,
+  "frameHeight": 640,
+  "repeatHorizontal": false,
+  "placement": "Use on a background layer behind gameplay. Top-left origin (0, 0). Disable horizontal and vertical tiling; scale uniformly to cover the view. Add collision ground and interactive objects separately.",
+  "description": "Broad flat canal towpath seen side-on, narrow canal across midground and a distant moored narrowboat. Fixed-scene background; horizontal seamless repeat is not certified.",
+  "sourceFile": "background-production/sources/BG242.png",
+  "sourceBatch": "Background expansion batch 2 of 2",
+  "sourceSha256": "4b342735f2f1db2bd8798f9d93b7a6670500214c294becbc89ee7930551c9427",
+  "production": {
+    "method": "Built-in image_gen",
+    "date": "2026-10-19",
+    "group": "Cycling and sport",
+    "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Broad flat canal towpath seen side-on, narrow canal across midground and a distant moored narrowboat.",
+    "export": "Proportional resize from 2:1 source to 1280 x 640; PNG RGB, metadata stripped.",
+    "sourceArtworkSha256": "80b179caec008d9b43ef0666321fa82b0ad14acc45ef1a8992ec211879ebe7c2",
+    "horizontalRepeatVerified": false
+  }
+}

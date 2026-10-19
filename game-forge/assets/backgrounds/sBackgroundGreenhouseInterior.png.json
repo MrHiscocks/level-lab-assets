@@ -1,0 +1,37 @@
+{
+  "id": "BG253",
+  "title": "Greenhouse interior",
+  "tags": [
+    "food",
+    "vegetable",
+    "garden",
+    "interior"
+  ],
+  "category": "backgrounds",
+  "variant": "primary",
+  "batch": 36,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 0,
+  "frames": 1,
+  "frameWidth": 1280,
+  "frameHeight": 640,
+  "repeatHorizontal": false,
+  "placement": "Use on a background layer behind gameplay. Top-left origin (0, 0). Disable horizontal and vertical tiling; scale uniformly to cover the view. Add collision ground and interactive objects separately.",
+  "description": "Glass greenhouse interior, metal frame and rows of vegetable seedlings behind a quiet clear aisle. Fixed-scene background; horizontal seamless repeat is not certified.",
+  "sourceFile": "background-production/sources/BG253.png",
+  "sourceBatch": "Background expansion batch 2 of 2",
+  "sourceSha256": "47eaec0fa656e095ec46880c164c7a09d8e502afe203cf4cd345bcf70ee84f18",
+  "production": {
+    "method": "Built-in image_gen",
+    "date": "2026-10-19",
+    "group": "Food and sustainability",
+    "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Glass greenhouse interior, metal frame and rows of vegetable seedlings behind a quiet clear aisle.",
+    "export": "Proportional resize from 2:1 source to 1280 x 640; PNG RGB, metadata stripped.",
+    "sourceArtworkSha256": "68840cc9cd6271199bfa9154e5628a6ed3ba72ea7ee4e9cc252e4b04b62379f8",
+    "horizontalRepeatVerified": false
+  }
+}

@@ -1,7 +1,7 @@
 {
   "id": "BG051",
   "title": "Community bicycle workshop",
-  "tags": "cycling, visibility, community, workshop, scenario review",
+  "tags": "cycling, bicycle, repair, community, workshop, interior",
   "category": "backgrounds",
   "variant": "primary",
   "batch": 21,
@@ -10,14 +10,26 @@
     0
   ],
   "mask": null,
-  "fps": 6,
-  "placement": "Background layer; horizontal repeat only; decorative, no collision.",
-  "repeatHorizontal": true,
+  "fps": 0,
+  "placement": "Use on a background layer behind gameplay. Top-left origin (0, 0). Disable horizontal and vertical tiling; scale uniformly to cover the view. Add collision ground and interactive objects separately.",
+  "repeatHorizontal": false,
   "form": "",
   "loop": "",
   "duration": "",
-  "description": "",
-  "sourceFile": "Game_Forge_Batch_21/assets/backgrounds/sBackgroundCommunityBicycleWorkshop.png",
-  "sourceBatch": "Game_Forge_Batch_21.zip",
-  "sourceSha256": "a7001f9829ab6a74496d50dbee7d1692d340ffd92651e5380c2cf6a1f4ba15ca"
+  "description": "Friendly community bicycle repair workshop, recognisable full bicycles mounted on repair stands and wall racks, pegboards with hand tools and spare wheels, simple brick walls, rectangular windows, quiet empty concrete foreground. No ornate arches. Fixed-scene background; horizontal seamless repeat is not certified.",
+  "sourceFile": "background-production/sources/BG051.png",
+  "sourceBatch": "October 2026 interior refresh",
+  "sourceSha256": "2dea61b72eed3830f446f121ab7a4d21252c9603ac95a8daafeb3bca7be0c5e7",
+  "frames": 1,
+  "frameWidth": 1280,
+  "frameHeight": 640,
+  "production": {
+    "method": "Built-in image_gen",
+    "date": "2026-10-19",
+    "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Friendly community bicycle repair workshop, recognisable full bicycles mounted on repair stands and wall racks, pegboards with hand tools and spare wheels, simple brick walls, rectangular windows, quiet empty concrete foreground. No ornate arches.",
+    "originalSha256": "a7001f9829ab6a74496d50dbee7d1692d340ffd92651e5380c2cf6a1f4ba15ca",
+    "sourceArtworkSha256": "c209251a8064f3b475620bad7474fea19eeb0632a7c33da093a2602ded4f284c",
+    "export": "Proportional resize from 2:1 source to 1280 x 640; PNG RGB, metadata stripped.",
+    "horizontalRepeatVerified": false
+  }
 }

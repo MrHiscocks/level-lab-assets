@@ -1,0 +1,1266 @@
+{
+  "date": "2026-10-19",
+  "newBackgrounds": 80,
+  "batches": [
+    {
+      "batch": 35,
+      "count": 40,
+      "ids": "BG201\u2013BG240"
+    },
+    {
+      "batch": 36,
+      "count": 40,
+      "ids": "BG241\u2013BG280"
+    }
+  ],
+  "totalBackgrounds": 152,
+  "refreshedInteriors": [
+    {
+      "id": "BG051",
+      "title": "Community bicycle workshop",
+      "filename": "sBackgroundCommunityBicycleWorkshop.png",
+      "brief": "Friendly community bicycle repair workshop, recognisable full bicycles mounted on repair stands and wall racks, pegboards with hand tools and spare wheels, simple brick walls, rectangular windows, quiet empty concrete foreground. No ornate arches.",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Friendly community bicycle repair workshop, recognisable full bicycles mounted on repair stands and wall racks, pegboards with hand tools and spare wheels, simple brick walls, rectangular windows, quiet empty concrete foreground. No ornate arches.",
+      "originalSha256": "a7001f9829ab6a74496d50dbee7d1692d340ffd92651e5380c2cf6a1f4ba15ca",
+      "sha256": "2dea61b72eed3830f446f121ab7a4d21252c9603ac95a8daafeb3bca7be0c5e7"
+    },
+    {
+      "id": "BG068",
+      "title": "Repair caf\u00e9 workshop",
+      "filename": "sBackgroundRepairCafWorkshop.png",
+      "brief": "Community repair cafe workshop with sewing machine, disassembled small household appliances and hand tools on workbenches against rear wall, modest cafe table and cups in distance, bright contemporary community room with rectangular windows, empty quiet foreground. No ornate arches.",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Community repair cafe workshop with sewing machine, disassembled small household appliances and hand tools on workbenches against rear wall, modest cafe table and cups in distance, bright contemporary community room with rectangular windows, empty quiet foreground. No ornate arches.",
+      "originalSha256": "ac2507556d740b2c8dab0693b7026e38fdc5ed2044cbad69f9fe41c04f31f895",
+      "sha256": "766c2cf0c501ba8d3bdd040e7389bc7d201f65d0cfc8143d6b596fa08005d77f"
+    },
+    {
+      "id": "BG140",
+      "title": "Public library",
+      "filename": "sBackgroundPublicLibrary.png",
+      "brief": "Modern public library interior, clearly recognisable tall bookcases filled with colourful book spines, low reading tables, a simple lending desk and comfortable seating in back half, rectangular windows, warm welcoming contemporary architecture and quiet empty carpeted foreground. No ornate arches or palace architecture.",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Modern public library interior, clearly recognisable tall bookcases filled with colourful book spines, low reading tables, a simple lending desk and comfortable seating in back half, rectangular windows, warm welcoming contemporary architecture and quiet empty carpeted foreground. No ornate arches or palace architecture.",
+      "originalSha256": "7930782c40a2d12f3d7ed5ff06d308f73a68fc2d2af0d6c1fedab5e3dba9f8e1",
+      "sha256": "db8964f18ec33c92cc00b0fa9e1e3910ac48ae58cbca60cf96bd9f5c4783dcc1"
+    },
+    {
+      "id": "BG019",
+      "title": "Factory hall",
+      "filename": "sBackgroundFactoryHall.png",
+      "brief": "Modern manufacturing factory hall, clearly recognisable enclosed industrial machinery, conveyor line, pipes and overhead steel gantry, rectangular warehouse windows and metal roof trusses, broad empty concrete foreground. No ornate arches or palace architecture.",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Modern manufacturing factory hall, clearly recognisable enclosed industrial machinery, conveyor line, pipes and overhead steel gantry, rectangular warehouse windows and metal roof trusses, broad empty concrete foreground. No ornate arches or palace architecture.",
+      "originalSha256": "566c8372bf794c735df61fe3d7f6952de080611d564630a651e9a68f674bdc62",
+      "sha256": "2d4c88a35de81604bb54021f72b845ef545b84b3b28659e3b699c5d186888706"
+    },
+    {
+      "id": "BG034",
+      "title": "Research laboratory",
+      "filename": "sBackgroundResearchLaboratory.png",
+      "brief": "Modern research laboratory with lab benches, microscopes, test-tube racks, sealed cabinets and fume hood along back wall, rectangular windows and clean bright functional architecture, broad empty light grey foreground. No ornate arches or palace architecture.",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Modern research laboratory with lab benches, microscopes, test-tube racks, sealed cabinets and fume hood along back wall, rectangular windows and clean bright functional architecture, broad empty light grey foreground. No ornate arches or palace architecture.",
+      "originalSha256": "55d820197ac2766e85aa92e5fc3e70f7ba08ed12617c49dc665293ab7139f5ac",
+      "sha256": "bcbe2ebb47a76c43c47f2f651cdb5245e2d66115eacd27edfe93bc82eb4e0258"
+    }
+  ],
+  "tagCorrections": [
+    {
+      "id": "BG115",
+      "before": "Wales, heritage, tourism, breadth expansion",
+      "after": "Wales, Welsh, valleys, terraced, street, town"
+    },
+    {
+      "id": "BG051",
+      "before": "cycling, visibility, community, workshop, scenario review",
+      "after": "cycling, bicycle, repair, community, workshop, interior"
+    },
+    {
+      "id": "BG146",
+      "before": "digital, wildlife, coastal, science, resources, breadth expansion",
+      "after": "digital, messages, computer, online, technology"
+    },
+    {
+      "id": "BG068",
+      "before": "climate action, household, repair, food, scenario review",
+      "after": "climate action, household, repair, reuse, community, workshop, interior"
+    },
+    {
+      "id": "BG088",
+      "before": "wilderness, preparation, navigation, scenario review",
+      "after": "woodland, forest, campsite, camping, wilderness, adventure"
+    },
+    {
+      "id": "BG119",
+      "before": "Wales, heritage, tourism, breadth expansion",
+      "after": "Wales, Welsh, culture, festival, field, community"
+    },
+    {
+      "id": "BG125",
+      "before": "fantasy, reading, breadth expansion",
+      "after": "fantasy, wizard, tower, magic, interior"
+    },
+    {
+      "id": "BG123",
+      "before": "fantasy, reading, breadth expansion",
+      "after": "fantasy, enchanted, forest, woodland, magic"
+    },
+    {
+      "id": "BG134",
+      "before": "healthy eating, physical activity, sport, breadth expansion",
+      "after": "physical activity, sport, hall, indoor, interior"
+    },
+    {
+      "id": "BG109",
+      "before": "historical-inspired, castle, breadth expansion",
+      "after": "history, medieval, market, town, street"
+    },
+    {
+      "id": "BG018",
+      "before": "castle, fantasy",
+      "after": "fantasy, floating, islands, sky, clouds"
+    },
+    {
+      "id": "BG112",
+      "before": "historical-inspired, castle, breadth expansion",
+      "after": "museum, gallery, heritage, art, learning, interior"
+    },
+    {
+      "id": "BG033",
+      "before": "garden, food, playful",
+      "after": "toy, workshop, playful, creative, interior"
+    },
+    {
+      "id": "BG053",
+      "before": "cycling, visibility, community, workshop, scenario review",
+      "after": "cycling, bicycle, sport, hill, track, trail"
+    },
+    {
+      "id": "BG140",
+      "before": "wellbeing, arts, learning, community, breadth expansion",
+      "after": "public library, books, reading, learning, community, interior"
+    },
+    {
+      "id": "BG039",
+      "before": "outdoor activity, climbing, paddling, scenario review",
+      "after": "outdoor activity, lake, water, paddling, sport, nature"
+    },
+    {
+      "id": "BG138",
+      "before": "wellbeing, arts, learning, community, breadth expansion",
+      "after": "wellbeing, sensory, garden, plants, calm"
+    },
+    {
+      "id": "BG019",
+      "before": "industrial",
+      "after": "industrial, factory, machinery, manufacturing, interior"
+    },
+    {
+      "id": "BG116",
+      "before": "Wales, heritage, tourism, breadth expansion",
+      "after": "Wales, Welsh, coast, harbour, sea, boats"
+    },
+    {
+      "id": "BG118",
+      "before": "Wales, heritage, tourism, breadth expansion",
+      "after": "Wales, Welsh, heritage, railway, platform, train"
+    },
+    {
+      "id": "BG143",
+      "before": "wellbeing, arts, learning, community, breadth expansion",
+      "after": "theatre, stage, arts, performance, community, interior"
+    },
+    {
+      "id": "BG034",
+      "before": "science, environment",
+      "after": "science, research, laboratory, experiments, interior"
+    },
+    {
+      "id": "BG133",
+      "before": "healthy eating, physical activity, sport, breadth expansion",
+      "after": "healthy eating, food, cooking, kitchen, community, interior"
+    },
+    {
+      "id": "BG114",
+      "before": "Wales, heritage, tourism, breadth expansion",
+      "after": "Wales, Welsh, heritage, coal, mining, industry"
+    },
+    {
+      "id": "BG120",
+      "before": "Wales, heritage, tourism, breadth expansion",
+      "after": "Wales, Welsh, mountain, lake, water, nature"
+    },
+    {
+      "id": "BG131",
+      "before": "healthy eating, physical activity, sport, breadth expansion",
+      "after": "healthy eating, food, market, shopping, community"
+    },
+    {
+      "id": "BG070",
+      "before": "climate action, household, repair, food, scenario review",
+      "after": "community, garden, food, vegetables, plants, environment"
+    },
+    {
+      "id": "BG147",
+      "before": "digital, wildlife, coastal, science, resources, breadth expansion",
+      "after": "digital, server, computer, technology, interior"
+    },
+    {
+      "id": "BG113",
+      "before": "Wales, heritage, tourism, breadth expansion",
+      "after": "Wales, Welsh, heritage, slate, quarry, mountain"
+    }
+  ],
+  "validation": {
+    "all152ImagesDecoded": true,
+    "all152Dimensions": [
+      1280,
+      640
+    ],
+    "all152HashesMatchSidecars": true,
+    "uniqueImages": 152,
+    "uniqueIds": 152,
+    "newAndRefreshedRepeatHorizontal": false,
+    "repeatNote": "Generated edges did not match reliably. These 85 images are explicitly fixed scenes, with tiling disabled.",
+    "visualReview": "All 80 additions and five replacements reviewed."
+  },
+  "newAssets": [
+    {
+      "id": "BG201",
+      "title": "Pebble beach",
+      "file": "sBackgroundPebbleBeach.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "208520af6760333d5120e80c7082cbf77e7f6db54ab7bdc2bc85eaa1ba9cdd81",
+      "bytes": 1040771,
+      "edgeMeanAbsoluteDifference": 9.067,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG202",
+      "title": "Rock pools",
+      "file": "sBackgroundRockPools.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "bc38e8d6be541e67702a02f81440ca2e12a35ba32d7f9cb9c3a5f41d17528258",
+      "bytes": 1214651,
+      "edgeMeanAbsoluteDifference": 11.841,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG203",
+      "title": "Seaside promenade",
+      "file": "sBackgroundSeasidePromenade.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "b3761369e335f84ac28371729ed3033a8eb85b7110c57dbad6856b11561c0fd1",
+      "bytes": 1049861,
+      "edgeMeanAbsoluteDifference": 19.901,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG204",
+      "title": "Lifeguard beach",
+      "file": "sBackgroundLifeguardBeach.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "d523744d2421cde3c0b7fe686f641dff13fed972dc4a8650b3125606076e5352",
+      "bytes": 991657,
+      "edgeMeanAbsoluteDifference": 8.92,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG205",
+      "title": "Coastal cliffs",
+      "file": "sBackgroundCoastalCliffs.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "62f3ee084bded6af93e83c32f532e365cdbce1d3fb866e290ee8ae8b716ec135",
+      "bytes": 1054048,
+      "edgeMeanAbsoluteDifference": 6.987,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG206",
+      "title": "Lighthouse headland",
+      "file": "sBackgroundLighthouseHeadland.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "625a8267540989bd22782ecf9c9b0ccace6816aa5b1da9d70d5a0040eda56965",
+      "bytes": 1051952,
+      "edgeMeanAbsoluteDifference": 5.471,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG207",
+      "title": "Sheltered fishing cove",
+      "file": "sBackgroundShelteredFishingCove.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "a7396f5a3d1a8c0417f67a743844697cd8791575ab2228f53e8bb46adb74b4c0",
+      "bytes": 1148599,
+      "edgeMeanAbsoluteDifference": 10.361,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG208",
+      "title": "Coastal sea cave",
+      "file": "sBackgroundCoastalSeaCave.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "71135739c4412c20bc7d8fdf8f755ae1fe4cc2177a27592fc46811830f06a355",
+      "bytes": 1072131,
+      "edgeMeanAbsoluteDifference": 3.67,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG209",
+      "title": "Kelp forest",
+      "file": "sBackgroundKelpForest.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "d82b714377f386910a0b7c4f90a36e4e0f58a30edc05a4d4e775427a47e08986",
+      "bytes": 1248906,
+      "edgeMeanAbsoluteDifference": 10.427,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG210",
+      "title": "Open deep ocean",
+      "file": "sBackgroundOpenDeepOcean.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "bf3daeaf9a517df0cc1dc68469d1d2598c2bebea7cc9b0d8d7f03bf37f867965",
+      "bytes": 726866,
+      "edgeMeanAbsoluteDifference": 2.317,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG211",
+      "title": "Shipwreck seabed",
+      "file": "sBackgroundShipwreckSeabed.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "79b32866c33454865fc7387d2a536d2f9713dc348813db2eb256e0322cea203e",
+      "bytes": 1109641,
+      "edgeMeanAbsoluteDifference": 7.046,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG212",
+      "title": "Submerged ruins",
+      "file": "sBackgroundSubmergedRuins.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "f4ea200c2ad19512ad9860ee031a5c143a3cd880b7eeca04e534b0114081c675",
+      "bytes": 1050660,
+      "edgeMeanAbsoluteDifference": 7.851,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG213",
+      "title": "Freshwater lakebed",
+      "file": "sBackgroundFreshwaterLakebed.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "bf1a4c2fd29221dd8be1fa684fa678c5e3ab74cbe8eca0f16e70bd53d034f58e",
+      "bytes": 1125910,
+      "edgeMeanAbsoluteDifference": 6.328,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG214",
+      "title": "Riverbed",
+      "file": "sBackgroundRiverbed.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "8d08801f805d9e218ded3b629bfc53c1f53985cd1ed6d3b3467bdeed93c1c76c",
+      "bytes": 1184309,
+      "edgeMeanAbsoluteDifference": 14.663,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG215",
+      "title": "Flooded cavern",
+      "file": "sBackgroundFloodedCavern.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "38429c39f9faf43b4f293ed15f9f9c35611eed40867f37874fe6062ebda8ac3d",
+      "bytes": 1000415,
+      "edgeMeanAbsoluteDifference": 4.205,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG216",
+      "title": "Bioluminescent ocean depths",
+      "file": "sBackgroundBioluminescentOceanDepths.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "0275a20edb451d01e31d992ba5dabe5cae29b8bec574a3c25d95fa18fa770680",
+      "bytes": 1040329,
+      "edgeMeanAbsoluteDifference": 6.195,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG217",
+      "title": "Haunted manor exterior",
+      "file": "sBackgroundHauntedManorExterior.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "c826d9ddec013e83ead22c7867414ee13edc480859c8e7f30974ae93b3be61cd",
+      "bytes": 1268454,
+      "edgeMeanAbsoluteDifference": 7.272,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG218",
+      "title": "Haunted hallway",
+      "file": "sBackgroundHauntedHallway.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "8c0eead973c50ee5f005b7e60ea288c54cc2052d32e0669ae35c2976888b2fc1",
+      "bytes": 964254,
+      "edgeMeanAbsoluteDifference": 2.893,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG219",
+      "title": "Moonlit graveyard",
+      "file": "sBackgroundMoonlitGraveyard.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "a8c9fffa72fd968aa723372d435049f3b838ade794ffc57408aa5f6b270cdc1f",
+      "bytes": 1014939,
+      "edgeMeanAbsoluteDifference": 3.693,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG220",
+      "title": "Misty marsh",
+      "file": "sBackgroundMistyMarsh.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "c1b24929f94d7715e97bac9ee03615029d3f2ccc492119c922f94bd089f80ec0",
+      "bytes": 947790,
+      "edgeMeanAbsoluteDifference": 6.229,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG221",
+      "title": "Abandoned fairground",
+      "file": "sBackgroundAbandonedFairground.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "ad065f3fe3b6fd089c6062c43ba5e9e40477daba38947358eacbf8ba64b4d174",
+      "bytes": 986226,
+      "edgeMeanAbsoluteDifference": 9.737,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG222",
+      "title": "Deserted railway station",
+      "file": "sBackgroundDesertedRailwayStation.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "ae0697425faf526b90b12606ee5eb5d6d45ced2e6c6e758497592aad19819e7b",
+      "bytes": 1068017,
+      "edgeMeanAbsoluteDifference": 7.796,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG223",
+      "title": "Clocktower interior",
+      "file": "sBackgroundClocktowerInterior.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "7ab65e7c76cfe92e1081fd987f4cbf7275e05a2242678a89f3a07acb074f3de8",
+      "bytes": 1066414,
+      "edgeMeanAbsoluteDifference": 6.341,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG224",
+      "title": "Dusty attic",
+      "file": "sBackgroundDustyAttic.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "5e0ac4ad922f657d3a40e498336ab390091e202691fe1d05a422f9746bf4ded3",
+      "bytes": 1013472,
+      "edgeMeanAbsoluteDifference": 4.447,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG225",
+      "title": "School corridor",
+      "file": "sBackgroundSchoolCorridor.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "11f97a0a8835f86212294eb1f4d1a0a868aee93379e81a3469c891c47e047a45",
+      "bytes": 771962,
+      "edgeMeanAbsoluteDifference": 6.238,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG226",
+      "title": "Classroom",
+      "file": "sBackgroundClassroom.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "b86030cb9e76659557d3421ec89a5f66bfad1a735304292c4c3ba3e4ba637d95",
+      "bytes": 909060,
+      "edgeMeanAbsoluteDifference": 16.195,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG227",
+      "title": "School canteen",
+      "file": "sBackgroundSchoolCanteen.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "a09f27148066e6454ada0b142f4d34c353bba29c7595d1eeda83882a1b379e0e",
+      "bytes": 912232,
+      "edgeMeanAbsoluteDifference": 7.47,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG228",
+      "title": "Playground",
+      "file": "sBackgroundPlayground.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "ccae19448440b293b139f7dee467370a3aab450238c86ef3206118551cbaaa55",
+      "bytes": 1123158,
+      "edgeMeanAbsoluteDifference": 10.718,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG229",
+      "title": "High street",
+      "file": "sBackgroundHighStreet.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "9f941acb39452fc1fded35d44ad7b2fec30359a948709baddedb7fda619f4b85",
+      "bytes": 1195967,
+      "edgeMeanAbsoluteDifference": 11.595,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG230",
+      "title": "Pedestrian crossing",
+      "file": "sBackgroundPedestrianCrossing.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "28064bd5af5987acc166fc4f6fc94bbff3c409dd4d7178b4919077d42b6cbf7f",
+      "bytes": 1230924,
+      "edgeMeanAbsoluteDifference": 16.331,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG231",
+      "title": "Housing estate",
+      "file": "sBackgroundHousingEstate.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "d2d7b6986e9775c7d6c9a6c40b671c764b1b245c40dd592f1d6a99ecc966debd",
+      "bytes": 1100078,
+      "edgeMeanAbsoluteDifference": 7.137,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG232",
+      "title": "Bus station",
+      "file": "sBackgroundBusStation.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "ff7e8f3bcbc0afcd4b7a65504e4742d153939640bfa902b3665d032e822b6f74",
+      "bytes": 1058255,
+      "edgeMeanAbsoluteDifference": 9.388,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG233",
+      "title": "Wildflower meadow",
+      "file": "sBackgroundWildflowerMeadow.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "dcfc2041922752ecc629fc784b9e8e0130f1fccbd0c066ed1cded64ef258584c",
+      "bytes": 1000665,
+      "edgeMeanAbsoluteDifference": 5.652,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG234",
+      "title": "Autumn woodland",
+      "file": "sBackgroundAutumnWoodland.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "0109ead35bfc734d81398936f625a35ba7cd57cd7031b6c38a0512e9adecebe7",
+      "bytes": 1301255,
+      "edgeMeanAbsoluteDifference": 10.714,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG235",
+      "title": "Farmland and hedgerows",
+      "file": "sBackgroundFarmlandAndHedgerows.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "43bced84c60e7089b6aac2ac5a5928a561a8207e9d2301b5c19b87edd3fcbbfb",
+      "bytes": 1068748,
+      "edgeMeanAbsoluteDifference": 5.064,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG236",
+      "title": "Pine ridge",
+      "file": "sBackgroundPineRidge.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "16b707b9ca2b1e387008532691b0e30ced2fc03b0f572b942a978ac775dabf1a",
+      "bytes": 1059722,
+      "edgeMeanAbsoluteDifference": 13.502,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG237",
+      "title": "Riverside footpath",
+      "file": "sBackgroundRiversideFootpath.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "b9085b094366c9890cd7708eef6fd0be8aeda89bc3bd6562062584d6b2138454",
+      "bytes": 1273793,
+      "edgeMeanAbsoluteDifference": 18.831,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG238",
+      "title": "Waterfall gorge",
+      "file": "sBackgroundWaterfallGorge.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "ed2116f1fc009d51649c1c9c455376114577785e46a45549ffab21a056e3d539",
+      "bytes": 1273645,
+      "edgeMeanAbsoluteDifference": 15.088,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG239",
+      "title": "Woodland rope course",
+      "file": "sBackgroundWoodlandRopeCourse.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "5c6f129c0009495a30777a7dc268f2e1eab4e005e5a430fcf94dfbec09b75ef5",
+      "bytes": 1349416,
+      "edgeMeanAbsoluteDifference": 21.243,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG240",
+      "title": "Rural village green",
+      "file": "sBackgroundRuralVillageGreen.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "75eb46c4417e4e87103fb5e95d3cb5abbb3a4d7cd2232bc626b74c88b88df70f",
+      "bytes": 1318034,
+      "edgeMeanAbsoluteDifference": 9.886,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG241",
+      "title": "Urban cycle lane",
+      "file": "sBackgroundUrbanCycleLane.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "5b40550de61f8c9d14e99f103126db5b4f3fabd9ea5d28f2c530dbe4b47bfcc4",
+      "bytes": 1266817,
+      "edgeMeanAbsoluteDifference": 25.818,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG242",
+      "title": "Canal towpath",
+      "file": "sBackgroundCanalTowpath.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "4b342735f2f1db2bd8798f9d93b7a6670500214c294becbc89ee7930551c9427",
+      "bytes": 1315753,
+      "edgeMeanAbsoluteDifference": 17.762,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG243",
+      "title": "Forest mountain-bike trail",
+      "file": "sBackgroundForestMountainBikeTrail.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "7b56a717a68bf771fb3e9b0ec449851e3fb1d5c8d36b01d3c78e358a2797862c",
+      "bytes": 1196758,
+      "edgeMeanAbsoluteDifference": 10.053,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG244",
+      "title": "BMX pump track",
+      "file": "sBackgroundBMXPumpTrack.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "0d752611f4d7292f40d3f524ae99387a291e59803a4161b0224717aaea75baa8",
+      "bytes": 1187030,
+      "edgeMeanAbsoluteDifference": 11.923,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG245",
+      "title": "Velodrome",
+      "file": "sBackgroundVelodrome.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "5f175cfd681bf6733643f1663e15638057eed5ec010e11874ef5c3e0078c291d",
+      "bytes": 944341,
+      "edgeMeanAbsoluteDifference": 3.804,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG246",
+      "title": "Athletics track",
+      "file": "sBackgroundAthleticsTrack.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "eef2735e65dc60f7ecb477e0c69264516ccf3bdbb593bb71ffe5a2632a918044",
+      "bytes": 1112877,
+      "edgeMeanAbsoluteDifference": 11.889,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG247",
+      "title": "Skatepark",
+      "file": "sBackgroundSkatepark.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "76c2463958c330eb738882e436fea98c0e6247321486a9779cb74732b91b846f",
+      "bytes": 940505,
+      "edgeMeanAbsoluteDifference": 5.944,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG248",
+      "title": "Football stadium",
+      "file": "sBackgroundFootballStadium.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "3e77addb5cfc36cbbad9a16181a85cd64233e20893677f6b8f34d9ed5d41675a",
+      "bytes": 978808,
+      "edgeMeanAbsoluteDifference": 8.141,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG249",
+      "title": "Supermarket produce aisle",
+      "file": "sBackgroundSupermarketProduceAisle.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "66704357d2fd7d253c34e7d01c7ca3fa50af148cd02032139cd06dff59776d9e",
+      "bytes": 1053700,
+      "edgeMeanAbsoluteDifference": 13.692,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG250",
+      "title": "Farm shop",
+      "file": "sBackgroundFarmShop.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "ccc17cd0f21613636c122f0307aca8695bc0380ebca548d3127eab70efc7e360",
+      "bytes": 1045281,
+      "edgeMeanAbsoluteDifference": 7.509,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG251",
+      "title": "Commercial kitchen",
+      "file": "sBackgroundCommercialKitchen.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "c448211881b360e9dcc2b81627dd837df0caa5fce89c632219385059771d89dd",
+      "bytes": 945201,
+      "edgeMeanAbsoluteDifference": 31.859,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG252",
+      "title": "Fruit orchard",
+      "file": "sBackgroundFruitOrchard.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "e22a5c19f5be584618a34433cd8e2a58a04c46c7dc64f936495ff23b5eb619c9",
+      "bytes": 1229733,
+      "edgeMeanAbsoluteDifference": 10.108,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG253",
+      "title": "Greenhouse interior",
+      "file": "sBackgroundGreenhouseInterior.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "47eaec0fa656e095ec46880c164c7a09d8e502afe203cf4cd345bcf70ee84f18",
+      "bytes": 1263873,
+      "edgeMeanAbsoluteDifference": 28.872,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG254",
+      "title": "Recycling centre",
+      "file": "sBackgroundRecyclingCentre.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "5b0c16cd12d867e4382384efdd6678311e6a2d9f43ab708ffc3c7f15912960e4",
+      "bytes": 1160261,
+      "edgeMeanAbsoluteDifference": 9.95,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG255",
+      "title": "Water-treatment works",
+      "file": "sBackgroundWaterTreatmentWorks.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "415f43e84d1e811ff1269c3c9436c383d43525bf4a05e32f81dbf21d01d767bc",
+      "bytes": 1181203,
+      "edgeMeanAbsoluteDifference": 8.576,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG256",
+      "title": "Reservoir",
+      "file": "sBackgroundReservoir.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "293971e987618454675e672e203723ead70b88b698f2ce437fdbcdfcfdc77e37",
+      "bytes": 1068949,
+      "edgeMeanAbsoluteDifference": 25.518,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG257",
+      "title": "Open starfield",
+      "file": "sBackgroundOpenStarfield.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "787c5af3b458d7d02772b3e554b3d3153647eb052d15d9084db4ca2e5f7394f4",
+      "bytes": 1068843,
+      "edgeMeanAbsoluteDifference": 6.315,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG258",
+      "title": "Asteroid belt",
+      "file": "sBackgroundAsteroidBelt.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "01f601cc557911f59c5566e406efa1eb81793ae9fb7153cd1d99e7e422264390",
+      "bytes": 1023530,
+      "edgeMeanAbsoluteDifference": 5.754,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG259",
+      "title": "Orbital docking bay",
+      "file": "sBackgroundOrbitalDockingBay.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "ab4a7b66f9f0b3ff1ee79052313c5b402f78fec087bf243b1aeb469ed675922d",
+      "bytes": 980957,
+      "edgeMeanAbsoluteDifference": 7.971,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG260",
+      "title": "Spacecraft cargo hold",
+      "file": "sBackgroundSpacecraftCargoHold.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "7babeda5903f973546c45264ab83d4f0db97e88dd4176840a72c5ec9158c81bc",
+      "bytes": 895032,
+      "edgeMeanAbsoluteDifference": 3.925,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG261",
+      "title": "Engine room",
+      "file": "sBackgroundEngineRoom.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "faca3959355209a35e40a50bd169fecbacce91744a281c01061e1730585bd2bf",
+      "bytes": 982533,
+      "edgeMeanAbsoluteDifference": 3.882,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG262",
+      "title": "Martian canyon",
+      "file": "sBackgroundMartianCanyon.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "d9109e1a692ad9e5d2d455cd9d68df10fa42948ccdba4f759fa53ed87d07493d",
+      "bytes": 873471,
+      "edgeMeanAbsoluteDifference": 4.009,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG263",
+      "title": "Icy moon",
+      "file": "sBackgroundIcyMoon.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "ae496eee6b1bd6500cf36debf66fe96a4c5229bd465ba9053d9415ce4cbde62c",
+      "bytes": 1166315,
+      "edgeMeanAbsoluteDifference": 14.641,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG264",
+      "title": "Alien swamp",
+      "file": "sBackgroundAlienSwamp.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "f42cd6f550a946fd19a51a3f914cf4e809202b83c29486e319fa13c311b0696a",
+      "bytes": 1073885,
+      "edgeMeanAbsoluteDifference": 14.477,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG265",
+      "title": "Mushroom kingdom",
+      "file": "sBackgroundMushroomKingdom.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "a2c935f4849b0957387871389c369a87038c0ef7bae4683d5b8dac903868dabf",
+      "bytes": 1211913,
+      "edgeMeanAbsoluteDifference": 13.037,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG266",
+      "title": "Giant-tree interior",
+      "file": "sBackgroundGiantTreeInterior.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "802f90a56b655bbdcb6a5535684323fe5f375504d6fe969adf72ad54f18baaa8",
+      "bytes": 970428,
+      "edgeMeanAbsoluteDifference": 4.844,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG267",
+      "title": "Dragon cavern",
+      "file": "sBackgroundDragonCavern.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "edbfc7d505af7323146c413a9f95b65604234c95718177f30c76c03e7bb767af",
+      "bytes": 1162524,
+      "edgeMeanAbsoluteDifference": 13.029,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG268",
+      "title": "Ancient forest temple",
+      "file": "sBackgroundAncientForestTemple.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "d616cdc5fb1f285cf3ff139cd25f3404d2f2b770e81d892d7b8f1c551d5c7569",
+      "bytes": 1301024,
+      "edgeMeanAbsoluteDifference": 12.242,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG269",
+      "title": "Enchanted swamp",
+      "file": "sBackgroundEnchantedSwamp.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "82bb680f06816768f86118dc8290b97191c6ff752f2adea53d044577cfdcd3b6",
+      "bytes": 1289323,
+      "edgeMeanAbsoluteDifference": 10.753,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG270",
+      "title": "Clockwork city",
+      "file": "sBackgroundClockworkCity.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "71217fdfb5d47646af7109862c6c5b880d7a16f872ec6657ee9b42c8470f95d9",
+      "bytes": 1088349,
+      "edgeMeanAbsoluteDifference": 9.919,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG271",
+      "title": "Sky palace",
+      "file": "sBackgroundSkyPalace.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "825c0c311adeca3b1ad5368b4ab1153d33beeb8c7cdf6dd188ca0bb433f90df2",
+      "bytes": 1006161,
+      "edgeMeanAbsoluteDifference": 18.864,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG272",
+      "title": "Rainbow crystal landscape",
+      "file": "sBackgroundRainbowCrystalLandscape.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "4bb6f6695dddb81e33d10931c0b7d0e194c4ac5e161fe160675494e684151dfa",
+      "bytes": 1204802,
+      "edgeMeanAbsoluteDifference": 10.06,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG273",
+      "title": "Roman fort",
+      "file": "sBackgroundRomanFort.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "019ab58f7ae5e374525ed83ca0a733ba0d74b136f4899a24278cf30671a62493",
+      "bytes": 1148327,
+      "edgeMeanAbsoluteDifference": 11.284,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG274",
+      "title": "Roman villa",
+      "file": "sBackgroundRomanVilla.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "be08072dfe9d156cc39ac378d456782157ef4de9199beca4373b60872e2c4060",
+      "bytes": 1388837,
+      "edgeMeanAbsoluteDifference": 18.216,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG275",
+      "title": "Viking harbour",
+      "file": "sBackgroundVikingHarbour.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "bb0836053cfd40946487a1bc7f09fd833dc67fc62d2f8a1fbd149b92182979ec",
+      "bytes": 1164806,
+      "edgeMeanAbsoluteDifference": 11.629,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG276",
+      "title": "Medieval farm",
+      "file": "sBackgroundMedievalFarm.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "9c72b2098320eef676b49bd534dbe2bee138214e18513b173cd6356865012dfb",
+      "bytes": 1263151,
+      "edgeMeanAbsoluteDifference": 10.203,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG277",
+      "title": "Victorian street",
+      "file": "sBackgroundVictorianStreet.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "934aece47df20dc4e13b00028fcb7741814ab01ef1c9e17e4edb35afa5e1b163",
+      "bytes": 1214327,
+      "edgeMeanAbsoluteDifference": 13.544,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG278",
+      "title": "Textile mill",
+      "file": "sBackgroundTextileMill.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "4f2f8b906f618715b26b1ebf98e96eccc235bb1062f8cd8f4ee0294e7ff43cc2",
+      "bytes": 1102473,
+      "edgeMeanAbsoluteDifference": 14.631,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG279",
+      "title": "Underground coal mine",
+      "file": "sBackgroundUndergroundCoalMine.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "fe0974baba8c3084a10b9299794f3bb900dd04a84de7f85cc4b076e56715124b",
+      "bytes": 1140374,
+      "edgeMeanAbsoluteDifference": 10.748,
+      "repeatHorizontal": false
+    },
+    {
+      "id": "BG280",
+      "title": "Archaeological excavation",
+      "file": "sBackgroundArchaeologicalExcavation.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "0c03ea71702756539913e6164a79be9732930b8f9d62ea81e15582a47e55e5ae",
+      "bytes": 1171475,
+      "edgeMeanAbsoluteDifference": 21.21,
+      "repeatHorizontal": false
+    }
+  ]
+}

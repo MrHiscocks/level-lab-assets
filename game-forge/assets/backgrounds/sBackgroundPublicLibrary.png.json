@@ -1,7 +1,7 @@
 {
   "id": "BG140",
   "title": "Public library",
-  "tags": "wellbeing, arts, learning, community, breadth expansion",
+  "tags": "public library, books, reading, learning, community, interior",
   "category": "backgrounds",
   "variant": "primary",
   "batch": 21,
@@ -10,14 +10,26 @@
     0
   ],
   "mask": null,
-  "fps": 6,
-  "placement": "Background layer; horizontal repeat only; decorative, no collision.",
-  "repeatHorizontal": true,
+  "fps": 0,
+  "placement": "Use on a background layer behind gameplay. Top-left origin (0, 0). Disable horizontal and vertical tiling; scale uniformly to cover the view. Add collision ground and interactive objects separately.",
+  "repeatHorizontal": false,
   "form": "",
   "loop": "",
   "duration": "",
-  "description": "",
-  "sourceFile": "Game_Forge_Batch_21/assets/backgrounds/sBackgroundPublicLibrary.png",
-  "sourceBatch": "Game_Forge_Batch_21.zip",
-  "sourceSha256": "7930782c40a2d12f3d7ed5ff06d308f73a68fc2d2af0d6c1fedab5e3dba9f8e1"
+  "description": "Modern public library interior, clearly recognisable tall bookcases filled with colourful book spines, low reading tables, a simple lending desk and comfortable seating in back half, rectangular windows, warm welcoming contemporary architecture and quiet empty carpeted foreground. No ornate arches or palace architecture. Fixed-scene background; horizontal seamless repeat is not certified.",
+  "sourceFile": "background-production/sources/BG140.png",
+  "sourceBatch": "October 2026 interior refresh",
+  "sourceSha256": "db8964f18ec33c92cc00b0fa9e1e3910ac48ae58cbca60cf96bd9f5c4783dcc1",
+  "frames": 1,
+  "frameWidth": 1280,
+  "frameHeight": 640,
+  "production": {
+    "method": "Built-in image_gen",
+    "date": "2026-10-19",
+    "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Modern public library interior, clearly recognisable tall bookcases filled with colourful book spines, low reading tables, a simple lending desk and comfortable seating in back half, rectangular windows, warm welcoming contemporary architecture and quiet empty carpeted foreground. No ornate arches or palace architecture.",
+    "originalSha256": "7930782c40a2d12f3d7ed5ff06d308f73a68fc2d2af0d6c1fedab5e3dba9f8e1",
+    "sourceArtworkSha256": "89a2ea522295dc4966448f5e7d0b22713847e87a89ec9625bbb24251eebe1292",
+    "export": "Proportional resize from 2:1 source to 1280 x 640; PNG RGB, metadata stripped.",
+    "horizontalRepeatVerified": false
+  }
 }
