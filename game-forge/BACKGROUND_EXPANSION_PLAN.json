@@ -1,0 +1,1383 @@
+{
+  "date": "2026-10-19",
+  "existingBackgrounds": 72,
+  "newBackgrounds": 80,
+  "resultingBackgrounds": 152,
+  "batches": [
+    {
+      "batch": 35,
+      "count": 40
+    },
+    {
+      "batch": 36,
+      "count": 40
+    }
+  ],
+  "size": [
+    1280,
+    640
+  ],
+  "status": "in_progress",
+  "assets": [
+    {
+      "id": "BG201",
+      "title": "Pebble beach",
+      "brief": "Rounded grey shingle beach below low grassy chalk headlands, calm steel-blue sea, clear summer sky",
+      "tags": [
+        "coast",
+        "beach",
+        "ocean",
+        "adventure"
+      ],
+      "filename": "sBackgroundPebbleBeach.png",
+      "batch": 35,
+      "batchNumber": 1,
+      "group": "Beach and coast",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Rounded grey shingle beach below low grassy chalk headlands, calm steel-blue sea, clear summer sky.",
+      "status": "exported"
+    },
+    {
+      "id": "BG202",
+      "title": "Rock pools",
+      "brief": "Low coastal tidal pools among flat weathered rocks, shallow transparent seawater, distant open sea",
+      "tags": [
+        "coast",
+        "ocean",
+        "water",
+        "nature"
+      ],
+      "filename": "sBackgroundRockPools.png",
+      "batch": 35,
+      "batchNumber": 1,
+      "group": "Beach and coast",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Low coastal tidal pools among flat weathered rocks, shallow transparent seawater, distant open sea.",
+      "status": "exported"
+    },
+    {
+      "id": "BG203",
+      "title": "Seaside promenade",
+      "brief": "British seafront promenade, pastel beach huts and iron railings in middle distance, sea beyond",
+      "tags": [
+        "coast",
+        "town",
+        "seaside",
+        "travel"
+      ],
+      "filename": "sBackgroundSeasidePromenade.png",
+      "batch": 35,
+      "batchNumber": 1,
+      "group": "Beach and coast",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: British seafront promenade, pastel beach huts and iron railings in middle distance, sea beyond.",
+      "status": "exported"
+    },
+    {
+      "id": "BG204",
+      "title": "Lifeguard beach",
+      "brief": "Broad sandy public beach, empty red-and-yellow lifeguard hut and folded rescue equipment in distance",
+      "tags": [
+        "coast",
+        "beach",
+        "water",
+        "swimming"
+      ],
+      "filename": "sBackgroundLifeguardBeach.png",
+      "batch": 35,
+      "batchNumber": 1,
+      "group": "Beach and coast",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Broad sandy public beach, empty red-and-yellow lifeguard hut and folded rescue equipment in distance.",
+      "status": "exported"
+    },
+    {
+      "id": "BG205",
+      "title": "Coastal cliffs",
+      "brief": "Chalk sea cliffs in middle distance above turquoise water, open grassy coastal foreground",
+      "tags": [
+        "coast",
+        "ocean",
+        "cliff",
+        "nature"
+      ],
+      "filename": "sBackgroundCoastalCliffs.png",
+      "batch": 35,
+      "batchNumber": 1,
+      "group": "Beach and coast",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Chalk sea cliffs in middle distance above turquoise water, open grassy coastal foreground.",
+      "status": "exported"
+    },
+    {
+      "id": "BG206",
+      "title": "Lighthouse headland",
+      "brief": "Small white lighthouse on a distant grassy rocky headland, cool Atlantic sea and golden dawn",
+      "tags": [
+        "coast",
+        "ocean",
+        "lighthouse",
+        "travel"
+      ],
+      "filename": "sBackgroundLighthouseHeadland.png",
+      "batch": 35,
+      "batchNumber": 1,
+      "group": "Beach and coast",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Small white lighthouse on a distant grassy rocky headland, cool Atlantic sea and golden dawn.",
+      "status": "exported"
+    },
+    {
+      "id": "BG207",
+      "title": "Sheltered fishing cove",
+      "brief": "Quiet sheltered cove, moored small wooden fishing boats and stone cottages far behind flat foreground",
+      "tags": [
+        "coast",
+        "harbour",
+        "ocean",
+        "village"
+      ],
+      "filename": "sBackgroundShelteredFishingCove.png",
+      "batch": 35,
+      "batchNumber": 1,
+      "group": "Beach and coast",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Quiet sheltered cove, moored small wooden fishing boats and stone cottages far behind flat foreground.",
+      "status": "exported"
+    },
+    {
+      "id": "BG208",
+      "title": "Coastal sea cave",
+      "brief": "Inside a wide coastal cave, layered dark rock roof and tide pools, central opening reveals blue sea",
+      "tags": [
+        "coast",
+        "ocean",
+        "cave",
+        "adventure"
+      ],
+      "filename": "sBackgroundCoastalSeaCave.png",
+      "batch": 35,
+      "batchNumber": 1,
+      "group": "Beach and coast",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Inside a wide coastal cave, layered dark rock roof and tide pools, central opening reveals blue sea.",
+      "status": "exported"
+    },
+    {
+      "id": "BG209",
+      "title": "Kelp forest",
+      "brief": "Underwater golden kelp forest rising behind empty sand seabed, teal water with soft sunbeams",
+      "tags": [
+        "underwater",
+        "ocean",
+        "forest",
+        "nature"
+      ],
+      "filename": "sBackgroundKelpForest.png",
+      "batch": 35,
+      "batchNumber": 1,
+      "group": "Underwater and freshwater",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Underwater golden kelp forest rising behind empty sand seabed, teal water with soft sunbeams.",
+      "status": "exported"
+    },
+    {
+      "id": "BG210",
+      "title": "Open deep ocean",
+      "brief": "Deep blue pelagic ocean, soft light fading from above, distant particles and vast open water, no seabed",
+      "tags": [
+        "underwater",
+        "ocean",
+        "water",
+        "exploration"
+      ],
+      "filename": "sBackgroundOpenDeepOcean.png",
+      "batch": 35,
+      "batchNumber": 1,
+      "group": "Underwater and freshwater",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Deep blue pelagic ocean, soft light fading from above, distant particles and vast open water, no seabed.",
+      "status": "exported"
+    },
+    {
+      "id": "BG211",
+      "title": "Shipwreck seabed",
+      "brief": "Old wooden shipwreck resting in middle distance on sandy seabed, broken hull and mast, turquoise depths",
+      "tags": [
+        "underwater",
+        "ocean",
+        "wreck",
+        "adventure"
+      ],
+      "filename": "sBackgroundShipwreckSeabed.png",
+      "batch": 35,
+      "batchNumber": 1,
+      "group": "Underwater and freshwater",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Old wooden shipwreck resting in middle distance on sandy seabed, broken hull and mast, turquoise depths.",
+      "status": "exported"
+    },
+    {
+      "id": "BG212",
+      "title": "Submerged ruins",
+      "brief": "Ancient submerged stone columns and ruined archways beyond empty sandy seabed, blue water",
+      "tags": [
+        "underwater",
+        "ocean",
+        "ruin",
+        "adventure"
+      ],
+      "filename": "sBackgroundSubmergedRuins.png",
+      "batch": 35,
+      "batchNumber": 1,
+      "group": "Underwater and freshwater",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Ancient submerged stone columns and ruined archways beyond empty sandy seabed, blue water.",
+      "status": "exported"
+    },
+    {
+      "id": "BG213",
+      "title": "Freshwater lakebed",
+      "brief": "Shallow freshwater lake below the surface, pondweed and rounded stones behind flat silty lakebed",
+      "tags": [
+        "freshwater",
+        "lake",
+        "water",
+        "nature"
+      ],
+      "filename": "sBackgroundFreshwaterLakebed.png",
+      "batch": 35,
+      "batchNumber": 1,
+      "group": "Underwater and freshwater",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Shallow freshwater lake below the surface, pondweed and rounded stones behind flat silty lakebed.",
+      "status": "exported"
+    },
+    {
+      "id": "BG214",
+      "title": "Riverbed",
+      "brief": "Underwater clear river with smoothly rounded pebbles, submerged roots in distance and green refracted daylight",
+      "tags": [
+        "freshwater",
+        "river",
+        "water",
+        "nature"
+      ],
+      "filename": "sBackgroundRiverbed.png",
+      "batch": 35,
+      "batchNumber": 1,
+      "group": "Underwater and freshwater",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Underwater clear river with smoothly rounded pebbles, submerged roots in distance and green refracted daylight.",
+      "status": "exported"
+    },
+    {
+      "id": "BG215",
+      "title": "Flooded cavern",
+      "brief": "Underwater limestone cavern with distant stone pillars and an illuminated submerged passage, dark teal water",
+      "tags": [
+        "underwater",
+        "water",
+        "cave",
+        "adventure"
+      ],
+      "filename": "sBackgroundFloodedCavern.png",
+      "batch": 35,
+      "batchNumber": 1,
+      "group": "Underwater and freshwater",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Underwater limestone cavern with distant stone pillars and an illuminated submerged passage, dark teal water.",
+      "status": "exported"
+    },
+    {
+      "id": "BG216",
+      "title": "Bioluminescent ocean depths",
+      "brief": "Abyssal ocean floor, distant glowing blue and violet sea plants among dark rock, no animals",
+      "tags": [
+        "underwater",
+        "ocean",
+        "bioluminescent",
+        "exploration"
+      ],
+      "filename": "sBackgroundBioluminescentOceanDepths.png",
+      "batch": 35,
+      "batchNumber": 1,
+      "group": "Underwater and freshwater",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Abyssal ocean floor, distant glowing blue and violet sea plants among dark rock, no animals.",
+      "status": "exported"
+    },
+    {
+      "id": "BG217",
+      "title": "Haunted manor exterior",
+      "brief": "Old crooked country manor beyond an empty gravel foreground, dark windows, ivy, pale moon and purple dusk",
+      "tags": [
+        "spooky",
+        "manor",
+        "night",
+        "adventure"
+      ],
+      "filename": "sBackgroundHauntedManorExterior.png",
+      "batch": 35,
+      "batchNumber": 1,
+      "group": "Spooky and mysterious",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Old crooked country manor beyond an empty gravel foreground, dark windows, ivy, pale moon and purple dusk.",
+      "status": "exported"
+    },
+    {
+      "id": "BG218",
+      "title": "Haunted hallway",
+      "brief": "Wide empty Victorian manor corridor viewed straight across, faded wallpaper, closed doors and dim wall lamps",
+      "tags": [
+        "spooky",
+        "interior",
+        "hall",
+        "adventure"
+      ],
+      "filename": "sBackgroundHauntedHallway.png",
+      "batch": 35,
+      "batchNumber": 1,
+      "group": "Spooky and mysterious",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Wide empty Victorian manor corridor viewed straight across, faded wallpaper, closed doors and dim wall lamps.",
+      "status": "exported"
+    },
+    {
+      "id": "BG219",
+      "title": "Moonlit graveyard",
+      "brief": "Quiet storybook graveyard, distant worn unlettered headstones and bare trees, silver moon and low mist",
+      "tags": [
+        "spooky",
+        "graveyard",
+        "night",
+        "adventure"
+      ],
+      "filename": "sBackgroundMoonlitGraveyard.png",
+      "batch": 35,
+      "batchNumber": 1,
+      "group": "Spooky and mysterious",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Quiet storybook graveyard, distant worn unlettered headstones and bare trees, silver moon and low mist.",
+      "status": "exported"
+    },
+    {
+      "id": "BG220",
+      "title": "Misty marsh",
+      "brief": "Eerie wetland with distant reeds and twisted trees, layers of cool low mist, muted moonlight",
+      "tags": [
+        "spooky",
+        "marsh",
+        "wetland",
+        "nature"
+      ],
+      "filename": "sBackgroundMistyMarsh.png",
+      "batch": 35,
+      "batchNumber": 1,
+      "group": "Spooky and mysterious",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Eerie wetland with distant reeds and twisted trees, layers of cool low mist, muted moonlight.",
+      "status": "exported"
+    },
+    {
+      "id": "BG221",
+      "title": "Abandoned fairground",
+      "brief": "Empty aged fairground at twilight, distant silent ferris wheel and carousel silhouettes, no scary faces",
+      "tags": [
+        "spooky",
+        "fairground",
+        "town",
+        "adventure"
+      ],
+      "filename": "sBackgroundAbandonedFairground.png",
+      "batch": 35,
+      "batchNumber": 1,
+      "group": "Spooky and mysterious",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Empty aged fairground at twilight, distant silent ferris wheel and carousel silhouettes, no scary faces.",
+      "status": "exported"
+    },
+    {
+      "id": "BG222",
+      "title": "Deserted railway station",
+      "brief": "Empty small railway platform at dusk, old station canopy, unlettered signboards and misty distant tracks",
+      "tags": [
+        "spooky",
+        "railway",
+        "transport",
+        "travel"
+      ],
+      "filename": "sBackgroundDesertedRailwayStation.png",
+      "batch": 35,
+      "batchNumber": 1,
+      "group": "Spooky and mysterious",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Empty small railway platform at dusk, old station canopy, unlettered signboards and misty distant tracks.",
+      "status": "exported"
+    },
+    {
+      "id": "BG223",
+      "title": "Clocktower interior",
+      "brief": "Inside a tall old clocktower, enormous clock-face seen from behind, timber beams and distant brass gears",
+      "tags": [
+        "spooky",
+        "interior",
+        "tower",
+        "clockwork"
+      ],
+      "filename": "sBackgroundClocktowerInterior.png",
+      "batch": 35,
+      "batchNumber": 1,
+      "group": "Spooky and mysterious",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Inside a tall old clocktower, enormous clock-face seen from behind, timber beams and distant brass gears.",
+      "status": "exported"
+    },
+    {
+      "id": "BG224",
+      "title": "Dusty attic",
+      "brief": "Wide old attic with sloping timber rafters, trunks and covered furniture against back wall, soft dusty skylight",
+      "tags": [
+        "spooky",
+        "interior",
+        "room",
+        "adventure"
+      ],
+      "filename": "sBackgroundDustyAttic.png",
+      "batch": 35,
+      "batchNumber": 1,
+      "group": "Spooky and mysterious",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Wide old attic with sloping timber rafters, trunks and covered furniture against back wall, soft dusty skylight.",
+      "status": "exported"
+    },
+    {
+      "id": "BG225",
+      "title": "School corridor",
+      "brief": "Modern British secondary school corridor seen side-on, lockers, classroom doors and blank noticeboards, bright clean design",
+      "tags": [
+        "school",
+        "interior",
+        "hall",
+        "community"
+      ],
+      "filename": "sBackgroundSchoolCorridor.png",
+      "batch": 35,
+      "batchNumber": 1,
+      "group": "School and everyday places",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Modern British secondary school corridor seen side-on, lockers, classroom doors and blank noticeboards, bright clean design.",
+      "status": "exported"
+    },
+    {
+      "id": "BG226",
+      "title": "Classroom",
+      "brief": "Modern secondary classroom viewed across the room, desks in back half, blank whiteboard and large rectangular windows",
+      "tags": [
+        "school",
+        "interior",
+        "room",
+        "education"
+      ],
+      "filename": "sBackgroundClassroom.png",
+      "batch": 35,
+      "batchNumber": 1,
+      "group": "School and everyday places",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Modern secondary classroom viewed across the room, desks in back half, blank whiteboard and large rectangular windows.",
+      "status": "exported"
+    },
+    {
+      "id": "BG227",
+      "title": "School canteen",
+      "brief": "School dining hall, distant colourful tables and serving counter, tray shelves, rectangular windows, empty foreground",
+      "tags": [
+        "school",
+        "interior",
+        "hall",
+        "food"
+      ],
+      "filename": "sBackgroundSchoolCanteen.png",
+      "batch": 35,
+      "batchNumber": 1,
+      "group": "School and everyday places",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: School dining hall, distant colourful tables and serving counter, tray shelves, rectangular windows, empty foreground.",
+      "status": "exported"
+    },
+    {
+      "id": "BG228",
+      "title": "Playground",
+      "brief": "Empty primary school playground, distant painted play markings, simple climbing equipment and brick school buildings",
+      "tags": [
+        "school",
+        "community",
+        "sport",
+        "activity"
+      ],
+      "filename": "sBackgroundPlayground.png",
+      "batch": 35,
+      "batchNumber": 1,
+      "group": "School and everyday places",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Empty primary school playground, distant painted play markings, simple climbing equipment and brick school buildings.",
+      "status": "exported"
+    },
+    {
+      "id": "BG229",
+      "title": "High street",
+      "brief": "British town high street in daytime, small shopfronts with blank signs and flats above, clear broad pavement",
+      "tags": [
+        "town",
+        "urban",
+        "street",
+        "community"
+      ],
+      "filename": "sBackgroundHighStreet.png",
+      "batch": 35,
+      "batchNumber": 1,
+      "group": "School and everyday places",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: British town high street in daytime, small shopfronts with blank signs and flats above, clear broad pavement.",
+      "status": "exported"
+    },
+    {
+      "id": "BG230",
+      "title": "Pedestrian crossing",
+      "brief": "Side-on British street with a zebra crossing and paired black-and-white poles with amber globes, no traffic",
+      "tags": [
+        "town",
+        "urban",
+        "street",
+        "transport"
+      ],
+      "filename": "sBackgroundPedestrianCrossing.png",
+      "batch": 35,
+      "batchNumber": 1,
+      "group": "School and everyday places",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Side-on British street with a zebra crossing and paired black-and-white poles with amber globes, no traffic.",
+      "status": "exported"
+    },
+    {
+      "id": "BG231",
+      "title": "Housing estate",
+      "brief": "Quiet British residential estate, brick semi-detached homes, small front gardens and wide open pavement",
+      "tags": [
+        "town",
+        "urban",
+        "neighbourhood",
+        "community"
+      ],
+      "filename": "sBackgroundHousingEstate.png",
+      "batch": 35,
+      "batchNumber": 1,
+      "group": "School and everyday places",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Quiet British residential estate, brick semi-detached homes, small front gardens and wide open pavement.",
+      "status": "exported"
+    },
+    {
+      "id": "BG232",
+      "title": "Bus station",
+      "brief": "Modern open-air bus interchange, distant glass shelters and parked buses, blank information boards, no people",
+      "tags": [
+        "town",
+        "urban",
+        "transport",
+        "travel"
+      ],
+      "filename": "sBackgroundBusStation.png",
+      "batch": 35,
+      "batchNumber": 1,
+      "group": "School and everyday places",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Modern open-air bus interchange, distant glass shelters and parked buses, blank information boards, no people.",
+      "status": "exported"
+    },
+    {
+      "id": "BG233",
+      "title": "Wildflower meadow",
+      "brief": "Expansive summer meadow, distant bands of wildflowers and soft rolling green hills, airy sky",
+      "tags": [
+        "nature",
+        "grassland",
+        "meadow",
+        "conservation"
+      ],
+      "filename": "sBackgroundWildflowerMeadow.png",
+      "batch": 35,
+      "batchNumber": 1,
+      "group": "Countryside and exploration",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Expansive summer meadow, distant bands of wildflowers and soft rolling green hills, airy sky.",
+      "status": "exported"
+    },
+    {
+      "id": "BG234",
+      "title": "Autumn woodland",
+      "brief": "Deciduous woodland in orange and gold autumn colours, tall trunks in midground, soft leaf-covered empty foreground",
+      "tags": [
+        "nature",
+        "woodland",
+        "forest",
+        "autumn"
+      ],
+      "filename": "sBackgroundAutumnWoodland.png",
+      "batch": 35,
+      "batchNumber": 1,
+      "group": "Countryside and exploration",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Deciduous woodland in orange and gold autumn colours, tall trunks in midground, soft leaf-covered empty foreground.",
+      "status": "exported"
+    },
+    {
+      "id": "BG235",
+      "title": "Farmland and hedgerows",
+      "brief": "Patchwork British farmland, hedges and distant fields behind quiet grassy foreground, soft clouds",
+      "tags": [
+        "nature",
+        "farm",
+        "grassland",
+        "food"
+      ],
+      "filename": "sBackgroundFarmlandAndHedgerows.png",
+      "batch": 35,
+      "batchNumber": 1,
+      "group": "Countryside and exploration",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Patchwork British farmland, hedges and distant fields behind quiet grassy foreground, soft clouds.",
+      "status": "exported"
+    },
+    {
+      "id": "BG236",
+      "title": "Pine ridge",
+      "brief": "Cool pine-covered mountain ridge in distance, layered blue-green hills behind a quiet open grassy clearing",
+      "tags": [
+        "nature",
+        "forest",
+        "mountain",
+        "adventure"
+      ],
+      "filename": "sBackgroundPineRidge.png",
+      "batch": 35,
+      "batchNumber": 1,
+      "group": "Countryside and exploration",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Cool pine-covered mountain ridge in distance, layered blue-green hills behind a quiet open grassy clearing.",
+      "status": "exported"
+    },
+    {
+      "id": "BG237",
+      "title": "Riverside footpath",
+      "brief": "Broad calm river across midground beside a flat grassy footpath, willows and distant stone bridge",
+      "tags": [
+        "river",
+        "freshwater",
+        "trail",
+        "nature"
+      ],
+      "filename": "sBackgroundRiversideFootpath.png",
+      "batch": 35,
+      "batchNumber": 1,
+      "group": "Countryside and exploration",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Broad calm river across midground beside a flat grassy footpath, willows and distant stone bridge.",
+      "status": "exported"
+    },
+    {
+      "id": "BG238",
+      "title": "Waterfall gorge",
+      "brief": "Dramatic wooded gorge with a tall distant waterfall and misty turquoise pool, quiet broad foreground",
+      "tags": [
+        "river",
+        "forest",
+        "adventure",
+        "nature"
+      ],
+      "filename": "sBackgroundWaterfallGorge.png",
+      "batch": 35,
+      "batchNumber": 1,
+      "group": "Countryside and exploration",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Dramatic wooded gorge with a tall distant waterfall and misty turquoise pool, quiet broad foreground.",
+      "status": "exported"
+    },
+    {
+      "id": "BG239",
+      "title": "Woodland rope course",
+      "brief": "Outdoor high ropes course far behind empty forest clearing, ropes and suspended timber bridges between trees",
+      "tags": [
+        "woodland",
+        "forest",
+        "sport",
+        "activity"
+      ],
+      "filename": "sBackgroundWoodlandRopeCourse.png",
+      "batch": 35,
+      "batchNumber": 1,
+      "group": "Countryside and exploration",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Outdoor high ropes course far behind empty forest clearing, ropes and suspended timber bridges between trees.",
+      "status": "exported"
+    },
+    {
+      "id": "BG240",
+      "title": "Rural village green",
+      "brief": "Traditional British village green, distant cottages and small village hall, broad empty lawn",
+      "tags": [
+        "village",
+        "community",
+        "grassland",
+        "countryside"
+      ],
+      "filename": "sBackgroundRuralVillageGreen.png",
+      "batch": 35,
+      "batchNumber": 1,
+      "group": "Countryside and exploration",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Traditional British village green, distant cottages and small village hall, broad empty lawn.",
+      "status": "exported"
+    },
+    {
+      "id": "BG241",
+      "title": "Urban cycle lane",
+      "brief": "Separated British urban cycle lane beside a quiet street, distant modern buildings and street trees, no riders",
+      "tags": [
+        "urban",
+        "cycling",
+        "bicycle",
+        "sport"
+      ],
+      "filename": "sBackgroundUrbanCycleLane.png",
+      "batch": 36,
+      "batchNumber": 2,
+      "group": "Cycling and sport",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Separated British urban cycle lane beside a quiet street, distant modern buildings and street trees, no riders.",
+      "status": "planned"
+    },
+    {
+      "id": "BG242",
+      "title": "Canal towpath",
+      "brief": "Broad flat canal towpath seen side-on, narrow canal across midground and a distant moored narrowboat",
+      "tags": [
+        "river",
+        "water",
+        "cycling",
+        "travel"
+      ],
+      "filename": "sBackgroundCanalTowpath.png",
+      "batch": 36,
+      "batchNumber": 2,
+      "group": "Cycling and sport",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Broad flat canal towpath seen side-on, narrow canal across midground and a distant moored narrowboat.",
+      "status": "planned"
+    },
+    {
+      "id": "BG243",
+      "title": "Forest mountain-bike trail",
+      "brief": "Winding mountain-bike trail in far forest midground, banks and pine trees, quiet flat clearing foreground",
+      "tags": [
+        "forest",
+        "cycling",
+        "bicycle",
+        "sport"
+      ],
+      "filename": "sBackgroundForestMountainBikeTrail.png",
+      "batch": 36,
+      "batchNumber": 2,
+      "group": "Cycling and sport",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Winding mountain-bike trail in far forest midground, banks and pine trees, quiet flat clearing foreground.",
+      "status": "planned"
+    },
+    {
+      "id": "BG244",
+      "title": "BMX pump track",
+      "brief": "Empty outdoor BMX pump track, gentle shaped asphalt rollers and banked bends in middle distance",
+      "tags": [
+        "cycling",
+        "bicycle",
+        "sport",
+        "activity"
+      ],
+      "filename": "sBackgroundBMXPumpTrack.png",
+      "batch": 36,
+      "batchNumber": 2,
+      "group": "Cycling and sport",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Empty outdoor BMX pump track, gentle shaped asphalt rollers and banked bends in middle distance.",
+      "status": "planned"
+    },
+    {
+      "id": "BG245",
+      "title": "Velodrome",
+      "brief": "Indoor cycling velodrome, curved banked wooden track in distance, roof trusses and empty seats",
+      "tags": [
+        "interior",
+        "indoor",
+        "cycling",
+        "sport"
+      ],
+      "filename": "sBackgroundVelodrome.png",
+      "batch": 36,
+      "batchNumber": 2,
+      "group": "Cycling and sport",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Indoor cycling velodrome, curved banked wooden track in distance, roof trusses and empty seats.",
+      "status": "planned"
+    },
+    {
+      "id": "BG246",
+      "title": "Athletics track",
+      "brief": "Outdoor red athletics track with white lanes, empty stands in distance, open green field",
+      "tags": [
+        "sport",
+        "running",
+        "activity",
+        "track"
+      ],
+      "filename": "sBackgroundAthleticsTrack.png",
+      "batch": 36,
+      "batchNumber": 2,
+      "group": "Cycling and sport",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Outdoor red athletics track with white lanes, empty stands in distance, open green field.",
+      "status": "planned"
+    },
+    {
+      "id": "BG247",
+      "title": "Skatepark",
+      "brief": "Outdoor concrete skatepark, smooth bowls and ramps placed far behind flat quiet foreground",
+      "tags": [
+        "sport",
+        "activity",
+        "urban",
+        "skateboard"
+      ],
+      "filename": "sBackgroundSkatepark.png",
+      "batch": 36,
+      "batchNumber": 2,
+      "group": "Cycling and sport",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Outdoor concrete skatepark, smooth bowls and ramps placed far behind flat quiet foreground.",
+      "status": "planned"
+    },
+    {
+      "id": "BG248",
+      "title": "Football stadium",
+      "brief": "Football stadium viewed across empty pitch toward stands, distant goals and floodlights, no people",
+      "tags": [
+        "sport",
+        "football",
+        "activity",
+        "stadium"
+      ],
+      "filename": "sBackgroundFootballStadium.png",
+      "batch": 36,
+      "batchNumber": 2,
+      "group": "Cycling and sport",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Football stadium viewed across empty pitch toward stands, distant goals and floodlights, no people.",
+      "status": "planned"
+    },
+    {
+      "id": "BG249",
+      "title": "Supermarket produce aisle",
+      "brief": "Modern supermarket fruit and vegetable section viewed across aisle, colourful distant produce shelves, no labels",
+      "tags": [
+        "food",
+        "fruit",
+        "vegetable",
+        "interior"
+      ],
+      "filename": "sBackgroundSupermarketProduceAisle.png",
+      "batch": 36,
+      "batchNumber": 2,
+      "group": "Food and sustainability",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Modern supermarket fruit and vegetable section viewed across aisle, colourful distant produce shelves, no labels.",
+      "status": "planned"
+    },
+    {
+      "id": "BG250",
+      "title": "Farm shop",
+      "brief": "Rustic small farm shop interior, wooden produce crates and shelves at back, rectangular windows",
+      "tags": [
+        "food",
+        "farm",
+        "interior",
+        "community"
+      ],
+      "filename": "sBackgroundFarmShop.png",
+      "batch": 36,
+      "batchNumber": 2,
+      "group": "Food and sustainability",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Rustic small farm shop interior, wooden produce crates and shelves at back, rectangular windows.",
+      "status": "planned"
+    },
+    {
+      "id": "BG251",
+      "title": "Commercial kitchen",
+      "brief": "Recognisable modern catering kitchen, stainless-steel counters, ovens and extractor hoods along back wall",
+      "tags": [
+        "food",
+        "kitchen",
+        "interior",
+        "technology"
+      ],
+      "filename": "sBackgroundCommercialKitchen.png",
+      "batch": 36,
+      "batchNumber": 2,
+      "group": "Food and sustainability",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Recognisable modern catering kitchen, stainless-steel counters, ovens and extractor hoods along back wall.",
+      "status": "planned"
+    },
+    {
+      "id": "BG252",
+      "title": "Fruit orchard",
+      "brief": "Rows of mature apple trees in middle distance, red apples and soft green canopy, broad quiet grassy foreground",
+      "tags": [
+        "food",
+        "fruit",
+        "garden",
+        "nature"
+      ],
+      "filename": "sBackgroundFruitOrchard.png",
+      "batch": 36,
+      "batchNumber": 2,
+      "group": "Food and sustainability",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Rows of mature apple trees in middle distance, red apples and soft green canopy, broad quiet grassy foreground.",
+      "status": "planned"
+    },
+    {
+      "id": "BG253",
+      "title": "Greenhouse interior",
+      "brief": "Glass greenhouse interior, metal frame and rows of vegetable seedlings behind a quiet clear aisle",
+      "tags": [
+        "food",
+        "vegetable",
+        "garden",
+        "interior"
+      ],
+      "filename": "sBackgroundGreenhouseInterior.png",
+      "batch": 36,
+      "batchNumber": 2,
+      "group": "Food and sustainability",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Glass greenhouse interior, metal frame and rows of vegetable seedlings behind a quiet clear aisle.",
+      "status": "planned"
+    },
+    {
+      "id": "BG254",
+      "title": "Recycling centre",
+      "brief": "Orderly outdoor recycling centre with distinct coloured collection bays, distant sorting shed, no writing",
+      "tags": [
+        "recycling",
+        "environment",
+        "waste",
+        "industrial"
+      ],
+      "filename": "sBackgroundRecyclingCentre.png",
+      "batch": 36,
+      "batchNumber": 2,
+      "group": "Food and sustainability",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Orderly outdoor recycling centre with distinct coloured collection bays, distant sorting shed, no writing.",
+      "status": "planned"
+    },
+    {
+      "id": "BG255",
+      "title": "Water-treatment works",
+      "brief": "Clean modern water-treatment site, circular settling tanks and pipes in middle distance, green hills beyond",
+      "tags": [
+        "water",
+        "environment",
+        "industrial",
+        "science"
+      ],
+      "filename": "sBackgroundWaterTreatmentWorks.png",
+      "batch": 36,
+      "batchNumber": 2,
+      "group": "Food and sustainability",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Clean modern water-treatment site, circular settling tanks and pipes in middle distance, green hills beyond.",
+      "status": "planned"
+    },
+    {
+      "id": "BG256",
+      "title": "Reservoir",
+      "brief": "Large tranquil freshwater reservoir and distant dam wall, rolling green valley and pale sky",
+      "tags": [
+        "water",
+        "lake",
+        "environment",
+        "engineering"
+      ],
+      "filename": "sBackgroundReservoir.png",
+      "batch": 36,
+      "batchNumber": 2,
+      "group": "Food and sustainability",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Large tranquil freshwater reservoir and distant dam wall, rolling green valley and pale sky.",
+      "status": "planned"
+    },
+    {
+      "id": "BG257",
+      "title": "Open starfield",
+      "brief": "Wide deep-space panorama with a sparse luminous starfield and subtle blue-violet nebula, no spacecraft or planets",
+      "tags": [
+        "space",
+        "cosmic",
+        "science"
+      ],
+      "filename": "sBackgroundOpenStarfield.png",
+      "batch": 36,
+      "batchNumber": 2,
+      "group": "Space and science fiction",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Wide deep-space panorama with a sparse luminous starfield and subtle blue-violet nebula, no spacecraft or planets.",
+      "status": "planned"
+    },
+    {
+      "id": "BG258",
+      "title": "Asteroid belt",
+      "brief": "Outer-space asteroid belt, several distant rugged asteroids against indigo stars, quiet dark lower area",
+      "tags": [
+        "space",
+        "cosmic",
+        "asteroid",
+        "adventure"
+      ],
+      "filename": "sBackgroundAsteroidBelt.png",
+      "batch": 36,
+      "batchNumber": 2,
+      "group": "Space and science fiction",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Outer-space asteroid belt, several distant rugged asteroids against indigo stars, quiet dark lower area.",
+      "status": "planned"
+    },
+    {
+      "id": "BG259",
+      "title": "Orbital docking bay",
+      "brief": "Space-station docking hangar, distant docking doors and a view of space, steel ribs and amber guide lighting",
+      "tags": [
+        "space",
+        "interior",
+        "science",
+        "technology"
+      ],
+      "filename": "sBackgroundOrbitalDockingBay.png",
+      "batch": 36,
+      "batchNumber": 2,
+      "group": "Space and science fiction",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Space-station docking hangar, distant docking doors and a view of space, steel ribs and amber guide lighting.",
+      "status": "planned"
+    },
+    {
+      "id": "BG260",
+      "title": "Spacecraft cargo hold",
+      "brief": "Science-fiction spacecraft cargo hold, restrained grey metal panels and secured cargo containers along back wall",
+      "tags": [
+        "space",
+        "interior",
+        "room",
+        "technology"
+      ],
+      "filename": "sBackgroundSpacecraftCargoHold.png",
+      "batch": 36,
+      "batchNumber": 2,
+      "group": "Space and science fiction",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Science-fiction spacecraft cargo hold, restrained grey metal panels and secured cargo containers along back wall.",
+      "status": "planned"
+    },
+    {
+      "id": "BG261",
+      "title": "Engine room",
+      "brief": "Spaceship engineering room, large enclosed reactor and glowing conduits along back wall, cool metal floor",
+      "tags": [
+        "space",
+        "interior",
+        "engineering",
+        "technology"
+      ],
+      "filename": "sBackgroundEngineRoom.png",
+      "batch": 36,
+      "batchNumber": 2,
+      "group": "Space and science fiction",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Spaceship engineering room, large enclosed reactor and glowing conduits along back wall, cool metal floor.",
+      "status": "planned"
+    },
+    {
+      "id": "BG262",
+      "title": "Martian canyon",
+      "brief": "Wide ochre Martian canyon, layered red cliffs and dusty sky, distant formations behind empty flat foreground",
+      "tags": [
+        "space",
+        "planet",
+        "desert",
+        "adventure"
+      ],
+      "filename": "sBackgroundMartianCanyon.png",
+      "batch": 36,
+      "batchNumber": 2,
+      "group": "Space and science fiction",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Wide ochre Martian canyon, layered red cliffs and dusty sky, distant formations behind empty flat foreground.",
+      "status": "planned"
+    },
+    {
+      "id": "BG263",
+      "title": "Icy moon",
+      "brief": "Frozen alien moon landscape, blue ice plains and distant cracked ridges beneath starry black sky and ringed planet",
+      "tags": [
+        "space",
+        "lunar",
+        "ice",
+        "exploration"
+      ],
+      "filename": "sBackgroundIcyMoon.png",
+      "batch": 36,
+      "batchNumber": 2,
+      "group": "Space and science fiction",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Frozen alien moon landscape, blue ice plains and distant cracked ridges beneath starry black sky and ringed planet.",
+      "status": "planned"
+    },
+    {
+      "id": "BG264",
+      "title": "Alien swamp",
+      "brief": "Otherworldly swamp, strange blue-green plant forms and distant luminous pools beneath lavender sky, no creatures",
+      "tags": [
+        "space",
+        "alien",
+        "swamp",
+        "adventure"
+      ],
+      "filename": "sBackgroundAlienSwamp.png",
+      "batch": 36,
+      "batchNumber": 2,
+      "group": "Space and science fiction",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Otherworldly swamp, strange blue-green plant forms and distant luminous pools beneath lavender sky, no creatures.",
+      "status": "planned"
+    },
+    {
+      "id": "BG265",
+      "title": "Mushroom kingdom",
+      "brief": "Whimsical fantasy woodland of giant colourful mushrooms with tiny empty mushroom cottages in distance",
+      "tags": [
+        "fantasy",
+        "magic",
+        "forest",
+        "mushroom"
+      ],
+      "filename": "sBackgroundMushroomKingdom.png",
+      "batch": 36,
+      "batchNumber": 2,
+      "group": "Fantasy and imaginative worlds",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Whimsical fantasy woodland of giant colourful mushrooms with tiny empty mushroom cottages in distance.",
+      "status": "planned"
+    },
+    {
+      "id": "BG266",
+      "title": "Giant-tree interior",
+      "brief": "Inside an enormous hollow tree, curved wooden walls, small round windows and shelves far behind open floor",
+      "tags": [
+        "fantasy",
+        "interior",
+        "tree",
+        "magic"
+      ],
+      "filename": "sBackgroundGiantTreeInterior.png",
+      "batch": 36,
+      "batchNumber": 2,
+      "group": "Fantasy and imaginative worlds",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Inside an enormous hollow tree, curved wooden walls, small round windows and shelves far behind open floor.",
+      "status": "planned"
+    },
+    {
+      "id": "BG267",
+      "title": "Dragon cavern",
+      "brief": "Vast fantasy cavern with warm glowing mineral veins and a distant empty stone nesting hollow, no dragon or treasure",
+      "tags": [
+        "fantasy",
+        "cave",
+        "adventure",
+        "magic"
+      ],
+      "filename": "sBackgroundDragonCavern.png",
+      "batch": 36,
+      "batchNumber": 2,
+      "group": "Fantasy and imaginative worlds",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Vast fantasy cavern with warm glowing mineral veins and a distant empty stone nesting hollow, no dragon or treasure.",
+      "status": "planned"
+    },
+    {
+      "id": "BG268",
+      "title": "Ancient forest temple",
+      "brief": "Overgrown ancient stone temple in distant lush woodland, mossy columns and soft green light",
+      "tags": [
+        "fantasy",
+        "forest",
+        "ruin",
+        "adventure"
+      ],
+      "filename": "sBackgroundAncientForestTemple.png",
+      "batch": 36,
+      "batchNumber": 2,
+      "group": "Fantasy and imaginative worlds",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Overgrown ancient stone temple in distant lush woodland, mossy columns and soft green light.",
+      "status": "planned"
+    },
+    {
+      "id": "BG269",
+      "title": "Enchanted swamp",
+      "brief": "Magical wetland, curved willow trunks, violet reeds and softly glowing pools, no creatures",
+      "tags": [
+        "fantasy",
+        "enchanted",
+        "wetland",
+        "magic"
+      ],
+      "filename": "sBackgroundEnchantedSwamp.png",
+      "batch": 36,
+      "batchNumber": 2,
+      "group": "Fantasy and imaginative worlds",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Magical wetland, curved willow trunks, violet reeds and softly glowing pools, no creatures.",
+      "status": "planned"
+    },
+    {
+      "id": "BG270",
+      "title": "Clockwork city",
+      "brief": "Fantasy city of copper domes and clockwork towers in middle distance, warm brass roofs and teal sky",
+      "tags": [
+        "fantasy",
+        "town",
+        "clockwork",
+        "technology"
+      ],
+      "filename": "sBackgroundClockworkCity.png",
+      "batch": 36,
+      "batchNumber": 2,
+      "group": "Fantasy and imaginative worlds",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Fantasy city of copper domes and clockwork towers in middle distance, warm brass roofs and teal sky.",
+      "status": "planned"
+    },
+    {
+      "id": "BG271",
+      "title": "Sky palace",
+      "brief": "Distant graceful pale palace above a sea of clouds, airy towers and golden light, no floating game platforms",
+      "tags": [
+        "fantasy",
+        "magic",
+        "palace",
+        "sky"
+      ],
+      "filename": "sBackgroundSkyPalace.png",
+      "batch": 36,
+      "batchNumber": 2,
+      "group": "Fantasy and imaginative worlds",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Distant graceful pale palace above a sea of clouds, airy towers and golden light, no floating game platforms.",
+      "status": "planned"
+    },
+    {
+      "id": "BG272",
+      "title": "Rainbow crystal landscape",
+      "brief": "Wide fantasy valley of colourful translucent mineral formations in distance, soft luminous sky and clear foreground",
+      "tags": [
+        "fantasy",
+        "crystal",
+        "magic",
+        "adventure"
+      ],
+      "filename": "sBackgroundRainbowCrystalLandscape.png",
+      "batch": 36,
+      "batchNumber": 2,
+      "group": "Fantasy and imaginative worlds",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Wide fantasy valley of colourful translucent mineral formations in distance, soft luminous sky and clear foreground.",
+      "status": "planned"
+    },
+    {
+      "id": "BG273",
+      "title": "Roman fort",
+      "brief": "Roman frontier fort exterior with timber palisade and stone gatehouse, distant rectangular barracks, no soldiers",
+      "tags": [
+        "roman",
+        "historical",
+        "fort",
+        "heritage"
+      ],
+      "filename": "sBackgroundRomanFort.png",
+      "batch": 36,
+      "batchNumber": 2,
+      "group": "History and adventure",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Roman frontier fort exterior with timber palisade and stone gatehouse, distant rectangular barracks, no soldiers.",
+      "status": "planned"
+    },
+    {
+      "id": "BG274",
+      "title": "Roman villa",
+      "brief": "Ancient Roman villa courtyard, red-tiled colonnades and simple wall frescoes, quiet mosaic paving",
+      "tags": [
+        "roman",
+        "historical",
+        "interior",
+        "heritage"
+      ],
+      "filename": "sBackgroundRomanVilla.png",
+      "batch": 36,
+      "batchNumber": 2,
+      "group": "History and adventure",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Ancient Roman villa courtyard, red-tiled colonnades and simple wall frescoes, quiet mosaic paving.",
+      "status": "planned"
+    },
+    {
+      "id": "BG275",
+      "title": "Viking harbour",
+      "brief": "Early medieval timber harbour, longhouse roofs and moored clinker-built longships in distance, cool fjord",
+      "tags": [
+        "viking",
+        "historical",
+        "harbour",
+        "heritage"
+      ],
+      "filename": "sBackgroundVikingHarbour.png",
+      "batch": 36,
+      "batchNumber": 2,
+      "group": "History and adventure",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Early medieval timber harbour, longhouse roofs and moored clinker-built longships in distance, cool fjord.",
+      "status": "planned"
+    },
+    {
+      "id": "BG276",
+      "title": "Medieval farm",
+      "brief": "Medieval rural farm with timber-framed thatched buildings and fenced fields behind clear earth foreground",
+      "tags": [
+        "medieval",
+        "historical",
+        "farm",
+        "heritage"
+      ],
+      "filename": "sBackgroundMedievalFarm.png",
+      "batch": 36,
+      "batchNumber": 2,
+      "group": "History and adventure",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Medieval rural farm with timber-framed thatched buildings and fenced fields behind clear earth foreground.",
+      "status": "planned"
+    },
+    {
+      "id": "BG277",
+      "title": "Victorian street",
+      "brief": "Victorian British brick terraced street, gas lamps and distant shopfronts with blank signs, no people",
+      "tags": [
+        "historical",
+        "heritage",
+        "town",
+        "street"
+      ],
+      "filename": "sBackgroundVictorianStreet.png",
+      "batch": 36,
+      "batchNumber": 2,
+      "group": "History and adventure",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Victorian British brick terraced street, gas lamps and distant shopfronts with blank signs, no people.",
+      "status": "planned"
+    },
+    {
+      "id": "BG278",
+      "title": "Textile mill",
+      "brief": "Historical textile mill interior with long rows of recognisable looms behind clear wooden floor, tall rectangular windows",
+      "tags": [
+        "historical",
+        "heritage",
+        "industrial",
+        "interior"
+      ],
+      "filename": "sBackgroundTextileMill.png",
+      "batch": 36,
+      "batchNumber": 2,
+      "group": "History and adventure",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Historical textile mill interior with long rows of recognisable looms behind clear wooden floor, tall rectangular windows.",
+      "status": "planned"
+    },
+    {
+      "id": "BG279",
+      "title": "Underground coal mine",
+      "brief": "Historical underground coal mine gallery, timber pit props and distant narrow-gauge coal wagons, warm lamps",
+      "tags": [
+        "historical",
+        "heritage",
+        "mine",
+        "industrial"
+      ],
+      "filename": "sBackgroundUndergroundCoalMine.png",
+      "batch": 36,
+      "batchNumber": 2,
+      "group": "History and adventure",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Historical underground coal mine gallery, timber pit props and distant narrow-gauge coal wagons, warm lamps.",
+      "status": "planned"
+    },
+    {
+      "id": "BG280",
+      "title": "Archaeological excavation",
+      "brief": "Orderly archaeological excavation in open countryside, distant shallow trenches and exposed ancient masonry",
+      "tags": [
+        "historical",
+        "heritage",
+        "adventure",
+        "archaeology"
+      ],
+      "filename": "sBackgroundArchaeologicalExcavation.png",
+      "batch": 36,
+      "batchNumber": 2,
+      "group": "History and adventure",
+      "prompt": "Use case: stylized-concept. Asset type: finished GameMaker side-scrolling game background. Create ONE panoramic image, 1280 by 640 pixels, aspect ratio 2:1. Polished hand-painted storybook game illustration, clean readable silhouettes, soft atmospheric depth, controlled cel-painterly shading, consistent with an illustrated school game asset library. View straight across the setting, horizon and ground bands level. This is distant scenery, not a playable map. Keep the lower quarter visually quiet and low contrast for separate game sprites. Rich recognisable setting details concentrated in the middle and upper background. Seamless horizontal tiling is essential: the left and right boundaries must match in structure, height, colour and lighting, with continuous level ground and sky/wall; avoid clipped landmarks at either edge and avoid perspective lines converging to a central vanishing point. Edge regions should have matching simple natural textures or wall/floor bands. No people, animals, enemies, collectible items, playable platforms, HUD, words, letters, logos, watermark, border or montage. Full-bleed finished artwork.\nScene: Orderly archaeological excavation in open countryside, distant shallow trenches and exposed ancient masonry.",
+      "status": "planned"
+    }
+  ],
+  "exportedCount": 40
+}
