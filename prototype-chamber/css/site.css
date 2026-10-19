@@ -14,3 +14,84 @@ dialog{color:#edf6ff;background:#07233a;border:1px solid #479ac6;border-radius:1
 
 .title-screen-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
 @media(max-width:740px){.title-screen-grid{grid-template-columns:1fr}}
+
+/* Prototype Chamber: framed navigation and compact world gallery. */
+:root{--sidebar:clamp(222px,18vw,360px)}
+body{background:radial-gradient(ellipse at 65% 0,#0b2a43 0,#051a2d 55%,#031323 100%)}
+.sidebar{padding:14px 16px 12px;background:linear-gradient(115deg,#0b243b,#041626 75%);border:3px solid #244b67;border-radius:20px;box-shadow:inset 0 0 0 3px #03111e,inset 0 0 0 7px #112c44,7px 0 18px #0005;scrollbar-width:thin;scrollbar-color:#24577b #061c30}
+.sidebar:before,.sidebar:after{content:'';position:absolute;width:36px;height:5px;background:#75ffcc;box-shadow:0 0 4px #bcffe9,0 0 12px #08db9c;pointer-events:none}
+.sidebar:before{top:16px;right:5px;transform:rotate(45deg)}
+.sidebar:after{bottom:16px;left:5px;transform:rotate(45deg)}
+.brand{padding:4px 6px 8px;flex-shrink:0}
+.brand img{width:100%;height:clamp(150px,12.2vw,244px)}
+.chamber{font-size:clamp(11px,1.04vw,21px);letter-spacing:.3px;margin:2px 0 16px;padding:10px 4px;flex-shrink:0}
+.theme-nav a,.selection-link{gap:clamp(12px,1.1vw,22px);font-size:clamp(13px,1.02vw,20px);min-height:clamp(41px,3.25vw,65px);padding:7px 12px;border-bottom-color:#12364d;flex-shrink:0}
+.theme-nav img,.theme-icon{width:clamp(29px,2.4vw,48px);height:clamp(29px,2.4vw,48px);object-fit:contain;flex-shrink:0;filter:drop-shadow(0 2px 2px #0008)}
+.theme-nav a[aria-current=page]{background:linear-gradient(100deg,#06477e,#07335a);border:1px solid #53cfff;border-left:4px solid #bbf5ff;border-radius:10px;box-shadow:inset 0 0 10px #168dcd99,0 0 10px #079aff66}
+.theme-nav a[aria-current=page]:after{content:'';width:9px;height:9px;border-top:2px solid #d6f5ff;border-right:2px solid #d6f5ff;transform:rotate(45deg);margin-left:auto;filter:drop-shadow(0 0 3px #4ebaff)}
+.nav-symbol{width:clamp(29px,2.4vw,48px);height:clamp(29px,2.4vw,48px);flex-shrink:0}
+.nav-symbol .icon{width:28px;height:28px}
+.theme-nav a[aria-current=page] .icon{filter:drop-shadow(0 0 5px #6ad9ff)}
+.selection-link{margin-top:14px;border-top:1px solid #2c6181;min-height:55px}
+.selection-star{fill:#ffd44f;stroke:#eaaa27;stroke-width:1.3;filter:drop-shadow(0 2px 2px #0008)}
+.selection-count{font-size:11px;min-width:24px;height:24px}
+.selection-count:not(:empty){color:#d2ebff}
+.lab-home{order:5;font-size:11px;margin:12px 10px 0;padding:0;color:#89aec6}
+.sidebar-foot{display:none}
+body[data-page=index] main{padding:0 0 30px;max-width:none}
+.chamber-hero{position:relative;aspect-ratio:4/1;overflow:hidden;border-bottom:2px solid #306680;background:#102e45}
+.chamber-hero img{display:block;width:100%;height:100%;object-fit:cover;object-position:center 49%}
+.world-content{padding:clamp(16px,1.2vw,24px)}
+.world-toolbar{margin:0 0 20px;gap:24px}
+.world-toolbar h2{font-size:clamp(25px,2vw,40px);letter-spacing:.2px;margin:0 0 3px;line-height:1.1}
+.world-toolbar p{color:#a7cce9;font-size:clamp(14px,1.1vw,22px);margin:0}
+.theme-search{display:flex;align-items:center;gap:12px;width:32%;min-width:240px;padding:0 14px;border:1px solid #315d84;border-radius:9px;background:linear-gradient(110deg,#092037,#102a43);box-shadow:inset 0 0 0 1px #1a3b56;color:#bed9f3}
+.theme-search .icon{width:23px;height:23px}
+.theme-search input[type=search]{width:100%;min-width:0;max-width:none;padding:13px 0;background:transparent;border:0;border-radius:0;font-size:clamp(14px,1.1vw,21px)}
+.theme-search input::placeholder{color:#abc6df;opacity:1}
+.theme-search:focus-within{outline:2px solid #78deff;outline-offset:3px}
+.theme-search input:focus-visible{outline:0}
+.world-grid{grid-template-columns:repeat(5,minmax(0,1fr));gap:clamp(11px,.9vw,19px)}
+.world-card{border:1px solid #326588;border-radius:12px;background:linear-gradient(115deg,#0a2942,#061b30);box-shadow:inset 0 0 0 1px #133a54;min-width:0}
+.world-art{aspect-ratio:1.43/1;border-bottom:1px solid #24465f}
+.world-scene{object-fit:cover;object-position:center;transition:transform 180ms ease}
+.world-card:hover .world-scene{transform:scale(1.035)}
+.world-card-footer{display:flex;gap:clamp(7px,.5vw,10px);padding:clamp(10px,.8vw,16px) clamp(8px,.7vw,14px);font-size:clamp(11.5px,.88vw,18px);line-height:1.2;min-height:64px}
+.world-card-footer .theme-icon{width:clamp(26px,2vw,40px);height:clamp(26px,2vw,40px)}
+.world-card-label{flex:1;min-width:0}
+.world-card-footer small{display:block;font-weight:600;color:#6bddff;font-size:clamp(11px,.88vw,17px);margin-top:6px}
+.world-card-footer>.icon{width:clamp(14px,1vw,20px);height:clamp(14px,1vw,20px);color:#d0ecff;filter:drop-shadow(0 0 3px #479dff)}
+.world-hint{display:flex;align-items:center;justify-content:center;gap:15px;width:fit-content;max-width:100%;margin:25px auto 0;padding:12px 20px;border:1px solid #234f72;border-radius:10px;background:#0b2238;font-size:clamp(12px,1vw,19px);color:#bdd5ed;line-height:1.4;box-shadow:inset 0 0 0 1px #122f49}
+.world-hint .icon{width:29px;height:29px}
+@media(max-width:1279px) and (min-width:741px){
+  .world-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .world-card-footer{font-size:14px}
+  .world-card-footer small{font-size:12px}
+  .chamber-hero{aspect-ratio:3.3/1}
+}
+@media(max-height:850px) and (min-width:741px){
+  .brand img{height:145px}
+  .chamber{margin-bottom:10px;padding:7px 3px}
+  .theme-nav a{min-height:39px;font-size:13px;padding-top:5px;padding-bottom:5px}
+  .theme-nav img{width:29px;height:29px}
+  .selection-link{margin-top:8px;min-height:43px}
+}
+@media(max-width:740px){
+  :root{--sidebar:0px}
+  .sidebar{width:270px;padding:15px;border-radius:0;top:57px}
+  .sidebar:before,.sidebar:after{display:none}
+  .theme-nav a{min-height:43px;font-size:14px}
+  .chamber{font-size:13px}
+  .selection-link{font-size:14px}
+  .chamber-hero{aspect-ratio:2.5/1}
+  .world-content{padding:17px 12px}
+  .world-toolbar{align-items:stretch;gap:14px;margin-bottom:16px}
+  .world-toolbar h2{font-size:27px}
+  .theme-search{width:100%;min-width:0}
+  .world-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+  .world-card-footer{gap:7px;padding:10px 8px;font-size:12px;min-height:65px}
+  .world-card-footer>.icon{display:none}
+  .world-card-footer .theme-icon{width:26px;height:26px}
+  .world-card-footer small{font-size:11px;margin-top:4px}
+  .world-hint{margin-top:20px;padding:10px 12px;font-size:12px}
+}

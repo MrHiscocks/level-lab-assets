@@ -6,6 +6,7 @@
   const icon=n=>`<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${symbols[n]||symbols.cube}</svg>`;
   const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const themeName=s=>packs.find(p=>p.slug===s)?.name||s;
+  const themeIcon=slug=>`<img class="theme-icon" src="images/icons/${slug}.svg" width="40" height="40" alt="">`;
   const fileStem=s=>themeName(s).replace(/[^a-zA-Z0-9]/g,'');
   let selected=new Set(),kit='build',busy=false,timer;
   try{const saved=JSON.parse(localStorage.getItem('level-lab-selection-v1')||'[]');if(Array.isArray(saved))selected=new Set(saved.map(id=>typeof id==='string'?id.replace(/\/sFlag\.png$/,'/sGoal.png').replace(/\/sSolidFill\.png$/,'/sSolid.png'):id).filter(id=>byId.has(id)));}catch{}
@@ -51,8 +52,8 @@
     sync();
   }
   function showWorlds(){
-    content.innerHTML=`<header class="world-intro"><h1>Choose your world.</h1><p>Start with a Build Kit. Add a Level Up Kit when you’re ready for a challenge, or select your own assets across the ten worlds.</p></header><div class="world-toolbar"><h2>Explore the themes</h2><label><span class="sr-only">Find a theme</span><input id="theme-search" type="search" placeholder="Find a theme…"></label></div><section class="world-grid" aria-label="Theme selection">${packs.map(p=>`<a class="world-card" href="${p.slug}.html" data-world="${esc(p.name.toLowerCase())}"><span class="world-art"><img class="world-scene" src="images/scenes/${p.slug}.webp" alt="" width="960" height="640"><img class="world-title" src="images/titles/${p.slug}.png" alt="${esc(p.name)}"></span><span class="world-card-footer">${esc(p.name)}<small>Build Kit + Level Up Kit</small></span></a>`).join('')}</section><p class="empty" id="world-empty" hidden>No themes match. Try another name.</p>`;
-    $('#theme-search').addEventListener('input',e=>{let n=0;$$('[data-world]').forEach(x=>{x.hidden=!x.dataset.world.includes(e.target.value.trim().toLowerCase());if(!x.hidden)n++;});$('#world-empty').hidden=!!n;});sync();
+    content.innerHTML=`<header class="chamber-hero"><h1 class="sr-only">Prototype Chamber</h1><img src="images/prototype-chamber-banner.webp" alt="Choose your world. Build your game." width="1984" height="800" fetchpriority="high"></header><div class="world-content"><div class="world-toolbar"><div><h2>Choose a theme</h2><p id="world-count" aria-live="polite">10 worlds to explore</p></div><label class="theme-search"><span class="sr-only">Find a theme</span><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="10" cy="10" r="7"/><path d="m15 15 6 6"/></svg><input id="theme-search" type="search" placeholder="Find a theme…"></label></div><section class="world-grid" aria-label="Theme selection">${packs.map(p=>`<a class="world-card" href="${p.slug}.html" data-world="${esc(p.name.toLowerCase())}"><span class="world-art"><img class="world-scene" src="images/scenes/${p.slug}.webp" alt="" width="960" height="640"><img class="world-title" src="images/titles/${p.slug}.png" alt=""></span><span class="world-card-footer">${themeIcon(p.slug)}<span class="world-card-label">${esc(p.name)}<small>Explore assets</small></span>${icon('arrow')}</span></a>`).join('')}</section><p class="empty" id="world-empty" hidden>No themes match. Try another name.</p><p class="world-hint">${icon('cube')}<span>Start with the Build Kit. Add challenges when you’re ready.</span></p></div>`;
+    $('#theme-search').addEventListener('input',e=>{let n=0;$$('[data-world]').forEach(x=>{x.hidden=!x.dataset.world.includes(e.target.value.trim().toLowerCase());if(!x.hidden)n++;});$('#world-empty').hidden=!!n;$('#world-count').textContent=e.target.value.trim()?`${n} ${n===1?'world':'worlds'} found`:'10 worlds to explore';});sync();
   }
   function showSelection(){
     stopAnimations();
@@ -112,5 +113,8 @@
   document.addEventListener('play',e=>{if(e.target.tagName==='AUDIO')$$('audio').forEach(a=>{if(a!==e.target)a.pause();});},true);
   window.addEventListener('storage',e=>{if(e.key==='level-lab-selection-v1'){try{const ids=JSON.parse(e.newValue||'[]');selected=new Set(Array.isArray(ids)?ids.filter(id=>byId.has(id)):[]);if(page==='selection')showSelection();else sync();}catch{}}});
   window.addEventListener('pagehide',stopAnimations);
+  // Use the same illustrated theme markers in the navigation and card footers.
+  $$('.theme-nav a').forEach(link=>{const slug=link.getAttribute('href').replace('.html','');if(packs.some(p=>p.slug===slug))$('img',link)?.setAttribute('src',`images/icons/${slug}.svg`);});
+  $('.selection-link .nav-symbol').innerHTML='<svg class="icon selection-star" viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2 3 6.3 7 .9-5 4.9 1.2 7L12 17.8l-6.2 3.3 1.2-7-5-4.9 7-.9Z"/></svg>';
   if(pack)showTheme();else if(page==='selection')showSelection();else showWorlds();
 })();
