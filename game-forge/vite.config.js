@@ -5,6 +5,8 @@ import { readFile } from 'node:fs/promises';
 // Production files remain outside public/: external builds never copy them to Pages.
 export default defineConfig({
   base: './',
+  // Give each deployment a fresh catalogue URL so cached lists cannot outlive it.
+  define: { __CATALOGUE_VERSION__: JSON.stringify(process.env.GITHUB_SHA || String(Date.now())) },
   build: { emptyOutDir: true },
   plugins: [react(), { name: 'local-production-assets', configureServer(server) {
     server.middlewares.use('/downloads', async (req,res,next) => {
