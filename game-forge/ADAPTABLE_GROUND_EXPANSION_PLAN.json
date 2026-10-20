@@ -1,0 +1,421 @@
+{
+  "date": "2026-10-20",
+  "existingGroundConcepts": 74,
+  "newGroundConcepts": 16,
+  "resultingGroundConcepts": 90,
+  "blockSize": [
+    64,
+    64
+  ],
+  "assets": [
+    {
+      "id": "GR209",
+      "title": "Pool-deck tiles",
+      "filename": "sGroundPoolDeckTilesBatch39.png",
+      "category": "ground",
+      "batch": 39,
+      "group": "Pool",
+      "size": [
+        64,
+        64
+      ],
+      "tags": [
+        "pool",
+        "swimming",
+        "leisure centre",
+        "tiles",
+        "indoor",
+        "school",
+        "kitchen"
+      ],
+      "brief": "large warm ivory anti-slip ceramic squares in a simple straight grid with light grey grout, a lightly speckled matte finish",
+      "prompt": "Use case: stylized-concept. Asset type: ONE finished 2D side-view GameMaker ground texture tile, square artwork, to be exported at 64 x 64 pixels. Primary request: large warm ivory anti-slip ceramic squares in a simple straight grid with light grey grout, a lightly speckled matte finish. Style: polished hand-painted cartoon game material with simple broad readable shapes, clean restrained outlines and soft cel shading. It must remain clear at 64 pixels. Composition: flat front-facing material texture filling the WHOLE square canvas edge to edge. Top walking/collision boundary must be a perfectly straight horizontal line exactly at the top image edge. Left, right and bottom are straight canvas boundaries too. All pixels opaque. This is a flat material tile, NOT an isometric cube, NOT a floating slab, NOT an object placed on a backdrop. No perspective, external bevel, rounded canvas corners, transparent margin, cast shadow, sky, letters, icons or characters. Continue the material naturally at the left and right edges for repeated neighbouring blocks. No extruding parts outside the full square. Do not add decorative scenery. One texture only, no grid of separate variants.",
+      "status": "exported"
+    },
+    {
+      "id": "GR210",
+      "title": "Blue mosaic tiles",
+      "filename": "sGroundBlueMosaicTilesBatch39.png",
+      "category": "ground",
+      "batch": 39,
+      "group": "Pool",
+      "size": [
+        64,
+        64
+      ],
+      "tags": [
+        "pool",
+        "swimming",
+        "mosaic",
+        "tiles",
+        "bathroom",
+        "indoor",
+        "water"
+      ],
+      "brief": "small flat square ceramic tiles in a repeating mix of pale aqua, medium blue and white, clear evenly spaced grey grout, straight horizontal and vertical grid",
+      "prompt": "Use case: stylized-concept. Asset type: ONE finished 2D side-view GameMaker ground texture tile, square artwork, to be exported at 64 x 64 pixels. Primary request: small flat square ceramic tiles in a repeating mix of pale aqua, medium blue and white, clear evenly spaced grey grout, straight horizontal and vertical grid. Style: polished hand-painted cartoon game material with simple broad readable shapes, clean restrained outlines and soft cel shading. It must remain clear at 64 pixels. Composition: flat front-facing material texture filling the WHOLE square canvas edge to edge. Top walking/collision boundary must be a perfectly straight horizontal line exactly at the top image edge. Left, right and bottom are straight canvas boundaries too. All pixels opaque. This is a flat material tile, NOT an isometric cube, NOT a floating slab, NOT an object placed on a backdrop. No perspective, external bevel, rounded canvas corners, transparent margin, cast shadow, sky, letters, icons or characters. Continue the material naturally at the left and right edges for repeated neighbouring blocks. No extruding parts outside the full square. Do not add decorative scenery. One texture only, no grid of separate variants.",
+      "status": "exported"
+    },
+    {
+      "id": "GR211",
+      "title": "Cream coping edge",
+      "filename": "sGroundCreamCopingEdgeBatch39.png",
+      "category": "ground",
+      "batch": 39,
+      "group": "Pool",
+      "size": [
+        64,
+        64
+      ],
+      "tags": [
+        "pool",
+        "swimming",
+        "coping",
+        "edge",
+        "concrete",
+        "kerb",
+        "stone",
+        "wall",
+        "coast"
+      ],
+      "brief": "side cross-section of a solid swimming-pool coping block: a perfectly level cream stone cap across the upper quarter, three fine horizontal grip grooves, warm grey concrete beneath, cap extends fully across to both side boundaries",
+      "prompt": "Use case: stylized-concept. Asset type: ONE finished 2D side-view GameMaker ground texture tile, square artwork, to be exported at 64 x 64 pixels. Primary request: side cross-section of a solid swimming-pool coping block: a perfectly level cream stone cap across the upper quarter, three fine horizontal grip grooves, warm grey concrete beneath, cap extends fully across to both side boundaries. Style: polished hand-painted cartoon game material with simple broad readable shapes, clean restrained outlines and soft cel shading. It must remain clear at 64 pixels. Composition: flat front-facing material texture filling the WHOLE square canvas edge to edge. Top walking/collision boundary must be a perfectly straight horizontal line exactly at the top image edge. Left, right and bottom are straight canvas boundaries too. All pixels opaque. This is a flat material tile, NOT an isometric cube, NOT a floating slab, NOT an object placed on a backdrop. No perspective, external bevel, rounded canvas corners, transparent margin, cast shadow, sky, letters, icons or characters. Continue the material naturally at the left and right edges for repeated neighbouring blocks. No extruding parts outside the full square. Do not add decorative scenery. One texture only, no grid of separate variants.",
+      "status": "exported"
+    },
+    {
+      "id": "GR212",
+      "title": "Drainage-channel edge",
+      "filename": "sGroundDrainageChannelEdgeBatch39.png",
+      "category": "ground",
+      "batch": 39,
+      "group": "Pool",
+      "size": [
+        64,
+        64
+      ],
+      "tags": [
+        "pool",
+        "swimming",
+        "drainage",
+        "channel",
+        "pavement",
+        "city",
+        "urban",
+        "concrete"
+      ],
+      "brief": "side cross-section of a solid drain-edge block: a straight thin light grey grating band along the top fifth with small regular dark slots painted inside the band, sturdy medium grey concrete beneath, entirely solid opaque image even inside the dark slots",
+      "prompt": "Use case: stylized-concept. Asset type: ONE finished 2D side-view GameMaker ground texture tile, square artwork, to be exported at 64 x 64 pixels. Primary request: side cross-section of a solid drain-edge block: a straight thin light grey grating band along the top fifth with small regular dark slots painted inside the band, sturdy medium grey concrete beneath, entirely solid opaque image even inside the dark slots. Style: polished hand-painted cartoon game material with simple broad readable shapes, clean restrained outlines and soft cel shading. It must remain clear at 64 pixels. Composition: flat front-facing material texture filling the WHOLE square canvas edge to edge. Top walking/collision boundary must be a perfectly straight horizontal line exactly at the top image edge. Left, right and bottom are straight canvas boundaries too. All pixels opaque. This is a flat material tile, NOT an isometric cube, NOT a floating slab, NOT an object placed on a backdrop. No perspective, external bevel, rounded canvas corners, transparent margin, cast shadow, sky, letters, icons or characters. Continue the material naturally at the left and right edges for repeated neighbouring blocks. No extruding parts outside the full square. Do not add decorative scenery. One texture only, no grid of separate variants.",
+      "status": "exported"
+    },
+    {
+      "id": "GR213",
+      "title": "Weathered boardwalk",
+      "filename": "sGroundWeatheredBoardwalkBatch39.png",
+      "category": "ground",
+      "batch": 39,
+      "group": "Lake",
+      "size": [
+        64,
+        64
+      ],
+      "tags": [
+        "lake",
+        "lakeside",
+        "boardwalk",
+        "timber",
+        "wood",
+        "jetty",
+        "pier",
+        "harbour",
+        "coast",
+        "river"
+      ],
+      "brief": "three broad horizontal weathered grey-brown timber planks spanning the entire width, restrained wood grain and tiny dark screw heads, narrow dark joins that are fully opaque, straight level top edge",
+      "prompt": "Use case: stylized-concept. Asset type: ONE finished 2D side-view GameMaker ground texture tile, square artwork, to be exported at 64 x 64 pixels. Primary request: three broad horizontal weathered grey-brown timber planks spanning the entire width, restrained wood grain and tiny dark screw heads, narrow dark joins that are fully opaque, straight level top edge. Style: polished hand-painted cartoon game material with simple broad readable shapes, clean restrained outlines and soft cel shading. It must remain clear at 64 pixels. Composition: flat front-facing material texture filling the WHOLE square canvas edge to edge. Top walking/collision boundary must be a perfectly straight horizontal line exactly at the top image edge. Left, right and bottom are straight canvas boundaries too. All pixels opaque. This is a flat material tile, NOT an isometric cube, NOT a floating slab, NOT an object placed on a backdrop. No perspective, external bevel, rounded canvas corners, transparent margin, cast shadow, sky, letters, icons or characters. Continue the material naturally at the left and right edges for repeated neighbouring blocks. No extruding parts outside the full square. Do not add decorative scenery. One texture only, no grid of separate variants.",
+      "status": "exported"
+    },
+    {
+      "id": "GR214",
+      "title": "Compacted lakeside path",
+      "filename": "sGroundCompactedLakesidePathBatch39.png",
+      "category": "ground",
+      "batch": 39,
+      "group": "Lake",
+      "size": [
+        64,
+        64
+      ],
+      "tags": [
+        "lake",
+        "lakeside",
+        "path",
+        "earth",
+        "park",
+        "garden",
+        "countryside",
+        "trail"
+      ],
+      "brief": "side cross-section of a compacted tan earth footpath: straight narrow light sandy walking surface along top, muted brown packed earth below with sparse tiny embedded gravel, simple broad shapes",
+      "prompt": "Use case: stylized-concept. Asset type: ONE finished 2D side-view GameMaker ground texture tile, square artwork, to be exported at 64 x 64 pixels. Primary request: side cross-section of a compacted tan earth footpath: straight narrow light sandy walking surface along top, muted brown packed earth below with sparse tiny embedded gravel, simple broad shapes. Style: polished hand-painted cartoon game material with simple broad readable shapes, clean restrained outlines and soft cel shading. It must remain clear at 64 pixels. Composition: flat front-facing material texture filling the WHOLE square canvas edge to edge. Top walking/collision boundary must be a perfectly straight horizontal line exactly at the top image edge. Left, right and bottom are straight canvas boundaries too. All pixels opaque. This is a flat material tile, NOT an isometric cube, NOT a floating slab, NOT an object placed on a backdrop. No perspective, external bevel, rounded canvas corners, transparent margin, cast shadow, sky, letters, icons or characters. Continue the material naturally at the left and right edges for repeated neighbouring blocks. No extruding parts outside the full square. Do not add decorative scenery. One texture only, no grid of separate variants.",
+      "status": "exported"
+    },
+    {
+      "id": "GR215",
+      "title": "Layered shore stone",
+      "filename": "sGroundLayeredShoreStoneBatch39.png",
+      "category": "ground",
+      "batch": 39,
+      "group": "Lake",
+      "size": [
+        64,
+        64
+      ],
+      "tags": [
+        "lake",
+        "lakeside",
+        "shore",
+        "stone",
+        "river",
+        "coast",
+        "cliff",
+        "natural"
+      ],
+      "brief": "flat front-facing grey-beige sedimentary shoreline stone, four broad irregular horizontal strata, restrained shallow cracks, slightly damp darker lower tones, no water, level upper boundary",
+      "prompt": "Use case: stylized-concept. Asset type: ONE finished 2D side-view GameMaker ground texture tile, square artwork, to be exported at 64 x 64 pixels. Primary request: flat front-facing grey-beige sedimentary shoreline stone, four broad irregular horizontal strata, restrained shallow cracks, slightly damp darker lower tones, no water, level upper boundary. Style: polished hand-painted cartoon game material with simple broad readable shapes, clean restrained outlines and soft cel shading. It must remain clear at 64 pixels. Composition: flat front-facing material texture filling the WHOLE square canvas edge to edge. Top walking/collision boundary must be a perfectly straight horizontal line exactly at the top image edge. Left, right and bottom are straight canvas boundaries too. All pixels opaque. This is a flat material tile, NOT an isometric cube, NOT a floating slab, NOT an object placed on a backdrop. No perspective, external bevel, rounded canvas corners, transparent margin, cast shadow, sky, letters, icons or characters. Continue the material naturally at the left and right edges for repeated neighbouring blocks. No extruding parts outside the full square. Do not add decorative scenery. One texture only, no grid of separate variants.",
+      "status": "exported"
+    },
+    {
+      "id": "GR216",
+      "title": "Rooted lakeside bank",
+      "filename": "sGroundRootedLakesideBankBatch39.png",
+      "category": "ground",
+      "batch": 39,
+      "group": "Lake",
+      "size": [
+        64,
+        64
+      ],
+      "tags": [
+        "lake",
+        "lakeside",
+        "bank",
+        "soil",
+        "roots",
+        "grass",
+        "river",
+        "park",
+        "garden",
+        "woodland"
+      ],
+      "brief": "side cross-section of a solid grassy bank: thin muted olive-green turf strip exactly level along the top, dark brown earth underneath with a few broad curved pale roots embedded entirely inside the block, no grass sticking above the top",
+      "prompt": "Use case: stylized-concept. Asset type: ONE finished 2D side-view GameMaker ground texture tile, square artwork, to be exported at 64 x 64 pixels. Primary request: side cross-section of a solid grassy bank: thin muted olive-green turf strip exactly level along the top, dark brown earth underneath with a few broad curved pale roots embedded entirely inside the block, no grass sticking above the top. Style: polished hand-painted cartoon game material with simple broad readable shapes, clean restrained outlines and soft cel shading. It must remain clear at 64 pixels. Composition: flat front-facing material texture filling the WHOLE square canvas edge to edge. Top walking/collision boundary must be a perfectly straight horizontal line exactly at the top image edge. Left, right and bottom are straight canvas boundaries too. All pixels opaque. This is a flat material tile, NOT an isometric cube, NOT a floating slab, NOT an object placed on a backdrop. No perspective, external bevel, rounded canvas corners, transparent margin, cast shadow, sky, letters, icons or characters. Continue the material naturally at the left and right edges for repeated neighbouring blocks. No extruding parts outside the full square. Do not add decorative scenery. One texture only, no grid of separate variants.",
+      "status": "exported"
+    },
+    {
+      "id": "GR217",
+      "title": "Dry beach sand",
+      "filename": "sGroundDryBeachSandBatch39.png",
+      "category": "ground",
+      "batch": 39,
+      "group": "Beach",
+      "size": [
+        64,
+        64
+      ],
+      "tags": [
+        "beach",
+        "coast",
+        "sand",
+        "dry",
+        "desert",
+        "dune",
+        "playground"
+      ],
+      "brief": "pale warm cream-gold dry beach sand, simple soft uneven patches and very sparse tiny mineral flecks, gentle matte sand texture with no ripples, shells, stones, plants or objects",
+      "prompt": "Use case: stylized-concept. Asset type: ONE finished 2D side-view GameMaker ground texture tile, square artwork, to be exported at 64 x 64 pixels. Primary request: pale warm cream-gold dry beach sand, simple soft uneven patches and very sparse tiny mineral flecks, gentle matte sand texture with no ripples, shells, stones, plants or objects. Style: polished hand-painted cartoon game material with simple broad readable shapes, clean restrained outlines and soft cel shading. It must remain clear at 64 pixels. Composition: flat front-facing material texture filling the WHOLE square canvas edge to edge. Top walking/collision boundary must be a perfectly straight horizontal line exactly at the top image edge. Left, right and bottom are straight canvas boundaries too. All pixels opaque. This is a flat material tile, NOT an isometric cube, NOT a floating slab, NOT an object placed on a backdrop. No perspective, external bevel, rounded canvas corners, transparent margin, cast shadow, sky, letters, icons or characters. Continue the material naturally at the left and right edges for repeated neighbouring blocks. No extruding parts outside the full square. Do not add decorative scenery. One texture only, no grid of separate variants.",
+      "status": "exported"
+    },
+    {
+      "id": "GR218",
+      "title": "Wet beach sand",
+      "filename": "sGroundWetBeachSandBatch39.png",
+      "category": "ground",
+      "batch": 39,
+      "group": "Beach",
+      "size": [
+        64,
+        64
+      ],
+      "tags": [
+        "beach",
+        "coast",
+        "sand",
+        "wet",
+        "shore",
+        "estuary",
+        "river"
+      ],
+      "brief": "smooth damp compacted beach sand in muted taupe and warm grey-brown, broad subtle horizontal tonal streaks, restrained matte sheen, no water layer or puddles, no objects",
+      "prompt": "Use case: stylized-concept. Asset type: ONE finished 2D side-view GameMaker ground texture tile, square artwork, to be exported at 64 x 64 pixels. Primary request: smooth damp compacted beach sand in muted taupe and warm grey-brown, broad subtle horizontal tonal streaks, restrained matte sheen, no water layer or puddles, no objects. Style: polished hand-painted cartoon game material with simple broad readable shapes, clean restrained outlines and soft cel shading. It must remain clear at 64 pixels. Composition: flat front-facing material texture filling the WHOLE square canvas edge to edge. Top walking/collision boundary must be a perfectly straight horizontal line exactly at the top image edge. Left, right and bottom are straight canvas boundaries too. All pixels opaque. This is a flat material tile, NOT an isometric cube, NOT a floating slab, NOT an object placed on a backdrop. No perspective, external bevel, rounded canvas corners, transparent margin, cast shadow, sky, letters, icons or characters. Continue the material naturally at the left and right edges for repeated neighbouring blocks. No extruding parts outside the full square. Do not add decorative scenery. One texture only, no grid of separate variants.",
+      "status": "exported"
+    },
+    {
+      "id": "GR219",
+      "title": "Sea-wall concrete",
+      "filename": "sGroundSeaWallConcreteBatch39.png",
+      "category": "ground",
+      "batch": 39,
+      "group": "Beach",
+      "size": [
+        64,
+        64
+      ],
+      "tags": [
+        "beach",
+        "coast",
+        "seawall",
+        "sea wall",
+        "concrete",
+        "harbour",
+        "city",
+        "urban",
+        "wall"
+      ],
+      "brief": "front-facing pale cool-grey cast concrete sea-wall block, broad smooth solid face with sparse salt-weathered speckles and two subtle horizontal formwork seams, no moss or water, no raised exterior bevel",
+      "prompt": "Use case: stylized-concept. Asset type: ONE finished 2D side-view GameMaker ground texture tile, square artwork, to be exported at 64 x 64 pixels. Primary request: front-facing pale cool-grey cast concrete sea-wall block, broad smooth solid face with sparse salt-weathered speckles and two subtle horizontal formwork seams, no moss or water, no raised exterior bevel. Style: polished hand-painted cartoon game material with simple broad readable shapes, clean restrained outlines and soft cel shading. It must remain clear at 64 pixels. Composition: flat front-facing material texture filling the WHOLE square canvas edge to edge. Top walking/collision boundary must be a perfectly straight horizontal line exactly at the top image edge. Left, right and bottom are straight canvas boundaries too. All pixels opaque. This is a flat material tile, NOT an isometric cube, NOT a floating slab, NOT an object placed on a backdrop. No perspective, external bevel, rounded canvas corners, transparent margin, cast shadow, sky, letters, icons or characters. Continue the material naturally at the left and right edges for repeated neighbouring blocks. No extruding parts outside the full square. Do not add decorative scenery. One texture only, no grid of separate variants.",
+      "status": "exported"
+    },
+    {
+      "id": "GR220",
+      "title": "Promenade paving",
+      "filename": "sGroundPromenadePavingBatch39.png",
+      "category": "ground",
+      "batch": 39,
+      "group": "Beach",
+      "size": [
+        64,
+        64
+      ],
+      "tags": [
+        "beach",
+        "coast",
+        "promenade",
+        "paving",
+        "pavement",
+        "town",
+        "city",
+        "plaza"
+      ],
+      "brief": "warm buff and pale terracotta rectangular paving slabs in a tidy staggered pattern, generous simple shapes with narrow straight sandy-grey joints, flat matte faces",
+      "prompt": "Use case: stylized-concept. Asset type: ONE finished 2D side-view GameMaker ground texture tile, square artwork, to be exported at 64 x 64 pixels. Primary request: warm buff and pale terracotta rectangular paving slabs in a tidy staggered pattern, generous simple shapes with narrow straight sandy-grey joints, flat matte faces. Style: polished hand-painted cartoon game material with simple broad readable shapes, clean restrained outlines and soft cel shading. It must remain clear at 64 pixels. Composition: flat front-facing material texture filling the WHOLE square canvas edge to edge. Top walking/collision boundary must be a perfectly straight horizontal line exactly at the top image edge. Left, right and bottom are straight canvas boundaries too. All pixels opaque. This is a flat material tile, NOT an isometric cube, NOT a floating slab, NOT an object placed on a backdrop. No perspective, external bevel, rounded canvas corners, transparent margin, cast shadow, sky, letters, icons or characters. Continue the material naturally at the left and right edges for repeated neighbouring blocks. No extruding parts outside the full square. Do not add decorative scenery. One texture only, no grid of separate variants.",
+      "status": "exported"
+    },
+    {
+      "id": "GR221",
+      "title": "Asphalt road",
+      "filename": "sGroundAsphaltRoadBatch39.png",
+      "category": "ground",
+      "batch": 39,
+      "group": "City",
+      "size": [
+        64,
+        64
+      ],
+      "tags": [
+        "city",
+        "urban",
+        "town",
+        "road",
+        "asphalt",
+        "street",
+        "car park",
+        "cycling"
+      ],
+      "brief": "solid dark charcoal asphalt with sparse small grey aggregate flecks, restrained subtle texture, uniform flat material, no painted lines or markings",
+      "prompt": "Use case: stylized-concept. Asset type: ONE finished 2D side-view GameMaker ground texture tile, square artwork, to be exported at 64 x 64 pixels. Primary request: solid dark charcoal asphalt with sparse small grey aggregate flecks, restrained subtle texture, uniform flat material, no painted lines or markings. Style: polished hand-painted cartoon game material with simple broad readable shapes, clean restrained outlines and soft cel shading. It must remain clear at 64 pixels. Composition: flat front-facing material texture filling the WHOLE square canvas edge to edge. Top walking/collision boundary must be a perfectly straight horizontal line exactly at the top image edge. Left, right and bottom are straight canvas boundaries too. All pixels opaque. This is a flat material tile, NOT an isometric cube, NOT a floating slab, NOT an object placed on a backdrop. No perspective, external bevel, rounded canvas corners, transparent margin, cast shadow, sky, letters, icons or characters. Continue the material naturally at the left and right edges for repeated neighbouring blocks. No extruding parts outside the full square. Do not add decorative scenery. One texture only, no grid of separate variants.",
+      "status": "exported"
+    },
+    {
+      "id": "GR222",
+      "title": "Pavement slabs",
+      "filename": "sGroundPavementSlabsBatch39.png",
+      "category": "ground",
+      "batch": 39,
+      "group": "City",
+      "size": [
+        64,
+        64
+      ],
+      "tags": [
+        "city",
+        "urban",
+        "town",
+        "pavement",
+        "paving",
+        "slabs",
+        "street",
+        "school",
+        "path"
+      ],
+      "brief": "four large pale grey square concrete paving slabs in a two-by-two grid, fine straight medium-grey joints and restrained mottled concrete faces, flat front-facing texture",
+      "prompt": "Use case: stylized-concept. Asset type: ONE finished 2D side-view GameMaker ground texture tile, square artwork, to be exported at 64 x 64 pixels. Primary request: four large pale grey square concrete paving slabs in a two-by-two grid, fine straight medium-grey joints and restrained mottled concrete faces, flat front-facing texture. Style: polished hand-painted cartoon game material with simple broad readable shapes, clean restrained outlines and soft cel shading. It must remain clear at 64 pixels. Composition: flat front-facing material texture filling the WHOLE square canvas edge to edge. Top walking/collision boundary must be a perfectly straight horizontal line exactly at the top image edge. Left, right and bottom are straight canvas boundaries too. All pixels opaque. This is a flat material tile, NOT an isometric cube, NOT a floating slab, NOT an object placed on a backdrop. No perspective, external bevel, rounded canvas corners, transparent margin, cast shadow, sky, letters, icons or characters. Continue the material naturally at the left and right edges for repeated neighbouring blocks. No extruding parts outside the full square. Do not add decorative scenery. One texture only, no grid of separate variants.",
+      "status": "exported"
+    },
+    {
+      "id": "GR223",
+      "title": "Concrete kerb",
+      "filename": "sGroundConcreteKerbBatch39.png",
+      "category": "ground",
+      "batch": 39,
+      "group": "City",
+      "size": [
+        64,
+        64
+      ],
+      "tags": [
+        "city",
+        "urban",
+        "town",
+        "kerb",
+        "curb",
+        "edge",
+        "pavement",
+        "street",
+        "concrete",
+        "pool"
+      ],
+      "brief": "side cross-section of a solid pavement kerb: level narrow pale grey cap along the upper fifth, broad medium-grey concrete face underneath with one subtle vertical joint, no perspective or raised floating edge",
+      "prompt": "Use case: stylized-concept. Asset type: ONE finished 2D side-view GameMaker ground texture tile, square artwork, to be exported at 64 x 64 pixels. Primary request: side cross-section of a solid pavement kerb: level narrow pale grey cap along the upper fifth, broad medium-grey concrete face underneath with one subtle vertical joint, no perspective or raised floating edge. Style: polished hand-painted cartoon game material with simple broad readable shapes, clean restrained outlines and soft cel shading. It must remain clear at 64 pixels. Composition: flat front-facing material texture filling the WHOLE square canvas edge to edge. Top walking/collision boundary must be a perfectly straight horizontal line exactly at the top image edge. Left, right and bottom are straight canvas boundaries too. All pixels opaque. This is a flat material tile, NOT an isometric cube, NOT a floating slab, NOT an object placed on a backdrop. No perspective, external bevel, rounded canvas corners, transparent margin, cast shadow, sky, letters, icons or characters. Continue the material naturally at the left and right edges for repeated neighbouring blocks. No extruding parts outside the full square. Do not add decorative scenery. One texture only, no grid of separate variants.",
+      "status": "exported"
+    },
+    {
+      "id": "GR224",
+      "title": "Red paving bricks",
+      "filename": "sGroundRedPavingBricksBatch39.png",
+      "category": "ground",
+      "batch": 39,
+      "group": "City",
+      "size": [
+        64,
+        64
+      ],
+      "tags": [
+        "city",
+        "urban",
+        "town",
+        "paving",
+        "pavement",
+        "brick",
+        "street",
+        "school",
+        "garden",
+        "path"
+      ],
+      "brief": "flat clay-red rectangular paving bricks in a simple compact horizontal stretcher-bond pattern, muted red and brown variation, narrow light grey grout, broad readable brick faces",
+      "prompt": "Use case: stylized-concept. Asset type: ONE finished 2D side-view GameMaker ground texture tile, square artwork, to be exported at 64 x 64 pixels. Primary request: flat clay-red rectangular paving bricks in a simple compact horizontal stretcher-bond pattern, muted red and brown variation, narrow light grey grout, broad readable brick faces. Style: polished hand-painted cartoon game material with simple broad readable shapes, clean restrained outlines and soft cel shading. It must remain clear at 64 pixels. Composition: flat front-facing material texture filling the WHOLE square canvas edge to edge. Top walking/collision boundary must be a perfectly straight horizontal line exactly at the top image edge. Left, right and bottom are straight canvas boundaries too. All pixels opaque. This is a flat material tile, NOT an isometric cube, NOT a floating slab, NOT an object placed on a backdrop. No perspective, external bevel, rounded canvas corners, transparent margin, cast shadow, sky, letters, icons or characters. Continue the material naturally at the left and right edges for repeated neighbouring blocks. No extruding parts outside the full square. Do not add decorative scenery. One texture only, no grid of separate variants.",
+      "status": "exported"
+    }
+  ],
+  "exportedCount": 16,
+  "status": "exported"
+}

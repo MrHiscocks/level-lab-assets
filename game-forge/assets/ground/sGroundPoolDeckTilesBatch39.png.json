@@ -1,0 +1,51 @@
+{
+  "id": "GR209",
+  "title": "Pool-deck tiles",
+  "category": "ground",
+  "tags": [
+    "indoor",
+    "kitchen",
+    "leisure centre",
+    "pool",
+    "school",
+    "swimming",
+    "tiles"
+  ],
+  "variant": "primary",
+  "batch": 39,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": {
+    "type": "Rectangle",
+    "left": 0,
+    "top": 0,
+    "right": 63,
+    "bottom": 63
+  },
+  "fps": 0,
+  "frames": 1,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "repeatHorizontal": false,
+  "placement": "Solid 64 x 64 block. Top-left origin (0, 0). Place at multiples of 64 with scale 1. Use a full rectangular collision mask (0, 0) to (63, 63).",
+  "description": "Large warm ivory anti-slip ceramic squares in a simple straight grid with light grey grout, a lightly speckled matte finish. Full opaque square material with a flat collision top; no transparent border. Edge textures may show joins when repeated.",
+  "sourceSha256": "196e576d895934dea1204bac2998ab743869cd854f12327e407975f28ac925ab",
+  "sourceBatch": "Adaptable ground expansion October 2026",
+  "production": {
+    "method": "Built-in image_gen",
+    "date": "2026-10-20",
+    "prompt": "Use case: stylized-concept. Asset type: ONE finished 2D side-view GameMaker ground texture tile, square artwork, to be exported at 64 x 64 pixels. Primary request: large warm ivory anti-slip ceramic squares in a simple straight grid with light grey grout, a lightly speckled matte finish. Style: polished hand-painted cartoon game material with simple broad readable shapes, clean restrained outlines and soft cel shading. It must remain clear at 64 pixels. Composition: flat front-facing material texture filling the WHOLE square canvas edge to edge. Top walking/collision boundary must be a perfectly straight horizontal line exactly at the top image edge. Left, right and bottom are straight canvas boundaries too. All pixels opaque. This is a flat material tile, NOT an isometric cube, NOT a floating slab, NOT an object placed on a backdrop. No perspective, external bevel, rounded canvas corners, transparent margin, cast shadow, sky, letters, icons or characters. Continue the material naturally at the left and right edges for repeated neighbouring blocks. No extruding parts outside the full square. Do not add decorative scenery. One texture only, no grid of separate variants.",
+    "sourceArtworkSha256": "b2f2cd76340b63cbb01be1a6f35a6a9a8dfa86cd6def52c27e5896d80186b33f",
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "exportSize": [
+      64,
+      64
+    ],
+    "export": "Proportional resize to 64 x 64 game dimensions, opaque RGB PNG."
+  }
+}

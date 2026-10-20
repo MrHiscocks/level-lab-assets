@@ -1,0 +1,264 @@
+{
+  "date": "2026-10-20",
+  "batch": 39,
+  "newGroundConcepts": 16,
+  "groundConcepts": 90,
+  "groundPngFiles": 92,
+  "catalogueCounts": {
+    "concepts": 1268,
+    "files": 1355,
+    "bytes": 215209281
+  },
+  "checks": {
+    "newImages": "16 distinct 64 x 64 opaque RGB PNGs, full canvas and opaque edges",
+    "placement": "Top-left origin and full rectangular 0,0 to 63,63 masks",
+    "visual": "Reviewed actual 64px exports, 2x nearest enlargement and three-block horizontal rows",
+    "repeatLimit": "Natural texture joins may remain visible; no seamless claim",
+    "existingAssets": "No existing game assets changed",
+    "tests": "4 Node and 10 Python tests passed",
+    "build": "External production build passed",
+    "site": "1722 published files and 2036 local references verified"
+  },
+  "assets": [
+    {
+      "id": "GR209",
+      "title": "Pool-deck tiles",
+      "filename": "sGroundPoolDeckTilesBatch39.png",
+      "sha256": "196e576d895934dea1204bac2998ab743869cd854f12327e407975f28ac925ab",
+      "size": [
+        64,
+        64
+      ],
+      "alphaRange": [
+        255,
+        255
+      ],
+      "bytes": 5975
+    },
+    {
+      "id": "GR210",
+      "title": "Blue mosaic tiles",
+      "filename": "sGroundBlueMosaicTilesBatch39.png",
+      "sha256": "c12e38e496c67fe6a63b98bcaacd37a7ec8b851a905292622c1934f895788afa",
+      "size": [
+        64,
+        64
+      ],
+      "alphaRange": [
+        255,
+        255
+      ],
+      "bytes": 7147
+    },
+    {
+      "id": "GR211",
+      "title": "Cream coping edge",
+      "filename": "sGroundCreamCopingEdgeBatch39.png",
+      "sha256": "cfd3704eaa12f69d4ffc38ad1045fc218665a0545980a7b55749f786a0a9435f",
+      "size": [
+        64,
+        64
+      ],
+      "alphaRange": [
+        255,
+        255
+      ],
+      "bytes": 7167
+    },
+    {
+      "id": "GR212",
+      "title": "Drainage-channel edge",
+      "filename": "sGroundDrainageChannelEdgeBatch39.png",
+      "sha256": "576f7466aa69264693ef899e15fe0b1b03e6b786e2a41b1ff141c4e0c00b00b0",
+      "size": [
+        64,
+        64
+      ],
+      "alphaRange": [
+        255,
+        255
+      ],
+      "bytes": 7258
+    },
+    {
+      "id": "GR213",
+      "title": "Weathered boardwalk",
+      "filename": "sGroundWeatheredBoardwalkBatch39.png",
+      "sha256": "395f623e3abca5f0fe25395f6fb206d7ee0e49e71980f41025926c1f803650db",
+      "size": [
+        64,
+        64
+      ],
+      "alphaRange": [
+        255,
+        255
+      ],
+      "bytes": 6885
+    },
+    {
+      "id": "GR214",
+      "title": "Compacted lakeside path",
+      "filename": "sGroundCompactedLakesidePathBatch39.png",
+      "sha256": "656afa858367e1eb7fe5662f797f0ae3b2c5307eacc4670db85a802dfd4433f2",
+      "size": [
+        64,
+        64
+      ],
+      "alphaRange": [
+        255,
+        255
+      ],
+      "bytes": 7180
+    },
+    {
+      "id": "GR215",
+      "title": "Layered shore stone",
+      "filename": "sGroundLayeredShoreStoneBatch39.png",
+      "sha256": "1e382778ed5182e80606da5c027afd329ba0b4a3b8b8affa05cc45758c45127b",
+      "size": [
+        64,
+        64
+      ],
+      "alphaRange": [
+        255,
+        255
+      ],
+      "bytes": 7884
+    },
+    {
+      "id": "GR216",
+      "title": "Rooted lakeside bank",
+      "filename": "sGroundRootedLakesideBankBatch39.png",
+      "sha256": "f4eee053af60d0b33480f3604edb1cccc45d0a9fb43b0e1130ed355bdc3d3e1b",
+      "size": [
+        64,
+        64
+      ],
+      "alphaRange": [
+        255,
+        255
+      ],
+      "bytes": 8100
+    },
+    {
+      "id": "GR217",
+      "title": "Dry beach sand",
+      "filename": "sGroundDryBeachSandBatch39.png",
+      "sha256": "6d7b5ff915dc06ff041f373893c06d8e3decbc1cc1547407ba83608add99791d",
+      "size": [
+        64,
+        64
+      ],
+      "alphaRange": [
+        255,
+        255
+      ],
+      "bytes": 5957
+    },
+    {
+      "id": "GR218",
+      "title": "Wet beach sand",
+      "filename": "sGroundWetBeachSandBatch39.png",
+      "sha256": "5a3e8fc3cc5c2dd0193d9ed9537b73fddd5adebfe05364f6774af9d4dd6f188c",
+      "size": [
+        64,
+        64
+      ],
+      "alphaRange": [
+        255,
+        255
+      ],
+      "bytes": 5353
+    },
+    {
+      "id": "GR219",
+      "title": "Sea-wall concrete",
+      "filename": "sGroundSeaWallConcreteBatch39.png",
+      "sha256": "1784256d038368b264cb4f08e48311044b32b2ecdef4600bd51fda700676821b",
+      "size": [
+        64,
+        64
+      ],
+      "alphaRange": [
+        255,
+        255
+      ],
+      "bytes": 7011
+    },
+    {
+      "id": "GR220",
+      "title": "Promenade paving",
+      "filename": "sGroundPromenadePavingBatch39.png",
+      "sha256": "45a581486cea567a3853874ac096eb19ce96a2d87a31abdd7a95c8e9b65a7c6f",
+      "size": [
+        64,
+        64
+      ],
+      "alphaRange": [
+        255,
+        255
+      ],
+      "bytes": 6371
+    },
+    {
+      "id": "GR221",
+      "title": "Asphalt road",
+      "filename": "sGroundAsphaltRoadBatch39.png",
+      "sha256": "4a30a332b596dc28193b8ae3d8a74c7d0a41237beb5241a189c1ec90e6f59b94",
+      "size": [
+        64,
+        64
+      ],
+      "alphaRange": [
+        255,
+        255
+      ],
+      "bytes": 7189
+    },
+    {
+      "id": "GR222",
+      "title": "Pavement slabs",
+      "filename": "sGroundPavementSlabsBatch39.png",
+      "sha256": "36265e45c74c90c4b868b262d12ad90a3fac7e117d076d723172e881414260a4",
+      "size": [
+        64,
+        64
+      ],
+      "alphaRange": [
+        255,
+        255
+      ],
+      "bytes": 6496
+    },
+    {
+      "id": "GR223",
+      "title": "Concrete kerb",
+      "filename": "sGroundConcreteKerbBatch39.png",
+      "sha256": "437b20ff7fea4e5c96886119856c04924e53f14623973c3d426c750a939986b1",
+      "size": [
+        64,
+        64
+      ],
+      "alphaRange": [
+        255,
+        255
+      ],
+      "bytes": 5830
+    },
+    {
+      "id": "GR224",
+      "title": "Red paving bricks",
+      "filename": "sGroundRedPavingBricksBatch39.png",
+      "sha256": "d73ae1b62eb83758b1303f5cd0f3ca61629cf4577fe1c40eb4ef7c3758bedcfd",
+      "size": [
+        64,
+        64
+      ],
+      "alphaRange": [
+        255,
+        255
+      ],
+      "bytes": 6973
+    }
+  ]
+}
