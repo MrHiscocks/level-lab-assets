@@ -1,0 +1,50 @@
+{
+  "id": "UI214",
+  "title": "Sci-fi win screen",
+  "category": "interface",
+  "tags": [
+    "interface",
+    "outcome",
+    "sci-fi",
+    "science",
+    "science fiction",
+    "space",
+    "success",
+    "technology",
+    "victory",
+    "win"
+  ],
+  "variant": "primary",
+  "batch": 38,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Interface artwork; draw in GUI space, no room collision.",
+  "fps": 0,
+  "frames": 1,
+  "frameWidth": 1280,
+  "frameHeight": 640,
+  "repeatHorizontal": false,
+  "placement": "1280 x 640 static screen. Top-left origin (0, 0). Place on a background or GUI layer. Keep tiling disabled. Add interactive button objects separately in the clear lower area.",
+  "description": "Science fiction win screen. Headline: YOU WIN!. Part of the SciFi interface set.",
+  "sourceSha256": "f5fa238313f19777e4669967d8546ef3537c2bdf31c56a9fec8af58a374be5e3",
+  "sourceBatch": "Ground and interface expansion October 2026",
+  "production": {
+    "method": "Built-in image_gen",
+    "date": "2026-10-20",
+    "prompt": "Use case: stylized-concept. Asset type: finished 2D GameMaker interface artwork. Primary request: Science fiction win screen, one asset only. Style: polished hand-painted cartoon game interface with angular futuristic metal panels, thin luminous cyan rails and restrained technical corner details, bold clear geometric lettering. Palette: charcoal graphite, cyan, soft violet and white. Composition: One full-bleed panoramic menu screen, 2:1 aspect ratio, 1280 x 640 export. Frame the edges with restrained themed details. Keep the middle and lower half dark, uncluttered and empty for separate interactive buttons. No drawn buttons, no score labels, no UI placeholders, no characters or scenery. Place the exact large headline in the upper third, centred and visually prominent, with strong contrast. Small celebratory star or laurel details at upper corners. Text (verbatim): \"YOU WIN!\". Spell exactly. No additional text, logos or watermark.",
+    "sourceArtworkSha256": "d97d7d92bf41d9fa7957fcd2ed0bc1e2277816fd29b3e2d62ee42ad94f20f455",
+    "sourceSize": [
+      1774,
+      887
+    ],
+    "exportSize": [
+      1280,
+      640
+    ],
+    "export": "Proportional resize to target game dimensions; preserve source alpha for buttons."
+  },
+  "interfaceRole": "Win",
+  "interfaceFamily": "SciFi"
+}

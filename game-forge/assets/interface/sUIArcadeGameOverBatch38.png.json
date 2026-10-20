@@ -1,0 +1,48 @@
+{
+  "id": "UI204",
+  "title": "Arcade game over screen",
+  "category": "interface",
+  "tags": [
+    "bright arcade",
+    "end",
+    "game",
+    "game over",
+    "gameover",
+    "interface",
+    "outcome",
+    "over"
+  ],
+  "variant": "primary",
+  "batch": 38,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Interface artwork; draw in GUI space, no room collision.",
+  "fps": 0,
+  "frames": 1,
+  "frameWidth": 1280,
+  "frameHeight": 640,
+  "repeatHorizontal": false,
+  "placement": "1280 x 640 static screen. Top-left origin (0, 0). Place on a background or GUI layer. Keep tiling disabled. Add interactive button objects separately in the clear lower area.",
+  "description": "Bright arcade game over screen. Headline: GAME OVER. Part of the Arcade interface set.",
+  "sourceSha256": "ef284f6bb7f3da214c93c78ecc9c36625535c67b78f5dc31bcd884a2b786f3d3",
+  "sourceBatch": "Ground and interface expansion October 2026",
+  "production": {
+    "method": "Built-in image_gen",
+    "date": "2026-10-20",
+    "prompt": "Use case: stylized-concept. Asset type: finished 2D GameMaker interface artwork. Primary request: Bright arcade game over screen, one asset only. Style: polished hand-painted cartoon game interface with rounded glossy blue panels with clean gold trim, restrained corner stars, bold friendly game lettering. Palette: deep navy, cobalt blue, cyan and warm gold. Composition: One full-bleed panoramic menu screen, 2:1 aspect ratio, 1280 x 640 export. Frame the edges with restrained themed details. Keep the middle and lower half dark, uncluttered and empty for separate interactive buttons. No drawn buttons, no score labels, no UI placeholders, no characters or scenery. Place the exact large headline in the upper third, centred and visually prominent, with strong contrast. Calm subdued mood suitable for a school game, no frightening or violent imagery. Text (verbatim): \"GAME OVER\". Spell exactly. No additional text, logos or watermark.",
+    "sourceArtworkSha256": "00ad1a08c5ab339c2292dd4e8be0a24b4d1bdd228e62666bbc58c227e8653419",
+    "sourceSize": [
+      1774,
+      887
+    ],
+    "exportSize": [
+      1280,
+      640
+    ],
+    "export": "Proportional resize to target game dimensions; preserve source alpha for buttons."
+  },
+  "interfaceRole": "GameOver",
+  "interfaceFamily": "Arcade"
+}

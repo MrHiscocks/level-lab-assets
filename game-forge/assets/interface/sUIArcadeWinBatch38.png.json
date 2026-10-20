@@ -1,0 +1,46 @@
+{
+  "id": "UI202",
+  "title": "Arcade win screen",
+  "category": "interface",
+  "tags": [
+    "bright arcade",
+    "interface",
+    "outcome",
+    "success",
+    "victory",
+    "win"
+  ],
+  "variant": "primary",
+  "batch": 38,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Interface artwork; draw in GUI space, no room collision.",
+  "fps": 0,
+  "frames": 1,
+  "frameWidth": 1280,
+  "frameHeight": 640,
+  "repeatHorizontal": false,
+  "placement": "1280 x 640 static screen. Top-left origin (0, 0). Place on a background or GUI layer. Keep tiling disabled. Add interactive button objects separately in the clear lower area.",
+  "description": "Bright arcade win screen. Headline: YOU WIN!. Part of the Arcade interface set.",
+  "sourceSha256": "46419ea8dbb433741280514c9714c618c70afd95dd5f64a17e54de7314dfd484",
+  "sourceBatch": "Ground and interface expansion October 2026",
+  "production": {
+    "method": "Built-in image_gen",
+    "date": "2026-10-20",
+    "prompt": "Use case: stylized-concept. Asset type: finished 2D GameMaker interface artwork. Primary request: Bright arcade win screen, one asset only. Style: polished hand-painted cartoon game interface with rounded glossy blue panels with clean gold trim, restrained corner stars, bold friendly game lettering. Palette: deep navy, cobalt blue, cyan and warm gold. Composition: One full-bleed panoramic menu screen, 2:1 aspect ratio, 1280 x 640 export. Frame the edges with restrained themed details. Keep the middle and lower half dark, uncluttered and empty for separate interactive buttons. No drawn buttons, no score labels, no UI placeholders, no characters or scenery. Place the exact large headline in the upper third, centred and visually prominent, with strong contrast. Small celebratory star or laurel details at upper corners. Text (verbatim): \"YOU WIN!\". Spell exactly. No additional text, logos or watermark.",
+    "sourceArtworkSha256": "a6559c2271f072d5fc98a75fee6396c0d8d7248b32810c2e22bcf6eb3ce4cd0f",
+    "sourceSize": [
+      1774,
+      887
+    ],
+    "exportSize": [
+      1280,
+      640
+    ],
+    "export": "Proportional resize to target game dimensions; preserve source alpha for buttons."
+  },
+  "interfaceRole": "Win",
+  "interfaceFamily": "Arcade"
+}

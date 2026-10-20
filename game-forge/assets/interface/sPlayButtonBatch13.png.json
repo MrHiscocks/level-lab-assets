@@ -1,7 +1,13 @@
 {
   "id": "UI031",
   "title": "Play button",
-  "tags": "navigation, shared interface, scenario review",
+  "tags": [
+    "navigation",
+    "button",
+    "play",
+    "start",
+    "game"
+  ],
   "category": "interface",
   "variant": "primary",
   "batch": 13,
@@ -10,13 +16,13 @@
     0
   ],
   "mask": "Interface artwork; draw in GUI space, no room collision.",
-  "fps": 6,
-  "placement": "",
+  "fps": 0,
+  "placement": "Use the original canvas size and top-left origin (0, 0). Place on a menu or GUI layer. This is static artwork: add text and interactive behaviour separately in GameMaker.",
   "repeatHorizontal": false,
   "form": "",
   "loop": false,
   "duration": null,
-  "description": "",
+  "description": "Play icon button with a blank label area. Add your own text and click event in GameMaker.",
   "sourceFile": "Game_Forge_Batch_13/assets/interface/sPlayButtonBatch13.png",
   "sourceBatch": "Game_Forge_Batch_13.zip",
   "sourceSha256": "3c612aafa03d703ffad27011fadcc3c65e39761cc35136fca1775488bb6da5fb",

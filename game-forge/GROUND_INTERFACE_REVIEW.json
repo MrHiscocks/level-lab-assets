@@ -1,0 +1,640 @@
+{
+  "date": "2026-10-20",
+  "scope": "Game Forge ground and interface assets only",
+  "newGroundConcepts": 8,
+  "resultingGroundConcepts": 74,
+  "newInterfaceConcepts": 18,
+  "resultingInterfaceConcepts": 60,
+  "interfaceSets": {
+    "Arcade": 6,
+    "Fantasy": 6,
+    "SciFi": 6
+  },
+  "interfaceRoles": {
+    "General": 3,
+    "Win": 3,
+    "Lose": 3,
+    "GameOver": 3,
+    "StartGame": 3,
+    "ResetGame": 3
+  },
+  "existingGroundReview": {
+    "concepts": 66,
+    "files": 68,
+    "square64x64": 60,
+    "wide128x64": 8,
+    "allOpaque": true,
+    "replacementNeeded": false
+  },
+  "existingInterfaceMetadataUpdates": [
+    {
+      "id": "UI035",
+      "file": "sNeutralWinScreenBackdropBatch13.png.json",
+      "before": {
+        "tags": "shared interface, outcome, scenario review",
+        "description": "",
+        "placement": "",
+        "fps": 6
+      },
+      "after": {
+        "tags": [
+          "interface",
+          "screen",
+          "win",
+          "victory",
+          "success",
+          "blank",
+          "backdrop"
+        ],
+        "description": "Text-free win-screen backdrop. Add your own heading, results and separate interactive buttons.",
+        "placement": "Use the original canvas size and top-left origin (0, 0). Place on a menu or GUI layer. This is static artwork: add text and interactive behaviour separately in GameMaker.",
+        "fps": 0
+      }
+    },
+    {
+      "id": "UI034",
+      "file": "sHomeButtonBatch13.png.json",
+      "before": {
+        "tags": "navigation, shared interface, scenario review",
+        "description": "",
+        "placement": "",
+        "fps": 6
+      },
+      "after": {
+        "tags": [
+          "navigation",
+          "button",
+          "home",
+          "main menu"
+        ],
+        "description": "Home icon button with a blank label area. Add a click event to return to your main menu.",
+        "placement": "Use the original canvas size and top-left origin (0, 0). Place on a menu or GUI layer. This is static artwork: add text and interactive behaviour separately in GameMaker.",
+        "fps": 0
+      }
+    },
+    {
+      "id": "UI023",
+      "file": "sMenuPanelBatch13.png.json",
+      "before": {
+        "tags": "panel, navigation",
+        "description": "",
+        "placement": "",
+        "fps": 6
+      },
+      "after": {
+        "tags": [
+          "interface",
+          "panel",
+          "menu",
+          "general",
+          "blank"
+        ],
+        "description": "Blank general menu panel. Add your own title, text and separate button objects.",
+        "placement": "Use the original canvas size and top-left origin (0, 0). Place on a menu or GUI layer. This is static artwork: add text and interactive behaviour separately in GameMaker.",
+        "fps": 0
+      }
+    },
+    {
+      "id": "UI033",
+      "file": "sRestartButtonBatch13.png.json",
+      "before": {
+        "tags": "navigation, shared interface, scenario review",
+        "description": "",
+        "placement": "",
+        "fps": 6
+      },
+      "after": {
+        "tags": [
+          "navigation",
+          "button",
+          "restart",
+          "reset",
+          "retry",
+          "game"
+        ],
+        "description": "Restart icon button with a blank label area. Add a click event and explicitly reset game variables when restarting.",
+        "placement": "Use the original canvas size and top-left origin (0, 0). Place on a menu or GUI layer. This is static artwork: add text and interactive behaviour separately in GameMaker.",
+        "fps": 0
+      }
+    },
+    {
+      "id": "UI036",
+      "file": "sNeutralLossScreenBackdropBatch13.png.json",
+      "before": {
+        "tags": "shared interface, outcome, scenario review",
+        "description": "",
+        "placement": "",
+        "fps": 6
+      },
+      "after": {
+        "tags": [
+          "interface",
+          "screen",
+          "lose",
+          "loss",
+          "defeat",
+          "blank",
+          "backdrop"
+        ],
+        "description": "Text-free loss-screen backdrop. Add your own heading, results and separate interactive buttons.",
+        "placement": "Use the original canvas size and top-left origin (0, 0). Place on a menu or GUI layer. This is static artwork: add text and interactive behaviour separately in GameMaker.",
+        "fps": 0
+      }
+    },
+    {
+      "id": "UI031",
+      "file": "sPlayButtonBatch13.png.json",
+      "before": {
+        "tags": "navigation, shared interface, scenario review",
+        "description": "",
+        "placement": "",
+        "fps": 6
+      },
+      "after": {
+        "tags": [
+          "navigation",
+          "button",
+          "play",
+          "start",
+          "game"
+        ],
+        "description": "Play icon button with a blank label area. Add your own text and click event in GameMaker.",
+        "placement": "Use the original canvas size and top-left origin (0, 0). Place on a menu or GUI layer. This is static artwork: add text and interactive behaviour separately in GameMaker.",
+        "fps": 0
+      }
+    },
+    {
+      "id": "UI032",
+      "file": "sInstructionsButtonBatch13.png.json",
+      "before": {
+        "tags": "navigation, shared interface, scenario review",
+        "description": "",
+        "placement": "",
+        "fps": 6
+      },
+      "after": {
+        "tags": [
+          "navigation",
+          "button",
+          "instructions",
+          "help",
+          "controls"
+        ],
+        "description": "Instructions icon button with a blank label area. Add a click event to show your instructions or controls.",
+        "placement": "Use the original canvas size and top-left origin (0, 0). Place on a menu or GUI layer. This is static artwork: add text and interactive behaviour separately in GameMaker.",
+        "fps": 0
+      }
+    }
+  ],
+  "validation": {
+    "all26ImagesDecoded": true,
+    "all26HashesMatch": true,
+    "uniqueImages": 26,
+    "uniqueIds": 26,
+    "groundSize": [
+      64,
+      64
+    ],
+    "groundEdgesFullyOpaque": true,
+    "screenSize": [
+      1280,
+      640
+    ],
+    "buttonSize": [
+      384,
+      128
+    ],
+    "all6ButtonsHaveTrueTransparency": true,
+    "visualReview": "Reviewed all new images; ground at 64 x 64 and in repeated rows, each interface set at export scale. All required text is legible and correct.",
+    "groundRepeatNote": "Opaque flush block edges; material texture joins may remain visible. No seamless-repeat claim.",
+    "automatedTests": "14 passed",
+    "fullSiteBuild": "passed",
+    "publishedSiteChecks": "passed",
+    "interfaceSearchCounts": {
+      "general": 3,
+      "win": 3,
+      "lose": 3,
+      "game over": 3,
+      "reset game": 3,
+      "start game": 3
+    }
+  },
+  "assets": [
+    {
+      "id": "GR201",
+      "category": "ground",
+      "filename": "sGroundLunarRegolithBatch37.png",
+      "title": "Lunar regolith",
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "6b7a9eed38df5303cc0c62565af6a95819de0656752862715d1f11e670e91e54",
+      "bytes": 8824,
+      "alphaRange": [
+        255,
+        255
+      ]
+    },
+    {
+      "id": "GR202",
+      "category": "ground",
+      "filename": "sGroundMartianRockBatch37.png",
+      "title": "Martian rock",
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "47c988b88e1f3a1a910d868c620fc18499bf218970270a954d22c093207387a4",
+      "bytes": 8080,
+      "alphaRange": [
+        255,
+        255
+      ]
+    },
+    {
+      "id": "GR203",
+      "category": "ground",
+      "filename": "sGroundSeabedSandBatch37.png",
+      "title": "Seabed sand",
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "e38fcfa4a9aef17e3f6f969b955bfccdd2118f4625539f7183de8f83e0329e25",
+      "bytes": 7696,
+      "alphaRange": [
+        255,
+        255
+      ]
+    },
+    {
+      "id": "GR204",
+      "category": "ground",
+      "filename": "sGroundPebbleAggregateBatch37.png",
+      "title": "Pebble aggregate",
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "647eb00d42a454b0be7c438798647f749f885a4a7e7cb619483a3cf0c7992547",
+      "bytes": 10071,
+      "alphaRange": [
+        255,
+        255
+      ]
+    },
+    {
+      "id": "GR205",
+      "category": "ground",
+      "filename": "sGroundChocolateWaferBatch37.png",
+      "title": "Chocolate wafer",
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "1e11759e19ca2dc4718096b25dc7aa8328e6f72e53ca6e5e205508703ae45ea9",
+      "bytes": 8381,
+      "alphaRange": [
+        255,
+        255
+      ]
+    },
+    {
+      "id": "GR206",
+      "category": "ground",
+      "filename": "sGroundFrostedBiscuitBatch37.png",
+      "title": "Frosted biscuit",
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "fc06a362bf561f827542ad95425e1d41de5d4a1b16fd9edd9a028690a34c1ec0",
+      "bytes": 9143,
+      "alphaRange": [
+        255,
+        255
+      ]
+    },
+    {
+      "id": "GR207",
+      "category": "ground",
+      "filename": "sGroundAlienMineralRockBatch37.png",
+      "title": "Alien mineral rock",
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "dc040bae337305a2be1634e5a39f486fb89605303b5a03e2a6cf98400b01b354",
+      "bytes": 9661,
+      "alphaRange": [
+        255,
+        255
+      ]
+    },
+    {
+      "id": "GR208",
+      "category": "ground",
+      "filename": "sGroundRunningTrackRubberBatch37.png",
+      "title": "Running-track rubber",
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "6856f9f2427322bced05e7b964eb92ab06db60ac04579b66f748a77f43302382",
+      "bytes": 8447,
+      "alphaRange": [
+        255,
+        255
+      ]
+    },
+    {
+      "id": "UI201",
+      "category": "interface",
+      "filename": "sUIArcadeGeneralBatch38.png",
+      "title": "Arcade general menu backdrop",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "4a366681b0ffb940412021d566a4807538b79f9510baf1a8f908269a45dbf8c1",
+      "bytes": 829070,
+      "alphaRange": [
+        255,
+        255
+      ]
+    },
+    {
+      "id": "UI202",
+      "category": "interface",
+      "filename": "sUIArcadeWinBatch38.png",
+      "title": "Arcade win screen",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "46419ea8dbb433741280514c9714c618c70afd95dd5f64a17e54de7314dfd484",
+      "bytes": 914279,
+      "alphaRange": [
+        255,
+        255
+      ]
+    },
+    {
+      "id": "UI203",
+      "category": "interface",
+      "filename": "sUIArcadeLoseBatch38.png",
+      "title": "Arcade lose screen",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "2c1ca3755f2c2bfda0d1de99a9c5424a8c9667c6591201ce1ab7b013bb7da37f",
+      "bytes": 761801,
+      "alphaRange": [
+        255,
+        255
+      ]
+    },
+    {
+      "id": "UI204",
+      "category": "interface",
+      "filename": "sUIArcadeGameOverBatch38.png",
+      "title": "Arcade game over screen",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "ef284f6bb7f3da214c93c78ecc9c36625535c67b78f5dc31bcd884a2b786f3d3",
+      "bytes": 731404,
+      "alphaRange": [
+        255,
+        255
+      ]
+    },
+    {
+      "id": "UI205",
+      "category": "interface",
+      "filename": "sUIArcadeStartGameBatch38.png",
+      "title": "Arcade start game button",
+      "size": [
+        384,
+        128
+      ],
+      "sha256": "523c2a2aaa224ae5c89af13ba3f05348d3b8d95966c15920430090aaf267477e",
+      "bytes": 64240,
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "UI206",
+      "category": "interface",
+      "filename": "sUIArcadeResetGameBatch38.png",
+      "title": "Arcade reset game button",
+      "size": [
+        384,
+        128
+      ],
+      "sha256": "4a716087d1669fe5122ce4d8a323d2c6cd82b9e6073a6012ea2766c2f6110727",
+      "bytes": 61361,
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "UI207",
+      "category": "interface",
+      "filename": "sUIFantasyGeneralBatch38.png",
+      "title": "Fantasy general menu backdrop",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "3589cd82f9991945cb31405bacdccdea2484de4d912427a61c70e10f30d0d5ef",
+      "bytes": 1001446,
+      "alphaRange": [
+        255,
+        255
+      ]
+    },
+    {
+      "id": "UI208",
+      "category": "interface",
+      "filename": "sUIFantasyWinBatch38.png",
+      "title": "Fantasy win screen",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "fb1050d86f425dcd94f1c8570350300d35930cd39ce65763ba93c3f4d0b306cc",
+      "bytes": 1091854,
+      "alphaRange": [
+        255,
+        255
+      ]
+    },
+    {
+      "id": "UI209",
+      "category": "interface",
+      "filename": "sUIFantasyLoseBatch38.png",
+      "title": "Fantasy lose screen",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "69719597f9b8da61f20259839f45677b9b1045ca9c14bf351b833945df258fa1",
+      "bytes": 1056581,
+      "alphaRange": [
+        255,
+        255
+      ]
+    },
+    {
+      "id": "UI210",
+      "category": "interface",
+      "filename": "sUIFantasyGameOverBatch38.png",
+      "title": "Fantasy game over screen",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "75330298a7ce7f82eb6e535acef1de9382ff984a4279d5ca6b6117d627df043f",
+      "bytes": 1019318,
+      "alphaRange": [
+        255,
+        255
+      ]
+    },
+    {
+      "id": "UI211",
+      "category": "interface",
+      "filename": "sUIFantasyStartGameBatch38.png",
+      "title": "Fantasy start game button",
+      "size": [
+        384,
+        128
+      ],
+      "sha256": "d272b69963e13bbd53dd0eb4eb36d4731dd92b781fa4c37dedc08f16cc8ab3e0",
+      "bytes": 75675,
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "UI212",
+      "category": "interface",
+      "filename": "sUIFantasyResetGameBatch38.png",
+      "title": "Fantasy reset game button",
+      "size": [
+        384,
+        128
+      ],
+      "sha256": "ec86b2d72a65a4d19fb4f8ab33efbf3dd428f46b1ef108502bbc68aa450b6b92",
+      "bytes": 79856,
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "UI213",
+      "category": "interface",
+      "filename": "sUISciFiGeneralBatch38.png",
+      "title": "Sci-fi general menu backdrop",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "11f064ad72da3abacd24066f6f16c78dbb83eec1fadaad3b9bc115039adf9296",
+      "bytes": 894542,
+      "alphaRange": [
+        255,
+        255
+      ]
+    },
+    {
+      "id": "UI214",
+      "category": "interface",
+      "filename": "sUISciFiWinBatch38.png",
+      "title": "Sci-fi win screen",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "f5fa238313f19777e4669967d8546ef3537c2bdf31c56a9fec8af58a374be5e3",
+      "bytes": 979424,
+      "alphaRange": [
+        255,
+        255
+      ]
+    },
+    {
+      "id": "UI215",
+      "category": "interface",
+      "filename": "sUISciFiLoseBatch38.png",
+      "title": "Sci-fi lose screen",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "a74d6a5255c9b43faa3c6478dd989ccbefdec46670d58a6b9175cb86cadaa1bb",
+      "bytes": 752863,
+      "alphaRange": [
+        255,
+        255
+      ]
+    },
+    {
+      "id": "UI216",
+      "category": "interface",
+      "filename": "sUISciFiGameOverBatch38.png",
+      "title": "Sci-fi game over screen",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "1b1272e45cc331573e98f0a56ee6e552ed0cec5075d754e675fdd26a694b7e45",
+      "bytes": 881774,
+      "alphaRange": [
+        255,
+        255
+      ]
+    },
+    {
+      "id": "UI217",
+      "category": "interface",
+      "filename": "sUISciFiStartGameBatch38.png",
+      "title": "Sci-fi start game button",
+      "size": [
+        384,
+        128
+      ],
+      "sha256": "6cbb8b00102b28fa75a36dceb18fbed9ee17becc1fa44d6ee803100262fca248",
+      "bytes": 64865,
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "UI218",
+      "category": "interface",
+      "filename": "sUISciFiResetGameBatch38.png",
+      "title": "Sci-fi reset game button",
+      "size": [
+        384,
+        128
+      ],
+      "sha256": "deb5410a52217fec8a9ede4d3b80b05eb99ad85d2cd953a82186693bfc11b0bb",
+      "bytes": 63271,
+      "alphaRange": [
+        0,
+        255
+      ]
+    }
+  ]
+}

@@ -1,0 +1,617 @@
+{
+  "date": "2026-10-20",
+  "existingGroundConcepts": 66,
+  "newGroundConcepts": 8,
+  "resultingGroundConcepts": 74,
+  "existingInterfaceConcepts": 42,
+  "newInterfaceConcepts": 18,
+  "resultingInterfaceConcepts": 60,
+  "assets": [
+    {
+      "id": "GR201",
+      "title": "Lunar regolith",
+      "filename": "sGroundLunarRegolithBatch37.png",
+      "category": "ground",
+      "batch": 37,
+      "size": [
+        64,
+        64
+      ],
+      "tags": [
+        "space",
+        "moon",
+        "lunar",
+        "rock"
+      ],
+      "brief": "cool grey compacted lunar dust and rock, a few shallow small crater marks, broad readable forms",
+      "prompt": "Use case: stylized-concept. Asset type: one finished 2D side-view GameMaker ground texture tile, square artwork to be exported at 64 x 64 pixels. Create cool grey compacted lunar dust and rock, a few shallow small crater marks, broad readable forms. Match polished hand-painted cartoon game textures with strong simple readable forms and restrained shading. Full opaque square texture from edge to edge, straight flat top exactly on the upper image boundary, straight bottom and vertical sides exactly at the canvas boundaries. The texture must fill the entire square. This is a flat front-facing material swatch, not a floating cube or an object in a scene. No perspective, bevelled exterior border, backdrop, transparent margin, cast shadow, sky, grass sticking out, lettering, characters or icons. Left and right edges should continue naturally when tiled. Keep detail chunky enough to remain clear at 64 pixels.",
+      "transparent": false,
+      "status": "exported"
+    },
+    {
+      "id": "GR202",
+      "title": "Martian rock",
+      "filename": "sGroundMartianRockBatch37.png",
+      "category": "ground",
+      "batch": 37,
+      "size": [
+        64,
+        64
+      ],
+      "tags": [
+        "space",
+        "mars",
+        "martian",
+        "canyon",
+        "rock"
+      ],
+      "brief": "rust-red compacted rock with ochre mineral flecks and broad shallow cracks",
+      "prompt": "Use case: stylized-concept. Asset type: one finished 2D side-view GameMaker ground texture tile, square artwork to be exported at 64 x 64 pixels. Create rust-red compacted rock with ochre mineral flecks and broad shallow cracks. Match polished hand-painted cartoon game textures with strong simple readable forms and restrained shading. Full opaque square texture from edge to edge, straight flat top exactly on the upper image boundary, straight bottom and vertical sides exactly at the canvas boundaries. The texture must fill the entire square. This is a flat front-facing material swatch, not a floating cube or an object in a scene. No perspective, bevelled exterior border, backdrop, transparent margin, cast shadow, sky, grass sticking out, lettering, characters or icons. Left and right edges should continue naturally when tiled. Keep detail chunky enough to remain clear at 64 pixels.",
+      "transparent": false,
+      "status": "exported"
+    },
+    {
+      "id": "GR203",
+      "title": "Seabed sand",
+      "filename": "sGroundSeabedSandBatch37.png",
+      "category": "ground",
+      "batch": 37,
+      "size": [
+        64,
+        64
+      ],
+      "tags": [
+        "underwater",
+        "seabed",
+        "sand",
+        "ocean",
+        "coast"
+      ],
+      "brief": "pale golden compacted seabed sand with gentle horizontal ripple striations, sparse small shell fragments embedded flush",
+      "prompt": "Use case: stylized-concept. Asset type: one finished 2D side-view GameMaker ground texture tile, square artwork to be exported at 64 x 64 pixels. Create pale golden compacted seabed sand with gentle horizontal ripple striations, sparse small shell fragments embedded flush. Match polished hand-painted cartoon game textures with strong simple readable forms and restrained shading. Full opaque square texture from edge to edge, straight flat top exactly on the upper image boundary, straight bottom and vertical sides exactly at the canvas boundaries. The texture must fill the entire square. This is a flat front-facing material swatch, not a floating cube or an object in a scene. No perspective, bevelled exterior border, backdrop, transparent margin, cast shadow, sky, grass sticking out, lettering, characters or icons. Left and right edges should continue naturally when tiled. Keep detail chunky enough to remain clear at 64 pixels.",
+      "transparent": false,
+      "status": "exported"
+    },
+    {
+      "id": "GR204",
+      "title": "Pebble aggregate",
+      "filename": "sGroundPebbleAggregateBatch37.png",
+      "category": "ground",
+      "batch": 37,
+      "size": [
+        64,
+        64
+      ],
+      "tags": [
+        "beach",
+        "coast",
+        "pebble",
+        "stone"
+      ],
+      "brief": "rounded grey blue and cream pebbles tightly packed into grey aggregate, full flat surface with no loose protrusions",
+      "prompt": "Use case: stylized-concept. Asset type: one finished 2D side-view GameMaker ground texture tile, square artwork to be exported at 64 x 64 pixels. Create rounded grey blue and cream pebbles tightly packed into grey aggregate, full flat surface with no loose protrusions. Match polished hand-painted cartoon game textures with strong simple readable forms and restrained shading. Full opaque square texture from edge to edge, straight flat top exactly on the upper image boundary, straight bottom and vertical sides exactly at the canvas boundaries. The texture must fill the entire square. This is a flat front-facing material swatch, not a floating cube or an object in a scene. No perspective, bevelled exterior border, backdrop, transparent margin, cast shadow, sky, grass sticking out, lettering, characters or icons. Left and right edges should continue naturally when tiled. Keep detail chunky enough to remain clear at 64 pixels.",
+      "transparent": false,
+      "status": "exported"
+    },
+    {
+      "id": "GR205",
+      "title": "Chocolate wafer",
+      "filename": "sGroundChocolateWaferBatch37.png",
+      "category": "ground",
+      "batch": 37,
+      "size": [
+        64,
+        64
+      ],
+      "tags": [
+        "food",
+        "sweet",
+        "chocolate",
+        "fantasy"
+      ],
+      "brief": "broad horizontal layers of dark milk chocolate and golden wafer, side cross-section of a solid edible block, level dark chocolate top strip",
+      "prompt": "Use case: stylized-concept. Asset type: one finished 2D side-view GameMaker ground texture tile, square artwork to be exported at 64 x 64 pixels. Create broad horizontal layers of dark milk chocolate and golden wafer, side cross-section of a solid edible block, level dark chocolate top strip. Match polished hand-painted cartoon game textures with strong simple readable forms and restrained shading. Full opaque square texture from edge to edge, straight flat top exactly on the upper image boundary, straight bottom and vertical sides exactly at the canvas boundaries. The texture must fill the entire square. This is a flat front-facing material swatch, not a floating cube or an object in a scene. No perspective, bevelled exterior border, backdrop, transparent margin, cast shadow, sky, grass sticking out, lettering, characters or icons. Left and right edges should continue naturally when tiled. Keep detail chunky enough to remain clear at 64 pixels.",
+      "transparent": false,
+      "status": "exported"
+    },
+    {
+      "id": "GR206",
+      "title": "Frosted biscuit",
+      "filename": "sGroundFrostedBiscuitBatch37.png",
+      "category": "ground",
+      "batch": 37,
+      "size": [
+        64,
+        64
+      ],
+      "tags": [
+        "food",
+        "sweet",
+        "biscuit",
+        "fantasy"
+      ],
+      "brief": "warm golden biscuit cross-section with a perfectly level pale pink icing band along the top and tiny embedded coloured sprinkles, no dripping beyond tile",
+      "prompt": "Use case: stylized-concept. Asset type: one finished 2D side-view GameMaker ground texture tile, square artwork to be exported at 64 x 64 pixels. Create warm golden biscuit cross-section with a perfectly level pale pink icing band along the top and tiny embedded coloured sprinkles, no dripping beyond tile. Match polished hand-painted cartoon game textures with strong simple readable forms and restrained shading. Full opaque square texture from edge to edge, straight flat top exactly on the upper image boundary, straight bottom and vertical sides exactly at the canvas boundaries. The texture must fill the entire square. This is a flat front-facing material swatch, not a floating cube or an object in a scene. No perspective, bevelled exterior border, backdrop, transparent margin, cast shadow, sky, grass sticking out, lettering, characters or icons. Left and right edges should continue naturally when tiled. Keep detail chunky enough to remain clear at 64 pixels.",
+      "transparent": false,
+      "status": "exported"
+    },
+    {
+      "id": "GR207",
+      "title": "Alien mineral rock",
+      "filename": "sGroundAlienMineralRockBatch37.png",
+      "category": "ground",
+      "batch": 37,
+      "size": [
+        64,
+        64
+      ],
+      "tags": [
+        "space",
+        "alien",
+        "fantasy",
+        "mineral",
+        "rock"
+      ],
+      "brief": "dark muted purple rock with broad cyan mineral veins embedded flush, otherworldly but solid and readable",
+      "prompt": "Use case: stylized-concept. Asset type: one finished 2D side-view GameMaker ground texture tile, square artwork to be exported at 64 x 64 pixels. Create dark muted purple rock with broad cyan mineral veins embedded flush, otherworldly but solid and readable. Match polished hand-painted cartoon game textures with strong simple readable forms and restrained shading. Full opaque square texture from edge to edge, straight flat top exactly on the upper image boundary, straight bottom and vertical sides exactly at the canvas boundaries. The texture must fill the entire square. This is a flat front-facing material swatch, not a floating cube or an object in a scene. No perspective, bevelled exterior border, backdrop, transparent margin, cast shadow, sky, grass sticking out, lettering, characters or icons. Left and right edges should continue naturally when tiled. Keep detail chunky enough to remain clear at 64 pixels.",
+      "transparent": false,
+      "status": "exported"
+    },
+    {
+      "id": "GR208",
+      "title": "Running-track rubber",
+      "filename": "sGroundRunningTrackRubberBatch37.png",
+      "category": "ground",
+      "batch": 37,
+      "size": [
+        64,
+        64
+      ],
+      "tags": [
+        "sport",
+        "athletics",
+        "track",
+        "rubber",
+        "urban"
+      ],
+      "brief": "rust-red recycled rubber sports surfacing with subtle charcoal flecks, a slim light red horizontal top band, no lane markings",
+      "prompt": "Use case: stylized-concept. Asset type: one finished 2D side-view GameMaker ground texture tile, square artwork to be exported at 64 x 64 pixels. Create rust-red recycled rubber sports surfacing with subtle charcoal flecks, a slim light red horizontal top band, no lane markings. Match polished hand-painted cartoon game textures with strong simple readable forms and restrained shading. Full opaque square texture from edge to edge, straight flat top exactly on the upper image boundary, straight bottom and vertical sides exactly at the canvas boundaries. The texture must fill the entire square. This is a flat front-facing material swatch, not a floating cube or an object in a scene. No perspective, bevelled exterior border, backdrop, transparent margin, cast shadow, sky, grass sticking out, lettering, characters or icons. Left and right edges should continue naturally when tiled. Keep detail chunky enough to remain clear at 64 pixels.",
+      "transparent": false,
+      "status": "exported"
+    },
+    {
+      "id": "UI201",
+      "title": "Arcade general menu backdrop",
+      "filename": "sUIArcadeGeneralBatch38.png",
+      "category": "interface",
+      "batch": 38,
+      "size": [
+        1280,
+        640
+      ],
+      "tags": [
+        "interface",
+        "bright arcade",
+        "general",
+        "menu"
+      ],
+      "brief": "Bright arcade general menu backdrop",
+      "prompt": "Use case: stylized-concept. Asset type: finished 2D GameMaker interface artwork. Primary request: Bright arcade general menu backdrop, one asset only. Style: polished hand-painted cartoon game interface with rounded glossy blue panels with clean gold trim, restrained corner stars, bold friendly game lettering. Palette: deep navy, cobalt blue, cyan and warm gold. Composition: One full-bleed panoramic menu screen, 2:1 aspect ratio, 1280 x 640 export. Frame the edges with restrained themed details. Keep the middle and lower half dark, uncluttered and empty for separate interactive buttons. No drawn buttons, no score labels, no UI placeholders, no characters or scenery. Leave the upper-middle empty for the student to add their own game title. Absolutely no text. No text, logo or watermark.",
+      "transparent": false,
+      "interfaceRole": "General",
+      "interfaceFamily": "Arcade",
+      "exactText": "",
+      "status": "exported"
+    },
+    {
+      "id": "UI202",
+      "title": "Arcade win screen",
+      "filename": "sUIArcadeWinBatch38.png",
+      "category": "interface",
+      "batch": 38,
+      "size": [
+        1280,
+        640
+      ],
+      "tags": [
+        "interface",
+        "bright arcade",
+        "win",
+        "outcome"
+      ],
+      "brief": "Bright arcade win screen",
+      "prompt": "Use case: stylized-concept. Asset type: finished 2D GameMaker interface artwork. Primary request: Bright arcade win screen, one asset only. Style: polished hand-painted cartoon game interface with rounded glossy blue panels with clean gold trim, restrained corner stars, bold friendly game lettering. Palette: deep navy, cobalt blue, cyan and warm gold. Composition: One full-bleed panoramic menu screen, 2:1 aspect ratio, 1280 x 640 export. Frame the edges with restrained themed details. Keep the middle and lower half dark, uncluttered and empty for separate interactive buttons. No drawn buttons, no score labels, no UI placeholders, no characters or scenery. Place the exact large headline in the upper third, centred and visually prominent, with strong contrast. Small celebratory star or laurel details at upper corners. Text (verbatim): \"YOU WIN!\". Spell exactly. No additional text, logos or watermark.",
+      "transparent": false,
+      "interfaceRole": "Win",
+      "interfaceFamily": "Arcade",
+      "exactText": "YOU WIN!",
+      "status": "exported"
+    },
+    {
+      "id": "UI203",
+      "title": "Arcade lose screen",
+      "filename": "sUIArcadeLoseBatch38.png",
+      "category": "interface",
+      "batch": 38,
+      "size": [
+        1280,
+        640
+      ],
+      "tags": [
+        "interface",
+        "bright arcade",
+        "lose",
+        "outcome"
+      ],
+      "brief": "Bright arcade lose screen",
+      "prompt": "Use case: stylized-concept. Asset type: finished 2D GameMaker interface artwork. Primary request: Bright arcade lose screen, one asset only. Style: polished hand-painted cartoon game interface with rounded glossy blue panels with clean gold trim, restrained corner stars, bold friendly game lettering. Palette: deep navy, cobalt blue, cyan and warm gold. Composition: One full-bleed panoramic menu screen, 2:1 aspect ratio, 1280 x 640 export. Frame the edges with restrained themed details. Keep the middle and lower half dark, uncluttered and empty for separate interactive buttons. No drawn buttons, no score labels, no UI placeholders, no characters or scenery. Place the exact large headline in the upper third, centred and visually prominent, with strong contrast. Calm subdued mood suitable for a school game, no frightening or violent imagery. Text (verbatim): \"YOU LOSE\". Spell exactly. No additional text, logos or watermark.",
+      "transparent": false,
+      "interfaceRole": "Lose",
+      "interfaceFamily": "Arcade",
+      "exactText": "YOU LOSE",
+      "status": "exported"
+    },
+    {
+      "id": "UI204",
+      "title": "Arcade game over screen",
+      "filename": "sUIArcadeGameOverBatch38.png",
+      "category": "interface",
+      "batch": 38,
+      "size": [
+        1280,
+        640
+      ],
+      "tags": [
+        "interface",
+        "bright arcade",
+        "gameover",
+        "outcome"
+      ],
+      "brief": "Bright arcade game over screen",
+      "prompt": "Use case: stylized-concept. Asset type: finished 2D GameMaker interface artwork. Primary request: Bright arcade game over screen, one asset only. Style: polished hand-painted cartoon game interface with rounded glossy blue panels with clean gold trim, restrained corner stars, bold friendly game lettering. Palette: deep navy, cobalt blue, cyan and warm gold. Composition: One full-bleed panoramic menu screen, 2:1 aspect ratio, 1280 x 640 export. Frame the edges with restrained themed details. Keep the middle and lower half dark, uncluttered and empty for separate interactive buttons. No drawn buttons, no score labels, no UI placeholders, no characters or scenery. Place the exact large headline in the upper third, centred and visually prominent, with strong contrast. Calm subdued mood suitable for a school game, no frightening or violent imagery. Text (verbatim): \"GAME OVER\". Spell exactly. No additional text, logos or watermark.",
+      "transparent": false,
+      "interfaceRole": "GameOver",
+      "interfaceFamily": "Arcade",
+      "exactText": "GAME OVER",
+      "status": "exported"
+    },
+    {
+      "id": "UI205",
+      "title": "Arcade start game button",
+      "filename": "sUIArcadeStartGameBatch38.png",
+      "category": "interface",
+      "batch": 38,
+      "size": [
+        384,
+        128
+      ],
+      "tags": [
+        "interface",
+        "bright arcade",
+        "startgame",
+        "button"
+      ],
+      "brief": "Bright arcade start game button",
+      "prompt": "Use case: stylized-concept. Asset type: finished 2D GameMaker interface artwork. Primary request: Bright arcade start game button, one asset only. Style: polished hand-painted cartoon game interface with rounded glossy blue panels with clean gold trim, restrained corner stars, bold friendly game lettering. Palette: deep navy, cobalt blue, cyan and warm gold. Composition: One wide horizontal button, 3:1 aspect ratio, centred and nearly filling the canvas with a small transparent safety margin. Front-facing. A clear thick bordered button face; integrated modest play triangle at the left, large exact text centred in the remaining space. No other elements, no mock-up, no surrounding panel. Crisp readable lettering, generous padding, no text below the button. True transparent background outside the button. Text (verbatim): \"START GAME\". Spell exactly. No additional text, logos or watermark.",
+      "transparent": true,
+      "interfaceRole": "StartGame",
+      "interfaceFamily": "Arcade",
+      "exactText": "START GAME",
+      "status": "exported"
+    },
+    {
+      "id": "UI206",
+      "title": "Arcade reset game button",
+      "filename": "sUIArcadeResetGameBatch38.png",
+      "category": "interface",
+      "batch": 38,
+      "size": [
+        384,
+        128
+      ],
+      "tags": [
+        "interface",
+        "bright arcade",
+        "resetgame",
+        "button"
+      ],
+      "brief": "Bright arcade reset game button",
+      "prompt": "Use case: stylized-concept. Asset type: finished 2D GameMaker interface artwork. Primary request: Bright arcade reset game button, one asset only. Style: polished hand-painted cartoon game interface with rounded glossy blue panels with clean gold trim, restrained corner stars, bold friendly game lettering. Palette: deep navy, cobalt blue, cyan and warm gold. Composition: One wide horizontal button, 3:1 aspect ratio, centred and nearly filling the canvas with a small transparent safety margin. Front-facing. A clear thick bordered button face; integrated modest circular reset arrow at the left, large exact text centred in the remaining space. No other elements, no mock-up, no surrounding panel. Crisp readable lettering, generous padding, no text below the button. True transparent background outside the button. Text (verbatim): \"RESET GAME\". Spell exactly. No additional text, logos or watermark.",
+      "transparent": true,
+      "interfaceRole": "ResetGame",
+      "interfaceFamily": "Arcade",
+      "exactText": "RESET GAME",
+      "status": "exported"
+    },
+    {
+      "id": "UI207",
+      "title": "Fantasy general menu backdrop",
+      "filename": "sUIFantasyGeneralBatch38.png",
+      "category": "interface",
+      "batch": 38,
+      "size": [
+        1280,
+        640
+      ],
+      "tags": [
+        "interface",
+        "storybook fantasy",
+        "general",
+        "menu"
+      ],
+      "brief": "Storybook fantasy general menu backdrop",
+      "prompt": "Use case: stylized-concept. Asset type: finished 2D GameMaker interface artwork. Primary request: Storybook fantasy general menu backdrop, one asset only. Style: polished hand-painted cartoon game interface with carved timber and subtle leafy corner details with parchment title ribbons, bold clear storybook lettering. Palette: deep forest teal, warm parchment and brass gold. Composition: One full-bleed panoramic menu screen, 2:1 aspect ratio, 1280 x 640 export. Frame the edges with restrained themed details. Keep the middle and lower half dark, uncluttered and empty for separate interactive buttons. No drawn buttons, no score labels, no UI placeholders, no characters or scenery. Leave the upper-middle empty for the student to add their own game title. Absolutely no text. No text, logo or watermark.",
+      "transparent": false,
+      "interfaceRole": "General",
+      "interfaceFamily": "Fantasy",
+      "exactText": "",
+      "status": "exported"
+    },
+    {
+      "id": "UI208",
+      "title": "Fantasy win screen",
+      "filename": "sUIFantasyWinBatch38.png",
+      "category": "interface",
+      "batch": 38,
+      "size": [
+        1280,
+        640
+      ],
+      "tags": [
+        "interface",
+        "storybook fantasy",
+        "win",
+        "outcome"
+      ],
+      "brief": "Storybook fantasy win screen",
+      "prompt": "Use case: stylized-concept. Asset type: finished 2D GameMaker interface artwork. Primary request: Storybook fantasy win screen, one asset only. Style: polished hand-painted cartoon game interface with carved timber and subtle leafy corner details with parchment title ribbons, bold clear storybook lettering. Palette: deep forest teal, warm parchment and brass gold. Composition: One full-bleed panoramic menu screen, 2:1 aspect ratio, 1280 x 640 export. Frame the edges with restrained themed details. Keep the middle and lower half dark, uncluttered and empty for separate interactive buttons. No drawn buttons, no score labels, no UI placeholders, no characters or scenery. Place the exact large headline in the upper third, centred and visually prominent, with strong contrast. Small celebratory star or laurel details at upper corners. Text (verbatim): \"YOU WIN!\". Spell exactly. No additional text, logos or watermark.",
+      "transparent": false,
+      "interfaceRole": "Win",
+      "interfaceFamily": "Fantasy",
+      "exactText": "YOU WIN!",
+      "status": "exported"
+    },
+    {
+      "id": "UI209",
+      "title": "Fantasy lose screen",
+      "filename": "sUIFantasyLoseBatch38.png",
+      "category": "interface",
+      "batch": 38,
+      "size": [
+        1280,
+        640
+      ],
+      "tags": [
+        "interface",
+        "storybook fantasy",
+        "lose",
+        "outcome"
+      ],
+      "brief": "Storybook fantasy lose screen",
+      "prompt": "Use case: stylized-concept. Asset type: finished 2D GameMaker interface artwork. Primary request: Storybook fantasy lose screen, one asset only. Style: polished hand-painted cartoon game interface with carved timber and subtle leafy corner details with parchment title ribbons, bold clear storybook lettering. Palette: deep forest teal, warm parchment and brass gold. Composition: One full-bleed panoramic menu screen, 2:1 aspect ratio, 1280 x 640 export. Frame the edges with restrained themed details. Keep the middle and lower half dark, uncluttered and empty for separate interactive buttons. No drawn buttons, no score labels, no UI placeholders, no characters or scenery. Place the exact large headline in the upper third, centred and visually prominent, with strong contrast. Calm subdued mood suitable for a school game, no frightening or violent imagery. Text (verbatim): \"YOU LOSE\". Spell exactly. No additional text, logos or watermark.",
+      "transparent": false,
+      "interfaceRole": "Lose",
+      "interfaceFamily": "Fantasy",
+      "exactText": "YOU LOSE",
+      "status": "exported"
+    },
+    {
+      "id": "UI210",
+      "title": "Fantasy game over screen",
+      "filename": "sUIFantasyGameOverBatch38.png",
+      "category": "interface",
+      "batch": 38,
+      "size": [
+        1280,
+        640
+      ],
+      "tags": [
+        "interface",
+        "storybook fantasy",
+        "gameover",
+        "outcome"
+      ],
+      "brief": "Storybook fantasy game over screen",
+      "prompt": "Use case: stylized-concept. Asset type: finished 2D GameMaker interface artwork. Primary request: Storybook fantasy game over screen, one asset only. Style: polished hand-painted cartoon game interface with carved timber and subtle leafy corner details with parchment title ribbons, bold clear storybook lettering. Palette: deep forest teal, warm parchment and brass gold. Composition: One full-bleed panoramic menu screen, 2:1 aspect ratio, 1280 x 640 export. Frame the edges with restrained themed details. Keep the middle and lower half dark, uncluttered and empty for separate interactive buttons. No drawn buttons, no score labels, no UI placeholders, no characters or scenery. Place the exact large headline in the upper third, centred and visually prominent, with strong contrast. Calm subdued mood suitable for a school game, no frightening or violent imagery. Text (verbatim): \"GAME OVER\". Spell exactly. No additional text, logos or watermark.",
+      "transparent": false,
+      "interfaceRole": "GameOver",
+      "interfaceFamily": "Fantasy",
+      "exactText": "GAME OVER",
+      "status": "exported"
+    },
+    {
+      "id": "UI211",
+      "title": "Fantasy start game button",
+      "filename": "sUIFantasyStartGameBatch38.png",
+      "category": "interface",
+      "batch": 38,
+      "size": [
+        384,
+        128
+      ],
+      "tags": [
+        "interface",
+        "storybook fantasy",
+        "startgame",
+        "button"
+      ],
+      "brief": "Storybook fantasy start game button",
+      "prompt": "Use case: stylized-concept. Asset type: finished 2D GameMaker interface artwork. Primary request: Storybook fantasy start game button, one asset only. Style: polished hand-painted cartoon game interface with carved timber and subtle leafy corner details with parchment title ribbons, bold clear storybook lettering. Palette: deep forest teal, warm parchment and brass gold. Composition: One wide horizontal button, 3:1 aspect ratio, centred and nearly filling the canvas with a small transparent safety margin. Front-facing. A clear thick bordered button face; integrated modest play triangle at the left, large exact text centred in the remaining space. No other elements, no mock-up, no surrounding panel. Crisp readable lettering, generous padding, no text below the button. True transparent background outside the button. Text (verbatim): \"START GAME\". Spell exactly. No additional text, logos or watermark.",
+      "transparent": true,
+      "interfaceRole": "StartGame",
+      "interfaceFamily": "Fantasy",
+      "exactText": "START GAME",
+      "status": "exported"
+    },
+    {
+      "id": "UI212",
+      "title": "Fantasy reset game button",
+      "filename": "sUIFantasyResetGameBatch38.png",
+      "category": "interface",
+      "batch": 38,
+      "size": [
+        384,
+        128
+      ],
+      "tags": [
+        "interface",
+        "storybook fantasy",
+        "resetgame",
+        "button"
+      ],
+      "brief": "Storybook fantasy reset game button",
+      "prompt": "Use case: stylized-concept. Asset type: finished 2D GameMaker interface artwork. Primary request: Storybook fantasy reset game button, one asset only. Style: polished hand-painted cartoon game interface with carved timber and subtle leafy corner details with parchment title ribbons, bold clear storybook lettering. Palette: deep forest teal, warm parchment and brass gold. Composition: One wide horizontal button, 3:1 aspect ratio, centred and nearly filling the canvas with a small transparent safety margin. Front-facing. A clear thick bordered button face; integrated modest circular reset arrow at the left, large exact text centred in the remaining space. No other elements, no mock-up, no surrounding panel. Crisp readable lettering, generous padding, no text below the button. True transparent background outside the button. Text (verbatim): \"RESET GAME\". Spell exactly. No additional text, logos or watermark.",
+      "transparent": true,
+      "interfaceRole": "ResetGame",
+      "interfaceFamily": "Fantasy",
+      "exactText": "RESET GAME",
+      "status": "exported"
+    },
+    {
+      "id": "UI213",
+      "title": "Sci-fi general menu backdrop",
+      "filename": "sUISciFiGeneralBatch38.png",
+      "category": "interface",
+      "batch": 38,
+      "size": [
+        1280,
+        640
+      ],
+      "tags": [
+        "interface",
+        "science fiction",
+        "general",
+        "menu"
+      ],
+      "brief": "Science fiction general menu backdrop",
+      "prompt": "Use case: stylized-concept. Asset type: finished 2D GameMaker interface artwork. Primary request: Science fiction general menu backdrop, one asset only. Style: polished hand-painted cartoon game interface with angular futuristic metal panels, thin luminous cyan rails and restrained technical corner details, bold clear geometric lettering. Palette: charcoal graphite, cyan, soft violet and white. Composition: One full-bleed panoramic menu screen, 2:1 aspect ratio, 1280 x 640 export. Frame the edges with restrained themed details. Keep the middle and lower half dark, uncluttered and empty for separate interactive buttons. No drawn buttons, no score labels, no UI placeholders, no characters or scenery. Leave the upper-middle empty for the student to add their own game title. Absolutely no text. No text, logo or watermark.",
+      "transparent": false,
+      "interfaceRole": "General",
+      "interfaceFamily": "SciFi",
+      "exactText": "",
+      "status": "exported"
+    },
+    {
+      "id": "UI214",
+      "title": "Sci-fi win screen",
+      "filename": "sUISciFiWinBatch38.png",
+      "category": "interface",
+      "batch": 38,
+      "size": [
+        1280,
+        640
+      ],
+      "tags": [
+        "interface",
+        "science fiction",
+        "win",
+        "outcome"
+      ],
+      "brief": "Science fiction win screen",
+      "prompt": "Use case: stylized-concept. Asset type: finished 2D GameMaker interface artwork. Primary request: Science fiction win screen, one asset only. Style: polished hand-painted cartoon game interface with angular futuristic metal panels, thin luminous cyan rails and restrained technical corner details, bold clear geometric lettering. Palette: charcoal graphite, cyan, soft violet and white. Composition: One full-bleed panoramic menu screen, 2:1 aspect ratio, 1280 x 640 export. Frame the edges with restrained themed details. Keep the middle and lower half dark, uncluttered and empty for separate interactive buttons. No drawn buttons, no score labels, no UI placeholders, no characters or scenery. Place the exact large headline in the upper third, centred and visually prominent, with strong contrast. Small celebratory star or laurel details at upper corners. Text (verbatim): \"YOU WIN!\". Spell exactly. No additional text, logos or watermark.",
+      "transparent": false,
+      "interfaceRole": "Win",
+      "interfaceFamily": "SciFi",
+      "exactText": "YOU WIN!",
+      "status": "exported"
+    },
+    {
+      "id": "UI215",
+      "title": "Sci-fi lose screen",
+      "filename": "sUISciFiLoseBatch38.png",
+      "category": "interface",
+      "batch": 38,
+      "size": [
+        1280,
+        640
+      ],
+      "tags": [
+        "interface",
+        "science fiction",
+        "lose",
+        "outcome"
+      ],
+      "brief": "Science fiction lose screen",
+      "prompt": "Use case: stylized-concept. Asset type: finished 2D GameMaker interface artwork. Primary request: Science fiction lose screen, one asset only. Style: polished hand-painted cartoon game interface with angular futuristic metal panels, thin luminous cyan rails and restrained technical corner details, bold clear geometric lettering. Palette: charcoal graphite, cyan, soft violet and white. Composition: One full-bleed panoramic menu screen, 2:1 aspect ratio, 1280 x 640 export. Frame the edges with restrained themed details. Keep the middle and lower half dark, uncluttered and empty for separate interactive buttons. No drawn buttons, no score labels, no UI placeholders, no characters or scenery. Place the exact large headline in the upper third, centred and visually prominent, with strong contrast. Calm subdued mood suitable for a school game, no frightening or violent imagery. Text (verbatim): \"YOU LOSE\". Spell exactly. No additional text, logos or watermark.",
+      "transparent": false,
+      "interfaceRole": "Lose",
+      "interfaceFamily": "SciFi",
+      "exactText": "YOU LOSE",
+      "status": "exported"
+    },
+    {
+      "id": "UI216",
+      "title": "Sci-fi game over screen",
+      "filename": "sUISciFiGameOverBatch38.png",
+      "category": "interface",
+      "batch": 38,
+      "size": [
+        1280,
+        640
+      ],
+      "tags": [
+        "interface",
+        "science fiction",
+        "gameover",
+        "outcome"
+      ],
+      "brief": "Science fiction game over screen",
+      "prompt": "Use case: stylized-concept. Asset type: finished 2D GameMaker interface artwork. Primary request: Science fiction game over screen, one asset only. Style: polished hand-painted cartoon game interface with angular futuristic metal panels, thin luminous cyan rails and restrained technical corner details, bold clear geometric lettering. Palette: charcoal graphite, cyan, soft violet and white. Composition: One full-bleed panoramic menu screen, 2:1 aspect ratio, 1280 x 640 export. Frame the edges with restrained themed details. Keep the middle and lower half dark, uncluttered and empty for separate interactive buttons. No drawn buttons, no score labels, no UI placeholders, no characters or scenery. Place the exact large headline in the upper third, centred and visually prominent, with strong contrast. Calm subdued mood suitable for a school game, no frightening or violent imagery. Text (verbatim): \"GAME OVER\". Spell exactly. No additional text, logos or watermark.",
+      "transparent": false,
+      "interfaceRole": "GameOver",
+      "interfaceFamily": "SciFi",
+      "exactText": "GAME OVER",
+      "status": "exported"
+    },
+    {
+      "id": "UI217",
+      "title": "Sci-fi start game button",
+      "filename": "sUISciFiStartGameBatch38.png",
+      "category": "interface",
+      "batch": 38,
+      "size": [
+        384,
+        128
+      ],
+      "tags": [
+        "interface",
+        "science fiction",
+        "startgame",
+        "button"
+      ],
+      "brief": "Science fiction start game button",
+      "prompt": "Use case: stylized-concept. Asset type: finished 2D GameMaker interface artwork. Primary request: Science fiction start game button, one asset only. Style: polished hand-painted cartoon game interface with angular futuristic metal panels, thin luminous cyan rails and restrained technical corner details, bold clear geometric lettering. Palette: charcoal graphite, cyan, soft violet and white. Composition: One wide horizontal button, 3:1 aspect ratio, centred and nearly filling the canvas with a small transparent safety margin. Front-facing. A clear thick bordered button face; integrated modest play triangle at the left, large exact text centred in the remaining space. No other elements, no mock-up, no surrounding panel. Crisp readable lettering, generous padding, no text below the button. True transparent background outside the button. Text (verbatim): \"START GAME\". Spell exactly. No additional text, logos or watermark.",
+      "transparent": true,
+      "interfaceRole": "StartGame",
+      "interfaceFamily": "SciFi",
+      "exactText": "START GAME",
+      "status": "exported"
+    },
+    {
+      "id": "UI218",
+      "title": "Sci-fi reset game button",
+      "filename": "sUISciFiResetGameBatch38.png",
+      "category": "interface",
+      "batch": 38,
+      "size": [
+        384,
+        128
+      ],
+      "tags": [
+        "interface",
+        "science fiction",
+        "resetgame",
+        "button"
+      ],
+      "brief": "Science fiction reset game button",
+      "prompt": "Use case: stylized-concept. Asset type: finished 2D GameMaker interface artwork. Primary request: Science fiction reset game button, one asset only. Style: polished hand-painted cartoon game interface with angular futuristic metal panels, thin luminous cyan rails and restrained technical corner details, bold clear geometric lettering. Palette: charcoal graphite, cyan, soft violet and white. Composition: One wide horizontal button, 3:1 aspect ratio, centred and nearly filling the canvas with a small transparent safety margin. Front-facing. A clear thick bordered button face; integrated modest circular reset arrow at the left, large exact text centred in the remaining space. No other elements, no mock-up, no surrounding panel. Crisp readable lettering, generous padding, no text below the button. True transparent background outside the button. Text (verbatim): \"RESET GAME\". Spell exactly. No additional text, logos or watermark.",
+      "transparent": true,
+      "interfaceRole": "ResetGame",
+      "interfaceFamily": "SciFi",
+      "exactText": "RESET GAME",
+      "status": "exported"
+    }
+  ],
+  "exportedCount": 26,
+  "status": "exported"
+}

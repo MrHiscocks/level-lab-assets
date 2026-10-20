@@ -1,7 +1,15 @@
 {
   "id": "UI036",
   "title": "Neutral loss-screen backdrop",
-  "tags": "shared interface, outcome, scenario review",
+  "tags": [
+    "interface",
+    "screen",
+    "lose",
+    "loss",
+    "defeat",
+    "blank",
+    "backdrop"
+  ],
   "category": "interface",
   "variant": "primary",
   "batch": 13,
@@ -10,13 +18,13 @@
     0
   ],
   "mask": "Interface artwork; draw in GUI space, no room collision.",
-  "fps": 6,
-  "placement": "",
+  "fps": 0,
+  "placement": "Use the original canvas size and top-left origin (0, 0). Place on a menu or GUI layer. This is static artwork: add text and interactive behaviour separately in GameMaker.",
   "repeatHorizontal": false,
   "form": "",
   "loop": false,
   "duration": null,
-  "description": "",
+  "description": "Text-free loss-screen backdrop. Add your own heading, results and separate interactive buttons.",
   "sourceFile": "Game_Forge_Batch_13/assets/interface/sNeutralLossScreenBackdropBatch13.png",
   "sourceBatch": "Game_Forge_Batch_13.zip",
   "sourceSha256": "6085f8d7b0f92ae1f77f3797b513d312b1d4575549b264aeece627669c5fa1d5",

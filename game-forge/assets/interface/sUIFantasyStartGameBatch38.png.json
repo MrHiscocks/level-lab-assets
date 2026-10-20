@@ -1,0 +1,50 @@
+{
+  "id": "UI211",
+  "title": "Fantasy start game button",
+  "category": "interface",
+  "tags": [
+    "button",
+    "fantasy",
+    "game",
+    "interface",
+    "magic",
+    "play",
+    "start",
+    "start game",
+    "startgame",
+    "storybook fantasy"
+  ],
+  "variant": "primary",
+  "batch": 38,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Interface artwork; draw in GUI space, no room collision.",
+  "fps": 0,
+  "frames": 1,
+  "frameWidth": 384,
+  "frameHeight": 128,
+  "repeatHorizontal": false,
+  "placement": "384 x 128 button with a transparent surround. Top-left origin (0, 0). Use on a menu or GUI layer and add click behaviour in GameMaker; the PNG contains artwork only. Initialise game variables and move to the first level when clicked.",
+  "description": "Storybook fantasy start game button. Headline: START GAME. Part of the Fantasy interface set.",
+  "sourceSha256": "d272b69963e13bbd53dd0eb4eb36d4731dd92b781fa4c37dedc08f16cc8ab3e0",
+  "sourceBatch": "Ground and interface expansion October 2026",
+  "production": {
+    "method": "Built-in image_gen",
+    "date": "2026-10-20",
+    "prompt": "Use case: stylized-concept. Asset type: finished 2D GameMaker interface artwork. Primary request: Storybook fantasy start game button, one asset only. Style: polished hand-painted cartoon game interface with carved timber and subtle leafy corner details with parchment title ribbons, bold clear storybook lettering. Palette: deep forest teal, warm parchment and brass gold. Composition: One wide horizontal button, 3:1 aspect ratio, centred and nearly filling the canvas with a small transparent safety margin. Front-facing. A clear thick bordered button face; integrated modest play triangle at the left, large exact text centred in the remaining space. No other elements, no mock-up, no surrounding panel. Crisp readable lettering, generous padding, no text below the button. True transparent background outside the button. Text (verbatim): \"START GAME\". Spell exactly. No additional text, logos or watermark.",
+    "sourceArtworkSha256": "002dba7fda6dd49df4aa6fadc4abc0b74b0e5a58e52de4657982dff514afb695",
+    "sourceSize": [
+      2172,
+      724
+    ],
+    "exportSize": [
+      384,
+      128
+    ],
+    "export": "Proportional resize to target game dimensions; preserve source alpha for buttons."
+  },
+  "interfaceRole": "StartGame",
+  "interfaceFamily": "Fantasy"
+}

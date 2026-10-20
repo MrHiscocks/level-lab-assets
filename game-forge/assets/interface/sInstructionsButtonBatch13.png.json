@@ -1,7 +1,13 @@
 {
   "id": "UI032",
   "title": "Instructions button",
-  "tags": "navigation, shared interface, scenario review",
+  "tags": [
+    "navigation",
+    "button",
+    "instructions",
+    "help",
+    "controls"
+  ],
   "category": "interface",
   "variant": "primary",
   "batch": 13,
@@ -10,13 +16,13 @@
     0
   ],
   "mask": "Interface artwork; draw in GUI space, no room collision.",
-  "fps": 6,
-  "placement": "",
+  "fps": 0,
+  "placement": "Use the original canvas size and top-left origin (0, 0). Place on a menu or GUI layer. This is static artwork: add text and interactive behaviour separately in GameMaker.",
   "repeatHorizontal": false,
   "form": "",
   "loop": false,
   "duration": null,
-  "description": "",
+  "description": "Instructions icon button with a blank label area. Add a click event to show your instructions or controls.",
   "sourceFile": "Game_Forge_Batch_13/assets/interface/sInstructionsButtonBatch13.png",
   "sourceBatch": "Game_Forge_Batch_13.zip",
   "sourceSha256": "3edd99fcd3b30dc73501cf64251792b1fff17b60eaa199eacdcfd50c99247e3b",

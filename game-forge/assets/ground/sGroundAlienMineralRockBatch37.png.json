@@ -1,0 +1,49 @@
+{
+  "id": "GR207",
+  "title": "Alien mineral rock",
+  "category": "ground",
+  "tags": [
+    "alien",
+    "fantasy",
+    "mineral",
+    "rock",
+    "space"
+  ],
+  "variant": "primary",
+  "batch": 37,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": {
+    "type": "Rectangle",
+    "left": 0,
+    "top": 0,
+    "right": 63,
+    "bottom": 63
+  },
+  "fps": 0,
+  "frames": 1,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "repeatHorizontal": false,
+  "placement": "Solid 64 x 64 block. Top-left origin (0, 0). Place at multiples of 64 with scale 1. Use a full rectangular collision mask (0, 0) to (63, 63).",
+  "description": "Dark muted purple rock with broad cyan mineral veins embedded flush, otherworldly but solid and readable. Full opaque square material with a flat collision top; no transparent border. Edge textures may show joins when repeated.",
+  "sourceSha256": "dc040bae337305a2be1634e5a39f486fb89605303b5a03e2a6cf98400b01b354",
+  "sourceBatch": "Ground and interface expansion October 2026",
+  "production": {
+    "method": "Built-in image_gen",
+    "date": "2026-10-20",
+    "prompt": "Use case: stylized-concept. Asset type: one finished 2D side-view GameMaker ground texture tile, square artwork to be exported at 64 x 64 pixels. Create dark muted purple rock with broad cyan mineral veins embedded flush, otherworldly but solid and readable. Match polished hand-painted cartoon game textures with strong simple readable forms and restrained shading. Full opaque square texture from edge to edge, straight flat top exactly on the upper image boundary, straight bottom and vertical sides exactly at the canvas boundaries. The texture must fill the entire square. This is a flat front-facing material swatch, not a floating cube or an object in a scene. No perspective, bevelled exterior border, backdrop, transparent margin, cast shadow, sky, grass sticking out, lettering, characters or icons. Left and right edges should continue naturally when tiled. Keep detail chunky enough to remain clear at 64 pixels.",
+    "sourceArtworkSha256": "fc5928d4aee0b95e1595f4faa39fb2558b566cf4859e0d52dd07a70ac489ac59",
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "exportSize": [
+      64,
+      64
+    ],
+    "export": "Proportional resize to target game dimensions; preserve source alpha for buttons."
+  }
+}

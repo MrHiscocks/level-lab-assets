@@ -4,9 +4,11 @@ A complete, folder-driven React + Vite library for the approved Level Lab design
 
 ## What is included
 
-**1,226 asset concepts** and **1,313 game files**, including 56 enemy concepts and 152 backgrounds. The background expansion adds two batches of 40 scenes (batches 35 and 36), refreshes five existing interiors and corrects discovery tags. New and refreshed backgrounds are 1280 × 640 fixed scenes with tiling disabled; their placement notes explain how to use them. See `BACKGROUND_EXPANSION_PLAN.json` and `BACKGROUND_REVIEW.json` for the asset list and validation.
+**1,252 asset concepts** and **1,339 game files**, including 56 enemy concepts and 152 backgrounds. The background expansion adds two batches of 40 scenes (batches 35 and 36), refreshes five existing interiors and corrects discovery tags. New and refreshed backgrounds are 1280 × 640 fixed scenes with tiling disabled; their placement notes explain how to use them. See `BACKGROUND_EXPANSION_PLAN.json` and `BACKGROUND_REVIEW.json` for the asset list and validation.
 
-The new materials are red brick, cobblestone, sandstone masonry, Welsh dry-stone, coal-bearing rock, cooled basalt, terracotta and mossy temple stone. Each new block has a full opaque 64 × 64 canvas, top-left origin (0, 0) and rectangular mask (0, 0)–(63, 63). Place instances on multiples of 64 at scale 1. These are solid blocks, not liquid hazards.
+The batch 22 materials are red brick, cobblestone, sandstone masonry, Welsh dry-stone, coal-bearing rock, cooled basalt, terracotta and mossy temple stone. Each new block has a full opaque 64 × 64 canvas, top-left origin (0, 0) and rectangular mask (0, 0)–(63, 63). Place instances on multiples of 64 at scale 1. These are solid blocks, not liquid hazards.
+
+The ground and interface expansion adds eight 64 × 64 ground materials in batch 37 (74 ground concepts total) and 18 interface assets in batch 38 (60 interface concepts total). Arcade, Fantasy and Sci-fi each have a general menu backdrop, win screen, lose screen, game-over screen, Start Game button and Reset Game button. Screens are 1280 × 640; transparent buttons are 384 × 128. Search by the set name or purpose. See `GROUND_INTERFACE_EXPANSION_PLAN.json` for the full prompt set and `GROUND_INTERFACE_REVIEW.json` for validation.
 
 There is one catalogue card per concept. Characters default to their movement strips. Existing static and legacy idle exports remain available under **Other existing exports**, so none of the previously produced files is discarded. Three concepts have two primary exports; both enter a package when that concept is selected. The basket reports concepts and download file counts separately.
 

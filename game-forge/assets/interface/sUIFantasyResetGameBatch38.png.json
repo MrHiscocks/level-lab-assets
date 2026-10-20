@@ -1,0 +1,49 @@
+{
+  "id": "UI212",
+  "title": "Fantasy reset game button",
+  "category": "interface",
+  "tags": [
+    "button",
+    "fantasy",
+    "interface",
+    "magic",
+    "reset",
+    "reset game",
+    "resetgame",
+    "retry",
+    "storybook fantasy"
+  ],
+  "variant": "primary",
+  "batch": 38,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Interface artwork; draw in GUI space, no room collision.",
+  "fps": 0,
+  "frames": 1,
+  "frameWidth": 384,
+  "frameHeight": 128,
+  "repeatHorizontal": false,
+  "placement": "384 x 128 button with a transparent surround. Top-left origin (0, 0). Use on a menu or GUI layer and add click behaviour in GameMaker; the PNG contains artwork only. Reset score, lives and other game variables explicitly when restarting.",
+  "description": "Storybook fantasy reset game button. Headline: RESET GAME. Part of the Fantasy interface set.",
+  "sourceSha256": "ec86b2d72a65a4d19fb4f8ab33efbf3dd428f46b1ef108502bbc68aa450b6b92",
+  "sourceBatch": "Ground and interface expansion October 2026",
+  "production": {
+    "method": "Built-in image_gen",
+    "date": "2026-10-20",
+    "prompt": "Use case: stylized-concept. Asset type: finished 2D GameMaker interface artwork. Primary request: Storybook fantasy reset game button, one asset only. Style: polished hand-painted cartoon game interface with carved timber and subtle leafy corner details with parchment title ribbons, bold clear storybook lettering. Palette: deep forest teal, warm parchment and brass gold. Composition: One wide horizontal button, 3:1 aspect ratio, centred and nearly filling the canvas with a small transparent safety margin. Front-facing. A clear thick bordered button face; integrated modest circular reset arrow at the left, large exact text centred in the remaining space. No other elements, no mock-up, no surrounding panel. Crisp readable lettering, generous padding, no text below the button. True transparent background outside the button. Text (verbatim): \"RESET GAME\". Spell exactly. No additional text, logos or watermark.",
+    "sourceArtworkSha256": "868ca4b39e2eac6592c44358d16ea9d7eee7879cf6cb1de45977820ac89452c4",
+    "sourceSize": [
+      2172,
+      724
+    ],
+    "exportSize": [
+      384,
+      128
+    ],
+    "export": "Proportional resize to target game dimensions; preserve source alpha for buttons."
+  },
+  "interfaceRole": "ResetGame",
+  "interfaceFamily": "Fantasy"
+}

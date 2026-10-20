@@ -1,0 +1,48 @@
+{
+  "id": "UI205",
+  "title": "Arcade start game button",
+  "category": "interface",
+  "tags": [
+    "bright arcade",
+    "button",
+    "game",
+    "interface",
+    "play",
+    "start",
+    "start game",
+    "startgame"
+  ],
+  "variant": "primary",
+  "batch": 38,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Interface artwork; draw in GUI space, no room collision.",
+  "fps": 0,
+  "frames": 1,
+  "frameWidth": 384,
+  "frameHeight": 128,
+  "repeatHorizontal": false,
+  "placement": "384 x 128 button with a transparent surround. Top-left origin (0, 0). Use on a menu or GUI layer and add click behaviour in GameMaker; the PNG contains artwork only. Initialise game variables and move to the first level when clicked.",
+  "description": "Bright arcade start game button. Headline: START GAME. Part of the Arcade interface set.",
+  "sourceSha256": "523c2a2aaa224ae5c89af13ba3f05348d3b8d95966c15920430090aaf267477e",
+  "sourceBatch": "Ground and interface expansion October 2026",
+  "production": {
+    "method": "Built-in image_gen",
+    "date": "2026-10-20",
+    "prompt": "Use case: stylized-concept. Asset type: finished 2D GameMaker interface artwork. Primary request: Bright arcade start game button, one asset only. Style: polished hand-painted cartoon game interface with rounded glossy blue panels with clean gold trim, restrained corner stars, bold friendly game lettering. Palette: deep navy, cobalt blue, cyan and warm gold. Composition: One wide horizontal button, 3:1 aspect ratio, centred and nearly filling the canvas with a small transparent safety margin. Front-facing. A clear thick bordered button face; integrated modest play triangle at the left, large exact text centred in the remaining space. No other elements, no mock-up, no surrounding panel. Crisp readable lettering, generous padding, no text below the button. True transparent background outside the button. Text (verbatim): \"START GAME\". Spell exactly. No additional text, logos or watermark.",
+    "sourceArtworkSha256": "988162a59e257862a1ea924a83113ca8f0ad0c8da083fee8f7ad638ac4d434ae",
+    "sourceSize": [
+      2172,
+      724
+    ],
+    "exportSize": [
+      384,
+      128
+    ],
+    "export": "Proportional resize to target game dimensions; preserve source alpha for buttons."
+  },
+  "interfaceRole": "StartGame",
+  "interfaceFamily": "Arcade"
+}

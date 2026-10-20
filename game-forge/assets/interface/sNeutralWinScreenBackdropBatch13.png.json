@@ -1,7 +1,15 @@
 {
   "id": "UI035",
   "title": "Neutral win-screen backdrop",
-  "tags": "shared interface, outcome, scenario review",
+  "tags": [
+    "interface",
+    "screen",
+    "win",
+    "victory",
+    "success",
+    "blank",
+    "backdrop"
+  ],
   "category": "interface",
   "variant": "primary",
   "batch": 13,
@@ -10,13 +18,13 @@
     0
   ],
   "mask": "Interface artwork; draw in GUI space, no room collision.",
-  "fps": 6,
-  "placement": "",
+  "fps": 0,
+  "placement": "Use the original canvas size and top-left origin (0, 0). Place on a menu or GUI layer. This is static artwork: add text and interactive behaviour separately in GameMaker.",
   "repeatHorizontal": false,
   "form": "",
   "loop": false,
   "duration": null,
-  "description": "",
+  "description": "Text-free win-screen backdrop. Add your own heading, results and separate interactive buttons.",
   "sourceFile": "Game_Forge_Batch_13/assets/interface/sNeutralWinScreenBackdropBatch13.png",
   "sourceBatch": "Game_Forge_Batch_13.zip",
   "sourceSha256": "5c5f44159d82f86d9045f51f9b4ebec2ea97770be1ddc76984f76734dfcffe7b",

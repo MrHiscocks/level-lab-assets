@@ -1,0 +1,49 @@
+{
+  "id": "GR203",
+  "title": "Seabed sand",
+  "category": "ground",
+  "tags": [
+    "coast",
+    "ocean",
+    "sand",
+    "seabed",
+    "underwater"
+  ],
+  "variant": "primary",
+  "batch": 37,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": {
+    "type": "Rectangle",
+    "left": 0,
+    "top": 0,
+    "right": 63,
+    "bottom": 63
+  },
+  "fps": 0,
+  "frames": 1,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "repeatHorizontal": false,
+  "placement": "Solid 64 x 64 block. Top-left origin (0, 0). Place at multiples of 64 with scale 1. Use a full rectangular collision mask (0, 0) to (63, 63).",
+  "description": "Pale golden compacted seabed sand with gentle horizontal ripple striations, sparse small shell fragments embedded flush. Full opaque square material with a flat collision top; no transparent border. Edge textures may show joins when repeated.",
+  "sourceSha256": "e38fcfa4a9aef17e3f6f969b955bfccdd2118f4625539f7183de8f83e0329e25",
+  "sourceBatch": "Ground and interface expansion October 2026",
+  "production": {
+    "method": "Built-in image_gen",
+    "date": "2026-10-20",
+    "prompt": "Use case: stylized-concept. Asset type: one finished 2D side-view GameMaker ground texture tile, square artwork to be exported at 64 x 64 pixels. Create pale golden compacted seabed sand with gentle horizontal ripple striations, sparse small shell fragments embedded flush. Match polished hand-painted cartoon game textures with strong simple readable forms and restrained shading. Full opaque square texture from edge to edge, straight flat top exactly on the upper image boundary, straight bottom and vertical sides exactly at the canvas boundaries. The texture must fill the entire square. This is a flat front-facing material swatch, not a floating cube or an object in a scene. No perspective, bevelled exterior border, backdrop, transparent margin, cast shadow, sky, grass sticking out, lettering, characters or icons. Left and right edges should continue naturally when tiled. Keep detail chunky enough to remain clear at 64 pixels.",
+    "sourceArtworkSha256": "7e9c5d919531e88ddac4d140a5300d15a0c8b6c1d3deb976bca416d2dd30129b",
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "exportSize": [
+      64,
+      64
+    ],
+    "export": "Proportional resize to target game dimensions; preserve source alpha for buttons."
+  }
+}

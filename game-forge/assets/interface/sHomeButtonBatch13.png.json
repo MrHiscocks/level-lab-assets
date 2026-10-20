@@ -1,7 +1,12 @@
 {
   "id": "UI034",
   "title": "Home button",
-  "tags": "navigation, shared interface, scenario review",
+  "tags": [
+    "navigation",
+    "button",
+    "home",
+    "main menu"
+  ],
   "category": "interface",
   "variant": "primary",
   "batch": 13,
@@ -10,13 +15,13 @@
     0
   ],
   "mask": "Interface artwork; draw in GUI space, no room collision.",
-  "fps": 6,
-  "placement": "",
+  "fps": 0,
+  "placement": "Use the original canvas size and top-left origin (0, 0). Place on a menu or GUI layer. This is static artwork: add text and interactive behaviour separately in GameMaker.",
   "repeatHorizontal": false,
   "form": "",
   "loop": false,
   "duration": null,
-  "description": "",
+  "description": "Home icon button with a blank label area. Add a click event to return to your main menu.",
   "sourceFile": "Game_Forge_Batch_13/assets/interface/sHomeButtonBatch13.png",
   "sourceBatch": "Game_Forge_Batch_13.zip",
   "sourceSha256": "26b3f34fe8774995999056555c89abfbc18792870d4b3789129bb5438a29802f",

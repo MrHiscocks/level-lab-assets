@@ -1,0 +1,48 @@
+{
+  "id": "GR201",
+  "title": "Lunar regolith",
+  "category": "ground",
+  "tags": [
+    "lunar",
+    "moon",
+    "rock",
+    "space"
+  ],
+  "variant": "primary",
+  "batch": 37,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": {
+    "type": "Rectangle",
+    "left": 0,
+    "top": 0,
+    "right": 63,
+    "bottom": 63
+  },
+  "fps": 0,
+  "frames": 1,
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "repeatHorizontal": false,
+  "placement": "Solid 64 x 64 block. Top-left origin (0, 0). Place at multiples of 64 with scale 1. Use a full rectangular collision mask (0, 0) to (63, 63).",
+  "description": "Cool grey compacted lunar dust and rock, a few shallow small crater marks, broad readable forms. Full opaque square material with a flat collision top; no transparent border. Edge textures may show joins when repeated.",
+  "sourceSha256": "6b7a9eed38df5303cc0c62565af6a95819de0656752862715d1f11e670e91e54",
+  "sourceBatch": "Ground and interface expansion October 2026",
+  "production": {
+    "method": "Built-in image_gen",
+    "date": "2026-10-20",
+    "prompt": "Use case: stylized-concept. Asset type: one finished 2D side-view GameMaker ground texture tile, square artwork to be exported at 64 x 64 pixels. Create cool grey compacted lunar dust and rock, a few shallow small crater marks, broad readable forms. Match polished hand-painted cartoon game textures with strong simple readable forms and restrained shading. Full opaque square texture from edge to edge, straight flat top exactly on the upper image boundary, straight bottom and vertical sides exactly at the canvas boundaries. The texture must fill the entire square. This is a flat front-facing material swatch, not a floating cube or an object in a scene. No perspective, bevelled exterior border, backdrop, transparent margin, cast shadow, sky, grass sticking out, lettering, characters or icons. Left and right edges should continue naturally when tiled. Keep detail chunky enough to remain clear at 64 pixels.",
+    "sourceArtworkSha256": "406f65a834197675ec9d2e5173abd87da71a733252f47b71920c97d033681d30",
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "exportSize": [
+      64,
+      64
+    ],
+    "export": "Proportional resize to target game dimensions; preserve source alpha for buttons."
+  }
+}

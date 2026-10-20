@@ -1,7 +1,13 @@
 {
   "id": "UI023",
   "title": "Menu panel",
-  "tags": "panel, navigation",
+  "tags": [
+    "interface",
+    "panel",
+    "menu",
+    "general",
+    "blank"
+  ],
   "category": "interface",
   "variant": "primary",
   "batch": 13,
@@ -10,13 +16,13 @@
     0
   ],
   "mask": "Interface artwork; draw in GUI space, no room collision.",
-  "fps": 6,
-  "placement": "",
+  "fps": 0,
+  "placement": "Use the original canvas size and top-left origin (0, 0). Place on a menu or GUI layer. This is static artwork: add text and interactive behaviour separately in GameMaker.",
   "repeatHorizontal": false,
   "form": "",
   "loop": false,
   "duration": null,
-  "description": "",
+  "description": "Blank general menu panel. Add your own title, text and separate button objects.",
   "sourceFile": "Game_Forge_Batch_13/assets/interface/sMenuPanelBatch13.png",
   "sourceBatch": "Game_Forge_Batch_13.zip",
   "sourceSha256": "2bf0620a4f9afcfa2b2e415f809335f47b02b08ae46b44aecc9a3520080596ac",

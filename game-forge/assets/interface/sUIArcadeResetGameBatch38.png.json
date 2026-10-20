@@ -1,0 +1,47 @@
+{
+  "id": "UI206",
+  "title": "Arcade reset game button",
+  "category": "interface",
+  "tags": [
+    "bright arcade",
+    "button",
+    "interface",
+    "reset",
+    "reset game",
+    "resetgame",
+    "retry"
+  ],
+  "variant": "primary",
+  "batch": 38,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Interface artwork; draw in GUI space, no room collision.",
+  "fps": 0,
+  "frames": 1,
+  "frameWidth": 384,
+  "frameHeight": 128,
+  "repeatHorizontal": false,
+  "placement": "384 x 128 button with a transparent surround. Top-left origin (0, 0). Use on a menu or GUI layer and add click behaviour in GameMaker; the PNG contains artwork only. Reset score, lives and other game variables explicitly when restarting.",
+  "description": "Bright arcade reset game button. Headline: RESET GAME. Part of the Arcade interface set.",
+  "sourceSha256": "4a716087d1669fe5122ce4d8a323d2c6cd82b9e6073a6012ea2766c2f6110727",
+  "sourceBatch": "Ground and interface expansion October 2026",
+  "production": {
+    "method": "Built-in image_gen",
+    "date": "2026-10-20",
+    "prompt": "Use case: stylized-concept. Asset type: finished 2D GameMaker interface artwork. Primary request: Bright arcade reset game button, one asset only. Style: polished hand-painted cartoon game interface with rounded glossy blue panels with clean gold trim, restrained corner stars, bold friendly game lettering. Palette: deep navy, cobalt blue, cyan and warm gold. Composition: One wide horizontal button, 3:1 aspect ratio, centred and nearly filling the canvas with a small transparent safety margin. Front-facing. A clear thick bordered button face; integrated modest circular reset arrow at the left, large exact text centred in the remaining space. No other elements, no mock-up, no surrounding panel. Crisp readable lettering, generous padding, no text below the button. True transparent background outside the button. Text (verbatim): \"RESET GAME\". Spell exactly. No additional text, logos or watermark.",
+    "sourceArtworkSha256": "ce84547275a07078587b3f289fa31e4dc60617cd8ba6ff95f2af64a7c117a08b",
+    "sourceSize": [
+      2172,
+      724
+    ],
+    "exportSize": [
+      384,
+      128
+    ],
+    "export": "Proportional resize to target game dimensions; preserve source alpha for buttons."
+  },
+  "interfaceRole": "ResetGame",
+  "interfaceFamily": "Arcade"
+}
