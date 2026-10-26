@@ -1,4 +1,4 @@
-import {exercises} from './data.js?v=2';
+import {exercises} from './data.js?v=3';
 const clamp=(n,a=0,b=1)=>Math.min(b,Math.max(a,n));
 const frame=n=>Math.round(clamp(n,0,5));
 const mix=(a,b,p)=>a+(b-a)*clamp(p);
@@ -33,12 +33,12 @@ export function sessionPose(id,phase,remaining){
  }
  if(id==='breathing')return {frame:part===0?frame(3*elapsed/duration):frame(3+2*elapsed/duration),label:phase.label};
  if(e.parts.length===3)return {frame:part===0?frame(5*elapsed/duration):part===1?5:frame(5*(1-elapsed/duration)),label:phase.label};
- const moving=['wall','ankles','pelvic','heelslide','hip'].includes(id);
+ const moving=['wall','ankles','pelvic','heelslide','hip','forearmturn'].includes(id);
  const transition=moving?duration:Math.min(duration,['quads','squeeze'].includes(id)?1.5:2);
  return {frame:part===0?frame(5*elapsed/transition):frame(5*(1-elapsed/transition)),label:phase.label};
 }
 export function motionMarkup(id,side='',context='preview',fallback=''){
- const e=exercises[id],baseRight=['crossbody','kneeextend','hamstring','heelslide','quads','legraise','calf'].includes(id),mirror=side&&(baseRight?side==='left':side==='right');return `<div class="motion-guide ${e.atlas?'motion-floor':''} ${mirror?'motion-mirror':''}" data-motion="${id}" data-context="${context}" role="img" aria-label="Animated guide: ${esc(e.name)}${side?', '+side+' side':''}"><div class="motion-fallback">${fallback}</div><div class="motion-figure" style="background-image:url('./assets/motion/${id}.webp');background-position:0% 0%"></div><span class="motion-status" aria-hidden="true">${reduced.matches?'Motion off':'Movement guide'}</span>${reduced.matches?'<button class="motion-enable" data-motion-action="enable">Play motion</button>':''}</div>`;
+ const e=exercises[id],baseRight=['crossbody','kneeextend','hamstring','heelslide','quads','legraise','calf','wristext','wristflex','glute','hipflexor','quadstretch'].includes(id),mirror=side&&(baseRight?side==='left':side==='right');return `<div class="motion-guide ${e.atlas?'motion-floor':''} ${mirror?'motion-mirror':''}" data-motion="${id}" data-context="${context}" role="img" aria-label="Animated guide: ${esc(e.name)}${side?', '+side+' side':''}"><div class="motion-fallback">${fallback}</div><div class="motion-figure" style="background-image:url('./assets/motion/${id}.webp');background-position:0% 0%"></div><span class="motion-status" aria-hidden="true">${reduced.matches?'Motion off':'Movement guide'}</span>${reduced.matches?'<button class="motion-enable" data-motion-action="enable">Play motion</button>':''}</div>`;
 }
 export function motionControls(){return '<div class="motion-controls"><button data-motion-action="toggle" aria-label="Pause demonstration">Pause demo</button><button data-motion-action="replay" aria-label="Replay demonstration">Replay</button><button data-motion-action="step" aria-label="Next illustrated position">Next position</button></div><p class="motion-position" role="status">Move gently within your own range.</p>'}
 export function setMotionProvider(fn){provider=fn}

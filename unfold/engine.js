@@ -1,4 +1,4 @@
-import {timelineForSteps} from './data.js';
+import {timelineForSteps,exercises} from './data.js?v=3';
 export class Session {
  constructor({routine,minutes,slots,prep=10,now=()=>performance.now()}){
   this.routine=routine;this.minutes=minutes;this.slots=slots.map(s=>({...s}));this.prep=prep;this.now=now;
@@ -30,6 +30,6 @@ export class Session {
 }
 export function preferredSlots(slots,seated){
  if(!seated)return slots.map(s=>({...s}));
- const map={squeeze:'chest',pelvic:'rotation',kneerolls:'rotation',heelslide:'kneeextend',quads:'kneeextend',legraise:'kneeextend',calf:'ankles',breathing:'chest',hip:'kneeextend',wall:'extension',crossbody:'chest',rolls:'chest'};
- return slots.map((s,i)=>({id:map[s.id]||s.id,side:(map[s.id]==='rotation'||map[s.id]==='kneeextend')?(s.side||(['left','right'][i%2])):(['rotation','kneeextend','hamstring'].includes(s.id)?s.side:'')}));
+ const map={squeeze:'chest',pelvic:'rotation',kneerolls:'rotation',heelslide:'kneeextend',quads:'kneeextend',legraise:'kneeextend',calf:'ankles',breathing:'chest',hip:'kneeextend',wall:'extension',crossbody:'chest',rolls:'chest',sidebend:'rotation',hipflexor:'hamstring',quadstretch:'kneeextend'};
+ return slots.map((s,i)=>{const id=map[s.id]||s.id;return {id,side:exercises[id].bilateral?(s.side||(['left','right'][i%2])):''}});
 }
