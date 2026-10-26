@@ -57,7 +57,7 @@
  };
  button.addEventListener('click',window.unfoldRefresh);
  // Register independently of the app module so a failed launch can still update.
- if('serviceWorker' in navigator){window.unfoldWorker=navigator.serviceWorker.register('./sw.js',{updateViaCache:'none'}).catch(function(){return null;});}
+ if('serviceWorker' in navigator){var refreshToken=new URL(location.href).searchParams.get('refresh');var workerURL='./sw.js'+(refreshToken?'?refresh='+encodeURIComponent(refreshToken):'');window.unfoldWorker=navigator.serviceWorker.register(workerURL,{scope:'./',updateViaCache:'none'}).catch(function(){return null;});}
  var timer=setTimeout(function(){problem();},10000);
  import('./app.js?v=5').then(function(){
   if(recovering)return;
