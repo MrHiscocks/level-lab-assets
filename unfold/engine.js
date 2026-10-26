@@ -1,8 +1,8 @@
-import {timelineForSteps,exercises} from './data.js?v=3';
+import {timelineForSteps,legacyTimelineForSteps,exercises} from './data.js?v=4';
 export class Session {
- constructor({routine,minutes,slots,prep=10,now=()=>performance.now()}){
+ constructor({routine,minutes,slots,prep=5,legacy=false,now=()=>performance.now()}){
   this.routine=routine;this.minutes=minutes;this.slots=slots.map(s=>({...s}));this.prep=prep;this.now=now;
-  this.timeline=timelineForSteps(this.slots,prep);this.index=0;this.remaining=this.timeline[0].seconds;
+  this.legacy=legacy;this.timeline=(legacy?legacyTimelineForSteps:timelineForSteps)(this.slots,prep);this.index=0;this.remaining=this.timeline[0].seconds;
   this.paused=false;this.ended=false;this.last=this.now();this.elapsed=0;this.skipped=new Set();this.finished=new Set();this.startedAt=new Date().toISOString();
  }
  get phase(){return this.timeline[this.index];}
@@ -26,10 +26,10 @@ export class Session {
   if(slot+1>=this.slots.length){this.ended=true;this.remaining=0;return;}this.seekSlot(slot+1);
  }
  back(){const slot=this.phase.slot;this.seekSlot(Math.max(0,slot-1));this.finished.delete(Math.max(0,slot-1));this.skipped.delete(Math.max(0,slot-1));}
- replace(id){const slot=this.phase.slot;this.slots[slot]={id,side:''};this.timeline=timelineForSteps(this.slots,this.prep);this.seekSlot(slot);}
+ replace(id){const slot=this.phase.slot;this.slots[slot]={...this.slots[slot],id,side:exercises[id].bilateral?(this.slots[slot].side||'left'):''};this.timeline=(this.legacy?legacyTimelineForSteps:timelineForSteps)(this.slots,this.prep);this.seekSlot(slot);}
 }
 export function preferredSlots(slots,seated){
  if(!seated)return slots.map(s=>({...s}));
  const map={squeeze:'chest',pelvic:'rotation',kneerolls:'rotation',heelslide:'kneeextend',quads:'kneeextend',legraise:'kneeextend',calf:'ankles',breathing:'chest',hip:'kneeextend',wall:'extension',crossbody:'chest',rolls:'chest',sidebend:'rotation',hipflexor:'hamstring',quadstretch:'kneeextend'};
- return slots.map((s,i)=>{const id=map[s.id]||s.id;return {id,side:exercises[id].bilateral?(s.side||(['left','right'][i%2])):''}});
+ return slots.map((s,i)=>{const id=map[s.id]||s.id;return {...s,id,side:exercises[id].bilateral?(s.side||(['left','right'][i%2])):''}});
 }

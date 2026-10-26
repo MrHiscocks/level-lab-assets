@@ -1,39 +1,27 @@
 # Unfold
 
-An iPhone-first stretching and mobility web app. Built with HTML, CSS and native JavaScript, with no external runtime dependencies, accounts or analytics.
+An iPhone-first stretching and mobility HTML app, using native JavaScript and CSS. No accounts, analytics, external runtime libraries or health-data upload.
 
-## Routines
+## Movement library
 
-21 routines, each available as 5, 10 or 15 minutes: Morning reset, Evening unwind, Upper back & posture, Lower back, Shoulders, Gentle knee movement, After sitting, Squash & padel recovery, After upper-body training, After leg training, and optional Knee & hip strength basics.
+51 distinct movement guides across 14 focus areas and 21 routines. Each standard body-area library contains 8–11 movements, and the full-body library has 21. Relevant supporting movements are included alongside stretches for the named area. Seated preferences substitute suitable options and deduplicate the resulting library, so their available count can be lower.
 
-27 guided movements use neutral statue illustrations with schematic muscle highlights, technique cues and links to NHS information. Demonstrations animate through six illustrated key positions. The player provides automatic preparation, movement/repetition and recovery timers, with side changes, pause, back, skip and alternatives.
+Open a routine to browse every available movement as an illustrated card and inspect its instructions, target sensation and source. All original artwork uses neutral grey teaching mannequins with schematic green muscle highlights. 27 original guides use six illustrated positions; 24 additional guides share eight shared pose atlases, with two to four positions per new guide. These are schematic guides, not anatomical measurements or personal rehabilitation advice.
 
-Each step lasts 75 seconds including preparation, modest movement/hold timings and recovery. Longer routines add steps rather than extending every stretch. Preparation can be set to 5, 10 or 15 seconds. Session history distinguishes completed, skipped and stopped sessions.
+## Timing
 
-Settings, favourites, paused sessions and history are held in browser local storage only. They do not sync between devices or browsers. Optional speech uses the device's available speech service; its offline availability depends on installed voices. Wake lock is requested only while the routine is running, where supported. Switching away, locking the device or prolonged browser suspension pauses the session.
+Choose 5, 10 or 15 minutes of movement and 15, 30 or 60 seconds per timed step. Each side is a separate step. At 30 seconds, five minutes contains ten steps. The planner uses different movements before adding clearly labelled repeat rounds. Bilateral blocks always include equal left/right work. Each movement uses the chosen time, with comfortable repeats for mobility exercises and an easy sustained position for stretches.
 
-## Body areas
+Changeovers of 0, 3, 5, 10 or 15 seconds are added separately. The preview shows movement time, changeover time and actual total duration. There are no automatic 75-second padded slots or long filler recovery periods. Pause, resume, Back, Skip, swaps, preparation cues and completion tracking remain available. Skip does not count as completion.
 
-14 focus areas: Full body, Neck & upper traps, Shoulders, Chest, Wrists & forearms, Upper back & posture, Lower back, Sides & waist, Hips & glutes, Front of hips, Hamstrings, Front thighs, Knees, and Calves & ankles. The Today screen shows six common choices, with the complete library grouped into whole body, upper body, back/trunk and lower body. Every area opens its own routine with 5/10/15-minute choices.
+An earlier paused session can resume using its original timeline. New saved sessions retain their per-step durations, sides, rounds and progress. Settings, favourites, sessions and history are stored in browser local storage; they do not sync between devices or browsers.
 
-Nine additional animated guides cover neck turns, neck side tilts, side bends, both forearm stretches, forearm rotation, seated figure-four, supported standing hip stretch and supported front-thigh stretch. New hip/thigh choices include specific knee-comfort cues.
+## Guidance and iPhone use
 
-## Animated guides
+Animations loop on previews, follow timed movement or hold phases during a session, and freeze on pause. Enlarged guides offer pause/replay/position stepping. Reduced-motion settings keep the image still unless the user enables playback. Written cues and a comfortable range take priority over matching an illustration. Stop new or worsening pain. Source links and additional safety information are available in the app.
 
-The home and routine previews loop through a gentle demonstration. During a session, body positions follow the preparation, movement, hold and release cues. Pausing the session freezes the figure. The enlarged guide has separate play/pause, replay and next-position controls. When reduced motion is enabled on the device, the illustrations stay still until the user explicitly chooses Play motion.
-
-The guides use lightweight WebP sprite sheets and native JavaScript, with no video downloads, autoplay permissions or external animation service required. Thumbnails stay still to keep routine browsing calm. Muscle highlights are schematic; the written technique and comfortable range take priority over matching the figure exactly.
-
-## iPhone use
-
-Open the published link in Safari. Share → Add to Home Screen. Open the in-app Home Screen help to check that offline routines and illustrations have finished saving. The service worker requires HTTPS. Audio and wake-lock behaviour depend on the device, power settings and browser.
+Open the HTTPS link in Safari, then Share → Add to Home Screen. The Home Screen help reports when the app files and illustration atlases have finished saving offline. Audio uses available device services and voices. Wake lock depends on device/browser and power settings. Switching apps or prolonged suspension pauses the routine so movements are not skipped unseen. Physical iOS audio, installed-app storage and wake-lock behaviour require device checks.
 
 ## Development and publication
 
-Serve this directory with any static HTTP server. JavaScript modules need HTTP(S), rather than opening the file directly. All asset and module paths are relative, so the app can live at `/level-lab-assets/unfold/`.
-
-The repository build script copies this folder to `dist/unfold/`; the existing GitHub Pages workflow publishes it. The animated edition uses cache version `unfold-2026-10-26-v3`. Update the cache version in `sw.js` when shipping future changes. Existing tabs may need closing and reopening to activate a new cached version.
-
-## Exercise information
-
-This is general mobility guidance, not diagnosis or a personalised rehabilitation prescription. Stop movements that worsen symptoms and seek appropriate clinical advice for persistent pain. Safety guidance and source links are available inside the app. The session timings are Unfold's general routines, not NHS-prescribed programmes.
+Serve this directory over HTTP(S). Relative paths support /level-lab-assets/unfold/. The existing repository build copies this directory to dist/unfold/ and publishes it through GitHub Pages. This edition uses unfold-2026-10-26-v4. Module imports and the stylesheet are versioned together. Existing cached tabs can need a second refresh after the new service worker activates; active sessions are not forcibly reloaded.
