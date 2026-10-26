@@ -1,7 +1,8 @@
-const CACHE='unfold-2026-10-26-v1';
-const FILES=['./','./index.html','./styles.css','./app.js','./data.js','./engine.js','./manifest.webmanifest','./icon.svg','./assets/seated.webp','./assets/floor.webp','./assets/icon-192.png','./assets/icon-512.png','./assets/icon-maskable.png'];
-self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(FILES))));
-self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key.startsWith('unfold-')&&key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim())));
+const CACHE='unfold-2026-10-26-v2';
+const MOVEMENTS=['chest','extension','rotation','squeeze','rolls','crossbody','wall','kneeextend','ankles','hamstring','pelvic','kneerolls','heelslide','quads','legraise','calf','breathing','hip'];
+const FILES=['./','./index.html','./styles.css','./app.js','./data.js','./engine.js','./motion.js','./manifest.webmanifest','./icon.svg','./assets/seated.webp','./assets/floor.webp','./assets/icon-192.png','./assets/icon-512.png','./assets/icon-maskable.png',...MOVEMENTS.map(id=>'./assets/motion/'+id+'.webp')];
+self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(FILES)).then(()=>self.skipWaiting())));
+self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key.startsWith('unfold-')&&key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim()).then(()=>self.clients.matchAll({type:'window'})).then(clients=>clients.forEach(client=>client.postMessage({type:'UNFOLD_OFFLINE_READY'})))));
 self.addEventListener('fetch',event=>{const url=new URL(event.request.url);if(event.request.method!=='GET'||url.origin!==location.origin||!url.pathname.startsWith(new URL(self.registration.scope).pathname))return;
- event.respondWith(caches.match(event.request).then(hit=>hit||fetch(event.request).then(response=>{if(response.ok){const copy=response.clone();caches.open(CACHE).then(cache=>cache.put(event.request,copy));}return response;}).catch(()=>event.request.mode==='navigate'?caches.match('./index.html'):Response.error())));
+ event.respondWith(caches.open(CACHE).then(cache=>cache.match(event.request,{ignoreSearch:true}).then(hit=>hit||fetch(event.request).then(response=>{if(response.ok&&response.status===200){const copy=response.clone();cache.put(event.request,copy).catch(()=>{});}return response;}).catch(()=>event.request.mode==='navigate'?cache.match('./index.html'):Response.error()))));
 });
