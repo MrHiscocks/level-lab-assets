@@ -1,4 +1,4 @@
-import {exercises} from './data.js?v=4';
+import {exercises} from './data.js?v=5';
 const clamp=(n,a=0,b=1)=>Math.min(b,Math.max(a,n));
 const frame=n=>Math.round(clamp(n,0,5));
 const mix=(a,b,p)=>a+(b-a)*clamp(p);

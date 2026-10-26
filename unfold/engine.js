@@ -1,4 +1,4 @@
-import {timelineForSteps,legacyTimelineForSteps,exercises} from './data.js?v=4';
+import {timelineForSteps,legacyTimelineForSteps,exercises} from './data.js?v=5';
 export class Session {
  constructor({routine,minutes,slots,prep=5,legacy=false,now=()=>performance.now()}){
   this.routine=routine;this.minutes=minutes;this.slots=slots.map(s=>({...s}));this.prep=prep;this.now=now;

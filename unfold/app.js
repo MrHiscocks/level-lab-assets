@@ -1,21 +1,21 @@
-import {exercises as E,routines as R,focusAreas,routineSteps,areaMovements,planSummary} from './data.js?v=4';
-import {Session,preferredSlots} from './engine.js?v=4';
-import {motionMarkup,motionControls,refreshMotion,setMotionProvider,spriteSpec,spritePosition} from './motion.js?v=4';
+import {exercises as E,routines as R,focusAreas,routineSteps,areaMovements,planSummary} from './data.js?v=5';
+import {Session,preferredSlots} from './engine.js?v=5';
+import {motionMarkup,motionControls,refreshMotion,setMotionProvider,spriteSpec,spritePosition} from './motion.js?v=5';
 const $=s=>document.querySelector(s),app=$('#app'),modalRoot=$('#modal-root');
 const defaults={minutes:5,moveSeconds:30,prep:5,sound:true,voice:false,awake:true,seated:false};
 function read(key,fallback){try{return JSON.parse(localStorage.getItem('unfold-'+key))??fallback}catch{return fallback}}
 let storageOK=true;
 function write(key,value){try{localStorage.setItem('unfold-'+key,JSON.stringify(value))}catch{storageOK=false}}
-const raw=read('settings',{}),prefs={...defaults};
+const storedPrefs=read('settings',{}),raw=storedPrefs&&typeof storedPrefs==='object'?storedPrefs:{},prefs={...defaults};
 for(const k of ['sound','voice','awake','seated'])if(typeof raw[k]==='boolean')prefs[k]=raw[k];
 if([5,10,15].includes(raw.minutes))prefs.minutes=raw.minutes;if([0,3,5,10,15].includes(raw.prep))prefs.prep=raw.prep;if([15,30,60].includes(raw.moveSeconds))prefs.moveSeconds=raw.moveSeconds;
-let history=read('history',[]);if(!Array.isArray(history))history=[];history=history.filter(h=>R[h.routine]&&typeof h.id==='string'&&Number.isFinite(h.seconds)&&h.seconds>=0).slice(0,100);
-let favourites=read('favourites',[]);if(!Array.isArray(favourites))favourites=[];favourites=favourites.filter(x=>R[x]);
+let history=read('history',[]);if(!Array.isArray(history))history=[];history=history.filter(h=>h&&typeof h==='object'&&R[h.routine]&&typeof h.id==='string'&&Number.isFinite(h.seconds)&&h.seconds>=0).slice(0,100);
+let favourites=read('favourites',[]);if(!Array.isArray(favourites))favourites=[];favourites=favourites.filter(x=>typeof x==='string'&&Object.hasOwn(R,x));
 let state={view:'today',tab:'morning',routine:'morning',focus:'posture',filter:'all',search:'',expanded:false};
 let offlineReady=false,offlineFailed=false;
 let session=null,lastRecord=null,wake=null,audio=null,timer=null,modalOpen=false,returnFocus=null,lastPhase=-1,lastSlot=-1,lastBeep='',pauseReason='',toastTimer;
 const saved=read('session',null);
-if(saved&&R[saved.routine]&&Array.isArray(saved.slots)&&saved.slots.length>0&&saved.slots.length<=120&&saved.slots.every(s=>E[s.id]&&(!s.seconds||[15,30,60].includes(s.seconds)))&&[5,10,15].includes(saved.minutes)){
+if(saved&&R[saved.routine]&&Array.isArray(saved.slots)&&saved.slots.length>0&&saved.slots.length<=120&&saved.slots.every(s=>s&&typeof s==='object'&&Object.hasOwn(E,s.id)&&(!s.seconds||[15,30,60].includes(s.seconds)))&&[5,10,15].includes(saved.minutes)){
  try{session=new Session({routine:saved.routine,minutes:saved.minutes,slots:saved.slots,prep:[0,3,5,10,15].includes(saved.prep)?saved.prep:5,legacy:saved.timingVersion!==4});session.index=Math.min(Math.max(0,saved.index||0),session.timeline.length-1);session.remaining=Math.max(.1,Math.min(saved.remaining||session.phase.seconds,session.phase.seconds));session.elapsed=Math.max(0,saved.elapsed||0);session.skipped=new Set(saved.skipped||[]);session.finished=new Set(saved.finished||[]);session.paused=true;session.startedAt=saved.startedAt||session.startedAt;pauseReason='Your unfinished routine is paused.';}catch{session=null}
 }
 function persistSession(){if(!session||session.ended){write('session',null);return}write('session',{routine:session.routine,minutes:session.minutes,slots:session.slots,prep:session.prep,timingVersion:session.legacy?3:4,index:session.index,remaining:session.remaining,elapsed:session.elapsed,skipped:[...session.skipped],finished:[...session.finished],startedAt:session.startedAt});}
@@ -83,7 +83,7 @@ function safety(){pauseForModal();openSheet('Move comfortably',`<div class="safe
  ['Wrist and forearm movement','https://www.leedsth.nhs.uk/patients/resources/wrist-exercises/'],
  ['Hip and thigh stretches','https://www.cuh.nhs.uk/patient-information/stretches-for-the-hip/'],
  ['Seated figure-four guidance','https://hw.qld.gov.au/physical-activity/seated-glute-figure-4-stretch/']].map(([label,url])=>`<a class="source-link" href="${url}" target="_blank" rel="noopener">${label}${icon('external')}</a><br>`).join('')}<p class="small muted" style="margin-top:16px">Reviewed 26 October 2026. Your history stays in this browser. No account, analytics or health-data upload.</p></div><button class="primary" data-action="closeSheet">Got it</button>`)}
-function install(){pauseForModal();openSheet('Keep Unfold handy',`<p>On iPhone, open this link in <strong>Safari</strong>, tap <strong>Share</strong>, then <strong>Add to Home Screen</strong>.</p><p>Unfold opens like an app. Once its files have finished saving for offline use, routines and illustrations can work without a connection.</p><p class="note">Keep the routine on screen. Switching apps or locking the phone pauses the session so you will not miss movements.</p><p class="small muted" id="offline-state">${offlineReady?'Offline routines and illustrations are ready on this device.':offlineFailed?'Offline saving did not finish. Keep a connection and reopen Unfold to try again.':'serviceWorker' in navigator?'Saving routines for offline use. Keep this page open until it is ready.':'This browser does not support offline saving. Keep an internet connection.'}</p><button class="primary" data-action="closeSheet">Got it</button>`)}
+function install(){pauseForModal();openSheet('Keep Unfold handy',`<p>On iPhone, open this link in <strong>Safari</strong>, tap <strong>Share</strong>, then <strong>Add to Home Screen</strong>. Turn <strong>Open as Web App</strong> on, then tap <strong>Add</strong>.</p><p>Unfold opens like an app. Once its files have finished saving for offline use, routines and illustrations can work without a connection.</p><p class="note">Keep the routine on screen. Switching apps or locking the phone pauses the session so you will not miss movements.</p><p class="small muted" id="offline-state">${offlineReady?'Offline routines and illustrations are ready on this device.':offlineFailed?'Offline saving did not finish. Keep a connection and reopen Unfold to try again.':'serviceWorker' in navigator?'Saving routines for offline use. Keep this page open until it is ready.':'This browser does not support offline saving. Keep an internet connection.'}</p>${window.unfoldRefresh?'<button class="outline" data-action="refreshApp">Refresh app files</button><p class="small muted" style="margin-top:10px">Keeps your saved history, favourites and preferences on this device.</p>':''}<button class="primary" data-action="closeSheet">Got it</button>`)}
 async function requestWake(){if(!prefs.awake||!session||session.paused||session.ended||document.hidden)return;try{if(!wake&&navigator.wakeLock){wake=await navigator.wakeLock.request('screen');wake.addEventListener('release',()=>{wake=null;if($('#wake-status')&&session&&!session.paused){$('#wake-status').classList.add('issue');$('#wake-status').textContent='Keep this screen open. Your device may lock in power-saving mode.'}});if($('#wake-status')){$('#wake-status').classList.remove('issue');$('#wake-status').textContent='Screen staying awake';}}}catch{if($('#wake-status')){$('#wake-status').classList.add('issue');$('#wake-status').textContent='Your device could not keep the screen awake.'}}}
 function releaseWake(){if(wake){wake.release().catch(()=>{});wake=null}}
 function unlockAudio(){try{if(!audio){const AC=window.AudioContext||window.webkitAudioContext;if(AC)audio=new AC()}audio?.resume()?.catch(()=>{})}catch{}}
@@ -117,6 +117,7 @@ function action(ev){const b=ev.target.closest('[data-action]');if(!b||b.disabled
  else if(a==='exercise')exerciseInfo(v);
  else if(a==='safety')safety();
  else if(a==='install')install();
+ else if(a==='refreshApp'){closeSheet();window.unfoldRefresh?.();}
  else if(a==='favourite'){favourites=favourites.includes(v)?favourites.filter(x=>x!==v):[...favourites,v];write('favourites',favourites);render({scroll:false});toast(favourites.includes(v)?'Added to favourites':'Removed from favourites')}
  else if(a==='filter'){state.filter=v;render({scroll:false})}
  else if(a==='pause'){if(!session)return;unlockAudio();if(session.paused){pauseReason='';session.resume();requestWake();speak(session.phase.label)}else{session.pause();releaseWake();if('speechSynthesis' in window)speechSynthesis.cancel()}persistSession();render({scroll:false})}
@@ -143,10 +144,11 @@ window.addEventListener('pagehide',()=>{if(session&&!session.ended){session.paus
 setMotionProvider(()=>state.view==='player'&&session&&!session.ended?{phase:session.phase,remaining:session.remaining,paused:session.paused}:null);
 render();
 async function verifyOffline(){
- try{if(!('caches' in window))return;const cache=await caches.open('unfold-2026-10-26-v4');const paths=['./motion.js',...[...new Set(Object.keys(E).map(id=>spriteSpec(id).url))]];const entries=await Promise.all(paths.map(path=>cache.match(new URL(path,location.href).href,{ignoreSearch:true})));offlineReady=entries.every(Boolean);if($('#offline-state')&&offlineReady)$('#offline-state').textContent='Animated routines and illustrations are ready offline on this device.';}catch{}
+ try{if(!('caches' in window))return;const cache=await caches.open('unfold-2026-10-26-v5');const paths=['./launch.html','./styles.css?v=5','./app.js?v=5','./data.js?v=5','./engine.js?v=5','./motion.js?v=5',...[...new Set(Object.keys(E).map(id=>spriteSpec(id).url))]];const entries=await Promise.all(paths.map(path=>cache.match(new URL(path,location.href).href)));offlineReady=entries.every(Boolean);if($('#offline-state')&&offlineReady)$('#offline-state').textContent='Animated routines and illustrations are ready offline on this device.';}catch{offlineFailed=true;}
 }
 if('serviceWorker' in navigator){
  navigator.serviceWorker.addEventListener('message',event=>{if(event.data?.type==='UNFOLD_OFFLINE_READY')verifyOffline()});
  navigator.serviceWorker.addEventListener('controllerchange',verifyOffline);
- window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js',{updateViaCache:'none'}).then(reg=>{verifyOffline();reg.addEventListener('updatefound',()=>{reg.installing?.addEventListener('statechange',()=>{if(reg.active)verifyOffline()})})}).catch(()=>{offlineFailed=true;if($('#offline-state'))$('#offline-state').textContent='Offline saving did not finish. Keep a connection and reopen Unfold to try again.'}));
+ const worker=window.unfoldWorker||navigator.serviceWorker.register('./sw.js',{updateViaCache:'none'});
+ worker.then(reg=>{if(!reg)throw new Error('Offline saving unavailable');verifyOffline();reg.addEventListener('updatefound',()=>{reg.installing?.addEventListener('statechange',()=>{if(reg.active)verifyOffline()})});}).catch(()=>{offlineFailed=true;if($('#offline-state'))$('#offline-state').textContent='Offline saving did not finish. Keep a connection and reopen Unfold to try again.'});
 }

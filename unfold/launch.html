@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#245c48"><meta name="description" content="Unfold: visual stretching and gentle mobility routines for morning, evening and after exercise.">
+<meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="apple-mobile-web-app-title" content="Unfold">
+<link rel="manifest" href="./manifest.webmanifest"><link rel="icon" href="./icon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="./assets/icon-192.png"><link rel="stylesheet" href="./styles.css?v=5">
+<title>Unfold · Daily mobility</title>
+<style>
+[hidden]{display:none!important}.launch-screen{box-sizing:border-box;max-width:430px;min-height:100vh;min-height:100dvh;margin:auto;padding:calc(64px + env(safe-area-inset-top)) 26px calc(40px + env(safe-area-inset-bottom));font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#173c30;background:#fff}.launch-brand{font-size:27px;font-weight:600;letter-spacing:-1px;margin-bottom:62px}.launch-mark{width:46px;height:46px;border-radius:50%;background:#eff4ef;display:grid;place-items:center;font-size:25px;margin-bottom:24px}.launch-screen h1{font-size:32px;font-weight:600;letter-spacing:-1.2px;line-height:1.15;margin:0 0 14px}.launch-screen p{font-size:15px;line-height:1.6;color:#68786e;margin:0 0 22px}.launch-screen button,.launch-screen a{box-sizing:border-box;display:flex;width:100%;min-height:50px;align-items:center;justify-content:center;border-radius:15px;font:600 15px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;text-decoration:none}.launch-screen button{border:0;background:#245c48;color:#fff;padding:14px;cursor:pointer}.launch-screen button:disabled{opacity:.6}.launch-screen a{margin-top:9px;color:#245c48;background:#f1f5ef}.launch-screen .launch-note{font-size:12px;margin-top:18px;color:#7b887f}.launch-screen details{font-size:12px;color:#7b887f;margin-top:25px}.launch-screen summary{cursor:pointer;min-height:30px}.launch-screen pre{white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.5;font-size:11px}
+</style>
+</head>
+<body>
+<main class="launch-screen" id="launch-screen">
+ <div class="launch-brand">Unfold</div><div class="launch-mark" aria-hidden="true">↗</div>
+ <h1 id="launch-title">Make room to move.</h1>
+ <p id="launch-status" role="status" aria-live="polite">Opening your daily mobility…</p>
+ <div id="launch-actions" hidden><button id="launch-refresh" type="button">Refresh app files</button><a href="./launch.html" target="_blank" rel="noopener">Open website</a><p class="launch-note">Refreshing keeps your saved history, favourites and preferences on this device.</p></div>
+ <details id="launch-details" hidden><summary>Technical details</summary><pre id="launch-error"></pre></details>
+ <noscript><p>Unfold needs JavaScript to show routines and run timers. Enable JavaScript in Safari settings, then reopen the app.</p></noscript>
+</main>
+<div id="app" hidden></div><div id="modal-root"></div><div id="toast" role="status"></div>
+<script>
+(function () {
+ 'use strict';
+ var ready=false,recovering=false,screen=document.getElementById('launch-screen'),app=document.getElementById('app');
+ var status=document.getElementById('launch-status'),button=document.getElementById('launch-refresh');
+ function problem(error) {
+  if(ready||recovering)return;
+  document.getElementById('launch-title').textContent='Let’s get Unfold open.';
+  status.textContent='The app could not finish opening. Check your connection, then refresh its files.';
+  document.getElementById('launch-actions').hidden=false;
+  document.getElementById('launch-details').hidden=false;
+  document.getElementById('launch-error').textContent='Launch 5 · '+String(error&&error.message||error||'Opening took longer than expected.').slice(0,500);
+ }
+ function deadline(promise,ms) {
+  return new Promise(function(resolve,reject){var timer=setTimeout(function(){reject(new Error('This took too long. Please try again.'));},ms);Promise.resolve(promise).then(function(value){clearTimeout(timer);resolve(value);},function(error){clearTimeout(timer);reject(error);});});
+ }
+ window.unfoldRefresh=async function () {
+  if(recovering)return;recovering=true;screen.hidden=false;app.hidden=true;button.disabled=true;
+  document.getElementById('launch-title').textContent='Refreshing Unfold.';
+  document.getElementById('launch-actions').hidden=false;
+  status.textContent='Checking your connection. Your saved progress stays on this device.';
+  try {
+   // HEAD bypasses every older Unfold worker's GET-only cache handler.
+   var online=await deadline(fetch('./launch.html',{method:'HEAD',cache:'no-store'}),8000);
+   if(!online.ok)throw new Error('A connection to Unfold is needed to refresh its files.');
+   status.textContent='Getting the latest app files…';
+   if('serviceWorker' in navigator){try{var scope=new URL('./',location.href).href;var registrations=await deadline(navigator.serviceWorker.getRegistrations(),4000);await deadline(Promise.all(registrations.filter(function(reg){return reg.scope===scope;}).map(function(reg){return reg.unregister();})),4000);}catch(error){/* A restricted worker API must not block online recovery. */}}
+   // Only downloaded Unfold files are removed. Never clear browser storage.
+   if('caches' in window){try{var keys=await deadline(caches.keys(),4000);await deadline(Promise.all(keys.filter(function(key){return key.indexOf('unfold-')===0;}).map(function(key){return caches.delete(key);})),4000);}catch(error){/* Online loading also works when Cache Storage is unavailable. */}}
+   location.replace('./launch.html?refresh='+Date.now());
+  } catch(error) {
+   recovering=false;button.disabled=false;ready=false;
+   problem(error);status.textContent='Unfold could not refresh. Connect to the internet and try again. Your saved progress has been kept.';
+  }
+ };
+ button.addEventListener('click',window.unfoldRefresh);
+ // Register independently of the app module so a failed launch can still update.
+ if('serviceWorker' in navigator){window.unfoldWorker=navigator.serviceWorker.register('./sw.js',{updateViaCache:'none'}).catch(function(){return null;});}
+ var timer=setTimeout(function(){problem();},10000);
+ import('./app.js?v=5').then(function(){
+  if(recovering)return;
+  if(!app.firstElementChild)throw new Error('The first screen did not render.');
+  ready=true;clearTimeout(timer);app.hidden=false;screen.hidden=true;
+ }).catch(function(error){clearTimeout(timer);problem(error);});
+}());
+</script>
+</body>
+</html>
