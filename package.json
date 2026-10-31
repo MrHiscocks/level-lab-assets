@@ -5,7 +5,7 @@
   "scripts": {
     "build": "node scripts/build-site.mjs",
     "build:external": "node scripts/build-site.mjs --external",
-    "test": "npm --prefix game-forge test",
+    "test": "npm --prefix game-forge test && npm --prefix pulse test",
     "check:site": "node scripts/check-site.mjs"
   }
 }

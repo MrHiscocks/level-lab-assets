@@ -31,7 +31,7 @@ function walk(directory) {
     }
   }
 }
-for (const page of ['index.html', 'game-forge/index.html', 'prototype-chamber/index.html']) assert(existsSync(resolve(output, page)), `Missing ${page}`);
+for (const page of ['index.html', 'game-forge/index.html', 'prototype-chamber/index.html', 'unfold/index.html', 'pulse/index.html']) assert(existsSync(resolve(output, page)), `Missing ${page}`);
 walk(output);
 const catalogue = JSON.parse(readFileSync(resolve(output, 'game-forge/catalogue.json'), 'utf8'));
 const generatedCatalogue = JSON.parse(readFileSync(resolve(output, '../game-forge/public/catalogue.json'), 'utf8'));

@@ -17,6 +17,10 @@ await rm(output, { recursive: true, force: true });
 await mkdir(output, { recursive: true });
 await cp(resolve(root, 'index.html'), resolve(output, 'index.html'));
 await cp(resolve(root, 'unfold'), resolve(output, 'unfold'), { recursive: true });
+await cp(resolve(root, 'pulse'), resolve(output, 'pulse'), {
+  recursive: true,
+  filter: path => !path.includes('/tests') && !path.endsWith('package.json') && !path.endsWith('README.md'),
+});
 await cp(resolve(root, 'game-forge/dist'), resolve(output, 'game-forge'), { recursive: true });
 await cp(resolve(root, 'prototype-chamber'), resolve(output, 'prototype-chamber'), {
   recursive: true,
@@ -26,4 +30,4 @@ const packs = spawnSync('python3', [resolve(root, 'scripts/build-prototype-packs
 if (packs.error) throw packs.error;
 if (packs.status !== 0) process.exit(packs.status ?? 1);
 await writeFile(resolve(output, '.nojekyll'), '');
-console.log('Built Level Lab menu, /game-forge/, /prototype-chamber/ and /unfold/.');
+console.log('Built Level Lab menu, /game-forge/, /prototype-chamber/ /unfold/ and /pulse/.');

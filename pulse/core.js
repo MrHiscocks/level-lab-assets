@@ -1,0 +1,47 @@
+import {exercises} from './data.js';
+export const byId = Object.fromEntries(exercises.map(e=>[e.id,e]));
+export const VERSION=1;
+export const initialData=()=>({version:VERSION,favourites:[],routines:[],history:[],preferences:{sound:true,rest:60},active:null});
+export const uid=()=>globalThis.crypto?.randomUUID?.()||Date.now().toString(36)+Math.random().toString(36).slice(2);
+export const entry=(id,options={})=>{const e=byId[id];if(!e)throw Error('Unknown exercise '+id);return {id,sets:e.sets,reps:e.reps,seconds:e.seconds,rest:e.rest,weight:0,...options}};
+export const allEquipment=[...new Set(exercises.flatMap(e=>e.equipment))].sort();
+export function matchesEquipment(e,equipment){return e.equipment.every(q=>q==='Bodyweight'||equipment.includes(q))}
+export function filterExercises({query='',type='All',area='All',equipment='All',location='All',saved=false,favourites=[]}={}){return exercises.filter(e=>(type==='All'||e.type===type)&&(area==='All'||e.area===area)&&(equipment==='All'||e.equipment.includes(equipment))&&(location==='All'||location==='Gym'||e.location==='Home & gym')&&(!saved||favourites.includes(e.id))&&(!query||[e.name,e.area,...e.muscles,...e.equipment].join(' ').toLowerCase().includes(query.toLowerCase().trim())))}
+export const presets=[
+{id:'home',name:'Home essentials',tag:'Strength',description:'A full-body session using your own bodyweight.',equipment:'No equipment',cover:'Bodyweight_Squat',items:[entry('Bodyweight_Squat'),entry('Pushups',{reps:8}),entry('Butt_Lift_Bridge',{reps:12}),entry('Dead_Bug',{reps:10}),entry('Superman',{reps:8})]},
+{id:'dumbbells',name:'Full body strength',tag:'Strength',description:'A balanced session for a pair of dumbbells and a little space.',equipment:'Dumbbells',cover:'Dumbbell_Squat',items:[entry('Dumbbell_Squat'),entry('Dumbbell_Floor_Press'),entry('Bent_Over_Two-Dumbbell_Row'),entry('Stiff-Legged_Dumbbell_Deadlift'),entry('Hammer_Curls')]},
+{id:'mobility',name:'Daily mobility',tag:'Mobility',description:'Easy, controlled movement for shoulders, spine and hips.',equipment:'No equipment',cover:'Standing_Lateral_Stretch',items:['Arm_Circles','Shoulder_Circles','Cat_Stretch','Standing_Hip_Circles','Dynamic_Chest_Stretch','Ankle_Circles','Standing_Lateral_Stretch'].map(id=>entry(id,{sets:1,seconds:40,rest:10}))},
+{id:'stretch',name:'Quick stretch',tag:'Stretch',description:'Unhurried holds for a full-body reset.',equipment:'No equipment',cover:'Childs_Pose',items:['Kneeling_Hip_Flexor','Calf_Stretch_Hands_Against_Wall','Shoulder_Stretch','Seated_Floor_Hamstring_Stretch','Childs_Pose'].map(id=>entry(id,{sets:1,seconds:30,rest:10}))},
+{id:'gym',name:'Gym foundations',tag:'Strength',description:'A straightforward full-body session with familiar gym machines.',equipment:'Gym machines & cable',cover:'Leg_Press',items:['Leg_Press','Machine_Bench_Press','Seated_Cable_Rows','Seated_Leg_Curl','Wide-Grip_Lat_Pulldown'].map(id=>entry(id))},
+{id:'upper',name:'Upper body',tag:'Strength',description:'Push, pull and shoulder work, with time to recover between sets.',equipment:'Dumbbells & bench',cover:'Dumbbell_Bench_Press',items:['Dumbbell_Bench_Press','One-Arm_Dumbbell_Row','Seated_Dumbbell_Press','Hammer_Curls','Tricep_Dumbbell_Kickback'].map(id=>entry(id))},
+{id:'lower',name:'Lower body',tag:'Strength',description:'Controlled work for your legs, glutes and trunk.',equipment:'Dumbbells',cover:'Dumbbell_Lunges',items:['Dumbbell_Squat','Stiff-Legged_Dumbbell_Deadlift','Dumbbell_Lunges','Butt_Lift_Bridge','Plank'].map(id=>entry(id))},
+{id:'bands',name:'Band strength',tag:'Strength',description:'A compact strength session. Use a secure anchor where required.',equipment:'Resistance bands',cover:'Band_Pull_Apart',items:['Squats_-_With_Bands','Band_Pull_Apart','Shoulder_Press_-_With_Bands','Back_Flyes_-_With_Bands','Lateral_Raise_-_With_Bands'].map(id=>entry(id))},
+{id:'core',name:'Core control',tag:'Strength',description:'Focus on steady positioning, breathing and controlled repetitions.',equipment:'No equipment',cover:'Dead_Bug',items:['Dead_Bug','Plank','Side_Bridge','Butt_Lift_Bridge','Alternate_Heel_Touchers'].map(id=>entry(id,{sets:2,reps:10,seconds:25,rest:30}))},
+{id:'desk',name:'Desk break',tag:'Mobility',description:'A few minutes to move your shoulders, upper back and ankles.',equipment:'No equipment',cover:'Shoulder_Circles',items:['Shoulder_Circles','Arm_Circles','Dynamic_Chest_Stretch','Ankle_Circles'].map(id=>entry(id,{sets:1,seconds:40,rest:10}))}
+];
+export function estimatedSeconds(items){return items.reduce((n,it,i)=>{const e=byId[it.id];const rounds=it.sets*(e.unilateral?2:1);return n+rounds*(e.mode==='time'?it.seconds:it.reps*4)+(rounds-(i===items.length-1?1:0))*it.rest},items.length?5:0)}
+export function durationLabel(items){return `About ${Math.max(1,Math.round(estimatedSeconds(items)/60))} min`}
+export function generateWorkout({focus='Full body',minutes=30,equipment=[],style='Strength',location='Home'}={}){
+ const areas=focus==='Upper'?['Chest','Back','Shoulders','Arms','Core']:focus==='Lower'?['Legs','Glutes','Hips','Calves','Core']:['Legs','Chest','Back','Shoulders','Glutes','Core'];
+ const pool=exercises.filter(e=>e.type===style&&e.level!=='Expert'&&matchesEquipment(e,equipment)&&(location!=='Home'||e.location==='Home & gym')&&(focus==='Full body'||areas.includes(e.area)));
+ if(!pool.length)return [];
+ const priority=['Dumbbell_Squat','Bodyweight_Squat','Dumbbell_Floor_Press','Pushups','Bent_Over_Two-Dumbbell_Row','Superman','Standing_Dumbbell_Press','Butt_Lift_Bridge','Dead_Bug','Leg_Press','Machine_Bench_Press','Seated_Cable_Rows'];
+ pool.sort((a,b)=>(priority.indexOf(a.id)<0?999:priority.indexOf(a.id))-(priority.indexOf(b.id)<0?999:priority.indexOf(b.id)));
+ const chosen=[];for(const area of areas){const e=pool.find(e=>e.area===area&&!chosen.includes(e));if(e)chosen.push(e)}
+ for(const e of pool)if(!chosen.includes(e))chosen.push(e);
+ const count=style==='Strength'?Math.min(minutes<=15?3:minutes<=30?5:7,chosen.length):Math.min(Math.max(4,Math.round(minutes/1.5)),chosen.length);
+ const items=chosen.slice(0,count).map(e=>entry(e.id,{sets:style==='Strength'?(minutes<=15?2:3):1,seconds:style==='Strength'?30:Math.min(60,Math.max(15,Math.round(minutes*60/(count*(e.unilateral?2:1))/15)*15)),rest:style==='Strength'?60:10}));
+ if(style==='Strength'){let turns=0;while(estimatedSeconds(items)<minutes*60-60&&turns<items.length*2){const it=items[turns%items.length];if(it.sets<5)it.sets++;turns++}}
+ return items;
+}
+export function validateItems(items){if(!Array.isArray(items)||items.length<1||items.length>100)throw Error('A routine needs 1–100 exercises.');return items.map(it=>{if(!it||!byId[it.id])throw Error('This file contains an unknown exercise.');for(const [key,min,max] of [['sets',1,10],['reps',1,100],['seconds',5,3600],['rest',0,600],['weight',0,1000]])if(!Number.isFinite(it[key])||it[key]<min||it[key]>max||(key!=='weight'&&!Number.isInteger(it[key])))throw Error('Invalid '+key+' in backup.');return {id:it.id,sets:it.sets,reps:it.reps,seconds:it.seconds,rest:it.rest,weight:it.weight}})}
+export function validateBackup(x){if(!x||x.version!==VERSION||!Array.isArray(x.favourites)||!Array.isArray(x.routines)||!Array.isArray(x.history)||x.routines.length>200||x.history.length>5000)throw Error('Choose a valid Pulse v1 backup.');
+ const out=initialData();out.favourites=[...new Set(x.favourites.filter(id=>typeof id==='string'&&byId[id]))];
+ out.routines=x.routines.map(r=>{if(typeof r.name!=='string'||r.name.length>100||typeof r.id!=='string'||!/^[a-zA-Z0-9_-]{1,100}$/.test(r.id))throw Error('Invalid routine.');return {id:r.id,name:r.name,items:validateItems(r.items)}});
+ out.history=x.history.map(h=>{if(typeof h.id!=='string'||!/^[a-zA-Z0-9_-]{1,100}$/.test(h.id)||typeof h.name!=='string'||h.name.length>100||!Number.isFinite(Date.parse(h.date))||!Number.isFinite(h.duration)||h.duration<0||h.duration>86400||!Array.isArray(h.sets)||h.sets.length>2000)throw Error('Invalid workout history.');const sets=h.sets.map(s=>{if(!byId[s.id]||!['reps','time'].includes(s.mode)||!Number.isFinite(s.value)||s.value<0||s.value>3600||!Number.isFinite(s.weight)||s.weight<0||s.weight>1000)throw Error('Invalid set record.');return {id:s.id,mode:s.mode,value:s.value,weight:s.weight,side:['Left','Right',''].includes(s.side)?s.side:''}});return {id:h.id,name:h.name,date:h.date,duration:h.duration,sets,complete:!!h.complete}});
+ out.preferences={sound:x.preferences?.sound!==false,rest:60};return out;
+}
+export function mergeBackup(current,incoming){const merge=(a,b)=>[...new Map([...a,...b].map(x=>[x.id,x])).values()];return {...current,favourites:[...new Set([...current.favourites,...incoming.favourites])],routines:merge(current.routines,incoming.routines),history:merge(current.history,incoming.history).sort((a,b)=>b.date.localeCompare(a.date)).slice(0,5000)}}
+export function createSession(name,items){return {id:uid(),name,items:validateItems(items),index:0,set:1,side:0,phase:'ready',remaining:5,paused:false,elapsed:0,records:[],started:new Date().toISOString(),savedAt:Date.now()}}
+export function stepSession(s){const it=s.items[s.index],e=byId[it.id];if(e.unilateral&&s.side===0){s.side=1;return false} s.side=0;if(s.set<it.sets){s.set++;return false}s.set=1;s.index++;return s.index>=s.items.length}
+export function recordSet(s){const it=s.items[s.index],e=byId[it.id];s.records.push({id:it.id,mode:e.mode,value:e.mode==='time'?it.seconds:it.reps,weight:it.weight,side:e.unilateral?(s.side?'Right':'Left'):''})}
